@@ -1,0 +1,386 @@
+@prefix biopax:  <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix cito:    <http://purl.org/spar/cito/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix freq:    <http://purl.org/cld/freq/> .
+@prefix gpml:    <http://vocabularies.wikipathways.org/gpml#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix pav:     <http://purl.org/pav/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix wp:      <http://vocabularies.wikipathways.org/wp#> .
+@prefix wprdf:   <http://rdf.wikipathways.org/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<http://rdf.wikipathways.org/Pathway/WP4507_r119314/Complex/c5c47>
+        rdf:type          wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4507_r119314> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4507_r119314/Group/c5c47> ;
+        wp:participants   <https://identifiers.org/uniprot/Q06278> , <https://identifiers.org/chebi/CHEBI:21437> .
+
+<http://rdf.wikipathways.org/Pathway/WP4507_r119314/WP/Interaction/ida829bffd>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4507_r119314> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4507_r119314/Interaction/ida829bffd> ;
+        wp:participants   <https://identifiers.org/hmdb/HMDB0001448> , <https://identifiers.org/chebi/CHEBI:26823> ;
+        wp:source         <https://identifiers.org/chebi/CHEBI:26823> ;
+        wp:target         <https://identifiers.org/hmdb/HMDB0001448> .
+
+<https://identifiers.org/pubmed/16261263>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "16261263" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4507_r119314> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/16261263> .
+
+<http://rdf.wikipathways.org/Pathway/WP4507_r119314/WP/Interaction/a0518>
+        rdf:type            wp:DirectedInteraction , wp:Interaction , wp:Conversion ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4507_r119314> ;
+        dcterms:references  <https://identifiers.org/pubmed/15504727> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4507_r119314/Interaction/a0518> ;
+        wp:participants     <https://identifiers.org/chebi/CHEBI:71306> , <https://identifiers.org/chebi/CHEBI:62728> ;
+        wp:source           <https://identifiers.org/chebi/CHEBI:62728> ;
+        wp:target           <https://identifiers.org/chebi/CHEBI:71306> .
+
+<https://identifiers.org/chebi/CHEBI:17775>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "urate" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:17775> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:17775" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4507_r119314/WP/Interaction/d7e2e> , <https://identifiers.org/wikipathways/WP4507_r119314> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:17775> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4507_r119314/DataNode/a1a53> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:17775> .
+
+<http://rdf.wikipathways.org/Pathway/WP4507_r119314/ComplexBinding/c562f>
+        rdf:type          wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4507_r119314> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4507_r119314/Group/c562f> ;
+        wp:participants   <https://identifiers.org/chebi/CHEBI:21437> , <https://identifiers.org/uniprot/P51687> , <http://rdf.wikipathways.org/Pathway/WP4507_r119314/Complex/c562f> .
+
+<https://identifiers.org/uniprot/Q06278>
+        rdf:type            wp:Protein , wp:DataNode ;
+        rdfs:label          "Aldehyde oxidase" ;
+        dc:identifier       <https://identifiers.org/uniprot/Q06278> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "Q06278" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4507_r119314/Complex/c5c47> , <https://identifiers.org/wikipathways/WP4507_r119314> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/Q06278> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4507_r119314/DataNode/ca66c> , <http://rdf.wikipathways.org/Pathway/WP4507_r119314/DataNode/e7568> ;
+        foaf:page           <http://www.uniprot.org/uniprot/Q06278> .
+
+<https://identifiers.org/chebi/CHEBI:21437>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "Moco" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:21437> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:21437" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4507_r119314/Complex/c562f> , <http://rdf.wikipathways.org/Pathway/WP4507_r119314/Complex/a42cd> , <http://rdf.wikipathways.org/Pathway/WP4507_r119314/Complex/c5c47> , <https://identifiers.org/wikipathways/WP4507_r119314> , <http://rdf.wikipathways.org/Pathway/WP4507_r119314/Complex/c89fe> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:21437> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4507_r119314/DataNode/c3e8a> , <http://rdf.wikipathways.org/Pathway/WP4507_r119314/DataNode/c37e6> , <http://rdf.wikipathways.org/Pathway/WP4507_r119314/DataNode/f6b02> , <http://rdf.wikipathways.org/Pathway/WP4507_r119314/DataNode/cb442> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:21437> .
+
+<https://identifiers.org/uniprot/P51687>
+        rdf:type            wp:Protein , wp:DataNode ;
+        rdfs:label          "Sulfite oxidase" ;
+        dc:identifier       <https://identifiers.org/uniprot/P51687> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "P51687" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4507_r119314/Complex/c562f> , <https://identifiers.org/wikipathways/WP4507_r119314> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/P51687> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4507_r119314/DataNode/ba0b0> , <http://rdf.wikipathways.org/Pathway/WP4507_r119314/DataNode/a002c> ;
+        foaf:page           <http://www.uniprot.org/uniprot/P51687> .
+
+<https://identifiers.org/chebi/CHEBI:62728>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "MPT-AMP" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:62728> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:62728" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4507_r119314/WP/Interaction/a0518> , <https://identifiers.org/wikipathways/WP4507_r119314> , <http://rdf.wikipathways.org/Pathway/WP4507_r119314/WP/Interaction/b58e8> ;
+        dcterms:references  <https://identifiers.org/pubmed/15504727> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:62728> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4507_r119314/DataNode/cca8f> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:62728> .
+
+<http://rdf.wikipathways.org/Pathway/WP4507_r119314/Complex/c562f>
+        rdf:type          wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://rdf.wikipathways.org/Pathway/WP4507_r119314/WP/Interaction/ide18e07b8> , <https://identifiers.org/wikipathways/WP4507_r119314> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4507_r119314/Group/c562f> ;
+        wp:participants   <https://identifiers.org/chebi/CHEBI:21437> , <https://identifiers.org/uniprot/P51687> .
+
+<https://identifiers.org/ensembl/ENSG00000124615>
+        rdf:type            wp:DataNode , wp:Protein ;
+        rdfs:label          "MOCS1A" ;
+        dc:identifier       <https://identifiers.org/ensembl/ENSG00000124615> ;
+        dc:source           "Ensembl" ;
+        dcterms:identifier  "ENSG00000124615" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4507_r119314> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000124615> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4507_r119314/DataNode/d48d4> ;
+        foaf:page           <https://www.ensembl.org/id/ENSG00000124615> .
+
+<http://rdf.wikipathways.org/Pathway/WP4507_r119314/ComplexBinding/c89fe>
+        rdf:type          wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4507_r119314> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4507_r119314/Group/c89fe> ;
+        wp:participants   <https://identifiers.org/uniprot/P47989> , <https://identifiers.org/chebi/CHEBI:21437> , <http://rdf.wikipathways.org/Pathway/WP4507_r119314/Complex/c89fe> .
+
+<http://rdf.wikipathways.org/Pathway/WP4507_r119314/WP/Interaction/id6823823e>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4507_r119314> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4507_r119314/Interaction/id6823823e> ;
+        wp:participants   <https://identifiers.org/chebi/CHEBI:52994> , <https://identifiers.org/chebi/CHEBI:37565> ;
+        wp:source         <https://identifiers.org/chebi/CHEBI:37565> ;
+        wp:target         <https://identifiers.org/chebi/CHEBI:52994> .
+
+<https://identifiers.org/chebi/CHEBI:17712>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "Xanthine" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:17712> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:17712" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4507_r119314/WP/Interaction/d7e2e> , <https://identifiers.org/wikipathways/WP4507_r119314> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:17712> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4507_r119314/DataNode/f8f83> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:17712> .
+
+<https://identifiers.org/uniprot/O96007>
+        rdf:type            wp:Protein , wp:DataNode ;
+        rdfs:label          "MOCS2A" ;
+        dc:identifier       <https://identifiers.org/uniprot/O96007> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "O96007" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4507_r119314> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/O96007> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4507_r119314/DataNode/c12c2> ;
+        foaf:page           <http://www.uniprot.org/uniprot/O96007> .
+
+<https://identifiers.org/wikipathways/WP4507_r119314>
+        rdf:type               wp:Pathway , skos:Collection ;
+        dc:identifier          <https://identifiers.org/wikipathways/WP4507> ;
+        dc:source              "WikiPathways" ;
+        dc:title               "Molybdenum cofactor (Moco) biosynthesis"@en ;
+        dcterms:description    "This pathway visualises the Moco biosynthesis, which is used as a cofactor for several enzymes.\nSeveral diseases (MoCD type A, B and C) are clinically very similar to sulphite oxidase (SO) deficiency (see [https://www.wikipathways.org/index.php/Pathway:WP4504] for the pathway related to SO-deficiency).\nThis pathway was inspired by Chapter 12 of the book of Blau (ISBN 3642403360 (978-3642403361)). " ;
+        dcterms:identifier     "WP4507" ;
+        dcterms:references     <https://identifiers.org/pubmed/16261263> ;
+        cito:cites             <https://identifiers.org/pubmed/16261263> , <https://identifiers.org/pubmed/15504727> ;
+        wp:diseaseOntologyTag  <http://purl.obolibrary.org/obo/DOID_0111166> , <http://purl.obolibrary.org/obo/DOID_0111165> , <http://purl.obolibrary.org/obo/DOID_0111163> , <http://purl.obolibrary.org/obo/DOID_0060236> ;
+        wp:isAbout             <http://rdf.wikipathways.org/Pathway/WP4507_r119314> ;
+        wp:ontologyTag         <http://purl.obolibrary.org/obo/PW_0001817> , <http://purl.obolibrary.org/obo/DOID_0060236> , <http://purl.obolibrary.org/obo/PW_0001592> , <http://purl.obolibrary.org/obo/PW_0000427> , <http://purl.obolibrary.org/obo/DOID_0111165> , <http://purl.obolibrary.org/obo/PW_0000428> , <http://purl.obolibrary.org/obo/DOID_0111166> , <http://purl.obolibrary.org/obo/PW_0001591> , <http://purl.obolibrary.org/obo/DOID_0111163> ;
+        wp:organism            <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName        "Homo sapiens" ;
+        wp:pathwayOntologyTag  <http://purl.obolibrary.org/obo/PW_0000427> , <http://purl.obolibrary.org/obo/PW_0000428> , <http://purl.obolibrary.org/obo/PW_0001592> , <http://purl.obolibrary.org/obo/PW_0001817> , <http://purl.obolibrary.org/obo/PW_0001591> ;
+        foaf:page              <http://www.wikipathways.org/instance/WP4507_r119314> .
+
+<https://identifiers.org/pubmed/15504727>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "15504727" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4507_r119314/WP/Interaction/a0518> , <http://rdf.wikipathways.org/Pathway/WP4507_r119314/WP/Interaction/b58e8> , <https://identifiers.org/chebi/CHEBI:62728> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/15504727> .
+
+<http://rdf.wikipathways.org/Pathway/WP4507_r119314/WP/Interaction/d7e2e>
+        rdf:type            wp:DirectedInteraction , wp:Conversion , wp:Interaction ;
+        dc:source           "Rhea" ;
+        dcterms:identifier  "16670" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4507_r119314> ;
+        wp:bdbRhea          <https://identifiers.org/rhea/16670> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4507_r119314/Interaction/d7e2e> ;
+        wp:participants     <https://identifiers.org/chebi/CHEBI:17712> , <https://identifiers.org/chebi/CHEBI:17775> ;
+        wp:source           <https://identifiers.org/chebi/CHEBI:17712> ;
+        wp:target           <https://identifiers.org/chebi/CHEBI:17775> .
+
+<https://identifiers.org/wikipathways/WP4507>
+        pav:hasVersion  <https://identifiers.org/wikipathways/WP4507_r119314> .
+
+<http://rdf.wikipathways.org/Pathway/WP4507_r119314/WP/Interaction/idd53e6019>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4507_r119314> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4507_r119314/Interaction/idd53e6019> ;
+        wp:participants   <http://rdf.wikipathways.org/Pathway/WP4507_r119314/Complex/c89fe> , <http://rdf.wikipathways.org/Pathway/WP4507_r119314/WP/Interaction/d7e2e> ;
+        wp:source         <http://rdf.wikipathways.org/Pathway/WP4507_r119314/Complex/c89fe> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP4507_r119314/WP/Interaction/d7e2e> .
+
+<http://rdf.wikipathways.org/Pathway/WP4507_r119314/Complex/c89fe>
+        rdf:type          wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <http://rdf.wikipathways.org/Pathway/WP4507_r119314/WP/Interaction/idd53e6019> , <https://identifiers.org/wikipathways/WP4507_r119314> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4507_r119314/Group/c89fe> ;
+        wp:participants   <https://identifiers.org/uniprot/P47989> , <https://identifiers.org/chebi/CHEBI:21437> .
+
+<https://identifiers.org/chebi/CHEBI:37565>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "GTP" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:37565> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:37565" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4507_r119314> , <http://rdf.wikipathways.org/Pathway/WP4507_r119314/WP/Interaction/id6823823e> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:37565> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4507_r119314/DataNode/d5ba0> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:37565> .
+
+<http://rdf.wikipathways.org/Pathway/WP4507_r119314/WP/Interaction/c73f2>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4507_r119314> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4507_r119314/Interaction/c73f2> ;
+        wp:participants   <https://identifiers.org/chebi/CHEBI:44074> , <https://identifiers.org/chebi/CHEBI:52994> ;
+        wp:source         <https://identifiers.org/chebi/CHEBI:52994> ;
+        wp:target         <https://identifiers.org/chebi/CHEBI:44074> .
+
+<http://rdf.wikipathways.org/Pathway/WP4507_r119314/ComplexBinding/a42cd>
+        rdf:type          wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4507_r119314> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4507_r119314/Group/a42cd> ;
+        wp:participants   <https://identifiers.org/chebi/CHEBI:21437> , <https://identifiers.org/uniprot/Q969Z3> , <http://rdf.wikipathways.org/Pathway/WP4507_r119314/Complex/a42cd> .
+
+<https://identifiers.org/chebi/CHEBI:52994>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "cPMP" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:52994> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:52994" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4507_r119314> , <http://rdf.wikipathways.org/Pathway/WP4507_r119314/WP/Interaction/c73f2> , <http://rdf.wikipathways.org/Pathway/WP4507_r119314/WP/Interaction/id6823823e> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:52994> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4507_r119314/DataNode/b435a> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:52994> .
+
+<https://identifiers.org/chebi/CHEBI:17478>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "R-OH" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:17478> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:17478" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4507_r119314> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:17478> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4507_r119314/DataNode/c7dec> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:17478> .
+
+<https://identifiers.org/uniprot/O96033>
+        rdf:type            wp:DataNode , wp:Protein ;
+        rdfs:label          "MOCS2B" ;
+        dc:identifier       <https://identifiers.org/uniprot/O96033> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "O96033" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4507_r119314> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/O96033> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4507_r119314/DataNode/ef0fa> ;
+        foaf:page           <http://www.uniprot.org/uniprot/O96033> .
+
+<https://identifiers.org/hmdb/HMDB0001448>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "Sulfate" ;
+        dc:identifier       <https://identifiers.org/hmdb/HMDB0001448> ;
+        dc:source           "HMDB" ;
+        dcterms:identifier  "HMDB0001448" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4507_r119314> , <http://rdf.wikipathways.org/Pathway/WP4507_r119314/WP/Interaction/ida829bffd> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0001448> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4507_r119314/DataNode/ddbb8> ;
+        foaf:page           <http://www.hmdb.ca/metabolites/HMDB0001448> .
+
+<http://rdf.wikipathways.org/Pathway/WP4507_r119314/WP/Interaction/id282bd339>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4507_r119314> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4507_r119314/Interaction/id282bd339> ;
+        wp:participants   <https://identifiers.org/uniprot/Q9NQX3> , <http://rdf.wikipathways.org/Pathway/WP4507_r119314/WP/Interaction/b58e8> ;
+        wp:source         <https://identifiers.org/uniprot/Q9NQX3> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP4507_r119314/WP/Interaction/b58e8> .
+
+<https://identifiers.org/uniprot/Q9NQX3>
+        rdf:type            wp:DataNode , wp:Protein ;
+        rdfs:label          "Gephyrin (E domain)" , "Gephyrin (G domain)" ;
+        dc:identifier       <https://identifiers.org/uniprot/Q9NQX3> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "Q9NQX3" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4507_r119314/WP/Interaction/id282bd339> , <https://identifiers.org/wikipathways/WP4507_r119314> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/Q9NQX3> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4507_r119314/DataNode/b4d98> , <http://rdf.wikipathways.org/Pathway/WP4507_r119314/DataNode/ad7b1> ;
+        foaf:page           <http://www.uniprot.org/uniprot/Q9NQX3> .
+
+<http://rdf.wikipathways.org/Pathway/WP4507_r119314/Complex/a42cd>
+        rdf:type          wp:Complex , wp:DataNode ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4507_r119314> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4507_r119314/Group/a42cd> ;
+        wp:participants   <https://identifiers.org/chebi/CHEBI:21437> , <https://identifiers.org/uniprot/Q969Z3> .
+
+<https://identifiers.org/chebi/CHEBI:44074>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "MPT" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:44074> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:44074" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4507_r119314> , <http://rdf.wikipathways.org/Pathway/WP4507_r119314/WP/Interaction/c73f2> , <http://rdf.wikipathways.org/Pathway/WP4507_r119314/WP/Interaction/b58e8> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:44074> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4507_r119314/DataNode/d4e21> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:44074> .
+
+<https://identifiers.org/chebi/CHEBI:26823>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "Sulfite" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:26823> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:26823" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4507_r119314> , <http://rdf.wikipathways.org/Pathway/WP4507_r119314/WP/Interaction/ida829bffd> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:26823> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4507_r119314/DataNode/e2602> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:26823> .
+
+<https://identifiers.org/chebi/CHEBI:71306>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "Moco" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:71306> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:71306" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4507_r119314> , <http://rdf.wikipathways.org/Pathway/WP4507_r119314/WP/Interaction/a0518> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:71306> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4507_r119314/DataNode/bbda9> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:71306> .
+
+<http://rdf.wikipathways.org/Pathway/WP4507_r119314/ComplexBinding/c5c47>
+        rdf:type          wp:ComplexBinding , wp:Binding , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4507_r119314> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4507_r119314/Group/c5c47> ;
+        wp:participants   <https://identifiers.org/uniprot/Q06278> , <https://identifiers.org/chebi/CHEBI:21437> , <http://rdf.wikipathways.org/Pathway/WP4507_r119314/Complex/c5c47> .
+
+<https://identifiers.org/uniprot/Q969Z3>
+        rdf:type            wp:DataNode , wp:Protein ;
+        rdfs:label          "Amidoxime reducing component" ;
+        dc:identifier       <https://identifiers.org/uniprot/Q969Z3> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "Q969Z3" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4507_r119314> , <http://rdf.wikipathways.org/Pathway/WP4507_r119314/Complex/a42cd> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/Q969Z3> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4507_r119314/DataNode/abdb1> , <http://rdf.wikipathways.org/Pathway/WP4507_r119314/DataNode/f26b8> ;
+        foaf:page           <http://www.uniprot.org/uniprot/Q969Z3> .
+
+<http://rdf.wikipathways.org/Pathway/WP4507_r119314/WP/Interaction/b58e8>
+        rdf:type            wp:Interaction , wp:Conversion , wp:DirectedInteraction ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4507_r119314> ;
+        dcterms:references  <https://identifiers.org/pubmed/15504727> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4507_r119314/Interaction/b58e8> ;
+        wp:participants     <https://identifiers.org/chebi/CHEBI:62728> , <https://identifiers.org/chebi/CHEBI:44074> ;
+        wp:source           <https://identifiers.org/chebi/CHEBI:44074> ;
+        wp:target           <https://identifiers.org/chebi/CHEBI:62728> .
+
+<http://rdf.wikipathways.org/Pathway/WP4507_r119314/WP/Interaction/ide18e07b8>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4507_r119314> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4507_r119314/Interaction/ide18e07b8> ;
+        wp:participants   <http://rdf.wikipathways.org/Pathway/WP4507_r119314/Complex/c562f> , <http://rdf.wikipathways.org/Pathway/WP4507_r119314/WP/Interaction/ida829bffd> ;
+        wp:source         <http://rdf.wikipathways.org/Pathway/WP4507_r119314/Complex/c562f> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP4507_r119314/WP/Interaction/ida829bffd> .
+
+<https://identifiers.org/uniprot/P47989>
+        rdf:type            wp:Protein , wp:DataNode ;
+        rdfs:label          "Xanthine oxidase" ;
+        dc:identifier       <https://identifiers.org/uniprot/P47989> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "P47989" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4507_r119314> , <http://rdf.wikipathways.org/Pathway/WP4507_r119314/Complex/c89fe> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/P47989> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4507_r119314/DataNode/d3a33> , <http://rdf.wikipathways.org/Pathway/WP4507_r119314/DataNode/ceacf> ;
+        foaf:page           <http://www.uniprot.org/uniprot/P47989> .

@@ -1,0 +1,173 @@
+@prefix biopax:  <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix cito:    <http://purl.org/spar/cito/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix freq:    <http://purl.org/cld/freq/> .
+@prefix gpml:    <http://vocabularies.wikipathways.org/gpml#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix pav:     <http://purl.org/pav/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix wp:      <http://vocabularies.wikipathways.org/wp#> .
+@prefix wprdf:   <http://rdf.wikipathways.org/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<http://rdf.wikipathways.org/Pathway/WP5189_r122491/WP/Interaction/id22f52019>
+        rdf:type          wp:Translocation , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5189_r122491> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5189_r122491/Interaction/id22f52019> ;
+        wp:participants   <https://identifiers.org/chebi/CHEBI:49552> ;
+        wp:source         <https://identifiers.org/chebi/CHEBI:49552> ;
+        wp:target         <https://identifiers.org/chebi/CHEBI:49552> .
+
+<https://identifiers.org/wikipathways/WP5189>
+        pav:hasVersion  <https://identifiers.org/wikipathways/WP5189_r122491> .
+
+<https://identifiers.org/ensembl/ENSG00000165240>
+        rdf:type            wp:GeneProduct , wp:DataNode ;
+        rdfs:label          "ATP7A" ;
+        dc:identifier       <https://identifiers.org/ensembl/ENSG00000165240> ;
+        dc:source           "Ensembl" ;
+        dcterms:identifier  "ENSG00000165240" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5189_r122491> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000165240> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5189_r122491/DataNode/b0ec8> ;
+        foaf:page           <https://www.ensembl.org/id/ENSG00000165240> .
+
+<http://rdf.wikipathways.org/Pathway/WP5189_r122491/WP/Interaction/id57db7fb>
+        rdf:type          wp:Translocation , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5189_r122491> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5189_r122491/Interaction/id57db7fb> ;
+        wp:participants   <https://identifiers.org/chebi/CHEBI:49552> ;
+        wp:source         <https://identifiers.org/chebi/CHEBI:49552> ;
+        wp:target         <https://identifiers.org/chebi/CHEBI:49552> .
+
+<https://identifiers.org/ensembl/ENSG00000136868>
+        rdf:type            wp:DataNode , wp:GeneProduct ;
+        rdfs:label          "CTR1" ;
+        dc:identifier       <https://identifiers.org/ensembl/ENSG00000136868> ;
+        dc:source           "Ensembl" ;
+        dcterms:identifier  "ENSG00000136868" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5189_r122491> , <http://rdf.wikipathways.org/Pathway/WP5189_r122491/WP/Interaction/ida96c39ef> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000136868> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5189_r122491/DataNode/fe331> , <http://rdf.wikipathways.org/Pathway/WP5189_r122491/DataNode/d6872> ;
+        foaf:page           <https://www.ensembl.org/id/ENSG00000136868> .
+
+<http://rdf.wikipathways.org/Pathway/WP5189_r122491/WP/Interaction/id846e8551>
+        rdf:type          wp:Translocation , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5189_r122491> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5189_r122491/Interaction/id846e8551> ;
+        wp:participants   <https://identifiers.org/chebi/CHEBI:29036> ;
+        wp:source         <https://identifiers.org/chebi/CHEBI:29036> ;
+        wp:target         <https://identifiers.org/chebi/CHEBI:29036> .
+
+<http://rdf.wikipathways.org/Pathway/WP5189_r122491/WP/Interaction/idf5815d12>
+        rdf:type          wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5189_r122491> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5189_r122491/Interaction/idf5815d12> ;
+        wp:participants   <https://identifiers.org/chebi/CHEBI:49552> , <https://identifiers.org/chebi/CHEBI:29036> ;
+        wp:source         <https://identifiers.org/chebi/CHEBI:29036> ;
+        wp:target         <https://identifiers.org/chebi/CHEBI:49552> .
+
+<https://identifiers.org/chebi/CHEBI:29036>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "COPPER (II) ION" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:29036> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:29036" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5189_r122491/WP/Interaction/id6e6d3116> , <https://identifiers.org/wikipathways/WP5189_r122491> , <http://rdf.wikipathways.org/Pathway/WP5189_r122491/WP/Interaction/id846e8551> , <http://rdf.wikipathways.org/Pathway/WP5189_r122491/WP/Interaction/id581aa7a9> , <http://rdf.wikipathways.org/Pathway/WP5189_r122491/WP/Interaction/idf5815d12> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:29036> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5189_r122491/DataNode/a9b62> , <http://rdf.wikipathways.org/Pathway/WP5189_r122491/DataNode/c4a86> , <http://rdf.wikipathways.org/Pathway/WP5189_r122491/DataNode/f5b8b> , <http://rdf.wikipathways.org/Pathway/WP5189_r122491/DataNode/c32f4> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:29036> .
+
+<http://rdf.wikipathways.org/Pathway/WP5189_r122491/WP/Interaction/id6e6d3116>
+        rdf:type          wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5189_r122491> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5189_r122491/Interaction/id6e6d3116> ;
+        wp:participants   <https://identifiers.org/chebi/CHEBI:49552> , <https://identifiers.org/chebi/CHEBI:29036> ;
+        wp:source         <https://identifiers.org/chebi/CHEBI:29036> ;
+        wp:target         <https://identifiers.org/chebi/CHEBI:49552> .
+
+<http://rdf.wikipathways.org/Pathway/WP5189_r122491/WP/Interaction/id581aa7a9>
+        rdf:type          wp:Translocation , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5189_r122491> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5189_r122491/Interaction/id581aa7a9> ;
+        wp:participants   <https://identifiers.org/chebi/CHEBI:29036> ;
+        wp:source         <https://identifiers.org/chebi/CHEBI:29036> ;
+        wp:target         <https://identifiers.org/chebi/CHEBI:29036> .
+
+<https://identifiers.org/ensembl/ENSG00000123191>
+        rdf:type            wp:GeneProduct , wp:DataNode ;
+        rdfs:label          "ATP7B" ;
+        dc:identifier       <https://identifiers.org/ensembl/ENSG00000123191> ;
+        dc:source           "Ensembl" ;
+        dcterms:identifier  "ENSG00000123191" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5189_r122491> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000123191> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5189_r122491/DataNode/bc8ba> ;
+        foaf:page           <https://www.ensembl.org/id/ENSG00000123191> .
+
+<http://rdf.wikipathways.org/Pathway/WP5189_r122491/WP/Interaction/ida96c39ef>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5189_r122491> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5189_r122491/Interaction/ida96c39ef> ;
+        wp:participants   <https://identifiers.org/ensembl/ENSG00000136868> , <http://rdf.wikipathways.org/Pathway/WP5189_r122491/WP/Interaction/id5124a4f1> ;
+        wp:source         <https://identifiers.org/ensembl/ENSG00000136868> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP5189_r122491/WP/Interaction/id5124a4f1> .
+
+<http://rdf.wikipathways.org/Pathway/WP5189_r122491/WP/Interaction/id5124a4f1>
+        rdf:type          wp:Translocation , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5189_r122491> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5189_r122491/Interaction/id5124a4f1> ;
+        wp:participants   <https://identifiers.org/chebi/CHEBI:49552> ;
+        wp:source         <https://identifiers.org/chebi/CHEBI:49552> ;
+        wp:target         <https://identifiers.org/chebi/CHEBI:49552> .
+
+<https://identifiers.org/ensembl/ENSG00000110911>
+        rdf:type            wp:DataNode , wp:GeneProduct ;
+        rdfs:label          "DMT1" ;
+        dc:identifier       <https://identifiers.org/ensembl/ENSG00000110911> ;
+        dc:source           "Ensembl" ;
+        dcterms:identifier  "ENSG00000110911" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5189_r122491> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000110911> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5189_r122491/DataNode/f3274> , <http://rdf.wikipathways.org/Pathway/WP5189_r122491/DataNode/d41db> ;
+        foaf:page           <https://www.ensembl.org/id/ENSG00000110911> .
+
+<https://identifiers.org/wikipathways/WP5189_r122491>
+        rdf:type               wp:Pathway , skos:Collection ;
+        dc:identifier          <https://identifiers.org/wikipathways/WP5189> ;
+        dc:source              "WikiPathways" ;
+        dc:title               "Copper metabolism"@en ;
+        dcterms:description    "This pathway shows copper metabolism and translocation for two cell types (enterocytes and hepatocytes), as well as associated disorders for transportation of copper to vesicles.\nCopper is an essential trace element required for the functioning of metalloenzymes. Copper is ingested through diet, absorbed by enterocytes in the intestinal walls, and sent to hepatocytes via the hepatic portal system. \n\nThis pathway model was constructed using chapter 39 of the book \"Physician's Guide to the Diagnosis, Treatment, and Follow-Up of Inherited Metabolic Diseases (first edition)\" by Blau (ISBN 3642403360)" ;
+        dcterms:identifier     "WP5189" ;
+        wp:diseaseOntologyTag  <http://purl.obolibrary.org/obo/DOID_0111196> , <http://purl.obolibrary.org/obo/DOID_893> , <http://purl.obolibrary.org/obo/DOID_0060483> , <http://purl.obolibrary.org/obo/DOID_0111272> , <http://purl.obolibrary.org/obo/DOID_1838> ;
+        wp:isAbout             <http://rdf.wikipathways.org/Pathway/WP5189_r122491> ;
+        wp:ontologyTag         <http://purl.obolibrary.org/obo/DOID_1838> , <http://purl.obolibrary.org/obo/DOID_0111272> , <http://purl.obolibrary.org/obo/DOID_893> , <http://purl.obolibrary.org/obo/DOID_0111196> , <http://purl.obolibrary.org/obo/PW_0001002> , <http://purl.obolibrary.org/obo/DOID_0060483> ;
+        wp:organism            <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName        "Homo sapiens" ;
+        wp:pathwayOntologyTag  <http://purl.obolibrary.org/obo/PW_0001002> ;
+        foaf:page              <http://www.wikipathways.org/instance/WP5189_r122491> .
+
+<http://rdf.wikipathways.org/Pathway/WP5189_r122491/WP/Interaction/id6bda39f5>
+        rdf:type          wp:Translocation , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5189_r122491> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5189_r122491/Interaction/id6bda39f5> ;
+        wp:participants   <https://identifiers.org/chebi/CHEBI:49552> ;
+        wp:source         <https://identifiers.org/chebi/CHEBI:49552> ;
+        wp:target         <https://identifiers.org/chebi/CHEBI:49552> .
+
+<https://identifiers.org/chebi/CHEBI:49552>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "COPPER (I) ION" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:49552> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:49552" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5189_r122491> , <http://rdf.wikipathways.org/Pathway/WP5189_r122491/WP/Interaction/id5124a4f1> , <http://rdf.wikipathways.org/Pathway/WP5189_r122491/WP/Interaction/idf5815d12> , <http://rdf.wikipathways.org/Pathway/WP5189_r122491/WP/Interaction/id57db7fb> , <http://rdf.wikipathways.org/Pathway/WP5189_r122491/WP/Interaction/id6bda39f5> , <http://rdf.wikipathways.org/Pathway/WP5189_r122491/WP/Interaction/id22f52019> , <http://rdf.wikipathways.org/Pathway/WP5189_r122491/WP/Interaction/id6e6d3116> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:49552> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5189_r122491/DataNode/b00d7> , <http://rdf.wikipathways.org/Pathway/WP5189_r122491/DataNode/a4b5e> , <http://rdf.wikipathways.org/Pathway/WP5189_r122491/DataNode/dbf92> , <http://rdf.wikipathways.org/Pathway/WP5189_r122491/DataNode/d9781> , <http://rdf.wikipathways.org/Pathway/WP5189_r122491/DataNode/cbf6c> , <http://rdf.wikipathways.org/Pathway/WP5189_r122491/DataNode/ab8c3> , <http://rdf.wikipathways.org/Pathway/WP5189_r122491/DataNode/ca10e> , <http://rdf.wikipathways.org/Pathway/WP5189_r122491/DataNode/ad842> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:49552> .

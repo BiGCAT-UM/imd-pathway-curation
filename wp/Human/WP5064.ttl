@@ -1,0 +1,1220 @@
+@prefix biopax:  <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix cito:    <http://purl.org/spar/cito/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix freq:    <http://purl.org/cld/freq/> .
+@prefix gpml:    <http://vocabularies.wikipathways.org/gpml#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix pav:     <http://purl.org/pav/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix wp:      <http://vocabularies.wikipathways.org/wp#> .
+@prefix wprdf:   <http://rdf.wikipathways.org/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/idf28b697f>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/idf28b697f> ;
+        wp:participants   <https://identifiers.org/hgnc.symbol/NPC1> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/id7f465a65> ;
+        wp:source         <https://identifiers.org/hgnc.symbol/NPC1> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/id7f465a65> .
+
+<https://identifiers.org/hgnc.symbol/NPC2>
+        rdf:type            wp:DataNode , wp:GeneProduct ;
+        rdfs:label          "NPC2" ;
+        dc:identifier       <https://identifiers.org/hgnc.symbol/NPC2> ;
+        dc:source           "HGNC" ;
+        dcterms:identifier  "NPC2" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/idc8c0cf91> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/NPC2> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/ea650> .
+
+<https://identifiers.org/uniprot/Q8WXI4>
+        rdf:type            wp:Protein , wp:DataNode ;
+        rdfs:label          "ACOT11" ;
+        dc:identifier       <https://identifiers.org/uniprot/Q8WXI4> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "Q8WXI4" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/Q8WXI4> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/e2bec> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/ea41e> ;
+        foaf:page           <http://www.uniprot.org/uniprot/Q8WXI4> .
+
+<https://identifiers.org/pubmed/24664998>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "24664998" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/id7f465a65> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/24664998> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/c23d9>
+        rdf:type            wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/31698146> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/a2045> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/idff722c68> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/c23d9> ;
+        wp:participants     <https://identifiers.org/inchikey/HVYWMOMLDIMFJA-DPAQBDIFSA-N> , <https://identifiers.org/inchikey/YIKKMWSQVKJCOP-ABXCMAEBSA-N> ;
+        wp:source           <https://identifiers.org/inchikey/HVYWMOMLDIMFJA-DPAQBDIFSA-N> ;
+        wp:target           <https://identifiers.org/inchikey/YIKKMWSQVKJCOP-ABXCMAEBSA-N> .
+
+<https://identifiers.org/hgnc.symbol/SCP2>
+        rdf:type            wp:GeneProduct , wp:DataNode ;
+        rdfs:label          "SCPx (SCP2)" ;
+        dc:identifier       <https://identifiers.org/hgnc.symbol/SCP2> ;
+        dc:source           "HGNC" ;
+        dcterms:identifier  "SCP2" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/a7c09> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/cf1cb> , <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/SCP2> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/f9fcc> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/b8436> .
+
+<https://identifiers.org/pubmed/23415904>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "23415904" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/bc4af> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/23415904> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/a4d48>
+        rdf:type            wp:Conversion , wp:Interaction , wp:DirectedInteraction ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/31698146> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/a4d48> ;
+        wp:participants     <https://identifiers.org/inchikey/JHFXTNJNQOZGEJ-HICUSVRDSA-N> , <https://identifiers.org/inchikey/PXHCARRJGFGPAC-SZQOYVLDSA-N> ;
+        wp:source           <https://identifiers.org/inchikey/JHFXTNJNQOZGEJ-HICUSVRDSA-N> ;
+        wp:target           <https://identifiers.org/inchikey/PXHCARRJGFGPAC-SZQOYVLDSA-N> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/b3333>
+        rdf:type            wp:Conversion , wp:Interaction , wp:DirectedInteraction ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/31698146> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/b3333> ;
+        wp:participants     <https://identifiers.org/inchikey/LFNAJBFFWWMSEW-HNFKANRHSA-N> , <https://identifiers.org/inchikey/QOEPZHFZXUROGV-BXDHRDAUSA-N> ;
+        wp:source           <https://identifiers.org/inchikey/LFNAJBFFWWMSEW-HNFKANRHSA-N> ;
+        wp:target           <https://identifiers.org/inchikey/QOEPZHFZXUROGV-BXDHRDAUSA-N> .
+
+<https://identifiers.org/wikipathways/WP229>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "Irinotecan PW" ;
+        dc:identifier       <https://identifiers.org/wikipathways/WP229> ;
+        dc:source           "WikiPathways" ;
+        dcterms:identifier  "WP229" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/c1592> ;
+        foaf:page           <https://www.wikipathways.org/instance/WP229> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/ida84fbf30>
+        rdf:type            wp:DirectedInteraction , wp:Interaction , wp:Conversion ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/30340023> , <https://identifiers.org/pubmed/31698146> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/ida84fbf30> ;
+        wp:participants     <https://identifiers.org/inchikey/YIKKMWSQVKJCOP-ABXCMAEBSA-N> , <https://identifiers.org/inchikey/OYXZMSRRJOYLLO-KGZHIOMZSA-N> ;
+        wp:source           <https://identifiers.org/inchikey/OYXZMSRRJOYLLO-KGZHIOMZSA-N> ;
+        wp:target           <https://identifiers.org/inchikey/YIKKMWSQVKJCOP-ABXCMAEBSA-N> .
+
+<https://identifiers.org/uniprot/Q8N1Q8>
+        rdf:type            wp:DataNode , wp:Protein ;
+        rdfs:label          "ACOT15" ;
+        dc:identifier       <https://identifiers.org/uniprot/Q8N1Q8> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "Q8N1Q8" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/Q8N1Q8> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/ce523> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/ced7f> ;
+        foaf:page           <http://www.uniprot.org/uniprot/Q8N1Q8> .
+
+<https://identifiers.org/pubmed/14973125>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "14973125" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/bc4af> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/14973125> .
+
+<https://identifiers.org/inchikey/WRWBXZATSFAUGF-UJKOPXFNSA-N>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "3b,5a,6b-Trihydroxycholan-24-oyl-CoA" ;
+        dc:identifier       <https://identifiers.org/inchikey/WRWBXZATSFAUGF-UJKOPXFNSA-N> ;
+        dc:source           "InChIKey" ;
+        dcterms:identifier  "WRWBXZATSFAUGF-UJKOPXFNSA-N" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/f0604> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/df6a2> , <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/ed04f> .
+
+<https://identifiers.org/uniprot/Q15125>
+        rdf:type            wp:Protein , wp:DataNode ;
+        rdfs:label          "D8D7I" ;
+        dc:identifier       <https://identifiers.org/uniprot/Q15125> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "Q15125" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/d53dd> , <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/20615952> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/Q15125> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/b0a29> ;
+        foaf:page           <http://www.uniprot.org/uniprot/Q15125> .
+
+<https://identifiers.org/uniprot/Q9NPJ3>
+        rdf:type            wp:DataNode , wp:Protein ;
+        rdfs:label          "ACOT13" ;
+        dc:identifier       <https://identifiers.org/uniprot/Q9NPJ3> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "Q9NPJ3" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/Q9NPJ3> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/ef31c> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/d31d9> ;
+        foaf:page           <http://www.uniprot.org/uniprot/Q9NPJ3> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/idc8c0cf91>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/idc8c0cf91> ;
+        wp:participants   <https://identifiers.org/hgnc.symbol/NPC2> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/id3fa6ae80> ;
+        wp:source         <https://identifiers.org/hgnc.symbol/NPC2> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/id3fa6ae80> .
+
+<https://identifiers.org/wikipathways/WP5064_r120384>
+        rdf:type               wp:Pathway , skos:Collection ;
+        dc:identifier          <https://identifiers.org/wikipathways/WP5064> ;
+        dc:source              "WikiPathways" ;
+        dc:title               "7-oxo-C and 7-beta-HC pathways"@en ;
+        dcterms:description    "The Oxysterol group of compounds are oxygenated derivatives of cholesterol or its sterol precursors, e.g. 7-dehydrocholesterol (7-DHC) or desmosterol. There are three mechanisms leading to the formation of oxysterols:\n\n1. Enzymatically (first steps of sterol metabolism, being intermediates for the formation of steroid hormones, bile acids and 1,25-dihydroxyvitamin D3); see [https://www.wikipathways.org/index.php/Pathway:WP4545 WP4545]. \n\n2. Non-enzymatically by encountering reactive oxygen species (ROS), providing a second pool of metabolites (this pool also includes oxidized cholesterol molecules taken in from diet); described in this pathway.\n\n3. Generation by the gut microflora and uptake through the enterohepatic circulation. \n\nPreviously oxysterols where though to be inactive metabolic intermediates, however recent findings have established that these metabolites are involved in cholesterol homoeostasis, can be ligands to nuclear and G protein-coupled receptors and biomarkers of diseases (for example Niemann-Pick disease).\n\nThis pathway describes Figure 4 and 5 from Griffiths et al (2020) [https://dx.doi.org/10.1016%2Fj.prostaglandins.2019.106381] and will be extended with disease information." ;
+        dcterms:identifier     "WP5064" ;
+        dcterms:references     <https://identifiers.org/pubmed/31698146> ;
+        cito:cites             <https://identifiers.org/pubmed/20615952> , <https://identifiers.org/pubmed/24664998> , <https://identifiers.org/pubmed/16940157> , <https://identifiers.org/pubmed/21813643> , <https://identifiers.org/pubmed/30340023> , <https://identifiers.org/pubmed/14973125> , <https://identifiers.org/pubmed/31698146> , <https://identifiers.org/pubmed/23673625> , <https://identifiers.org/pubmed/24309898> , <https://identifiers.org/pubmed/23415904> , <https://identifiers.org/pubmed/15095019> , <https://identifiers.org/pubmed/10944470> ;
+        wp:diseaseOntologyTag  <http://purl.obolibrary.org/obo/DOID_0070111> , <http://purl.obolibrary.org/obo/DOID_0070114> , <http://purl.obolibrary.org/obo/DOID_0070112> , <http://purl.obolibrary.org/obo/DOID_14692> , <http://purl.obolibrary.org/obo/DOID_0070113> ;
+        wp:isAbout             <http://rdf.wikipathways.org/Pathway/WP5064_r120384> ;
+        wp:ontologyTag         <http://purl.obolibrary.org/obo/DOID_0070112> , <http://purl.obolibrary.org/obo/DOID_14692> , <http://purl.obolibrary.org/obo/PW_0001304> , <http://purl.obolibrary.org/obo/DOID_0070111> , <http://purl.obolibrary.org/obo/PW_0000002> , <http://purl.obolibrary.org/obo/DOID_0070113> , <http://purl.obolibrary.org/obo/DOID_0070114> , <http://purl.obolibrary.org/obo/PW_0001650> ;
+        wp:organism            <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName        "Homo sapiens" ;
+        wp:pathwayOntologyTag  <http://purl.obolibrary.org/obo/PW_0000002> , <http://purl.obolibrary.org/obo/PW_0001304> , <http://purl.obolibrary.org/obo/PW_0001650> ;
+        foaf:page              <http://www.wikipathways.org/instance/WP5064_r120384> .
+
+<https://identifiers.org/uniprot/Q86TX2>
+        rdf:type            wp:DataNode , wp:Protein ;
+        rdfs:label          "ACOT1" ;
+        dc:identifier       <https://identifiers.org/uniprot/Q86TX2> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "Q86TX2" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/Q86TX2> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/e0b6f> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/b0361> ;
+        foaf:page           <http://www.uniprot.org/uniprot/Q86TX2> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/a17c0>
+        rdf:type            wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/31698146> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/e0554> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/d3255> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/a17c0> ;
+        wp:participants     <https://identifiers.org/inchikey/HVYWMOMLDIMFJA-DPAQBDIFSA-N> , <https://identifiers.org/inchikey/KJIGLXGIVLBXCF-UOQFGJKXSA-N> ;
+        wp:source           <https://identifiers.org/inchikey/HVYWMOMLDIMFJA-DPAQBDIFSA-N> ;
+        wp:target           <https://identifiers.org/inchikey/KJIGLXGIVLBXCF-UOQFGJKXSA-N> .
+
+<https://identifiers.org/pubmed/10944470>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "10944470" ;
+        dcterms:isPartOf    <https://identifiers.org/uniprot/P49753> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/10944470> .
+
+<https://identifiers.org/hgnc.symbol/SLC27A2>
+        rdf:type            wp:DataNode , wp:GeneProduct ;
+        rdfs:label          "VLCS (SLC27A2)" ;
+        dc:identifier       <https://identifiers.org/hgnc.symbol/SLC27A2> ;
+        dc:source           "HGNC" ;
+        dcterms:identifier  "SLC27A2" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/24309898> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/SLC27A2> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/d3a48> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/f16e6> .
+
+<https://identifiers.org/inchikey/PVXZQUUYXFMXMF-ABSIFXOISA-N>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "3b,5a,6b-Trihydroxycholan-24-oyl-glycine" ;
+        dc:identifier       <https://identifiers.org/inchikey/PVXZQUUYXFMXMF-ABSIFXOISA-N> ;
+        dc:source           "InChIKey" ;
+        dcterms:identifier  "PVXZQUUYXFMXMF-ABSIFXOISA-N" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/b7884> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/f0604> , <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/a78bb> .
+
+<https://identifiers.org/inchikey/JHFXTNJNQOZGEJ-HICUSVRDSA-N>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "3b-Hydroxy-7-oxochol-5-en-24-oic acid" ;
+        dc:identifier       <https://identifiers.org/inchikey/JHFXTNJNQOZGEJ-HICUSVRDSA-N> ;
+        dc:source           "InChIKey" ;
+        dcterms:identifier  "JHFXTNJNQOZGEJ-HICUSVRDSA-N" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/a4d48> , <https://identifiers.org/wikipathways/WP5064_r120384> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/b43cb> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/a9501> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/dc0d2> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/e3a08>
+        rdf:type            wp:DirectedInteraction , wp:Interaction , wp:Conversion ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/31698146> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/e3a08> ;
+        wp:participants     <https://identifiers.org/inchikey/AXBXXYALPXTOOI-UBKHJBOVSA-N> , <https://identifiers.org/inchikey/HEPNPBUPTRNGJT-ILFWFKRZSA-N> ;
+        wp:source           <https://identifiers.org/inchikey/HEPNPBUPTRNGJT-ILFWFKRZSA-N> ;
+        wp:target           <https://identifiers.org/inchikey/AXBXXYALPXTOOI-UBKHJBOVSA-N> .
+
+<https://identifiers.org/hgnc.symbol/NPC1>
+        rdf:type            wp:GeneProduct , wp:DataNode ;
+        rdfs:label          "NPC1" ;
+        dc:identifier       <https://identifiers.org/hgnc.symbol/NPC1> ;
+        dc:source           "HGNC" ;
+        dcterms:identifier  "NPC1" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/idf28b697f> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/NPC1> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/ce628> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/baaf2>
+        rdf:type            wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/31698146> , <https://identifiers.org/pubmed/21813643> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/baaf2> ;
+        wp:participants     <https://identifiers.org/inchikey/YIKKMWSQVKJCOP-ABXCMAEBSA-N> , <https://identifiers.org/inchikey/UCTLRSWJYQTBFZ-DDPQNLDTSA-N> ;
+        wp:source           <https://identifiers.org/inchikey/UCTLRSWJYQTBFZ-DDPQNLDTSA-N> ;
+        wp:target           <https://identifiers.org/inchikey/YIKKMWSQVKJCOP-ABXCMAEBSA-N> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/c304d>
+        rdf:type            wp:DirectedInteraction , wp:Interaction , wp:Conversion ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/31698146> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/c304d> ;
+        wp:participants     <https://identifiers.org/inchikey/AXBXXYALPXTOOI-UBKHJBOVSA-N> , <https://identifiers.org/inchikey/BMRAURDLHOPSBE-FRMRTHFDSA-N> ;
+        wp:source           <https://identifiers.org/inchikey/BMRAURDLHOPSBE-FRMRTHFDSA-N> ;
+        wp:target           <https://identifiers.org/inchikey/AXBXXYALPXTOOI-UBKHJBOVSA-N> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/f3952>
+        rdf:type            wp:DirectedInteraction , wp:Conversion , wp:Interaction ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/31698146> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/f3952> ;
+        wp:participants     <https://identifiers.org/inchikey/AXBXXYALPXTOOI-UBKHJBOVSA-N> , <https://identifiers.org/inchikey/BMRAURDLHOPSBE-FRMRTHFDSA-N> ;
+        wp:source           <https://identifiers.org/inchikey/AXBXXYALPXTOOI-UBKHJBOVSA-N> ;
+        wp:target           <https://identifiers.org/inchikey/BMRAURDLHOPSBE-FRMRTHFDSA-N> .
+
+<https://identifiers.org/hgnc.symbol/AMACR>
+        rdf:type            wp:DataNode , wp:GeneProduct ;
+        rdfs:label          "AMACR" ;
+        dc:identifier       <https://identifiers.org/hgnc.symbol/AMACR> ;
+        dc:source           "HGNC" ;
+        dcterms:identifier  "AMACR" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/24309898> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/AMACR> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/ede2e> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/ff065> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/d53dd>
+        rdf:type          wp:Binding , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/d53dd> ;
+        wp:participants   <https://identifiers.org/uniprot/P34913> , <https://identifiers.org/uniprot/Q15125> ;
+        wp:source         <https://identifiers.org/uniprot/Q15125> ;
+        wp:target         <https://identifiers.org/uniprot/P34913> .
+
+<https://identifiers.org/uniprot/P49753>
+        rdf:type            wp:DataNode , wp:Protein ;
+        rdfs:label          "ACOT2" ;
+        dc:identifier       <https://identifiers.org/uniprot/P49753> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "P49753" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/16940157> , <https://identifiers.org/pubmed/10944470> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/P49753> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/f8041> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/d36d4> ;
+        foaf:page           <http://www.uniprot.org/uniprot/P49753> .
+
+<https://identifiers.org/inchikey/OYXZMSRRJOYLLO-KGZHIOMZSA-N>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "7b-Hydroxycholesterol" ;
+        dc:identifier       <https://identifiers.org/inchikey/OYXZMSRRJOYLLO-KGZHIOMZSA-N> ;
+        dc:source           "InChIKey" ;
+        dcterms:identifier  "OYXZMSRRJOYLLO-KGZHIOMZSA-N" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/ce023> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/bc4af> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/ida84fbf30> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/c25fd> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/c3d2d> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/b62ca>
+        rdf:type            wp:DirectedInteraction , wp:Conversion , wp:Interaction ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/31698146> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/b62ca> ;
+        wp:participants     <https://identifiers.org/inchikey/YIKKMWSQVKJCOP-ABXCMAEBSA-N> , <https://identifiers.org/inchikey/LFNAJBFFWWMSEW-HNFKANRHSA-N> ;
+        wp:source           <https://identifiers.org/inchikey/YIKKMWSQVKJCOP-ABXCMAEBSA-N> ;
+        wp:target           <https://identifiers.org/inchikey/LFNAJBFFWWMSEW-HNFKANRHSA-N> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/a9501>
+        rdf:type            wp:Interaction , wp:Conversion , wp:DirectedInteraction ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/31698146> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/a9501> ;
+        wp:participants     <https://identifiers.org/inchikey/JHFXTNJNQOZGEJ-HICUSVRDSA-N> , <https://identifiers.org/inchikey/AXBXXYALPXTOOI-UBKHJBOVSA-N> ;
+        wp:source           <https://identifiers.org/inchikey/AXBXXYALPXTOOI-UBKHJBOVSA-N> ;
+        wp:target           <https://identifiers.org/inchikey/JHFXTNJNQOZGEJ-HICUSVRDSA-N> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/idc0cd32b0>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/idc0cd32b0> ;
+        wp:participants   <https://identifiers.org/hgnc.symbol/CYP7A1> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/baaf2> ;
+        wp:source         <https://identifiers.org/hgnc.symbol/CYP7A1> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/baaf2> .
+
+<https://identifiers.org/uniprot/O00154>
+        rdf:type            wp:DataNode , wp:Protein ;
+        rdfs:label          "ACOT7" ;
+        dc:identifier       <https://identifiers.org/uniprot/O00154> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "O00154" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/O00154> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/f2d97> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/b2f31> ;
+        foaf:page           <http://www.uniprot.org/uniprot/O00154> .
+
+<https://identifiers.org/pubmed/20615952>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "20615952" ;
+        dcterms:isPartOf    <https://identifiers.org/uniprot/Q15125> , <https://identifiers.org/uniprot/Q9UBM7> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/20615952> .
+
+<https://identifiers.org/inchikey/LFNAJBFFWWMSEW-HNFKANRHSA-N>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "(25R)26-Hydroxy-7-oxocholesterol" ;
+        dc:identifier       <https://identifiers.org/inchikey/LFNAJBFFWWMSEW-HNFKANRHSA-N> ;
+        dc:source           "InChIKey" ;
+        dcterms:identifier  "LFNAJBFFWWMSEW-HNFKANRHSA-N" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/a6001> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/b3333> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/b794d> , <https://identifiers.org/wikipathways/WP5064_r120384> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/b62ca> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/c5605> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/d0ad0>
+        rdf:type            wp:Conversion , wp:Interaction , wp:DirectedInteraction ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/31698146> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/d0ad0> ;
+        wp:participants     <https://identifiers.org/inchikey/AVFNYTPENXWWCA-BULFVYHESA-N> , <https://identifiers.org/inchikey/PRYIJAGAEJZDBO-XXGHXXDPSA-N> ;
+        wp:source           <https://identifiers.org/inchikey/PRYIJAGAEJZDBO-XXGHXXDPSA-N> ;
+        wp:target           <https://identifiers.org/inchikey/AVFNYTPENXWWCA-BULFVYHESA-N> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/f6392>
+        rdf:type            wp:Conversion , wp:Interaction , wp:DirectedInteraction ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/31698146> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/f6392> ;
+        wp:participants     <https://identifiers.org/inchikey/XRRIYAPQOCXHCP-NRNJIOKESA-N> , <https://identifiers.org/inchikey/HEPNPBUPTRNGJT-ILFWFKRZSA-N> ;
+        wp:source           <https://identifiers.org/inchikey/HEPNPBUPTRNGJT-ILFWFKRZSA-N> ;
+        wp:target           <https://identifiers.org/inchikey/XRRIYAPQOCXHCP-NRNJIOKESA-N> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/b7884>
+        rdf:type            wp:Interaction , wp:Conversion , wp:DirectedInteraction ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/31698146> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/b7884> ;
+        wp:participants     <https://identifiers.org/inchikey/PVXZQUUYXFMXMF-ABSIFXOISA-N> , <https://identifiers.org/inchikey/NMKAZCXSXYNCFW-DWQVTILUSA-N> ;
+        wp:source           <https://identifiers.org/inchikey/PVXZQUUYXFMXMF-ABSIFXOISA-N> ;
+        wp:target           <https://identifiers.org/inchikey/NMKAZCXSXYNCFW-DWQVTILUSA-N> .
+
+<https://identifiers.org/inchikey/QOEPZHFZXUROGV-BXDHRDAUSA-N>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "3b-Hydroxy-7-oxocholest-5-en-(25R)26-oic acid" ;
+        dc:identifier       <https://identifiers.org/inchikey/QOEPZHFZXUROGV-BXDHRDAUSA-N> ;
+        dc:source           "InChIKey" ;
+        dcterms:identifier  "QOEPZHFZXUROGV-BXDHRDAUSA-N" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/c6b7f> , <https://identifiers.org/wikipathways/WP5064_r120384> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/ba7e0> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/b3333> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/b8250> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/d8dcd> .
+
+<https://identifiers.org/wikipathways/WP5064>
+        pav:hasVersion  <https://identifiers.org/wikipathways/WP5064_r120384> .
+
+<https://identifiers.org/pubmed/15095019>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "15095019" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/bc4af> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/15095019> .
+
+<https://identifiers.org/inchikey/AXBXXYALPXTOOI-UBKHJBOVSA-N>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "3b-Hydroxy-7-oxochol-5-en-24-oyl-glycine" ;
+        dc:identifier       <https://identifiers.org/inchikey/AXBXXYALPXTOOI-UBKHJBOVSA-N> ;
+        dc:source           "InChIKey" ;
+        dcterms:identifier  "AXBXXYALPXTOOI-UBKHJBOVSA-N" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/e3a08> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/c304d> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/a9501> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/f3952> , <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/e2b55> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/id23b20445>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/id23b20445> ;
+        wp:participants   <https://identifiers.org/hgnc.symbol/HSD11B2> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/ida84fbf30> ;
+        wp:source         <https://identifiers.org/hgnc.symbol/HSD11B2> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/ida84fbf30> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/idde2a9760>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/idde2a9760> ;
+        wp:participants   <https://identifiers.org/hgnc.symbol/HSD11B1> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/b794d> ;
+        wp:source         <https://identifiers.org/hgnc.symbol/HSD11B1> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/b794d> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/cbd16>
+        rdf:type            wp:Interaction , wp:DirectedInteraction , wp:Conversion ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/31698146> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/cbd16> ;
+        wp:participants     <https://identifiers.org/inchikey/XRRIYAPQOCXHCP-NRNJIOKESA-N> , <https://identifiers.org/inchikey/BZALPCSTIFZGTP-YBYDULIXSA-N> ;
+        wp:source           <https://identifiers.org/inchikey/BZALPCSTIFZGTP-YBYDULIXSA-N> ;
+        wp:target           <https://identifiers.org/inchikey/XRRIYAPQOCXHCP-NRNJIOKESA-N> .
+
+<https://identifiers.org/uniprot/Q9Y305>
+        rdf:type            wp:Protein , wp:DataNode ;
+        rdfs:label          "ACOT9" ;
+        dc:identifier       <https://identifiers.org/uniprot/Q9Y305> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "Q9Y305" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/Q9Y305> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/b4e8e> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/b4b9f> ;
+        foaf:page           <http://www.uniprot.org/uniprot/Q9Y305> .
+
+<https://identifiers.org/inchikey/KJIGLXGIVLBXCF-UOQFGJKXSA-N>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "7b-Peroxycholesterol" ;
+        dc:identifier       <https://identifiers.org/inchikey/KJIGLXGIVLBXCF-UOQFGJKXSA-N> ;
+        dc:source           "InChIKey" ;
+        dcterms:identifier  "KJIGLXGIVLBXCF-UOQFGJKXSA-N" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/a17c0> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/ce023> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/d3f87> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/dde6a>
+        rdf:type            wp:Interaction , wp:Conversion , wp:DirectedInteraction ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/31698146> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/dde6a> ;
+        wp:participants     <https://identifiers.org/inchikey/PFYSRSDOSXYIFG-JKYVJSSTSA-N> , <https://identifiers.org/inchikey/YMMFNKXZULYSOQ-RUXQDQFYSA-N> ;
+        wp:source           <https://identifiers.org/inchikey/YMMFNKXZULYSOQ-RUXQDQFYSA-N> ;
+        wp:target           <https://identifiers.org/inchikey/PFYSRSDOSXYIFG-JKYVJSSTSA-N> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/idb1a3234a>
+        rdf:type            wp:Conversion , wp:Interaction , wp:DirectedInteraction ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/31698146> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/idb1a3234a> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/a4780> ;
+        wp:participants     <https://identifiers.org/inchikey/PRYIJAGAEJZDBO-XXGHXXDPSA-N> , <https://identifiers.org/inchikey/HVYWMOMLDIMFJA-DPAQBDIFSA-N> ;
+        wp:source           <https://identifiers.org/inchikey/HVYWMOMLDIMFJA-DPAQBDIFSA-N> ;
+        wp:target           <https://identifiers.org/inchikey/PRYIJAGAEJZDBO-XXGHXXDPSA-N> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/c6b7f>
+        rdf:type            wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/31698146> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/c6b7f> ;
+        wp:participants     <https://identifiers.org/inchikey/QOEPZHFZXUROGV-BXDHRDAUSA-N> , <https://identifiers.org/inchikey/UOHZUNSDJHLARD-JLLVOJIKSA-N> ;
+        wp:source           <https://identifiers.org/inchikey/QOEPZHFZXUROGV-BXDHRDAUSA-N> ;
+        wp:target           <https://identifiers.org/inchikey/UOHZUNSDJHLARD-JLLVOJIKSA-N> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/cf1cb>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/cf1cb> ;
+        wp:participants   <https://identifiers.org/hgnc.symbol/SCP2> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/cbd16> ;
+        wp:source         <https://identifiers.org/hgnc.symbol/SCP2> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/cbd16> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/idf5ec46c5>
+        rdf:type          wp:Binding , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/idf5ec46c5> ;
+        wp:participants   <https://identifiers.org/uniprot/P34913> , <https://identifiers.org/uniprot/Q9UBM7> ;
+        wp:source         <https://identifiers.org/uniprot/Q9UBM7> ;
+        wp:target         <https://identifiers.org/uniprot/P34913> .
+
+<https://identifiers.org/pubmed/21813643>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "21813643" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/baaf2> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/21813643> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/id9ae39eeb>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/id9ae39eeb> ;
+        wp:participants   <https://identifiers.org/uniprot/P34913> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/bcf80> ;
+        wp:source         <https://identifiers.org/uniprot/P34913> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/bcf80> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/e2eac>
+        rdf:type            wp:DirectedInteraction , wp:Interaction , wp:Conversion ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/31698146> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/e2eac> ;
+        wp:participants     <https://identifiers.org/inchikey/YMMFNKXZULYSOQ-RUXQDQFYSA-N> , <https://identifiers.org/inchikey/SJZZRXMQSAXCFD-FRAMIZMOSA-N> ;
+        wp:source           <https://identifiers.org/inchikey/YMMFNKXZULYSOQ-RUXQDQFYSA-N> ;
+        wp:target           <https://identifiers.org/inchikey/SJZZRXMQSAXCFD-FRAMIZMOSA-N> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/a7c09>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/a7c09> ;
+        wp:participants   <https://identifiers.org/hgnc.symbol/SCP2> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/df6a2> ;
+        wp:source         <https://identifiers.org/hgnc.symbol/SCP2> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/df6a2> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/e7e78>
+        rdf:type            wp:Interaction , wp:Conversion , wp:DirectedInteraction ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/31698146> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/e7e78> ;
+        wp:participants     <https://identifiers.org/inchikey/BZALPCSTIFZGTP-YBYDULIXSA-N> , <https://identifiers.org/inchikey/UOHZUNSDJHLARD-JLLVOJIKSA-N> ;
+        wp:source           <https://identifiers.org/inchikey/UOHZUNSDJHLARD-JLLVOJIKSA-N> ;
+        wp:target           <https://identifiers.org/inchikey/BZALPCSTIFZGTP-YBYDULIXSA-N> .
+
+<https://identifiers.org/pubmed/30340023>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "30340023" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/ida84fbf30> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/30340023> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/id962f92e6>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/id962f92e6> ;
+        wp:participants   <https://identifiers.org/hgnc.symbol/CYP27A1> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/dde6a> ;
+        wp:source         <https://identifiers.org/hgnc.symbol/CYP27A1> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/dde6a> .
+
+<https://identifiers.org/pubmed/23673625>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "23673625" ;
+        dcterms:isPartOf    <https://identifiers.org/uniprot/P34913> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/23673625> .
+
+<https://identifiers.org/uniprot/P34913>
+        rdf:type            wp:DataNode , wp:Protein ;
+        rdfs:label          "ChEH" ;
+        dc:identifier       <https://identifiers.org/uniprot/P34913> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "P34913" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/idf5ec46c5> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/d53dd> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/id9ae39eeb> ;
+        dcterms:references  <https://identifiers.org/pubmed/23673625> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/P34913> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/c8de2> ;
+        foaf:page           <http://www.uniprot.org/uniprot/P34913> .
+
+<https://identifiers.org/pubmed/16940157>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "16940157" ;
+        dcterms:isPartOf    <https://identifiers.org/uniprot/Q8N9L9> , <https://identifiers.org/uniprot/P49753> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/16940157> .
+
+<https://identifiers.org/pubmed/24309898>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "24309898" ;
+        dcterms:isPartOf    <https://identifiers.org/hgnc.symbol/AMACR> , <https://identifiers.org/hgnc.symbol/SLC27A2> , <https://identifiers.org/hgnc.symbol/SLC27A5> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/24309898> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/d350a>
+        rdf:type            wp:Interaction , wp:Conversion , wp:DirectedInteraction ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/31698146> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/d350a> ;
+        wp:participants     <https://identifiers.org/inchikey/GYJSAWZGYQXRBS-WMYDBBFWSA-N> , <https://identifiers.org/inchikey/BZALPCSTIFZGTP-YBYDULIXSA-N> ;
+        wp:source           <https://identifiers.org/inchikey/GYJSAWZGYQXRBS-WMYDBBFWSA-N> ;
+        wp:target           <https://identifiers.org/inchikey/BZALPCSTIFZGTP-YBYDULIXSA-N> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/b8250>
+        rdf:type            wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/31698146> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/b8250> ;
+        wp:participants     <https://identifiers.org/inchikey/GYJSAWZGYQXRBS-WMYDBBFWSA-N> , <https://identifiers.org/inchikey/QOEPZHFZXUROGV-BXDHRDAUSA-N> ;
+        wp:source           <https://identifiers.org/inchikey/QOEPZHFZXUROGV-BXDHRDAUSA-N> ;
+        wp:target           <https://identifiers.org/inchikey/GYJSAWZGYQXRBS-WMYDBBFWSA-N> .
+
+<https://identifiers.org/hgnc.symbol/HSD11B2>
+        rdf:type            wp:DataNode , wp:GeneProduct ;
+        rdfs:label          "HSD11B2" ;
+        dc:identifier       <https://identifiers.org/hgnc.symbol/HSD11B2> ;
+        dc:source           "HGNC" ;
+        dcterms:identifier  "HSD11B2" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/id23b20445> , <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/HSD11B2> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/e110d> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/ef5ba> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/f0dd5> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/a3f32> .
+
+<https://identifiers.org/hgnc.symbol/CYP27A1>
+        rdf:type            wp:DataNode , wp:GeneProduct ;
+        rdfs:label          "CYP27A1" ;
+        dc:identifier       <https://identifiers.org/hgnc.symbol/CYP27A1> ;
+        dc:source           "HGNC" ;
+        dcterms:identifier  "CYP27A1" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/id820c99c5> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/c3bcb> , <https://identifiers.org/wikipathways/WP5064_r120384> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/id962f92e6> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/faa8b> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/CYP27A1> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/f42e2> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/b8193> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/c1105>
+        rdf:type            wp:DirectedInteraction , wp:Interaction , wp:Conversion ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/31698146> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/c1105> ;
+        wp:participants     <https://identifiers.org/inchikey/BZALPCSTIFZGTP-YBYDULIXSA-N> , <https://identifiers.org/inchikey/UOHZUNSDJHLARD-JLLVOJIKSA-N> ;
+        wp:source           <https://identifiers.org/inchikey/BZALPCSTIFZGTP-YBYDULIXSA-N> ;
+        wp:target           <https://identifiers.org/inchikey/UOHZUNSDJHLARD-JLLVOJIKSA-N> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/c4b1e>
+        rdf:type            wp:Interaction , wp:DirectedInteraction , wp:Conversion ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/31698146> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/c4b1e> ;
+        wp:participants     <https://identifiers.org/inchikey/RXMHNAKZMGJANZ-BMOLSTJGSA-N> , <https://identifiers.org/inchikey/GYJSAWZGYQXRBS-WMYDBBFWSA-N> ;
+        wp:source           <https://identifiers.org/inchikey/RXMHNAKZMGJANZ-BMOLSTJGSA-N> ;
+        wp:target           <https://identifiers.org/inchikey/GYJSAWZGYQXRBS-WMYDBBFWSA-N> .
+
+<https://identifiers.org/inchikey/YIKKMWSQVKJCOP-ABXCMAEBSA-N>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "7-Oxocholesterol" ;
+        dc:identifier       <https://identifiers.org/inchikey/YIKKMWSQVKJCOP-ABXCMAEBSA-N> ;
+        dc:source           "InChIKey" ;
+        dcterms:identifier  "YIKKMWSQVKJCOP-ABXCMAEBSA-N" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/baaf2> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/bc4af> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/c23d9> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/b62ca> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/ida84fbf30> , <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/cc819> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/c3bcb>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/c3bcb> ;
+        wp:participants   <https://identifiers.org/hgnc.symbol/CYP27A1> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/c25fd> ;
+        wp:source         <https://identifiers.org/hgnc.symbol/CYP27A1> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/c25fd> .
+
+<https://identifiers.org/inchikey/PXHCARRJGFGPAC-SZQOYVLDSA-N>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "3b,7b-Dihydroxychol-5-en-24-oic acid" ;
+        dc:identifier       <https://identifiers.org/inchikey/PXHCARRJGFGPAC-SZQOYVLDSA-N> ;
+        dc:source           "InChIKey" ;
+        dcterms:identifier  "PXHCARRJGFGPAC-SZQOYVLDSA-N" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/db64a> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/b43cb> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/a4d48> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/b860f> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/f8633>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/f8633> ;
+        wp:participants   <https://identifiers.org/hgnc.symbol/BAAT> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/f0604> ;
+        wp:source         <https://identifiers.org/hgnc.symbol/BAAT> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/f0604> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/c25fd>
+        rdf:type            wp:Interaction , wp:DirectedInteraction , wp:Conversion ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/31698146> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/c25fd> ;
+        wp:participants     <https://identifiers.org/inchikey/OYXZMSRRJOYLLO-KGZHIOMZSA-N> , <https://identifiers.org/inchikey/RXMHNAKZMGJANZ-BMOLSTJGSA-N> ;
+        wp:source           <https://identifiers.org/inchikey/OYXZMSRRJOYLLO-KGZHIOMZSA-N> ;
+        wp:target           <https://identifiers.org/inchikey/RXMHNAKZMGJANZ-BMOLSTJGSA-N> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/id820c99c5>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/id820c99c5> ;
+        wp:participants   <https://identifiers.org/hgnc.symbol/CYP27A1> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/c4b1e> ;
+        wp:source         <https://identifiers.org/hgnc.symbol/CYP27A1> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/c4b1e> .
+
+<https://identifiers.org/uniprot/Q3I5F7>
+        rdf:type            wp:DataNode , wp:Protein ;
+        rdfs:label          "ACOT6" ;
+        dc:identifier       <https://identifiers.org/uniprot/Q3I5F7> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "Q3I5F7" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/Q3I5F7> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/a3420> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/e4d80> ;
+        foaf:page           <http://www.uniprot.org/uniprot/Q3I5F7> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/ba7e0>
+        rdf:type            wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/31698146> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/ba7e0> ;
+        wp:participants     <https://identifiers.org/inchikey/QOEPZHFZXUROGV-BXDHRDAUSA-N> , <https://identifiers.org/inchikey/GYJSAWZGYQXRBS-WMYDBBFWSA-N> ;
+        wp:source           <https://identifiers.org/inchikey/GYJSAWZGYQXRBS-WMYDBBFWSA-N> ;
+        wp:target           <https://identifiers.org/inchikey/QOEPZHFZXUROGV-BXDHRDAUSA-N> .
+
+<https://identifiers.org/inchikey/BZALPCSTIFZGTP-YBYDULIXSA-N>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "3b,7b,24R-Trihydroxycholest-5-en-(25R)26-oyl-CoA" ;
+        dc:identifier       <https://identifiers.org/inchikey/BZALPCSTIFZGTP-YBYDULIXSA-N> ;
+        dc:source           "InChIKey" ;
+        dcterms:identifier  "BZALPCSTIFZGTP-YBYDULIXSA-N" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/d350a> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/c1105> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/e7e78> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/cbd16> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/b4bc7> .
+
+<https://identifiers.org/ec-code/3.1.2.2>
+        rdf:type            wp:DataNode , wp:Protein ;
+        rdfs:label          "ACOT" ;
+        dc:identifier       <https://identifiers.org/ec-code/3.1.2.2> ;
+        dc:source           "Enzyme Nomenclature" ;
+        dcterms:identifier  "3.1.2.2" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/be891> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/e51c1> ;
+        foaf:page           <http://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=3.1.2.2> .
+
+<https://identifiers.org/inchikey/PJJHUKDTGITXML-MFOUGJSISA-N>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "3b,5a,6b,24R-Tetrahydroxycholestan-(25R)26-oyl-CoA" ;
+        dc:identifier       <https://identifiers.org/inchikey/PJJHUKDTGITXML-MFOUGJSISA-N> ;
+        dc:source           "InChIKey" ;
+        dcterms:identifier  "PJJHUKDTGITXML-MFOUGJSISA-N" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/f785f> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/df6a2> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/fa003> .
+
+<https://identifiers.org/hgnc.symbol/BAAT>
+        rdf:type            wp:DataNode , wp:GeneProduct ;
+        rdfs:label          "BAAT" ;
+        dc:identifier       <https://identifiers.org/hgnc.symbol/BAAT> ;
+        dc:source           "HGNC" ;
+        dcterms:identifier  "BAAT" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/idff854083> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/f8633> , <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/BAAT> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/cc0ca> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/d16c6> .
+
+<https://identifiers.org/hgnc.symbol/DBP>
+        rdf:type            wp:GeneProduct , wp:DataNode ;
+        rdfs:label          "DBP" ;
+        dc:identifier       <https://identifiers.org/hgnc.symbol/DBP> ;
+        dc:source           "HGNC" ;
+        dcterms:identifier  "DBP" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/DBP> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/ff780> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/ce14d> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/bb16c> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/f3434> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/f0604>
+        rdf:type            wp:DirectedInteraction , wp:Conversion , wp:Interaction ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/31698146> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/f0604> ;
+        wp:participants     <https://identifiers.org/inchikey/PVXZQUUYXFMXMF-ABSIFXOISA-N> , <https://identifiers.org/inchikey/WRWBXZATSFAUGF-UJKOPXFNSA-N> ;
+        wp:source           <https://identifiers.org/inchikey/WRWBXZATSFAUGF-UJKOPXFNSA-N> ;
+        wp:target           <https://identifiers.org/inchikey/PVXZQUUYXFMXMF-ABSIFXOISA-N> .
+
+<https://identifiers.org/uniprot/O14734>
+        rdf:type            wp:DataNode , wp:Protein ;
+        rdfs:label          "ACOT8" ;
+        dc:identifier       <https://identifiers.org/uniprot/O14734> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "O14734" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/O14734> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/ef3e5> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/ff78a> ;
+        foaf:page           <http://www.uniprot.org/uniprot/O14734> .
+
+<https://identifiers.org/inchikey/PFYSRSDOSXYIFG-JKYVJSSTSA-N>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "Cholestane-3b,5a,6b,(25R)26-tetrol" ;
+        dc:identifier       <https://identifiers.org/inchikey/PFYSRSDOSXYIFG-JKYVJSSTSA-N> ;
+        dc:source           "InChIKey" ;
+        dcterms:identifier  "PFYSRSDOSXYIFG-JKYVJSSTSA-N" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/dde6a> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/aaf5a> , <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/c6f53> .
+
+<https://identifiers.org/inchikey/NMKAZCXSXYNCFW-DWQVTILUSA-N>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "3b,5a,6b-Trihydroxycholan-24-oic acid" ;
+        dc:identifier       <https://identifiers.org/inchikey/NMKAZCXSXYNCFW-DWQVTILUSA-N> ;
+        dc:source           "InChIKey" ;
+        dcterms:identifier  "NMKAZCXSXYNCFW-DWQVTILUSA-N" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/b7884> , <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/e15a4> .
+
+<https://identifiers.org/inchikey/LMWUOMGULHFSQR-HDEGCWFHSA-N>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "3b,5a,6b-Trihydroxycholestan-(25R)26-oic acid" ;
+        dc:identifier       <https://identifiers.org/inchikey/LMWUOMGULHFSQR-HDEGCWFHSA-N> ;
+        dc:source           "InChIKey" ;
+        dcterms:identifier  "LMWUOMGULHFSQR-HDEGCWFHSA-N" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/aaf5a> , <https://identifiers.org/wikipathways/WP5064_r120384> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/f785f> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/c7360> .
+
+<https://identifiers.org/hgnc.symbol/SLC27A5>
+        rdf:type            wp:DataNode , wp:GeneProduct ;
+        rdfs:label          "BACS (SLC27A5)" ;
+        dc:identifier       <https://identifiers.org/hgnc.symbol/SLC27A5> ;
+        dc:source           "HGNC" ;
+        dcterms:identifier  "SLC27A5" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/24309898> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/SLC27A5> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/cd48d> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/d93c2> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/b794d>
+        rdf:type            wp:Interaction , wp:DirectedInteraction , wp:Conversion ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/31698146> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/b794d> ;
+        wp:participants     <https://identifiers.org/inchikey/LFNAJBFFWWMSEW-HNFKANRHSA-N> , <https://identifiers.org/inchikey/RXMHNAKZMGJANZ-BMOLSTJGSA-N> ;
+        wp:source           <https://identifiers.org/inchikey/LFNAJBFFWWMSEW-HNFKANRHSA-N> ;
+        wp:target           <https://identifiers.org/inchikey/RXMHNAKZMGJANZ-BMOLSTJGSA-N> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/df6a2>
+        rdf:type            wp:DirectedInteraction , wp:Conversion , wp:Interaction ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/31698146> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/df6a2> ;
+        wp:participants     <https://identifiers.org/inchikey/WRWBXZATSFAUGF-UJKOPXFNSA-N> , <https://identifiers.org/inchikey/PJJHUKDTGITXML-MFOUGJSISA-N> ;
+        wp:source           <https://identifiers.org/inchikey/PJJHUKDTGITXML-MFOUGJSISA-N> ;
+        wp:target           <https://identifiers.org/inchikey/WRWBXZATSFAUGF-UJKOPXFNSA-N> .
+
+<https://identifiers.org/inchikey/HEPNPBUPTRNGJT-ILFWFKRZSA-N>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "3b-Hydroxy-7-oxochol-5-en-24-oyl-CoA" ;
+        dc:identifier       <https://identifiers.org/inchikey/HEPNPBUPTRNGJT-ILFWFKRZSA-N> ;
+        dc:source           "InChIKey" ;
+        dcterms:identifier  "HEPNPBUPTRNGJT-ILFWFKRZSA-N" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/e3a08> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/ff103> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/a4682> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/f6392> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/c8e8e> .
+
+<https://identifiers.org/hgnc.symbol/HSD11B1>
+        rdf:type            wp:GeneProduct , wp:DataNode ;
+        rdfs:label          "HSD11B1" ;
+        dc:identifier       <https://identifiers.org/hgnc.symbol/HSD11B1> ;
+        dc:source           "HGNC" ;
+        dcterms:identifier  "HSD11B1" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/idde2a9760> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/id2f9ee186> , <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/HSD11B1> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/d8acd> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/a399e> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/ef9e7> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/f785f>
+        rdf:type            wp:Interaction , wp:DirectedInteraction , wp:Conversion ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/31698146> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/f785f> ;
+        wp:participants     <https://identifiers.org/inchikey/PJJHUKDTGITXML-MFOUGJSISA-N> , <https://identifiers.org/inchikey/LMWUOMGULHFSQR-HDEGCWFHSA-N> ;
+        wp:source           <https://identifiers.org/inchikey/LMWUOMGULHFSQR-HDEGCWFHSA-N> ;
+        wp:target           <https://identifiers.org/inchikey/PJJHUKDTGITXML-MFOUGJSISA-N> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/id7f465a65>
+        rdf:type            wp:Translocation , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/24664998> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/id7f465a65> ;
+        wp:participants     <https://identifiers.org/inchikey/HVYWMOMLDIMFJA-DPAQBDIFSA-N> ;
+        wp:source           <https://identifiers.org/inchikey/HVYWMOMLDIMFJA-DPAQBDIFSA-N> ;
+        wp:target           <https://identifiers.org/inchikey/HVYWMOMLDIMFJA-DPAQBDIFSA-N> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/faa8b>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/faa8b> ;
+        wp:participants   <https://identifiers.org/hgnc.symbol/CYP27A1> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/aaf5a> ;
+        wp:source         <https://identifiers.org/hgnc.symbol/CYP27A1> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/aaf5a> .
+
+<https://identifiers.org/inchikey/YMMFNKXZULYSOQ-RUXQDQFYSA-N>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "Cholestane-3b,5a,6b-triol" ;
+        dc:identifier       <https://identifiers.org/inchikey/YMMFNKXZULYSOQ-RUXQDQFYSA-N> ;
+        dc:source           "InChIKey" ;
+        dcterms:identifier  "YMMFNKXZULYSOQ-RUXQDQFYSA-N" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/dde6a> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/e2eac> , <https://identifiers.org/wikipathways/WP5064_r120384> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/bcf80> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/ca7e7> .
+
+<https://identifiers.org/pubmed/31698146>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "31698146" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/c304d> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/e3a08> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/f3952> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/a4d48> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/cbd16> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/idb1a3234a> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/dde6a> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/a17c0> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/c25fd> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/bc4af> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/b794d> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/e2eac> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/f0604> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/df6a2> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/ida84fbf30> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/c23d9> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/ba7e0> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/c4b1e> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/e7e78> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/b43cb> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/ff103> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/db64a> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/f785f> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/bcf80> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/d350a> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/d78b0> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/f6392> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/b8250> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/c6b7f> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/d0ad0> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/aaf5a> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/b62ca> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/c1105> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/a9501> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/a6001> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/a4682> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/ce023> , <https://identifiers.org/wikipathways/WP5064_r120384> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/baaf2> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/b3333> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/b7884> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/31698146> .
+
+<https://identifiers.org/inchikey/GYJSAWZGYQXRBS-WMYDBBFWSA-N>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "3b,7b-Dihydroxycholest-5-en-(25R)26-oic acid" ;
+        dc:identifier       <https://identifiers.org/inchikey/GYJSAWZGYQXRBS-WMYDBBFWSA-N> ;
+        dc:source           "InChIKey" ;
+        dcterms:identifier  "GYJSAWZGYQXRBS-WMYDBBFWSA-N" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/b8250> , <https://identifiers.org/wikipathways/WP5064_r120384> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/ba7e0> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/c4b1e> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/d350a> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/e7dfd> .
+
+<https://identifiers.org/hgnc.symbol/ACOX2>
+        rdf:type            wp:DataNode , wp:GeneProduct ;
+        rdfs:label          "ACOX2" ;
+        dc:identifier       <https://identifiers.org/hgnc.symbol/ACOX2> ;
+        dc:source           "HGNC" ;
+        dcterms:identifier  "ACOX2" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/ACOX2> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/e6239> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/fce34> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/ff103>
+        rdf:type            wp:Interaction , wp:DirectedInteraction , wp:Conversion ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/31698146> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/ff103> ;
+        wp:participants     <https://identifiers.org/inchikey/HEPNPBUPTRNGJT-ILFWFKRZSA-N> , <https://identifiers.org/inchikey/XRRIYAPQOCXHCP-NRNJIOKESA-N> ;
+        wp:source           <https://identifiers.org/inchikey/XRRIYAPQOCXHCP-NRNJIOKESA-N> ;
+        wp:target           <https://identifiers.org/inchikey/HEPNPBUPTRNGJT-ILFWFKRZSA-N> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/bc4af>
+        rdf:type            wp:Interaction , wp:DirectedInteraction , wp:Conversion ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/15095019> , <https://identifiers.org/pubmed/31698146> , <https://identifiers.org/pubmed/23415904> , <https://identifiers.org/pubmed/14973125> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/bc4af> ;
+        wp:participants     <https://identifiers.org/inchikey/OYXZMSRRJOYLLO-KGZHIOMZSA-N> , <https://identifiers.org/inchikey/YIKKMWSQVKJCOP-ABXCMAEBSA-N> ;
+        wp:source           <https://identifiers.org/inchikey/YIKKMWSQVKJCOP-ABXCMAEBSA-N> ;
+        wp:target           <https://identifiers.org/inchikey/OYXZMSRRJOYLLO-KGZHIOMZSA-N> .
+
+<https://identifiers.org/uniprot/Q6ZUV0>
+        rdf:type            wp:Protein , wp:DataNode ;
+        rdfs:label          "ACOT7L" ;
+        dc:identifier       <https://identifiers.org/uniprot/Q6ZUV0> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "Q6ZUV0" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/Q6ZUV0> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/b0e4a> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/ffc11> ;
+        foaf:page           <http://www.uniprot.org/uniprot/Q6ZUV0> .
+
+<https://identifiers.org/inchikey/RXMHNAKZMGJANZ-BMOLSTJGSA-N>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "7b,(25R)26-Dihydroxycholesterol" ;
+        dc:identifier       <https://identifiers.org/inchikey/RXMHNAKZMGJANZ-BMOLSTJGSA-N> ;
+        dc:source           "InChIKey" ;
+        dcterms:identifier  "RXMHNAKZMGJANZ-BMOLSTJGSA-N" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/c25fd> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/a6001> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/c4b1e> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/b794d> , <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/fed6a> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/id3fa6ae80>
+        rdf:type          wp:Translocation , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/id3fa6ae80> ;
+        wp:participants   <https://identifiers.org/inchikey/HVYWMOMLDIMFJA-DPAQBDIFSA-N> ;
+        wp:source         <https://identifiers.org/inchikey/HVYWMOMLDIMFJA-DPAQBDIFSA-N> ;
+        wp:target         <https://identifiers.org/inchikey/HVYWMOMLDIMFJA-DPAQBDIFSA-N> .
+
+<https://identifiers.org/inchikey/BMRAURDLHOPSBE-FRMRTHFDSA-N>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "3b,7b-Dihydroxychol-5-en-24-oyl-glycine" ;
+        dc:identifier       <https://identifiers.org/inchikey/BMRAURDLHOPSBE-FRMRTHFDSA-N> ;
+        dc:source           "InChIKey" ;
+        dcterms:identifier  "BMRAURDLHOPSBE-FRMRTHFDSA-N" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/db64a> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/d78b0> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/f3952> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/c304d> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/d139b> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/idff854083>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/idff854083> ;
+        wp:participants   <https://identifiers.org/hgnc.symbol/BAAT> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/d78b0> ;
+        wp:source         <https://identifiers.org/hgnc.symbol/BAAT> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/d78b0> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/a6001>
+        rdf:type            wp:Conversion , wp:Interaction , wp:DirectedInteraction ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/31698146> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/a6001> ;
+        wp:participants     <https://identifiers.org/inchikey/LFNAJBFFWWMSEW-HNFKANRHSA-N> , <https://identifiers.org/inchikey/RXMHNAKZMGJANZ-BMOLSTJGSA-N> ;
+        wp:source           <https://identifiers.org/inchikey/RXMHNAKZMGJANZ-BMOLSTJGSA-N> ;
+        wp:target           <https://identifiers.org/inchikey/LFNAJBFFWWMSEW-HNFKANRHSA-N> .
+
+<https://identifiers.org/uniprot/Q9UBM7>
+        rdf:type            wp:DataNode , wp:Protein ;
+        rdfs:label          "DHCR7" ;
+        dc:identifier       <https://identifiers.org/uniprot/Q9UBM7> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "Q9UBM7" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/idf5ec46c5> ;
+        dcterms:references  <https://identifiers.org/pubmed/20615952> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/Q9UBM7> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/de27d> ;
+        foaf:page           <http://www.uniprot.org/uniprot/Q9UBM7> .
+
+<https://identifiers.org/wikipathways/WP4725>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "Sphingolipid  metabolism" ;
+        dc:identifier       <https://identifiers.org/wikipathways/WP4725> ;
+        dc:source           "WikiPathways" ;
+        dcterms:identifier  "WP4725" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/d58a2> ;
+        foaf:page           <https://www.wikipathways.org/instance/WP4725> .
+
+<https://identifiers.org/uniprot/Q8WYK0>
+        rdf:type            wp:Protein , wp:DataNode ;
+        rdfs:label          "ACOT12" ;
+        dc:identifier       <https://identifiers.org/uniprot/Q8WYK0> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "Q8WYK0" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/Q8WYK0> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/ac1e6> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/bfaec> ;
+        foaf:page           <http://www.uniprot.org/uniprot/Q8WYK0> .
+
+<https://identifiers.org/inchikey/SJZZRXMQSAXCFD-FRAMIZMOSA-N>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "3b,5a-DiH-cholestan-6-one" ;
+        dc:identifier       <https://identifiers.org/inchikey/SJZZRXMQSAXCFD-FRAMIZMOSA-N> ;
+        dc:source           "InChIKey" ;
+        dcterms:identifier  "SJZZRXMQSAXCFD-FRAMIZMOSA-N" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/e2eac> , <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/e78b0> .
+
+<https://identifiers.org/inchikey/XRRIYAPQOCXHCP-NRNJIOKESA-N>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "3b,7b-Dihydroxychol-5-en-24-oyl-CoA" ;
+        dc:identifier       <https://identifiers.org/inchikey/XRRIYAPQOCXHCP-NRNJIOKESA-N> ;
+        dc:source           "InChIKey" ;
+        dcterms:identifier  "XRRIYAPQOCXHCP-NRNJIOKESA-N" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/ff103> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/d78b0> , <https://identifiers.org/wikipathways/WP5064_r120384> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/cbd16> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/f6392> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/ed8c2> .
+
+<https://identifiers.org/inchikey/HVYWMOMLDIMFJA-DPAQBDIFSA-N>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "Cholesterol" ;
+        dc:identifier       <https://identifiers.org/inchikey/HVYWMOMLDIMFJA-DPAQBDIFSA-N> ;
+        dc:source           "InChIKey" ;
+        dcterms:identifier  "HVYWMOMLDIMFJA-DPAQBDIFSA-N" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/id7f465a65> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/id3fa6ae80> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/a17c0> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/c23d9> , <https://identifiers.org/wikipathways/WP5064_r120384> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/idb1a3234a> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/b46c5> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/b81cd> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/c3239> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/aaf5a>
+        rdf:type            wp:Interaction , wp:Conversion , wp:DirectedInteraction ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/31698146> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/aaf5a> ;
+        wp:participants     <https://identifiers.org/inchikey/PFYSRSDOSXYIFG-JKYVJSSTSA-N> , <https://identifiers.org/inchikey/LMWUOMGULHFSQR-HDEGCWFHSA-N> ;
+        wp:source           <https://identifiers.org/inchikey/PFYSRSDOSXYIFG-JKYVJSSTSA-N> ;
+        wp:target           <https://identifiers.org/inchikey/LMWUOMGULHFSQR-HDEGCWFHSA-N> .
+
+<https://identifiers.org/inchikey/UOHZUNSDJHLARD-JLLVOJIKSA-N>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "3b,24R-Dihydroxy-7-oxocholest-5-en-(25R)26-oyl-CoA" ;
+        dc:identifier       <https://identifiers.org/inchikey/UOHZUNSDJHLARD-JLLVOJIKSA-N> ;
+        dc:source           "InChIKey" ;
+        dcterms:identifier  "UOHZUNSDJHLARD-JLLVOJIKSA-N" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/c6b7f> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/e7e78> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/c1105> , <https://identifiers.org/wikipathways/WP5064_r120384> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/a4682> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/f635c> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/d78b0>
+        rdf:type            wp:DirectedInteraction , wp:Conversion , wp:Interaction ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/31698146> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/d78b0> ;
+        wp:participants     <https://identifiers.org/inchikey/XRRIYAPQOCXHCP-NRNJIOKESA-N> , <https://identifiers.org/inchikey/BMRAURDLHOPSBE-FRMRTHFDSA-N> ;
+        wp:source           <https://identifiers.org/inchikey/XRRIYAPQOCXHCP-NRNJIOKESA-N> ;
+        wp:target           <https://identifiers.org/inchikey/BMRAURDLHOPSBE-FRMRTHFDSA-N> .
+
+<https://identifiers.org/inchikey/AVFNYTPENXWWCA-BULFVYHESA-N>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "Dendrogenin A" ;
+        dc:identifier       <https://identifiers.org/inchikey/AVFNYTPENXWWCA-BULFVYHESA-N> ;
+        dc:source           "InChIKey" ;
+        dcterms:identifier  "AVFNYTPENXWWCA-BULFVYHESA-N" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/d0ad0> , <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/c6aae> .
+
+<https://identifiers.org/uniprot/Q8N9L9>
+        rdf:type            wp:DataNode , wp:Protein ;
+        rdfs:label          "ACOT4" ;
+        dc:identifier       <https://identifiers.org/uniprot/Q8N9L9> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "Q8N9L9" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/16940157> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/Q8N9L9> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/ef2be> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/a650f> ;
+        foaf:page           <http://www.uniprot.org/uniprot/Q8N9L9> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/id2f9ee186>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/id2f9ee186> ;
+        wp:participants   <https://identifiers.org/hgnc.symbol/HSD11B1> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/bc4af> ;
+        wp:source         <https://identifiers.org/hgnc.symbol/HSD11B1> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/bc4af> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/db64a>
+        rdf:type            wp:Interaction , wp:DirectedInteraction , wp:Conversion ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/31698146> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/db64a> ;
+        wp:participants     <https://identifiers.org/inchikey/BMRAURDLHOPSBE-FRMRTHFDSA-N> , <https://identifiers.org/inchikey/PXHCARRJGFGPAC-SZQOYVLDSA-N> ;
+        wp:source           <https://identifiers.org/inchikey/BMRAURDLHOPSBE-FRMRTHFDSA-N> ;
+        wp:target           <https://identifiers.org/inchikey/PXHCARRJGFGPAC-SZQOYVLDSA-N> .
+
+<https://identifiers.org/hgnc.symbol/CYP7A1>
+        rdf:type            wp:GeneProduct , wp:DataNode ;
+        rdfs:label          "CYP7A1" ;
+        dc:identifier       <https://identifiers.org/hgnc.symbol/CYP7A1> ;
+        dc:source           "HGNC" ;
+        dcterms:identifier  "CYP7A1" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/idc0cd32b0> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/CYP7A1> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/c8d02> .
+
+<https://identifiers.org/inchikey/PRYIJAGAEJZDBO-XXGHXXDPSA-N>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "5,6-Epoxycholesterol" ;
+        dc:identifier       <https://identifiers.org/inchikey/PRYIJAGAEJZDBO-XXGHXXDPSA-N> ;
+        dc:source           "InChIKey" ;
+        dcterms:identifier  "PRYIJAGAEJZDBO-XXGHXXDPSA-N" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/bcf80> , <https://identifiers.org/wikipathways/WP5064_r120384> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/idb1a3234a> , <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/d0ad0> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/fdad9> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/a4682>
+        rdf:type            wp:DirectedInteraction , wp:Interaction , wp:Conversion ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/31698146> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/a4682> ;
+        wp:participants     <https://identifiers.org/inchikey/UOHZUNSDJHLARD-JLLVOJIKSA-N> , <https://identifiers.org/inchikey/HEPNPBUPTRNGJT-ILFWFKRZSA-N> ;
+        wp:source           <https://identifiers.org/inchikey/UOHZUNSDJHLARD-JLLVOJIKSA-N> ;
+        wp:target           <https://identifiers.org/inchikey/HEPNPBUPTRNGJT-ILFWFKRZSA-N> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/ce023>
+        rdf:type            wp:Interaction , wp:DirectedInteraction , wp:Conversion ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/31698146> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/ce023> ;
+        wp:participants     <https://identifiers.org/inchikey/KJIGLXGIVLBXCF-UOQFGJKXSA-N> , <https://identifiers.org/inchikey/OYXZMSRRJOYLLO-KGZHIOMZSA-N> ;
+        wp:source           <https://identifiers.org/inchikey/KJIGLXGIVLBXCF-UOQFGJKXSA-N> ;
+        wp:target           <https://identifiers.org/inchikey/OYXZMSRRJOYLLO-KGZHIOMZSA-N> .
+
+<https://identifiers.org/inchikey/UCTLRSWJYQTBFZ-DDPQNLDTSA-N>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "7-Dehydrocholesterol" ;
+        dc:identifier       <https://identifiers.org/inchikey/UCTLRSWJYQTBFZ-DDPQNLDTSA-N> ;
+        dc:source           "InChIKey" ;
+        dcterms:identifier  "UCTLRSWJYQTBFZ-DDPQNLDTSA-N" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/baaf2> , <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/a6654> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/b43cb>
+        rdf:type            wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/31698146> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/b43cb> ;
+        wp:participants     <https://identifiers.org/inchikey/JHFXTNJNQOZGEJ-HICUSVRDSA-N> , <https://identifiers.org/inchikey/PXHCARRJGFGPAC-SZQOYVLDSA-N> ;
+        wp:source           <https://identifiers.org/inchikey/PXHCARRJGFGPAC-SZQOYVLDSA-N> ;
+        wp:target           <https://identifiers.org/inchikey/JHFXTNJNQOZGEJ-HICUSVRDSA-N> .
+
+<http://rdf.wikipathways.org/Pathway/WP5064_r120384/WP/Interaction/bcf80>
+        rdf:type            wp:DirectedInteraction , wp:Interaction , wp:Conversion ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        dcterms:references  <https://identifiers.org/pubmed/31698146> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/Interaction/bcf80> ;
+        wp:participants     <https://identifiers.org/inchikey/YMMFNKXZULYSOQ-RUXQDQFYSA-N> , <https://identifiers.org/inchikey/PRYIJAGAEJZDBO-XXGHXXDPSA-N> ;
+        wp:source           <https://identifiers.org/inchikey/PRYIJAGAEJZDBO-XXGHXXDPSA-N> ;
+        wp:target           <https://identifiers.org/inchikey/YMMFNKXZULYSOQ-RUXQDQFYSA-N> .
+
+<https://identifiers.org/wikipathways/WP4153>
+        rdf:type            wp:Pathway , wp:DataNode ;
+        rdfs:label          "Sphingolipid  degradation" ;
+        dc:identifier       <https://identifiers.org/wikipathways/WP4153> ;
+        dc:source           "WikiPathways" ;
+        dcterms:identifier  "WP4153" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5064_r120384> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/c327e> ;
+        foaf:page           <https://www.wikipathways.org/instance/WP4153> .

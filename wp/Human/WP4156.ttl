@@ -1,0 +1,658 @@
+@prefix biopax:  <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix cito:    <http://purl.org/spar/cito/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix freq:    <http://purl.org/cld/freq/> .
+@prefix gpml:    <http://vocabularies.wikipathways.org/gpml#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix pav:     <http://purl.org/pav/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix wp:      <http://vocabularies.wikipathways.org/wp#> .
+@prefix wprdf:   <http://rdf.wikipathways.org/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/ida371d2ff>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4156_r121756/Interaction/ida371d2ff> ;
+        wp:participants   <https://identifiers.org/hmdb/HMDB0000763> , <https://identifiers.org/chebi/CHEBI:58266> ;
+        wp:source         <https://identifiers.org/chebi/CHEBI:58266> ;
+        wp:target         <https://identifiers.org/hmdb/HMDB0000763> .
+
+<https://identifiers.org/wikidata/Q417149>
+        rdf:type            wp:DataNode , wp:Protein ;
+        rdfs:label          "DHFR" ;
+        dc:identifier       <https://identifiers.org/wikidata/Q417149> ;
+        dc:source           "Wikidata" ;
+        dcterms:identifier  "Q417149" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id9c5562ef> , <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q417149> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4156_r121756/DataNode/a5763> ;
+        foaf:page           <https://scholia.toolforge.org/Q417149> .
+
+<https://identifiers.org/wikidata/Q170304>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "Dopamine" ;
+        dc:identifier       <https://identifiers.org/wikidata/Q170304> ;
+        dc:source           "Wikidata" ;
+        dcterms:identifier  "Q170304" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4156_r121756> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id3c385ad3> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q170304> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4156_r121756/DataNode/c5a50> ;
+        foaf:page           <https://scholia.toolforge.org/Q170304> .
+
+<https://identifiers.org/wikidata/Q420766>
+        rdf:type            wp:DataNode , wp:Protein ;
+        rdfs:label          "TH" ;
+        dc:identifier       <https://identifiers.org/wikidata/Q420766> ;
+        dc:source           "Wikidata" ;
+        dcterms:identifier  "Q420766" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4156_r121756> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/idc3ff3f1c> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q420766> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4156_r121756/DataNode/d349a> ;
+        foaf:page           <https://scholia.toolforge.org/Q420766> .
+
+<http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/idd348c017>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4156_r121756/Interaction/idd348c017> ;
+        wp:participants   <https://identifiers.org/uniprot/Q03393> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/idd7741aaf> ;
+        wp:source         <https://identifiers.org/uniprot/Q03393> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/idd7741aaf> .
+
+<https://identifiers.org/wikidata/Q2271580>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "sepiapterin" ;
+        dc:identifier       <https://identifiers.org/wikidata/Q2271580> ;
+        dc:source           "Wikidata" ;
+        dcterms:identifier  "Q2271580" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4156_r121756> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/ide4d37224> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q2271580> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4156_r121756/DataNode/c87ca> ;
+        foaf:page           <https://scholia.toolforge.org/Q2271580> .
+
+<https://identifiers.org/chebi/CHEBI:58462>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "NH2TP" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:58462> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:58462" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4156_r121756> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/ideb9fcede> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/idd7741aaf> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id94aadbf8> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:58462> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4156_r121756/DataNode/cf6a5> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:58462> .
+
+<http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id94aadbf8>
+        rdf:type            wp:Conversion , wp:Interaction , wp:DirectedInteraction ;
+        dc:source           "Rhea" ;
+        dcterms:identifier  "17474" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:bdbRhea          <https://identifiers.org/rhea/17474> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4156_r121756/Interaction/id94aadbf8> ;
+        wp:participants     <https://identifiers.org/chebi/CHEBI:58462> , <https://identifiers.org/chebi/CHEBI:37565> ;
+        wp:source           <https://identifiers.org/chebi/CHEBI:37565> ;
+        wp:target           <https://identifiers.org/chebi/CHEBI:58462> .
+
+<https://identifiers.org/chebi/CHEBI:136564>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "PTP" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:136564> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:136564" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4156_r121756> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/idd7741aaf> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:136564> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4156_r121756/DataNode/b31bb> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:136564> .
+
+<https://identifiers.org/ec-code/4.2.1.96>
+        rdf:type            wp:DataNode , wp:Protein ;
+        rdfs:label          "PCD" ;
+        dc:identifier       <https://identifiers.org/ec-code/4.2.1.96> ;
+        dc:source           "Enzyme Nomenclature" ;
+        dcterms:identifier  "4.2.1.96" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4156_r121756> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id3588f528> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4156_r121756/DataNode/ede64> ;
+        foaf:page           <http://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=4.2.1.96> .
+
+<http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/ida796a146>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4156_r121756/Interaction/ida796a146> ;
+        wp:participants   <https://identifiers.org/wikidata/Q420604> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/idb61b60ed> ;
+        wp:source         <https://identifiers.org/wikidata/Q420604> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/idb61b60ed> .
+
+<http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id10629ddb>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4156_r121756/Interaction/id10629ddb> ;
+        wp:participants   <https://identifiers.org/ec-code/1.14.16.4> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id210ea6b1> ;
+        wp:source         <https://identifiers.org/ec-code/1.14.16.4> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id210ea6b1> .
+
+<https://identifiers.org/wikidata/Q903566>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "HVA" ;
+        dc:identifier       <https://identifiers.org/wikidata/Q903566> ;
+        dc:source           "Wikidata" ;
+        dcterms:identifier  "Q903566" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4156_r121756> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id32c71291> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q903566> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4156_r121756/DataNode/c7e49> ;
+        foaf:page           <https://scholia.toolforge.org/Q903566> .
+
+<https://identifiers.org/wikidata/Q420604>
+        rdf:type            wp:Protein , wp:DataNode ;
+        rdfs:label          "PAH" ;
+        dc:identifier       <https://identifiers.org/wikidata/Q420604> ;
+        dc:source           "Wikidata" ;
+        dcterms:identifier  "Q420604" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/ide1f13540> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/ida796a146> , <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q420604> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4156_r121756/DataNode/f3c59> ;
+        foaf:page           <https://scholia.toolforge.org/Q420604> .
+
+<http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/idd28db677>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4156_r121756/Interaction/idd28db677> ;
+        wp:participants   <https://identifiers.org/wikidata/Q170545> , <https://identifiers.org/chebi/CHEBI:28044> ;
+        wp:source         <https://identifiers.org/chebi/CHEBI:28044> ;
+        wp:target         <https://identifiers.org/wikidata/Q170545> .
+
+<https://identifiers.org/chebi/CHEBI:15642>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "HO-BH4" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:15642> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:15642" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id218a73f5> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/idb70c8a5b> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/idaf49de82> , <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:15642> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4156_r121756/DataNode/bf2d0> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:15642> .
+
+<https://identifiers.org/wikidata/Q421186>
+        rdf:type            wp:DataNode , wp:Protein ;
+        rdfs:label          "AADC" ;
+        dc:identifier       <https://identifiers.org/wikidata/Q421186> ;
+        dc:source           "Wikidata" ;
+        dcterms:identifier  "Q421186" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4156_r121756> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id4e438c29> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id3c540fa2> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q421186> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4156_r121756/DataNode/f1930> ;
+        foaf:page           <https://scholia.toolforge.org/Q421186> .
+
+<https://identifiers.org/ec-code/1.14.16.4>
+        rdf:type            wp:Protein , wp:DataNode ;
+        rdfs:label          "TPH" ;
+        dc:identifier       <https://identifiers.org/ec-code/1.14.16.4> ;
+        dc:source           "Enzyme Nomenclature" ;
+        dcterms:identifier  "1.14.16.4" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4156_r121756> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id10629ddb> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4156_r121756/DataNode/eb2b3> ;
+        foaf:page           <http://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=1.14.16.4> .
+
+<http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id9c5562ef>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4156_r121756/Interaction/id9c5562ef> ;
+        wp:participants   <https://identifiers.org/wikidata/Q417149> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/idc7ad578> ;
+        wp:source         <https://identifiers.org/wikidata/Q417149> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/idc7ad578> .
+
+<https://identifiers.org/wikidata/Q181003>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "Trp" ;
+        dc:identifier       <https://identifiers.org/wikidata/Q181003> ;
+        dc:source           "Wikidata" ;
+        dcterms:identifier  "Q181003" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id210ea6b1> , <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q181003> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4156_r121756/DataNode/edda5> ;
+        foaf:page           <https://scholia.toolforge.org/Q181003> .
+
+<https://identifiers.org/wikidata/Q908292>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "Neopterin" ;
+        dc:identifier       <https://identifiers.org/wikidata/Q908292> ;
+        dc:source           "Wikidata" ;
+        dcterms:identifier  "Q908292" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4156_r121756> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/ideb9fcede> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q908292> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4156_r121756/DataNode/ec61a> ;
+        foaf:page           <https://scholia.toolforge.org/Q908292> .
+
+<https://identifiers.org/wikipathways/WP4156_r121756>
+        rdf:type               wp:Pathway , skos:Collection ;
+        dc:identifier          <https://identifiers.org/wikipathways/WP4156> ;
+        dc:source              "WikiPathways" ;
+        dc:title               "Biosynthesis and regeneration of tetrahydrobiopterin and catabolism of phenylalanine"@en ;
+        dcterms:description    "New PW, Chapter 1 of Blau (physicians guide to... inheritant metabolic diseases." , "This pathway shows disorders related to phenylalanine and tetrahydrobiopterin (BH4) metabolism. Disorders resulting from an enzyme defect are highlighted in pink. Pathological metabolites used as specific markers are highlighted in purple. BH4 is a natural cofactor for PAH, tyrosine-3-hydroxylase, tryptophan-5-hydroxylase and nitric oxide synthase (NOS), where the latter two are key enzymes in the biosynthesis of the neurotransmitters dopamine and serotonin. \n\nThis pathway was inspired by Chapter 1 of the book of Blau (ISBN 3642403360 (978-3642403361))." ;
+        dcterms:identifier     "WP4156" ;
+        wp:diseaseOntologyTag  <http://purl.obolibrary.org/obo/DOID_0111168> , <http://purl.obolibrary.org/obo/DOID_0090123> , <http://purl.obolibrary.org/obo/DOID_0090043> , <http://purl.obolibrary.org/obo/DOID_13382> , <http://purl.obolibrary.org/obo/DOID_0090106> ;
+        wp:isAbout             <http://rdf.wikipathways.org/Pathway/WP4156_r121756> ;
+        wp:ontologyTag         <http://purl.obolibrary.org/obo/DOID_0090106> , <http://purl.obolibrary.org/obo/DOID_0090123> , <http://purl.obolibrary.org/obo/DOID_13382> , <http://purl.obolibrary.org/obo/DOID_0090043> , <http://purl.obolibrary.org/obo/PW_0000217> , <http://purl.obolibrary.org/obo/DOID_0111168> , <http://purl.obolibrary.org/obo/PW_0001612> , <http://purl.obolibrary.org/obo/PW_0001288> ;
+        wp:organism            <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName        "Homo sapiens" ;
+        wp:pathwayOntologyTag  <http://purl.obolibrary.org/obo/PW_0001612> , <http://purl.obolibrary.org/obo/PW_0001288> , <http://purl.obolibrary.org/obo/PW_0000217> ;
+        foaf:page              <http://www.wikipathways.org/instance/WP4156_r121756> .
+
+<https://identifiers.org/uniprot/P30793>
+        rdf:type            wp:GeneProduct , wp:DataNode ;
+        rdfs:label          "GTPCH" ;
+        dc:identifier       <https://identifiers.org/uniprot/P30793> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "P30793" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/idab741d7e> , <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/P30793> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4156_r121756/DataNode/b30d6> ;
+        foaf:page           <http://www.uniprot.org/uniprot/P30793> .
+
+<https://identifiers.org/wikidata/Q1145916>
+        rdf:type            wp:Protein , wp:DataNode ;
+        rdfs:label          "CR" ;
+        dc:identifier       <https://identifiers.org/wikidata/Q1145916> ;
+        dc:source           "Wikidata" ;
+        dcterms:identifier  "Q1145916" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id9f38b726> , <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q1145916> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4156_r121756/DataNode/f3537> ;
+        foaf:page           <https://scholia.toolforge.org/Q1145916> .
+
+<http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/idb61b60ed>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4156_r121756/Interaction/idb61b60ed> ;
+        wp:participants   <https://identifiers.org/wikidata/Q188017> , <https://identifiers.org/chebi/CHEBI:28044> ;
+        wp:source         <https://identifiers.org/chebi/CHEBI:28044> ;
+        wp:target         <https://identifiers.org/wikidata/Q188017> .
+
+<https://identifiers.org/wikidata/Q188017>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "tyr" ;
+        dc:identifier       <https://identifiers.org/wikidata/Q188017> ;
+        dc:source           "Wikidata" ;
+        dcterms:identifier  "Q188017" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/ida9b8e551> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/idb61b60ed> , <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q188017> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4156_r121756/DataNode/f39b9> ;
+        foaf:page           <https://scholia.toolforge.org/Q188017> .
+
+<https://identifiers.org/uniprot/Q03393>
+        rdf:type            wp:GeneProduct , wp:DataNode ;
+        rdfs:label          "PTPS" ;
+        dc:identifier       <https://identifiers.org/uniprot/Q03393> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "Q03393" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/idd348c017> , <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/Q03393> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4156_r121756/DataNode/b2bab> ;
+        foaf:page           <http://www.uniprot.org/uniprot/Q03393> .
+
+<https://identifiers.org/wikidata/Q41793745>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "Biopterin" ;
+        dc:identifier       <https://identifiers.org/wikidata/Q41793745> ;
+        dc:source           "Wikidata" ;
+        dcterms:identifier  "Q41793745" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4156_r121756> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id6b39a446> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q41793745> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4156_r121756/DataNode/cb0ff> ;
+        foaf:page           <https://scholia.toolforge.org/Q41793745> .
+
+<http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id9f38b726>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4156_r121756/Interaction/id9f38b726> ;
+        wp:participants   <https://identifiers.org/wikidata/Q1145916> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/ide4d37224> ;
+        wp:source         <https://identifiers.org/wikidata/Q1145916> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/ide4d37224> .
+
+<http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id32c71291>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4156_r121756/Interaction/id32c71291> ;
+        wp:participants   <https://identifiers.org/wikidata/Q903566> , <https://identifiers.org/wikidata/Q300989> ;
+        wp:source         <https://identifiers.org/wikidata/Q300989> ;
+        wp:target         <https://identifiers.org/wikidata/Q903566> .
+
+<http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/ide4d37224>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4156_r121756/Interaction/ide4d37224> ;
+        wp:participants   <https://identifiers.org/wikidata/Q5276421> , <https://identifiers.org/wikidata/Q2271580> ;
+        wp:source         <https://identifiers.org/wikidata/Q2271580> ;
+        wp:target         <https://identifiers.org/wikidata/Q5276421> .
+
+<https://identifiers.org/wikidata/Q5276421>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "7,8-BH2" ;
+        dc:identifier       <https://identifiers.org/wikidata/Q5276421> ;
+        dc:source           "Wikidata" ;
+        dcterms:identifier  "Q5276421" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/idc7ad578> , <https://identifiers.org/wikipathways/WP4156_r121756> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/ide4d37224> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q5276421> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4156_r121756/DataNode/ef7e0> ;
+        foaf:page           <https://scholia.toolforge.org/Q5276421> .
+
+<https://identifiers.org/wikidata/Q300989>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "L-DOPA" ;
+        dc:identifier       <https://identifiers.org/wikidata/Q300989> ;
+        dc:source           "Wikidata" ;
+        dcterms:identifier  "Q300989" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id32c71291> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id3c385ad3> , <https://identifiers.org/wikipathways/WP4156_r121756> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/ida9b8e551> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q300989> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4156_r121756/DataNode/cf056> ;
+        foaf:page           <https://scholia.toolforge.org/Q300989> .
+
+<https://identifiers.org/chebi/CHEBI:58266>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "5-OH-Trp" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:58266> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:58266" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4156_r121756> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id210ea6b1> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/ida371d2ff> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id68d7effb> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:58266> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4156_r121756/DataNode/c505d> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:58266> .
+
+<https://identifiers.org/wikipathways/WP4156>
+        pav:hasVersion  <https://identifiers.org/wikipathways/WP4156_r121756> .
+
+<https://identifiers.org/chebi/CHEBI:30436>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "BH4" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:30436> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:30436" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/idc7ad578> , <https://identifiers.org/wikipathways/WP4156_r121756> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/ide7cff94d> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id218a73f5> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:30436> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4156_r121756/DataNode/b1872> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:30436> .
+
+<https://identifiers.org/chebi/CHEBI:37565>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "GTP" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:37565> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:37565" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4156_r121756> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id94aadbf8> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:37565> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4156_r121756/DataNode/d3b3b> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:37565> .
+
+<http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id68d7effb>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4156_r121756/Interaction/id68d7effb> ;
+        wp:participants   <https://identifiers.org/chebi/CHEBI:28790> , <https://identifiers.org/chebi/CHEBI:58266> ;
+        wp:source         <https://identifiers.org/chebi/CHEBI:58266> ;
+        wp:target         <https://identifiers.org/chebi/CHEBI:28790> .
+
+<http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/ide7cff94d>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4156_r121756/Interaction/ide7cff94d> ;
+        wp:participants   <https://identifiers.org/chebi/CHEBI:30436> , <https://identifiers.org/chebi/CHEBI:43120> ;
+        wp:source         <https://identifiers.org/chebi/CHEBI:43120> ;
+        wp:target         <https://identifiers.org/chebi/CHEBI:30436> .
+
+<http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id6b39a446>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4156_r121756/Interaction/id6b39a446> ;
+        wp:participants   <https://identifiers.org/wikidata/Q41793745> , <https://identifiers.org/chebi/CHEBI:43120> ;
+        wp:source         <https://identifiers.org/chebi/CHEBI:43120> ;
+        wp:target         <https://identifiers.org/wikidata/Q41793745> .
+
+<http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/ide1f13540>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4156_r121756/Interaction/ide1f13540> ;
+        wp:participants   <https://identifiers.org/wikidata/Q420604> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id218a73f5> ;
+        wp:source         <https://identifiers.org/wikidata/Q420604> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id218a73f5> .
+
+<https://identifiers.org/wikidata/Q26261687>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "Primapterin" ;
+        dc:identifier       <https://identifiers.org/wikidata/Q26261687> ;
+        dc:source           "Wikidata" ;
+        dcterms:identifier  "Q26261687" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/idb70c8a5b> , <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q26261687> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4156_r121756/DataNode/a2d68> ;
+        foaf:page           <https://scholia.toolforge.org/Q26261687> .
+
+<http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id210ea6b1>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4156_r121756/Interaction/id210ea6b1> ;
+        wp:participants   <https://identifiers.org/chebi/CHEBI:58266> , <https://identifiers.org/wikidata/Q181003> ;
+        wp:source         <https://identifiers.org/wikidata/Q181003> ;
+        wp:target         <https://identifiers.org/chebi/CHEBI:58266> .
+
+<http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/idaf49de82>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4156_r121756/Interaction/idaf49de82> ;
+        wp:participants   <https://identifiers.org/chebi/CHEBI:43120> , <https://identifiers.org/chebi/CHEBI:15642> ;
+        wp:source         <https://identifiers.org/chebi/CHEBI:15642> ;
+        wp:target         <https://identifiers.org/chebi/CHEBI:43120> .
+
+<http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/idc3ff3f1c>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4156_r121756/Interaction/idc3ff3f1c> ;
+        wp:participants   <https://identifiers.org/wikidata/Q420766> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/ida9b8e551> ;
+        wp:source         <https://identifiers.org/wikidata/Q420766> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/ida9b8e551> .
+
+<http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/ideb9fcede>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4156_r121756/Interaction/ideb9fcede> ;
+        wp:participants   <https://identifiers.org/wikidata/Q908292> , <https://identifiers.org/chebi/CHEBI:58462> ;
+        wp:source         <https://identifiers.org/chebi/CHEBI:58462> ;
+        wp:target         <https://identifiers.org/wikidata/Q908292> .
+
+<https://identifiers.org/wikidata/Q21145902>
+        rdf:type            wp:DataNode , wp:Protein ;
+        rdfs:label          "DHPR" ;
+        dc:identifier       <https://identifiers.org/wikidata/Q21145902> ;
+        dc:source           "Wikidata" ;
+        dcterms:identifier  "Q21145902" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id310b18a1> , <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q21145902> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4156_r121756/DataNode/a09c0> ;
+        foaf:page           <https://scholia.toolforge.org/Q21145902> .
+
+<http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id3c540fa2>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4156_r121756/Interaction/id3c540fa2> ;
+        wp:participants   <https://identifiers.org/wikidata/Q421186> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id68d7effb> ;
+        wp:source         <https://identifiers.org/wikidata/Q421186> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id68d7effb> .
+
+<http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id3c385ad3>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4156_r121756/Interaction/id3c385ad3> ;
+        wp:participants   <https://identifiers.org/wikidata/Q170304> , <https://identifiers.org/wikidata/Q300989> ;
+        wp:source         <https://identifiers.org/wikidata/Q300989> ;
+        wp:target         <https://identifiers.org/wikidata/Q170304> .
+
+<https://identifiers.org/hmdb/HMDB0000763>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "5HIAA" ;
+        dc:identifier       <https://identifiers.org/hmdb/HMDB0000763> ;
+        dc:source           "HMDB" ;
+        dcterms:identifier  "HMDB0000763" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4156_r121756> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/ida371d2ff> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0000763> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4156_r121756/DataNode/d7e33> ;
+        foaf:page           <http://www.hmdb.ca/metabolites/HMDB0000763> .
+
+<http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/idc7ad578>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4156_r121756/Interaction/idc7ad578> ;
+        wp:participants   <https://identifiers.org/chebi/CHEBI:30436> , <https://identifiers.org/wikidata/Q5276421> ;
+        wp:source         <https://identifiers.org/wikidata/Q5276421> ;
+        wp:target         <https://identifiers.org/chebi/CHEBI:30436> .
+
+<http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/idb70c8a5b>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4156_r121756/Interaction/idb70c8a5b> ;
+        wp:participants   <https://identifiers.org/wikidata/Q26261687> , <https://identifiers.org/chebi/CHEBI:15642> ;
+        wp:source         <https://identifiers.org/chebi/CHEBI:15642> ;
+        wp:target         <https://identifiers.org/wikidata/Q26261687> .
+
+<https://identifiers.org/chebi/CHEBI:15379>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "O2" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:15379> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:15379" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/cefac> , <https://identifiers.org/wikipathways/WP4156_r121756> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id277f5b5a> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:15379> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4156_r121756/DataNode/ac05e> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/DataNode/f9c2f> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:15379> .
+
+<http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/ida9b8e551>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4156_r121756/Interaction/ida9b8e551> ;
+        wp:participants   <https://identifiers.org/wikidata/Q300989> , <https://identifiers.org/wikidata/Q188017> ;
+        wp:source         <https://identifiers.org/wikidata/Q188017> ;
+        wp:target         <https://identifiers.org/wikidata/Q300989> .
+
+<http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/idd7741aaf>
+        rdf:type            wp:DirectedInteraction , wp:Interaction , wp:Conversion ;
+        dc:source           "Rhea" ;
+        dcterms:identifier  "22049" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:bdbRhea          <https://identifiers.org/rhea/22049> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4156_r121756/Interaction/idd7741aaf> ;
+        wp:participants     <https://identifiers.org/chebi/CHEBI:136564> , <https://identifiers.org/chebi/CHEBI:58462> ;
+        wp:source           <https://identifiers.org/chebi/CHEBI:58462> ;
+        wp:target           <https://identifiers.org/chebi/CHEBI:136564> .
+
+<http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id4e438c29>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4156_r121756/Interaction/id4e438c29> ;
+        wp:participants   <https://identifiers.org/wikidata/Q421186> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/ida371d2ff> ;
+        wp:source         <https://identifiers.org/wikidata/Q421186> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/ida371d2ff> .
+
+<http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/idab741d7e>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4156_r121756/Interaction/idab741d7e> ;
+        wp:participants   <https://identifiers.org/uniprot/P30793> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id94aadbf8> ;
+        wp:source         <https://identifiers.org/uniprot/P30793> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id94aadbf8> .
+
+<https://identifiers.org/chebi/CHEBI:28044>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "Phe" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:28044> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:28044" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4156_r121756> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/idd28db677> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/idb61b60ed> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:28044> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4156_r121756/DataNode/bc2d5> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:28044> .
+
+<http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id277f5b5a>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4156_r121756/Interaction/id277f5b5a> ;
+        wp:participants   <https://identifiers.org/chebi/CHEBI:15379> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id218a73f5> ;
+        wp:source         <https://identifiers.org/chebi/CHEBI:15379> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id218a73f5> .
+
+<http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id218a73f5>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4156_r121756/Interaction/id218a73f5> ;
+        wp:participants   <https://identifiers.org/chebi/CHEBI:15642> , <https://identifiers.org/chebi/CHEBI:30436> ;
+        wp:source         <https://identifiers.org/chebi/CHEBI:30436> ;
+        wp:target         <https://identifiers.org/chebi/CHEBI:15642> .
+
+<https://identifiers.org/chebi/CHEBI:43120>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "q-BH2" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:43120> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:43120" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/idaf49de82> , <https://identifiers.org/wikipathways/WP4156_r121756> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id6b39a446> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/ide7cff94d> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:43120> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4156_r121756/DataNode/b1119> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:43120> .
+
+<http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/cefac>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4156_r121756/Interaction/cefac> ;
+        wp:participants   <https://identifiers.org/chebi/CHEBI:15379> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/idb61b60ed> ;
+        wp:source         <https://identifiers.org/chebi/CHEBI:15379> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/idb61b60ed> .
+
+<http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id310b18a1>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4156_r121756/Interaction/id310b18a1> ;
+        wp:participants   <https://identifiers.org/wikidata/Q21145902> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/ide7cff94d> ;
+        wp:source         <https://identifiers.org/wikidata/Q21145902> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/ide7cff94d> .
+
+<http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id3588f528>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4156_r121756/Interaction/id3588f528> ;
+        wp:participants   <https://identifiers.org/ec-code/4.2.1.96> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/idaf49de82> ;
+        wp:source         <https://identifiers.org/ec-code/4.2.1.96> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/idaf49de82> .
+
+<https://identifiers.org/wikidata/Q15331000>
+        rdf:type            wp:DataNode , wp:GeneProduct ;
+        rdfs:label          "SR" ;
+        dc:identifier       <https://identifiers.org/wikidata/Q15331000> ;
+        dc:source           "Wikidata" ;
+        dcterms:identifier  "Q15331000" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4156_r121756> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q15331000> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4156_r121756/DataNode/eb91c> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/DataNode/f903d> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/DataNode/c323a> ;
+        foaf:page           <https://scholia.toolforge.org/Q15331000> .
+
+<https://identifiers.org/wikidata/Q170545>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "Phenyl-alanine" ;
+        dc:identifier       <https://identifiers.org/wikidata/Q170545> ;
+        dc:source           "Wikidata" ;
+        dcterms:identifier  "Q170545" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4156_r121756> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/idd28db677> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q170545> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4156_r121756/DataNode/dcc01> ;
+        foaf:page           <https://scholia.toolforge.org/Q170545> .
+
+<https://identifiers.org/chebi/CHEBI:28790>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "Serotonin" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:28790> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:28790" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4156_r121756> , <http://rdf.wikipathways.org/Pathway/WP4156_r121756/WP/Interaction/id68d7effb> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:28790> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4156_r121756/DataNode/bedf2> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:28790> .

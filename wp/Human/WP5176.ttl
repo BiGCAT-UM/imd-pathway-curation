@@ -1,0 +1,1050 @@
+@prefix biopax:  <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix cito:    <http://purl.org/spar/cito/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix freq:    <http://purl.org/cld/freq/> .
+@prefix gpml:    <http://vocabularies.wikipathways.org/gpml#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix pav:     <http://purl.org/pav/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix wp:      <http://vocabularies.wikipathways.org/wp#> .
+@prefix wprdf:   <http://rdf.wikipathways.org/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idbbfdd88e>
+        rdf:type            wp:Interaction , wp:DirectedInteraction ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-193362" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-193362> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/Interaction/idbbfdd88e> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/Interaction/id44537f> ;
+        wp:participants     <https://identifiers.org/chebi/CHEBI:22868> ;
+        wp:source           <https://identifiers.org/chebi/CHEBI:22868> ;
+        wp:target           <https://identifiers.org/chebi/CHEBI:22868> .
+
+<http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id1d5900d8>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5176_r122283/Interaction/id1d5900d8> ;
+        wp:participants   <https://identifiers.org/ensembl/ENSG00000081923> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id5146a5f2> ;
+        wp:source         <https://identifiers.org/ensembl/ENSG00000081923> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id5146a5f2> .
+
+<https://identifiers.org/ensembl/ENSG00000111700>
+        rdf:type            wp:DataNode , wp:GeneProduct ;
+        rdfs:label          "SLCO1B3" ;
+        dc:identifier       <https://identifiers.org/ensembl/ENSG00000111700> ;
+        dc:source           "Ensembl" ;
+        dcterms:identifier  "ENSG00000111700" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/iddd131e99> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/ide7aec33e> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000111700> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/e018f> ;
+        foaf:page           <https://www.ensembl.org/id/ENSG00000111700> .
+
+<https://identifiers.org/chebi/CHEBI:29746>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "glycocholate" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:29746> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:29746" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/c0013> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idf6fc40c0> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:29746> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/b64d9> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/aed42> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:29746> .
+
+<https://identifiers.org/wikipathways/WP5176_r122283>
+        rdf:type                skos:Collection , wp:Pathway ;
+        dc:identifier           <https://identifiers.org/wikipathways/WP5176> ;
+        dc:source               "WikiPathways" ;
+        dc:title                "Disorders of bile acid synthesis and biliary transport"@en ;
+        dcterms:description     "This pathway model displays disorders of bile acid synthesis and biliary transport. There are 13 included disorders, of which 8 are enzyme deficiencies, and 5 are related to transporters. The enzyme deficiencies include 3β-Dehydrogenase deficiency, 5β-Reductase deficiency, Spastic Paraplegia 5A, Cholesterol 7α-hydroxylase deficiency, Sterol 27-hydroxylase deficiency, α-Methylacyl-CoA racemase (AMACR) deficiency, Bile acid amidation defect, and Bile acid-CoA ligase deficiency (BA CoA LD). Disorders of transporters are related to deficiencies in ATP8B1 (Progressive familial intrahepatic cholestasis type 1; PFIC1), ABCB11 (Progressive familial intrahepatic cholestasis type 2; PFIC 2), ABCB4 (Progressive familial intrahepatic cholestasis type 3), and ABCC2 (Dubin-Johnson syndrome), as well as OATP1B1 and OATP1B3 disease (Rotor Syndrome). This pathway is based on Chapter 34 of Blau’s ‘Physicians Guide to the Diagnosis, Treatment, and Follow-Up of Inherited Metabolic Diseases (ISBN 3642403360 (978-3642403361)). " ;
+        dcterms:identifier      "WP5176" ;
+        wp:cellTypeOntologyTag  <http://purl.obolibrary.org/obo/CL_0000182> ;
+        wp:diseaseOntologyTag   <http://purl.obolibrary.org/obo/DOID_0070222> , <http://purl.obolibrary.org/obo/DOID_12308> , <http://purl.obolibrary.org/obo/DOID_0060602> , <http://purl.obolibrary.org/obo/DOID_0070223> , <http://purl.obolibrary.org/obo/DOID_0110810> , <http://purl.obolibrary.org/obo/DOID_0070226> , <http://purl.obolibrary.org/obo/DOID_4810> , <http://purl.obolibrary.org/obo/DOID_0050674> ;
+        wp:isAbout              <http://rdf.wikipathways.org/Pathway/WP5176_r122283> ;
+        wp:ontologyTag          <http://purl.obolibrary.org/obo/DOID_4810> , <http://purl.obolibrary.org/obo/PW_0000039> , <http://purl.obolibrary.org/obo/PW_0000013> , <http://purl.obolibrary.org/obo/PW_0001589> , <http://purl.obolibrary.org/obo/DOID_0070222> , <http://purl.obolibrary.org/obo/PW_0000834> , <http://purl.obolibrary.org/obo/DOID_0060602> , <http://purl.obolibrary.org/obo/CL_0000182> , <http://purl.obolibrary.org/obo/DOID_12308> , <http://purl.obolibrary.org/obo/DOID_0070226> , <http://purl.obolibrary.org/obo/DOID_0070223> , <http://purl.obolibrary.org/obo/DOID_0050674> , <http://purl.obolibrary.org/obo/DOID_0110810> ;
+        wp:organism             <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName         "Homo sapiens" ;
+        wp:pathwayOntologyTag   <http://purl.obolibrary.org/obo/PW_0000013> , <http://purl.obolibrary.org/obo/PW_0001589> , <http://purl.obolibrary.org/obo/PW_0000834> , <http://purl.obolibrary.org/obo/PW_0000039> ;
+        foaf:page               <http://www.wikipathways.org/instance/WP5176_r122283> .
+
+<http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/fa787>
+        rdf:type            wp:Interaction , wp:DirectedInteraction ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-5679041" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-5679041> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/Interaction/id891a2f53> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/Interaction/fa787> ;
+        wp:participants     <https://identifiers.org/chebi/CHEBI:16427> ;
+        wp:source           <https://identifiers.org/chebi/CHEBI:16427> ;
+        wp:target           <https://identifiers.org/chebi/CHEBI:16427> .
+
+<http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/ida7fdfba6>
+        rdf:type            wp:DirectedInteraction , wp:Interaction , wp:Conversion ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-193424" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-193424> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/Interaction/ida7fdfba6> ;
+        wp:participants     <https://identifiers.org/hmdb/HMDB0060304> , <https://identifiers.org/chebi/CHEBI:16577> ;
+        wp:source           <https://identifiers.org/chebi/CHEBI:16577> ;
+        wp:target           <https://identifiers.org/hmdb/HMDB0060304> .
+
+<https://identifiers.org/chebi/CHEBI:48825>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "7alpha,26-dihydroxycholest-4-en-3-one" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:48825> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:48825" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:48825> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/da677> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:48825> .
+
+<http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/ide7aec33e>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5176_r122283/Interaction/ide7aec33e> ;
+        wp:participants   <https://identifiers.org/ensembl/ENSG00000111700> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idc7133ada> ;
+        wp:source         <https://identifiers.org/ensembl/ENSG00000111700> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idc7133ada> .
+
+<https://identifiers.org/chebi/CHEBI:17500>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "7-alpha-Hydroxycholesterol" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:17500> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:17500" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:17500> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/fd6cd> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:17500> .
+
+<https://identifiers.org/chebi/CHEBI:16427>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "Bilirubin glucuronide" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:16427> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:16427" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/fa787> , <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:16427> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/eb7a8> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/d110a> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:16427> .
+
+<https://identifiers.org/chebi/CHEBI:16496>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "5beta-cholestane-3alpha,7alpha,12alpha-triol" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:16496> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:16496" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idd570d3dd> , <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:16496> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/e67b7> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:16496> .
+
+<http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id208b5bc7>
+        rdf:type            wp:Conversion , wp:Interaction , wp:DirectedInteraction ;
+        dc:source           "Rhea" ;
+        dcterms:identifier  "47110" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbRhea          <https://identifiers.org/rhea/47110> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/Interaction/id208b5bc7> ;
+        wp:participants     <https://identifiers.org/chebi/CHEBI:28865> , <https://identifiers.org/chebi/CHEBI:29747> ;
+        wp:source           <https://identifiers.org/chebi/CHEBI:28865> ;
+        wp:target           <https://identifiers.org/chebi/CHEBI:29747> .
+
+<https://identifiers.org/ensembl/ENSG00000172817>
+        rdf:type            wp:DataNode , wp:GeneProduct ;
+        rdfs:label          "CYP7B1" ;
+        dc:identifier       <https://identifiers.org/ensembl/ENSG00000172817> ;
+        dc:source           "Ensembl" ;
+        dcterms:identifier  "ENSG00000172817" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000172817> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/c2e79> ;
+        foaf:page           <https://www.ensembl.org/id/ENSG00000172817> .
+
+<https://identifiers.org/chebi/CHEBI:36234>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "chenodeoxycholate(1-)" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:36234> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:36234" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id614ebc> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id16ef543> , <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:36234> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/f7135> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:36234> .
+
+<http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idc113f090>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5176_r122283/Interaction/idc113f090> ;
+        wp:participants   <https://identifiers.org/ensembl/ENSG00000005471> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id57a6c794> ;
+        wp:source         <https://identifiers.org/ensembl/ENSG00000005471> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id57a6c794> .
+
+<https://identifiers.org/chebi/CHEBI:28047>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "5beta-cholestane-3alpha,7alpha-diol" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:28047> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:28047" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id2452e40d> , <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:28047> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/d4270> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:28047> .
+
+<https://identifiers.org/chebi/CHEBI:17687>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "Glycocholic acid" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:17687> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:17687" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idd35e240a> , <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:17687> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/d4adf> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:17687> .
+
+<http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id7163f5cd>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5176_r122283/Interaction/id7163f5cd> ;
+        wp:participants   <https://identifiers.org/ensembl/ENSG00000023839> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/fa787> ;
+        wp:source         <https://identifiers.org/ensembl/ENSG00000023839> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/fa787> .
+
+<https://identifiers.org/ensembl/ENSG00000168306>
+        rdf:type            wp:DataNode , wp:GeneProduct ;
+        rdfs:label          "ACOX2" ;
+        dc:identifier       <https://identifiers.org/ensembl/ENSG00000168306> ;
+        dc:source           "Ensembl" ;
+        dcterms:identifier  "ENSG00000168306" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000168306> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/a018f> ;
+        foaf:page           <https://www.ensembl.org/id/ENSG00000168306> .
+
+<https://identifiers.org/hmdb/HMDB0060304>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "(25R)-3alpha,7alpha-Dihydroxy-5beta-cholestanoyl-CoA" ;
+        dc:identifier       <https://identifiers.org/hmdb/HMDB0060304> ;
+        dc:source           "HMDB" ;
+        dcterms:identifier  "HMDB0060304" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/ida7fdfba6> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0060304> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/ad766> ;
+        foaf:page           <http://www.hmdb.ca/metabolites/HMDB0060304> .
+
+<https://identifiers.org/chebi/CHEBI:22868>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "Bile acid" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:22868> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:22868" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id74ac6806> , <https://identifiers.org/wikipathways/WP5176_r122283> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idbbfdd88e> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:22868> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/f7a02> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/cb5b9> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:22868> .
+
+<https://identifiers.org/hmdb/HMDB0060138>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "5beta-Cholestane-3alpha,7alpha,27-triol" ;
+        dc:identifier       <https://identifiers.org/hmdb/HMDB0060138> ;
+        dc:source           "HMDB" ;
+        dcterms:identifier  "HMDB0060138" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0060138> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/dbb9e> ;
+        foaf:page           <http://www.hmdb.ca/metabolites/HMDB0060138> .
+
+<https://identifiers.org/chebi/CHEBI:28540>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "5beta-cholestane-3alpha,7alpha,26-triol" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:28540> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:28540" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idc7bb1b1e> , <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:28540> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/e140f> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:28540> .
+
+<http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idaba191b>
+        rdf:type            wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-193401" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-193401> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/Interaction/idaba191b> ;
+        wp:participants     <https://identifiers.org/chebi/CHEBI:18402> , <https://identifiers.org/chebi/CHEBI:37642> ;
+        wp:source           <https://identifiers.org/chebi/CHEBI:18402> ;
+        wp:target           <https://identifiers.org/chebi/CHEBI:37642> .
+
+<https://identifiers.org/uniprot/Q14032>
+        rdf:type            wp:DataNode , wp:Protein ;
+        rdfs:label          "Bile acid-CoA:amino acid  N-acyltransferase" ;
+        dc:identifier       <https://identifiers.org/uniprot/Q14032> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "Q14032" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/Q14032> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/a4708> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/d352f> ;
+        foaf:page           <http://www.uniprot.org/uniprot/Q14032> .
+
+<http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id680bb493>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5176_r122283/Interaction/id680bb493> ;
+        wp:participants   <https://identifiers.org/uniprot/O14975> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idaba191b> ;
+        wp:source         <https://identifiers.org/uniprot/O14975> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idaba191b> .
+
+<http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idc7133ada>
+        rdf:type            wp:Interaction , wp:DirectedInteraction ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-194079" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-194079> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/Interaction/id233c16cc> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/Interaction/idc7133ada> ;
+        wp:participants     <https://identifiers.org/chebi/CHEBI:36257> ;
+        wp:source           <https://identifiers.org/chebi/CHEBI:36257> ;
+        wp:target           <https://identifiers.org/chebi/CHEBI:36257> .
+
+<https://identifiers.org/chebi/CHEBI:15519>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "cholyl-CoA" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:15519> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:15519" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:15519> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/b7fed> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:15519> .
+
+<https://identifiers.org/ensembl/ENSG00000005471>
+        rdf:type            wp:DataNode , wp:GeneProduct ;
+        rdfs:label          "ABCB4" ;
+        dc:identifier       <https://identifiers.org/ensembl/ENSG00000005471> ;
+        dc:source           "Ensembl" ;
+        dcterms:identifier  "ENSG00000005471" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idc113f090> , <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000005471> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/ff2ca> ;
+        foaf:page           <https://www.ensembl.org/id/ENSG00000005471> .
+
+<https://identifiers.org/chebi/CHEBI:27505>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "3alpha,7alpha,12alpha-Trihydroxy-5beta-cholest-24-enoyl-CoA" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:27505> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:27505" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:27505> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/a3a7a> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:27505> .
+
+<https://identifiers.org/chebi/CHEBI:48778>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "7alpha,26-dihydroxy-5beta-cholestan-3-one" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:48778> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:48778" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idc7bb1b1e> , <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:48778> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/c5c3b> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:48778> .
+
+<https://identifiers.org/ensembl/ENSG00000116171>
+        rdf:type            wp:DataNode , wp:GeneProduct ;
+        rdfs:label          "SCP2" ;
+        dc:identifier       <https://identifiers.org/ensembl/ENSG00000116171> ;
+        dc:source           "Ensembl" ;
+        dcterms:identifier  "ENSG00000116171" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000116171> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/a335b> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/aef5b> ;
+        foaf:page           <https://www.ensembl.org/id/ENSG00000116171> .
+
+<https://identifiers.org/chebi/CHEBI:17899>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "7alpha-Hydroxy-4-cholesten-3-one" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:17899> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:17899" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idb2b8e9c2> , <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:17899> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/c4fe1> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:17899> .
+
+<https://identifiers.org/chebi/CHEBI:36274>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "Glycochenodeoxycholic acid" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:36274> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:36274" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id16ef543> , <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:36274> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/f6ff0> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:36274> .
+
+<https://identifiers.org/ensembl/ENSG00000081923>
+        rdf:type            wp:DataNode , wp:GeneProduct ;
+        rdfs:label          "ATP8B1" ;
+        dc:identifier       <https://identifiers.org/ensembl/ENSG00000081923> ;
+        dc:source           "Ensembl" ;
+        dcterms:identifier  "ENSG00000081923" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id1d5900d8> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000081923> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/a1e84> ;
+        foaf:page           <https://www.ensembl.org/id/ENSG00000081923> .
+
+<http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id2452e40d>
+        rdf:type            wp:DirectedInteraction , wp:Interaction , wp:Conversion ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-192160" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-192160> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/Interaction/id2452e40d> ;
+        wp:participants     <https://identifiers.org/chebi/CHEBI:28047> , <https://identifiers.org/chebi/CHEBI:2290> ;
+        wp:source           <https://identifiers.org/chebi/CHEBI:2290> ;
+        wp:target           <https://identifiers.org/chebi/CHEBI:28047> .
+
+<https://identifiers.org/chebi/CHEBI:28865>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "Taurocholic acid" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:28865> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:28865" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id208b5bc7> , <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:28865> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/d701e> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:28865> .
+
+<https://identifiers.org/ensembl/ENSG00000083807>
+        rdf:type            wp:DataNode , wp:GeneProduct ;
+        rdfs:label          "SLC27A5" ;
+        dc:identifier       <https://identifiers.org/ensembl/ENSG00000083807> ;
+        dc:source           "Ensembl" ;
+        dcterms:identifier  "ENSG00000083807" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000083807> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/b5cb4> ;
+        foaf:page           <https://www.ensembl.org/id/ENSG00000083807> .
+
+<https://identifiers.org/chebi/CHEBI:16113>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "cholesterol" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:16113> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:16113" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id74ac6806> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:16113> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/f24d6> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/d4928> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:16113> .
+
+<https://identifiers.org/chebi/CHEBI:52050>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "(24R,25R)-3alpha,7alpha,12alpha,24-tetrahydroxy-5beta-cholestan-26-oyl-CoA" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:52050> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:52050" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:52050> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/a576c> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:52050> .
+
+<https://identifiers.org/chebi/CHEBI:87704>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "3alpha,7alpha-dihydroxy-24-oxo-5beta-cholestan-26-oyl-CoA" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:87704> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:87704" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:87704> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/c2626> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:87704> .
+
+<https://identifiers.org/wikipathways/WP5176>
+        pav:hasVersion  <https://identifiers.org/wikipathways/WP5176_r122283> .
+
+<http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/iddd131e99>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5176_r122283/Interaction/iddd131e99> ;
+        wp:participants   <https://identifiers.org/ensembl/ENSG00000111700> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/c0013> ;
+        wp:source         <https://identifiers.org/ensembl/ENSG00000111700> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/c0013> .
+
+<http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id8dde6d9e>
+        rdf:type            wp:Interaction , wp:DirectedInteraction ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-194083" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-194083> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/Interaction/id8dde6d9e> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/Interaction/id5ea9efcd> ;
+        wp:participants     <https://identifiers.org/chebi/CHEBI:36257> ;
+        wp:source           <https://identifiers.org/chebi/CHEBI:36257> ;
+        wp:target           <https://identifiers.org/chebi/CHEBI:36257> .
+
+<http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idb2b8e9c2>
+        rdf:type            wp:DirectedInteraction , wp:Interaction , wp:Conversion ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-192033" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-192033> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/Interaction/idb2b8e9c2> ;
+        wp:participants     <https://identifiers.org/chebi/CHEBI:28477> , <https://identifiers.org/chebi/CHEBI:17899> ;
+        wp:source           <https://identifiers.org/chebi/CHEBI:17899> ;
+        wp:target           <https://identifiers.org/chebi/CHEBI:28477> .
+
+<https://identifiers.org/ensembl/ENSG00000133835>
+        rdf:type            wp:GeneProduct , wp:DataNode ;
+        rdfs:label          "HSD17B4" ;
+        dc:identifier       <https://identifiers.org/ensembl/ENSG00000133835> ;
+        dc:source           "Ensembl" ;
+        dcterms:identifier  "ENSG00000133835" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000133835> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/d536c> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/df9ca> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/d1805> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/fdb11> ;
+        foaf:page           <https://www.ensembl.org/id/ENSG00000133835> .
+
+<https://identifiers.org/chebi/CHEBI:16525>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "Taurochenodeoxycholic acid" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:16525> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:16525" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id614ebc> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:16525> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/fcdc9> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:16525> .
+
+<https://identifiers.org/uniprot/O14975>
+        rdf:type            wp:DataNode , wp:Protein ;
+        rdfs:label          "Very long-chain  acyl-CoA synthetase" ;
+        dc:identifier       <https://identifiers.org/uniprot/O14975> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "O14975" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id680bb493> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idb319f660> , <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/O14975> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/f4fda> ;
+        foaf:page           <http://www.uniprot.org/uniprot/O14975> .
+
+<https://identifiers.org/chebi/CHEBI:16466>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "3alpha,7alpha,12alpha-trihydroxy-5beta-cholestan-26-al" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:16466> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:16466" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:16466> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/e1f98> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:16466> .
+
+<http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id74ac6806>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5176_r122283/Interaction/id74ac6806> ;
+        wp:participants   <https://identifiers.org/chebi/CHEBI:22868> , <https://identifiers.org/chebi/CHEBI:16113> ;
+        wp:source         <https://identifiers.org/chebi/CHEBI:16113> ;
+        wp:target         <https://identifiers.org/chebi/CHEBI:22868> .
+
+<https://identifiers.org/ensembl/ENSG00000073734>
+        rdf:type            wp:DataNode , wp:GeneProduct ;
+        rdfs:label          "ABCB11" ;
+        dc:identifier       <https://identifiers.org/ensembl/ENSG00000073734> ;
+        dc:source           "Ensembl" ;
+        dcterms:identifier  "ENSG00000073734" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idc140a77b> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000073734> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/a3cc1> ;
+        foaf:page           <https://www.ensembl.org/id/ENSG00000073734> .
+
+<https://identifiers.org/chebi/CHEBI:17703>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "27-Hydroxycholesterol" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:17703> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:17703" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:17703> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/e01ba> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:17703> .
+
+<https://identifiers.org/chebi/CHEBI:27379>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "3α,7α,12α-trihydroxy-24-oxo-5β-cholestan-26-oyl-CoA" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:27379> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:27379" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:27379> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/ccbd1> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:27379> .
+
+<https://identifiers.org/chebi/CHEBI:18303>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "Phosphatidylserine" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:18303> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:18303" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id5146a5f2> , <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:18303> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/bd710> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/f1483> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:18303> .
+
+<http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idb48f7124>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5176_r122283/Interaction/idb48f7124> ;
+        wp:participants   <https://identifiers.org/uniprot/Q9UNU6> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idb2b8e9c2> ;
+        wp:source         <https://identifiers.org/uniprot/Q9UNU6> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idb2b8e9c2> .
+
+<https://identifiers.org/uniprot/Q9UHK6>
+        rdf:type            wp:DataNode , wp:GeneProduct ;
+        rdfs:label          "AMACR" ;
+        dc:identifier       <https://identifiers.org/uniprot/Q9UHK6> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "Q9UHK6" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/Q9UHK6> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/e0b4c> ;
+        foaf:page           <http://www.uniprot.org/uniprot/Q9UHK6> .
+
+<https://identifiers.org/chebi/CHEBI:81014>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "3beta-Hydroxy-5-cholestenoic acid" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:81014> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:81014" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:81014> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/cd13f> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:81014> .
+
+<http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id5146a5f2>
+        rdf:type            wp:Interaction , wp:DirectedInteraction ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-939763" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-939763> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/Interaction/id5146a5f2> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/Interaction/id6f079e19> ;
+        wp:participants     <https://identifiers.org/chebi/CHEBI:18303> ;
+        wp:source           <https://identifiers.org/chebi/CHEBI:18303> ;
+        wp:target           <https://identifiers.org/chebi/CHEBI:18303> .
+
+<http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id614ebc>
+        rdf:type            wp:Conversion , wp:Interaction , wp:DirectedInteraction ;
+        dc:source           "Rhea" ;
+        dcterms:identifier  "16310" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbRhea          <https://identifiers.org/rhea/16310> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/Interaction/id614ebc> ;
+        wp:participants     <https://identifiers.org/chebi/CHEBI:16525> , <https://identifiers.org/chebi/CHEBI:36234> ;
+        wp:source           <https://identifiers.org/chebi/CHEBI:16525> ;
+        wp:target           <https://identifiers.org/chebi/CHEBI:36234> .
+
+<https://identifiers.org/chebi/CHEBI:37643>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "(25S)-3alpha,7alpha,12alpha-trihydroxy-5beta-cholestanoyl-CoA" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:37643> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:37643" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:37643> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/d8733> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:37643> .
+
+<https://identifiers.org/chebi/CHEBI:17278>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "5beta-cholestane-3alpha,7alpha,12alpha,26-tetrol" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:17278> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:17278" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:17278> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/c8c96> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:17278> .
+
+<https://identifiers.org/chebi/CHEBI:27393>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "3alpha,7alpha-Dihydroxy-5beta-cholest-24-enoyl-CoA" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:27393> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:27393" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:27393> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/ad08f> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:27393> .
+
+<https://identifiers.org/chebi/CHEBI:18402>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "3alpha,7alpha,12alpha-trihydroxy-5beta-cholestan-26-oic acid" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:18402> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:18402" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idaba191b> , <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:18402> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/bbe39> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:18402> .
+
+<http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/iddca38220>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5176_r122283/Interaction/iddca38220> ;
+        wp:participants   <https://identifiers.org/uniprot/P17516> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idd570d3dd> ;
+        wp:source         <https://identifiers.org/uniprot/P17516> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idd570d3dd> .
+
+<https://identifiers.org/ensembl/ENSG00000023839>
+        rdf:type            wp:DataNode , wp:GeneProduct ;
+        rdfs:label          "ABCC2" ;
+        dc:identifier       <https://identifiers.org/ensembl/ENSG00000023839> ;
+        dc:source           "Ensembl" ;
+        dcterms:identifier  "ENSG00000023839" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id7163f5cd> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000023839> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/b7d2e> ;
+        foaf:page           <https://www.ensembl.org/id/ENSG00000023839> .
+
+<http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id16ef543>
+        rdf:type            wp:Conversion , wp:Interaction , wp:DirectedInteraction ;
+        dc:source           "Rhea" ;
+        dcterms:identifier  "47114" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbRhea          <https://identifiers.org/rhea/47114> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/Interaction/id16ef543> ;
+        wp:participants     <https://identifiers.org/chebi/CHEBI:36274> , <https://identifiers.org/chebi/CHEBI:36234> ;
+        wp:source           <https://identifiers.org/chebi/CHEBI:36274> ;
+        wp:target           <https://identifiers.org/chebi/CHEBI:36234> .
+
+<https://identifiers.org/chebi/CHEBI:28477>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "7alpha,12alpha-Dihydroxy-4-cholesten-3-one" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:28477> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:28477" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idb2b8e9c2> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:28477> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/b8847> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:28477> .
+
+<http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idf6fc40c0>
+        rdf:type            wp:Interaction , wp:DirectedInteraction ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-194083" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-194083> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/Interaction/idf6fc40c0> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/Interaction/idd798fa7b> ;
+        wp:participants     <https://identifiers.org/chebi/CHEBI:29746> ;
+        wp:source           <https://identifiers.org/chebi/CHEBI:29746> ;
+        wp:target           <https://identifiers.org/chebi/CHEBI:29746> .
+
+<http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idc140a77b>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5176_r122283/Interaction/idc140a77b> ;
+        wp:participants   <https://identifiers.org/ensembl/ENSG00000073734> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idbbfdd88e> ;
+        wp:source         <https://identifiers.org/ensembl/ENSG00000073734> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idbbfdd88e> .
+
+<https://identifiers.org/ensembl/ENSG00000167910>
+        rdf:type            wp:GeneProduct , wp:DataNode ;
+        rdfs:label          "CYP7A1" ;
+        dc:identifier       <https://identifiers.org/ensembl/ENSG00000167910> ;
+        dc:source           "Ensembl" ;
+        dcterms:identifier  "ENSG00000167910" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000167910> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/ea9bb> ;
+        foaf:page           <https://www.ensembl.org/id/ENSG00000167910> .
+
+<https://identifiers.org/chebi/CHEBI:36257>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "taurocholate" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:36257> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:36257" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id8dde6d9e> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idc7133ada> , <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:36257> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/eff1c> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/b8b51> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:36257> .
+
+<https://identifiers.org/uniprot/P17516>
+        rdf:type            wp:DataNode , wp:Protein ;
+        rdfs:label          "Aldo-keto reductase  family 1 member C4" ;
+        dc:identifier       <https://identifiers.org/uniprot/P17516> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "P17516" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/iddca38220> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id65daa818> , <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/P17516> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/ec292> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/ea1c5> ;
+        foaf:page           <http://www.uniprot.org/uniprot/P17516> .
+
+<http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id65daa818>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5176_r122283/Interaction/id65daa818> ;
+        wp:participants   <https://identifiers.org/uniprot/P17516> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id2452e40d> ;
+        wp:source         <https://identifiers.org/uniprot/P17516> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id2452e40d> .
+
+<http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idd570d3dd>
+        rdf:type            wp:Conversion , wp:Interaction , wp:DirectedInteraction ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-192036" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-192036> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/Interaction/idd570d3dd> ;
+        wp:participants     <https://identifiers.org/chebi/CHEBI:16496> , <https://identifiers.org/chebi/CHEBI:2288> ;
+        wp:source           <https://identifiers.org/chebi/CHEBI:2288> ;
+        wp:target           <https://identifiers.org/chebi/CHEBI:16496> .
+
+<http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idb319f660>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5176_r122283/Interaction/idb319f660> ;
+        wp:participants   <https://identifiers.org/uniprot/O14975> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/ida7fdfba6> ;
+        wp:source         <https://identifiers.org/uniprot/O14975> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/ida7fdfba6> .
+
+<https://identifiers.org/wikidata/Q27103111>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "3alpha,7alpha,24-trihydroxy-5beta-cholestan-26-oyl-CoA" ;
+        dc:identifier       <https://identifiers.org/wikidata/Q27103111> ;
+        dc:source           "Wikidata" ;
+        dcterms:identifier  "Q27103111" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27103111> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/ac585> ;
+        foaf:page           <https://scholia.toolforge.org/Q27103111> .
+
+<https://identifiers.org/ensembl/ENSG00000099377>
+        rdf:type            wp:GeneProduct , wp:DataNode ;
+        rdfs:label          "HSD3B7" ;
+        dc:identifier       <https://identifiers.org/ensembl/ENSG00000099377> ;
+        dc:source           "Ensembl" ;
+        dcterms:identifier  "ENSG00000099377" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000099377> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/f23e3> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/df02e> ;
+        foaf:page           <https://www.ensembl.org/id/ENSG00000099377> .
+
+<https://identifiers.org/chebi/CHEBI:37642>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "(25R)-3alpha,7alpha,12alpha-Trihydroxy-5beta-cholestan-26-oyl-CoA" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:37642> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:37642" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idaba191b> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:37642> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/de953> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:37642> .
+
+<https://identifiers.org/chebi/CHEBI:16577>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "3alpha,7alpha-dihydroxy-5beta-cholestan-26-oic acid" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:16577> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:16577" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/ida7fdfba6> , <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:16577> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/a9f1d> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:16577> .
+
+<https://identifiers.org/chebi/CHEBI:28701>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "Chenodeoxycholoyl-CoA" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:28701> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:28701" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:28701> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/a7038> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:28701> .
+
+<http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id9b1e8d5e>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5176_r122283/Interaction/id9b1e8d5e> ;
+        wp:participants   <https://identifiers.org/ensembl/ENSG00000134538> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id8dde6d9e> ;
+        wp:source         <https://identifiers.org/ensembl/ENSG00000134538> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id8dde6d9e> .
+
+<https://identifiers.org/hmdb/HMDB0012454>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "3beta,7alpha-Dihydroxy-5-cholestenoate" ;
+        dc:identifier       <https://identifiers.org/hmdb/HMDB0012454> ;
+        dc:source           "HMDB" ;
+        dcterms:identifier  "HMDB0012454" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0012454> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/adc13> ;
+        foaf:page           <http://www.hmdb.ca/metabolites/HMDB0012454> .
+
+<https://identifiers.org/uniprot/Q9UNU6>
+        rdf:type            wp:GeneProduct , wp:DataNode ;
+        rdfs:label          "CYP8B1" ;
+        dc:identifier       <https://identifiers.org/uniprot/Q9UNU6> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "Q9UNU6" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idb48f7124> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/Q9UNU6> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/eb1d4> ;
+        foaf:page           <http://www.uniprot.org/uniprot/Q9UNU6> .
+
+<http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/c0013>
+        rdf:type            wp:DirectedInteraction , wp:Interaction ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-194079" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-194079> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/Interaction/c0013> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/Interaction/idd6db2db9> ;
+        wp:participants     <https://identifiers.org/chebi/CHEBI:29746> ;
+        wp:source           <https://identifiers.org/chebi/CHEBI:29746> ;
+        wp:target           <https://identifiers.org/chebi/CHEBI:29746> .
+
+<https://identifiers.org/chebi/CHEBI:29747>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "cholate" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:29747> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:29747" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id208b5bc7> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idd35e240a> , <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:29747> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/c9872> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:29747> .
+
+<http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id96a4f2d4>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5176_r122283/Interaction/id96a4f2d4> ;
+        wp:participants   <https://identifiers.org/ensembl/ENSG00000134538> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idf6fc40c0> ;
+        wp:source         <https://identifiers.org/ensembl/ENSG00000134538> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idf6fc40c0> .
+
+<http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id57a6c794>
+        rdf:type            wp:Interaction , wp:DirectedInteraction ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-5678706" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-5678706> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/Interaction/idaeddea7> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/Interaction/id57a6c794> ;
+        wp:participants     <https://identifiers.org/chebi/CHEBI:49183> ;
+        wp:source           <https://identifiers.org/chebi/CHEBI:49183> ;
+        wp:target           <https://identifiers.org/chebi/CHEBI:49183> .
+
+<http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idc7bb1b1e>
+        rdf:type            wp:Conversion , wp:Interaction , wp:DirectedInteraction ;
+        dc:source           "Reactome" ;
+        dcterms:identifier  "R-HSA-193841" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-193841> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/Interaction/idc7bb1b1e> ;
+        wp:participants     <https://identifiers.org/chebi/CHEBI:28540> , <https://identifiers.org/chebi/CHEBI:48778> ;
+        wp:source           <https://identifiers.org/chebi/CHEBI:48778> ;
+        wp:target           <https://identifiers.org/chebi/CHEBI:28540> .
+
+<https://identifiers.org/chebi/CHEBI:49183>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "phosphatidylcholines" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:49183> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:49183" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id57a6c794> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:49183> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/d81d3> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/e2076> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:49183> .
+
+<https://identifiers.org/ensembl/ENSG00000122787>
+        rdf:type            wp:GeneProduct , wp:DataNode ;
+        rdfs:label          "AKR1D1" ;
+        dc:identifier       <https://identifiers.org/ensembl/ENSG00000122787> ;
+        dc:source           "Ensembl" ;
+        dcterms:identifier  "ENSG00000122787" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000122787> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/ffdee> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/e46c1> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/caea1> ;
+        foaf:page           <https://www.ensembl.org/id/ENSG00000122787> .
+
+<https://identifiers.org/chebi/CHEBI:2290>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "7alpha-hydroxy-5beta-cholestan-3-one" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:2290> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:2290" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id2452e40d> , <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:2290> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/d91b8> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:2290> .
+
+<https://identifiers.org/hmdb/HMDB0060306>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "(25S)-3alpha,7alpha-Dihydroxy-5beta-cholestanoyl-CoA" ;
+        dc:identifier       <https://identifiers.org/hmdb/HMDB0060306> ;
+        dc:source           "HMDB" ;
+        dcterms:identifier  "HMDB0060306" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0060306> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/e2b41> ;
+        foaf:page           <http://www.hmdb.ca/metabolites/HMDB0060306> .
+
+<https://identifiers.org/ensembl/ENSG00000134538>
+        rdf:type            wp:DataNode , wp:GeneProduct ;
+        rdfs:label          "SLCO1B1" ;
+        dc:identifier       <https://identifiers.org/ensembl/ENSG00000134538> ;
+        dc:source           "Ensembl" ;
+        dcterms:identifier  "ENSG00000134538" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id9b1e8d5e> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/id96a4f2d4> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000134538> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/f6b94> ;
+        foaf:page           <https://www.ensembl.org/id/ENSG00000134538> .
+
+<https://identifiers.org/chebi/CHEBI:27428>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "3alpha,7alpha-dihydroxy-5beta-cholestan-26-al" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:27428> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:27428" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:27428> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/e2d5f> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:27428> .
+
+<http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idd35e240a>
+        rdf:type            wp:Interaction , wp:Conversion , wp:DirectedInteraction ;
+        dc:source           "Rhea" ;
+        dcterms:identifier  "19354" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbRhea          <https://identifiers.org/rhea/19354> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/Interaction/idd35e240a> ;
+        wp:participants     <https://identifiers.org/chebi/CHEBI:17687> , <https://identifiers.org/chebi/CHEBI:29747> ;
+        wp:source           <https://identifiers.org/chebi/CHEBI:17687> ;
+        wp:target           <https://identifiers.org/chebi/CHEBI:29747> .
+
+<https://identifiers.org/ensembl/ENSG00000135929>
+        rdf:type            wp:DataNode , wp:GeneProduct ;
+        rdfs:label          "CYP27A1" ;
+        dc:identifier       <https://identifiers.org/ensembl/ENSG00000135929> ;
+        dc:source           "Ensembl" ;
+        dcterms:identifier  "ENSG00000135929" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000135929> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/e098b> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/f91e6> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/f4314> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/a3892> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/b0526> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/afb74> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/f8e49> ;
+        foaf:page           <https://www.ensembl.org/id/ENSG00000135929> .
+
+<https://identifiers.org/chebi/CHEBI:2288>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "7alpha,12alpha-dihydroxy-5beta-cholestan-3-one" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:2288> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:2288" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5176_r122283> , <http://rdf.wikipathways.org/Pathway/WP5176_r122283/WP/Interaction/idd570d3dd> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:2288> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5176_r122283/DataNode/d5845> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:2288> .

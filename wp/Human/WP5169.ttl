@@ -1,0 +1,512 @@
+@prefix biopax:  <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix cito:    <http://purl.org/spar/cito/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix freq:    <http://purl.org/cld/freq/> .
+@prefix gpml:    <http://vocabularies.wikipathways.org/gpml#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix pav:     <http://purl.org/pav/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix wp:      <http://vocabularies.wikipathways.org/wp#> .
+@prefix wprdf:   <http://rdf.wikipathways.org/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://identifiers.org/chebi/CHEBI:89912>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "Heptaporphyrin" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:89912> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:89912" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5169_r122351> , <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/id5c825522> , <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/idfd4c1330> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:89912> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5169_r122351/DataNode/f860c> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:89912> .
+
+<http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/idfc2e7cdd>
+        rdf:type            wp:Inhibition , wp:Interaction , wp:DirectedInteraction ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5169_r122351> ;
+        dcterms:references  <https://identifiers.org/pubmed/31085196> , <https://identifiers.org/pubmed/30594473> , <https://identifiers.org/pubmed/27496948> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5169_r122351/Interaction/idfc2e7cdd> , <http://rdf.wikipathways.org/Pathway/WP5169_r122351/Interaction/id8cc39895> ;
+        wp:participants     <https://identifiers.org/ncbigene/211> , <https://identifiers.org/chebi/CHEBI:26355> ;
+        wp:source           <https://identifiers.org/chebi/CHEBI:26355> ;
+        wp:target           <https://identifiers.org/ncbigene/211> .
+
+<https://identifiers.org/hmdb/HMDB0001952>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "Hexacarboxylporphyrin III" ;
+        dc:identifier       <https://identifiers.org/hmdb/HMDB0001952> ;
+        dc:source           "HMDB" ;
+        dcterms:identifier  "HMDB0001952" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5169_r122351> , <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/idf3c76b3c> , <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/idf30db84> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0001952> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5169_r122351/DataNode/eba9d> ;
+        foaf:page           <http://www.hmdb.ca/metabolites/HMDB0001952> .
+
+<http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/id5fdd76c>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5169_r122351> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5169_r122351/Interaction/id5fdd76c> ;
+        wp:participants   <https://identifiers.org/ncbigene/212> , <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/id42ad9495> ;
+        wp:source         <https://identifiers.org/ncbigene/212> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/id42ad9495> .
+
+<https://identifiers.org/pubmed/31085196>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "31085196" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/idfc2e7cdd> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/31085196> .
+
+<https://identifiers.org/chebi/CHEBI:15435>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "Protoporphyrinogen IX" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:15435> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:15435" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5169_r122351> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:15435> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5169_r122351/DataNode/b4d66> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:15435> .
+
+<https://identifiers.org/hmdb/HMDB0001957>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "Pentacarboxyl porphyrinogen III" ;
+        dc:identifier       <https://identifiers.org/hmdb/HMDB0001957> ;
+        dc:source           "HMDB" ;
+        dcterms:identifier  "HMDB0001957" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5169_r122351> , <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/iddd225601> , <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/idf30db84> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0001957> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5169_r122351/DataNode/a4e7d> ;
+        foaf:page           <http://www.hmdb.ca/metabolites/HMDB0001957> .
+
+<https://identifiers.org/pubmed/20506125>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "20506125" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/id42ad9495> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/20506125> .
+
+<https://identifiers.org/chebi/CHEBI:57306>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "protoporphyrin IX" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:57306> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:57306" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5169_r122351> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:57306> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5169_r122351/DataNode/a98af> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:57306> .
+
+<http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/ide2fc7369>
+        rdf:type            wp:DirectedInteraction , wp:Interaction , wp:Conversion ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5169_r122351> ;
+        dcterms:references  <https://identifiers.org/pubmed/10692079> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5169_r122351/Interaction/ide2fc7369> ;
+        wp:participants     <https://identifiers.org/hmdb/HMDB0000789> , <https://identifiers.org/hmdb/HMDB0000743> ;
+        wp:source           <https://identifiers.org/hmdb/HMDB0000743> ;
+        wp:target           <https://identifiers.org/hmdb/HMDB0000789> .
+
+<https://identifiers.org/chebi/CHEBI:26355>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "Protoheme" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:26355> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:26355" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5169_r122351> , <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/idfc2e7cdd> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:26355> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5169_r122351/DataNode/b53ac> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:26355> .
+
+<http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/iddd225601>
+        rdf:type            wp:Interaction , wp:Conversion , wp:DirectedInteraction ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5169_r122351> ;
+        dcterms:references  <https://identifiers.org/pubmed/31326287> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5169_r122351/Interaction/iddd225601> ;
+        wp:participants     <https://identifiers.org/chebi/CHEBI:15439> , <https://identifiers.org/hmdb/HMDB0001957> ;
+        wp:source           <https://identifiers.org/hmdb/HMDB0001957> ;
+        wp:target           <https://identifiers.org/chebi/CHEBI:15439> .
+
+<https://identifiers.org/chebi/CHEBI:28766>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "Uroporphyrinogen I" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:28766> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:28766" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/idf54dc08f> , <https://identifiers.org/wikipathways/WP5169_r122351> , <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/idfd4c1330> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:28766> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5169_r122351/DataNode/d6a51> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:28766> .
+
+<http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/idbbcdfe64>
+        rdf:type            wp:DirectedInteraction , wp:Conversion , wp:Interaction ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5169_r122351> ;
+        dcterms:references  <https://identifiers.org/pubmed/10692079> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5169_r122351/Interaction/idbbcdfe64> ;
+        wp:participants     <https://identifiers.org/hmdb/HMDB0000789> , <https://identifiers.org/chebi/CHEBI:28607> ;
+        wp:source           <https://identifiers.org/hmdb/HMDB0000789> ;
+        wp:target           <https://identifiers.org/chebi/CHEBI:28607> .
+
+<https://identifiers.org/ncbigene/1371>
+        rdf:type            wp:DataNode , wp:GeneProduct ;
+        rdfs:label          "CPOX" ;
+        dc:identifier       <https://identifiers.org/ncbigene/1371> ;
+        dc:source           "Entrez Gene" ;
+        dcterms:identifier  "1371" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5169_r122351> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/1371> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5169_r122351/DataNode/f5d15> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/gene/1371> .
+
+<https://identifiers.org/wikipathways/WP5169>
+        pav:hasVersion  <https://identifiers.org/wikipathways/WP5169_r122351> .
+
+<https://identifiers.org/ncbigene/2235>
+        rdf:type            wp:GeneProduct , wp:DataNode ;
+        rdfs:label          "FECH" ;
+        dc:identifier       <https://identifiers.org/ncbigene/2235> ;
+        dc:source           "Entrez Gene" ;
+        dcterms:identifier  "2235" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5169_r122351> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/2235> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5169_r122351/DataNode/f7f59> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/gene/2235> .
+
+<http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/idfd4c1330>
+        rdf:type            wp:DirectedInteraction , wp:Interaction , wp:Conversion ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5169_r122351> ;
+        dcterms:references  <https://identifiers.org/pubmed/10692079> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5169_r122351/Interaction/idfd4c1330> ;
+        wp:participants     <https://identifiers.org/chebi/CHEBI:28766> , <https://identifiers.org/chebi/CHEBI:89912> ;
+        wp:source           <https://identifiers.org/chebi/CHEBI:28766> ;
+        wp:target           <https://identifiers.org/chebi/CHEBI:89912> .
+
+<https://identifiers.org/hmdb/HMDB0001956>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "Heptacarboxylporphyrin III" ;
+        dc:identifier       <https://identifiers.org/hmdb/HMDB0001956> ;
+        dc:source           "HMDB" ;
+        dcterms:identifier  "HMDB0001956" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5169_r122351> , <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/idf3c76b3c> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0001956> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5169_r122351/DataNode/e44d5> ;
+        foaf:page           <http://www.hmdb.ca/metabolites/HMDB0001956> .
+
+<https://identifiers.org/chebi/CHEBI:57845>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "hydroxymethylbilane" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:57845> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:57845" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5169_r122351> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:57845> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5169_r122351/DataNode/d36f5> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:57845> .
+
+<https://identifiers.org/chebi/CHEBI:17381>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "Porphobilinogen" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:17381> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:17381" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5169_r122351> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:17381> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5169_r122351/DataNode/ca08e> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:17381> .
+
+<https://identifiers.org/pubmed/10692079>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "10692079" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/idfd4c1330> , <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/idf54dc08f> , <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/ide2fc7369> , <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/idbbcdfe64> , <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/id5c825522> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/10692079> .
+
+<https://identifiers.org/chebi/CHEBI:15439>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "Coproporphyrinogen III" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:15439> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:15439" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5169_r122351> , <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/iddd225601> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:15439> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5169_r122351/DataNode/fb4db> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:15439> .
+
+<https://identifiers.org/ncbigene/212>
+        rdf:type            wp:GeneProduct , wp:DataNode ;
+        rdfs:label          "ALAS2" ;
+        dc:identifier       <https://identifiers.org/ncbigene/212> ;
+        dc:source           "Entrez Gene" ;
+        dcterms:identifier  "212" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/id5fdd76c> , <https://identifiers.org/wikipathways/WP5169_r122351> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/212> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5169_r122351/DataNode/ef01a> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/gene/212> .
+
+<https://identifiers.org/hmdb/HMDB0000743>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "Hexacarboxylporphyrin I" ;
+        dc:identifier       <https://identifiers.org/hmdb/HMDB0000743> ;
+        dc:source           "HMDB" ;
+        dcterms:identifier  "HMDB0000743" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/id5c825522> , <https://identifiers.org/wikipathways/WP5169_r122351> , <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/ide2fc7369> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0000743> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5169_r122351/DataNode/f0857> ;
+        foaf:page           <http://www.hmdb.ca/metabolites/HMDB0000743> .
+
+<http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/idf30db84>
+        rdf:type            wp:DirectedInteraction , wp:Interaction , wp:Conversion ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5169_r122351> ;
+        dcterms:references  <https://identifiers.org/pubmed/31326287> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5169_r122351/Interaction/idf30db84> ;
+        wp:participants     <https://identifiers.org/hmdb/HMDB0001957> , <https://identifiers.org/hmdb/HMDB0001952> ;
+        wp:source           <https://identifiers.org/hmdb/HMDB0001952> ;
+        wp:target           <https://identifiers.org/hmdb/HMDB0001957> .
+
+<http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/id5c825522>
+        rdf:type            wp:Interaction , wp:DirectedInteraction , wp:Conversion ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5169_r122351> ;
+        dcterms:references  <https://identifiers.org/pubmed/10692079> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5169_r122351/Interaction/id5c825522> ;
+        wp:participants     <https://identifiers.org/hmdb/HMDB0000743> , <https://identifiers.org/chebi/CHEBI:89912> ;
+        wp:source           <https://identifiers.org/chebi/CHEBI:89912> ;
+        wp:target           <https://identifiers.org/hmdb/HMDB0000743> .
+
+<http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/idaa389f95>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5169_r122351> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5169_r122351/Interaction/idaa389f95> ;
+        wp:participants   <https://identifiers.org/ncbigene/7389> , <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/idf54dc08f> ;
+        wp:source         <https://identifiers.org/ncbigene/7389> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/idf54dc08f> .
+
+<https://identifiers.org/pubmed/30594473>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "30594473" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/idfc2e7cdd> , <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/id42ad9495> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/30594473> .
+
+<https://identifiers.org/hmdb/HMDB0000123>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "Glycine" ;
+        dc:identifier       <https://identifiers.org/hmdb/HMDB0000123> ;
+        dc:source           "HMDB" ;
+        dcterms:identifier  "HMDB0000123" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/idbb66331f> , <https://identifiers.org/wikipathways/WP5169_r122351> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0000123> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5169_r122351/DataNode/be64c> ;
+        foaf:page           <http://www.hmdb.ca/metabolites/HMDB0000123> .
+
+<https://identifiers.org/ncbigene/211>
+        rdf:type            wp:DataNode , wp:GeneProduct ;
+        rdfs:label          "ALAS1" ;
+        dc:identifier       <https://identifiers.org/ncbigene/211> ;
+        dc:source           "Entrez Gene" ;
+        dcterms:identifier  "211" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5169_r122351> , <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/idfc2e7cdd> , <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/idfe7780f7> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/211> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5169_r122351/DataNode/e48bb> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/gene/211> .
+
+<https://identifiers.org/hmdb/HMDB0000789>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "Pentacarboxylporphyrin I" ;
+        dc:identifier       <https://identifiers.org/hmdb/HMDB0000789> ;
+        dc:source           "HMDB" ;
+        dcterms:identifier  "HMDB0000789" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/ide2fc7369> , <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/idbbcdfe64> , <https://identifiers.org/wikipathways/WP5169_r122351> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0000789> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5169_r122351/DataNode/e8717> ;
+        foaf:page           <http://www.hmdb.ca/metabolites/HMDB0000789> .
+
+<https://identifiers.org/pubmed/31326287>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "31326287" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/idf3c76b3c> , <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/idf30db84> , <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/iddd225601> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/31326287> .
+
+<https://identifiers.org/ncbigene/5498>
+        rdf:type            wp:GeneProduct , wp:DataNode ;
+        rdfs:label          "PPOX" ;
+        dc:identifier       <https://identifiers.org/ncbigene/5498> ;
+        dc:source           "Entrez Gene" ;
+        dcterms:identifier  "5498" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5169_r122351> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/5498> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5169_r122351/DataNode/c6245> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/gene/5498> .
+
+<http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/id1be03257>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5169_r122351> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5169_r122351/Interaction/id1be03257> ;
+        wp:participants   <https://identifiers.org/ncbigene/7389> , <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/idfd4c1330> ;
+        wp:source         <https://identifiers.org/ncbigene/7389> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/idfd4c1330> .
+
+<https://identifiers.org/chebi/CHEBI:17549>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "delta-aminolevulinic acid" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:17549> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:17549" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5169_r122351> , <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/id42ad9495> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:17549> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5169_r122351/DataNode/baf01> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:17549> .
+
+<http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/idf54dc08f>
+        rdf:type            wp:DirectedInteraction , wp:Interaction , wp:Conversion ;
+        dc:source           "Rhea" ;
+        dcterms:identifier  "31240" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5169_r122351> ;
+        dcterms:references  <https://identifiers.org/pubmed/10692079> ;
+        wp:bdbRhea          <https://identifiers.org/rhea/31240> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5169_r122351/Interaction/idf54dc08f> ;
+        wp:participants     <https://identifiers.org/chebi/CHEBI:28766> , <https://identifiers.org/chebi/CHEBI:28607> ;
+        wp:source           <https://identifiers.org/chebi/CHEBI:28766> ;
+        wp:target           <https://identifiers.org/chebi/CHEBI:28607> .
+
+<https://identifiers.org/ncbigene/7389>
+        rdf:type            wp:DataNode , wp:GeneProduct ;
+        rdfs:label          "UROD" ;
+        dc:identifier       <https://identifiers.org/ncbigene/7389> ;
+        dc:source           "Entrez Gene" ;
+        dcterms:identifier  "7389" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/id1be03257> , <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/idaa389f95> , <https://identifiers.org/wikipathways/WP5169_r122351> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/7389> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5169_r122351/DataNode/f4762> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/gene/7389> .
+
+<https://identifiers.org/chebi/CHEBI:15437>
+        rdf:type            wp:DataNode , wp:Metabolite ;
+        rdfs:label          "Uroporphyrinogen III" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:15437> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:15437" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5169_r122351> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:15437> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5169_r122351/DataNode/adc91> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:15437> .
+
+<https://identifiers.org/chebi/CHEBI:15380>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "succinyl-CoA" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:15380> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:15380" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/id42ad9495> , <https://identifiers.org/wikipathways/WP5169_r122351> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:15380> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5169_r122351/DataNode/dcd18> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:15380> .
+
+<http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/idbb66331f>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5169_r122351> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5169_r122351/Interaction/idbb66331f> ;
+        wp:participants   <https://identifiers.org/hmdb/HMDB0000123> , <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/id42ad9495> ;
+        wp:source         <https://identifiers.org/hmdb/HMDB0000123> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/id42ad9495> .
+
+<https://identifiers.org/ncbigene/210>
+        rdf:type            wp:GeneProduct , wp:DataNode ;
+        rdfs:label          "ALAD" ;
+        dc:identifier       <https://identifiers.org/ncbigene/210> ;
+        dc:source           "Entrez Gene" ;
+        dcterms:identifier  "210" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5169_r122351> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/210> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5169_r122351/DataNode/eb7f1> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/gene/210> .
+
+<https://identifiers.org/ncbigene/3145>
+        rdf:type            wp:GeneProduct , wp:DataNode ;
+        rdfs:label          "HMBS" ;
+        dc:identifier       <https://identifiers.org/ncbigene/3145> ;
+        dc:source           "Entrez Gene" ;
+        dcterms:identifier  "3145" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5169_r122351> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/3145> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5169_r122351/DataNode/d449d> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/gene/3145> .
+
+<http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/idf3c76b3c>
+        rdf:type            wp:Conversion , wp:Interaction , wp:DirectedInteraction ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5169_r122351> ;
+        dcterms:references  <https://identifiers.org/pubmed/31326287> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5169_r122351/Interaction/idf3c76b3c> ;
+        wp:participants     <https://identifiers.org/hmdb/HMDB0001956> , <https://identifiers.org/hmdb/HMDB0001952> ;
+        wp:source           <https://identifiers.org/hmdb/HMDB0001956> ;
+        wp:target           <https://identifiers.org/hmdb/HMDB0001952> .
+
+<http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/idfe7780f7>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5169_r122351> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5169_r122351/Interaction/idfe7780f7> ;
+        wp:participants   <https://identifiers.org/ncbigene/211> , <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/id42ad9495> ;
+        wp:source         <https://identifiers.org/ncbigene/211> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/id42ad9495> .
+
+<https://identifiers.org/chebi/CHEBI:28607>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "Coproporphyrinogen I" ;
+        dc:identifier       <https://identifiers.org/chebi/CHEBI:28607> ;
+        dc:source           "ChEBI" ;
+        dcterms:identifier  "CHEBI:28607" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/idf54dc08f> , <https://identifiers.org/wikipathways/WP5169_r122351> , <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/idbbcdfe64> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:28607> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5169_r122351/DataNode/af96c> ;
+        foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:28607> .
+
+<https://identifiers.org/wikipathways/WP5169_r122351>
+        rdf:type                skos:Collection , wp:Pathway ;
+        dc:identifier           <https://identifiers.org/wikipathways/WP5169> ;
+        dc:source               "WikiPathways" ;
+        dc:title                "Hemesynthesis defects and porphyrias"@en ;
+        dcterms:description     "Defects in the heme biosynthesis in a hepatocyte can result in specific metabolic disorders called porphyrias. These diseases can be split into two categories, namely acute porphyrias and non-acute porphyrias. Acute hepatic porphyria (AIP), variegate porphyria (VP), hereditary coproporphyria (HCP), and Doss porphyria (ALADP) are all part of the acute-hepatic porphyrias. This type is often associated with an overproduction of neurotoxic porphyrins and porphyrin precursors.\n \nThe non-acute porphyrias include, porphyria cutanea tarda, erythropoietic porphyria, and congenital erythropoietic porphyria. These diseases are instead characterised by photosensitivity of the skin and in severe cases liver damage, caused by porphyrins. Another type of porphyria are the X-linked protoporphyria diseases, which are a result of a gain of function mutation in the 5-aminolevulinic acid synthase 2 gene. This causes an accumulation of protoporphyrin IX. \nThe disease present in the patient is determined by what enzyme is affected in the heme biosynthesis pathway.\nThis pathway has been constructed using chapter 33 of the book; Physician's Guide to the Diagnosis, Treatment, and Follow-Up of Inherited Metabolic Diseases (first edition), by N.Blau et al (ISBN 3642403360 (978-3642403361))." ;
+        dcterms:identifier      "WP5169" ;
+        cito:cites              <https://identifiers.org/pubmed/20506125> , <https://identifiers.org/pubmed/31085196> , <https://identifiers.org/pubmed/27496948> , <https://identifiers.org/pubmed/30594473> , <https://identifiers.org/pubmed/10692079> , <https://identifiers.org/pubmed/31326287> ;
+        wp:cellTypeOntologyTag  <http://purl.obolibrary.org/obo/CL_0000182> ;
+        wp:diseaseOntologyTag   <http://purl.obolibrary.org/obo/DOID_655> , <http://purl.obolibrary.org/obo/DOID_13271> , <http://purl.obolibrary.org/obo/DOID_0060063> , <http://purl.obolibrary.org/obo/DOID_3133> , <http://purl.obolibrary.org/obo/DOID_3890> , <http://purl.obolibrary.org/obo/DOID_13268> , <http://purl.obolibrary.org/obo/DOID_3132> , <http://purl.obolibrary.org/obo/DOID_5230> , <http://purl.obolibrary.org/obo/DOID_13270> ;
+        wp:isAbout              <http://rdf.wikipathways.org/Pathway/WP5169_r122351> ;
+        wp:ontologyTag          <http://purl.obolibrary.org/obo/PW_0002017> , <http://purl.obolibrary.org/obo/PW_0002216> , <http://purl.obolibrary.org/obo/DOID_13271> , <http://purl.obolibrary.org/obo/PW_0000218> , <http://purl.obolibrary.org/obo/DOID_3133> , <http://purl.obolibrary.org/obo/PW_0000013> , <http://purl.obolibrary.org/obo/DOID_3890> , <http://purl.obolibrary.org/obo/CL_0000182> , <http://purl.obolibrary.org/obo/DOID_0060063> , <http://purl.obolibrary.org/obo/DOID_13270> , <http://purl.obolibrary.org/obo/PW_0001589> , <http://purl.obolibrary.org/obo/DOID_13268> , <http://purl.obolibrary.org/obo/PW_0001980> , <http://purl.obolibrary.org/obo/DOID_655> , <http://purl.obolibrary.org/obo/DOID_3132> , <http://purl.obolibrary.org/obo/DOID_5230> , <http://purl.obolibrary.org/obo/PW_0001784> , <http://purl.obolibrary.org/obo/PW_0000001> ;
+        wp:organism             <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+        wp:organismName         "Homo sapiens" ;
+        wp:pathwayOntologyTag   <http://purl.obolibrary.org/obo/PW_0002017> , <http://purl.obolibrary.org/obo/PW_0000013> , <http://purl.obolibrary.org/obo/PW_0001589> , <http://purl.obolibrary.org/obo/PW_0000218> , <http://purl.obolibrary.org/obo/PW_0000001> , <http://purl.obolibrary.org/obo/PW_0002216> , <http://purl.obolibrary.org/obo/PW_0001980> , <http://purl.obolibrary.org/obo/PW_0001784> ;
+        foaf:page               <http://www.wikipathways.org/instance/WP5169_r122351> .
+
+<http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/id42ad9495>
+        rdf:type            wp:Conversion , wp:Interaction , wp:DirectedInteraction ;
+        dc:source           "Rhea" ;
+        dcterms:identifier  "12922" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5169_r122351> ;
+        dcterms:references  <https://identifiers.org/pubmed/20506125> , <https://identifiers.org/pubmed/30594473> ;
+        wp:bdbRhea          <https://identifiers.org/rhea/12922> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5169_r122351/Interaction/id42ad9495> ;
+        wp:participants     <https://identifiers.org/chebi/CHEBI:15380> , <https://identifiers.org/chebi/CHEBI:17549> ;
+        wp:source           <https://identifiers.org/chebi/CHEBI:15380> ;
+        wp:target           <https://identifiers.org/chebi/CHEBI:17549> .
+
+<https://identifiers.org/pubmed/27496948>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "27496948" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/idfc2e7cdd> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/27496948> .
+
+<https://identifiers.org/ncbigene/7390>
+        rdf:type            wp:DataNode , wp:GeneProduct ;
+        rdfs:label          "UROS" ;
+        dc:identifier       <https://identifiers.org/ncbigene/7390> ;
+        dc:source           "Entrez Gene" ;
+        dcterms:identifier  "7390" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5169_r122351> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/7390> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5169_r122351/DataNode/f010f> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/gene/7390> .
