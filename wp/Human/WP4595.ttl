@@ -43,7 +43,10 @@
         dc:source           "Uniprot-TrEMBL" ;
         dcterms:identifier  "P04424" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4595_r121755> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/idb6535337> ;
-        wp:bdbUniprot       <https://identifiers.org/uniprot/P04424> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000126522> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/435> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/ASL> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/A0A024RDL8> , <https://identifiers.org/uniprot/A0A5F9ZHM8> , <https://identifiers.org/uniprot/A0A5F9ZHC6> , <https://identifiers.org/uniprot/A0A5F9ZI35> , <https://identifiers.org/uniprot/F8W943> , <https://identifiers.org/uniprot/A0A0S2Z316> , <https://identifiers.org/uniprot/P04424> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/c3b06> ;
         foaf:page           <http://www.uniprot.org/uniprot/P04424> .
 
@@ -55,7 +58,10 @@
         dcterms:identifier  "Q9UJS0" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/f0cc9> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id3d7c6cbb> , <https://identifiers.org/wikipathways/WP4595_r121755> ;
         dcterms:references  <https://identifiers.org/pubmed/27132995> ;
-        wp:bdbUniprot       <https://identifiers.org/uniprot/Q9UJS0> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000004864> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/10165> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/SLC25A13> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/Q9UJS0> , <https://identifiers.org/uniprot/R4GN64> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/b7f1d> ;
         foaf:page           <http://www.uniprot.org/uniprot/Q9UJS0> .
 
@@ -77,11 +83,18 @@
 <https://identifiers.org/chebi/CHEBI:17568>
         rdf:type            wp:Metabolite , wp:DataNode ;
         rdfs:label          "Uracil" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/ISAKRJDGNUQOIC-UHFFFAOYSA-N> ;
         dc:identifier       <https://identifiers.org/chebi/CHEBI:17568> ;
         dc:source           "ChEBI" ;
         dcterms:identifier  "CHEBI:17568" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id493094ab> , <https://identifiers.org/wikipathways/WP4595_r121755> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/f5340> ;
         wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:17568> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/1141> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0000300> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/ISAKRJDGNUQOIC-UHFFFAOYSA-N> ;
+        wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C00106> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID1174> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q182990> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/dfe59> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:17568> .
 
@@ -137,11 +150,18 @@
 <https://identifiers.org/chebi/CHEBI:60039>
         rdf:type            wp:DataNode , wp:Metabolite ;
         rdfs:label          "Proline" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/ONIBWKKTOPOVIA-BYPYZUCNSA-N> ;
         dc:identifier       <https://identifiers.org/chebi/CHEBI:60039> ;
         dc:source           "ChEBI" ;
         dcterms:identifier  "CHEBI:60039" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4595_r121755> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id8b9aebcd> ;
-        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:60039> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:60039> , <https://identifiers.org/chebi/CHEBI:17203> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/128566> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0000162> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/ONIBWKKTOPOVIA-BYPYZUCNSA-N> ;
+        wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C00148> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID145742> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q20035886> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/d9405> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:60039> .
 
@@ -174,7 +194,10 @@
         dc:source           "Uniprot-TrEMBL" ;
         dcterms:identifier  "Q9Y619" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/idd72eba58> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id637f270> , <https://identifiers.org/wikipathways/WP4595_r121755> ;
-        wp:bdbUniprot       <https://identifiers.org/uniprot/Q9Y619> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000102743> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/10166> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/SLC25A15> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/Q5VZD9> , <https://identifiers.org/uniprot/F2Z354> , <https://identifiers.org/uniprot/Q9Y619> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/c5b2d> ;
         foaf:page           <http://www.uniprot.org/uniprot/Q9Y619> .
 
@@ -202,7 +225,10 @@
         dc:source           "Uniprot-TrEMBL" ;
         dcterms:identifier  "P00966" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/idd882d741> , <https://identifiers.org/wikipathways/WP4595_r121755> ;
-        wp:bdbUniprot       <https://identifiers.org/uniprot/P00966> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000130707> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/445> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/ASS1> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/P00966> , <https://identifiers.org/uniprot/Q5T6L5> , <https://identifiers.org/uniprot/Q5T6L6> , <https://identifiers.org/uniprot/Q5T6L4> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/bb249> ;
         foaf:page           <http://www.uniprot.org/uniprot/P00966> .
 
@@ -246,7 +272,10 @@
         dc:source           "Uniprot-TrEMBL" ;
         dcterms:identifier  "P00505" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/idb827cfa0> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/idcf863285> , <https://identifiers.org/wikipathways/WP4595_r121755> ;
-        wp:bdbUniprot       <https://identifiers.org/uniprot/P00505> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000125166> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/2806> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/GOT2> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/H3BRE7> , <https://identifiers.org/uniprot/P00505> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/f4a78> ;
         foaf:page           <http://www.uniprot.org/uniprot/P00505> .
 
@@ -257,7 +286,10 @@
         dc:source           "Uniprot-TrEMBL" ;
         dcterms:identifier  "P00367" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id2cce663d> , <https://identifiers.org/wikipathways/WP4595_r121755> ;
-        wp:bdbUniprot       <https://identifiers.org/uniprot/P00367> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000148672> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/2746> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/GLUD1> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/E9KL48> , <https://identifiers.org/uniprot/P00367> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/c505b> ;
         foaf:page           <http://www.uniprot.org/uniprot/P00367> .
 
@@ -268,7 +300,10 @@
         dc:source           "Uniprot-TrEMBL" ;
         dcterms:identifier  "P40925" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id3316efcb> , <https://identifiers.org/wikipathways/WP4595_r121755> ;
-        wp:bdbUniprot       <https://identifiers.org/uniprot/P40925> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000014641> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/4190> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/MDH1> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/P40925> , <https://identifiers.org/uniprot/C9IZI0> , <https://identifiers.org/uniprot/B8ZZ51> , <https://identifiers.org/uniprot/V9HWF2> , <https://identifiers.org/uniprot/A0A5K1VW95> , <https://identifiers.org/uniprot/C9JF79> , <https://identifiers.org/uniprot/C9JRL4> , <https://identifiers.org/uniprot/B9A041> , <https://identifiers.org/uniprot/C9JLV6> , <https://identifiers.org/uniprot/F8WFC2> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/e34ba> ;
         foaf:page           <http://www.uniprot.org/uniprot/P40925> .
 
@@ -287,7 +322,10 @@
         dc:source           "Uniprot-TrEMBL" ;
         dcterms:identifier  "P29475" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id22c9db46> , <https://identifiers.org/wikipathways/WP4595_r121755> ;
-        wp:bdbUniprot       <https://identifiers.org/uniprot/P29475> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000089250> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/4842> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/NOS1> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/P29475> , <https://identifiers.org/uniprot/C9J5P6> , <https://identifiers.org/uniprot/B3VK56> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/bf827> ;
         foaf:page           <http://www.uniprot.org/uniprot/P29475> .
 
@@ -298,7 +336,10 @@
         dc:source           "Uniprot-TrEMBL" ;
         dcterms:identifier  "Q9UI32" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4595_r121755> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id45b3b640> ;
-        wp:bdbUniprot       <https://identifiers.org/uniprot/Q9UI32> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000135423> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/27165> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/GLS2> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/Q9UI32> , <https://identifiers.org/uniprot/A0A087X004> , <https://identifiers.org/uniprot/E5G745> , <https://identifiers.org/uniprot/C9J3Q2> , <https://identifiers.org/uniprot/F8WEU7> , <https://identifiers.org/uniprot/A8K0A6> , <https://identifiers.org/uniprot/G5E9X4> , <https://identifiers.org/uniprot/F8WBL8> , <https://identifiers.org/uniprot/F8WBC9> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/a386c> ;
         foaf:page           <http://www.uniprot.org/uniprot/Q9UI32> .
 
@@ -310,17 +351,26 @@
         dcterms:identifier  "CHEBI:15589" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/ida6c772f1> , <https://identifiers.org/wikipathways/WP4595_r121755> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/idf805350e> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id6332b611> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/idfc69c9f> ;
         wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:15589> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/4573566> ;
+        wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C00149> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5459792> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27098126> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/b6b14> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/f5eaa> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:15589> .
 
 <https://identifiers.org/chebi/CHEBI:17388>
         rdf:type            wp:DataNode , wp:Metabolite ;
         rdfs:label          "1-Pyrroline- 5-carboxylate" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/DWAKNKKXGALPNW-BYPYZUCNSA-N> ;
         dc:identifier       <https://identifiers.org/chebi/CHEBI:17388> ;
         dc:source           "ChEBI" ;
         dcterms:identifier  "CHEBI:17388" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4595_r121755> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/idd9204f9a> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id8b9aebcd> ;
         wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:17388> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/DWAKNKKXGALPNW-BYPYZUCNSA-M> ;
+        wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C03912> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID11966181> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q60998675> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/b328c> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:17388> .
 
@@ -335,11 +385,18 @@
 <https://identifiers.org/chebi/CHEBI:28938>
         rdf:type            wp:DataNode , wp:Metabolite ;
         rdfs:label          "NH4+" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/QGZKDVFQNNGYKY-UHFFFAOYSA-N> ;
         dc:identifier       <https://identifiers.org/chebi/CHEBI:28938> ;
         dc:source           "ChEBI" ;
         dcterms:identifier  "CHEBI:28938" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/idc49bc7c8> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id8be50834> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id59aeda63> , <https://identifiers.org/wikipathways/WP4595_r121755> ;
         wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:28938> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/218> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0041827> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/QGZKDVFQNNGYKY-UHFFFAOYSA-O> ;
+        wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C01342> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID223> , <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID16741146> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q190901> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/e408f> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/af3a7> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:28938> .
 
@@ -350,7 +407,10 @@
         dc:source           "Uniprot-TrEMBL" ;
         dcterms:identifier  "P35228" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4595_r121755> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id2c81a5cf> ;
-        wp:bdbUniprot       <https://identifiers.org/uniprot/P35228> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000007171> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/4843> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/NOS2> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/P35228> , <https://identifiers.org/uniprot/A0A2R8YDS4> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/e0eef> ;
         foaf:page           <http://www.uniprot.org/uniprot/P35228> .
 
@@ -374,11 +434,16 @@
 <https://identifiers.org/chebi/CHEBI:57288>
         rdf:type            wp:Metabolite , wp:DataNode ;
         rdfs:label          "Acetyl-CoA" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/ZSLZBFCDCINBPY-ZSJPKINUSA-N> ;
         dc:identifier       <https://identifiers.org/chebi/CHEBI:57288> ;
         dc:source           "ChEBI" ;
         dcterms:identifier  "CHEBI:57288" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4595_r121755> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/idb14a0c6c> ;
         wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:57288> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/26330682> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/ZSLZBFCDCINBPY-ZSJPKINUSA-J> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID45266541> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27124397> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/c021b> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:57288> .
 
@@ -416,18 +481,28 @@
         dc:source           "Uniprot-TrEMBL" ;
         dcterms:identifier  "P29474" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id770fb9c0> , <https://identifiers.org/wikipathways/WP4595_r121755> ;
-        wp:bdbUniprot       <https://identifiers.org/uniprot/P29474> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000164867> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/4846> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/NOS3> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/H7C4V4> , <https://identifiers.org/uniprot/E7ESA7> , <https://identifiers.org/uniprot/P29474> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/b698d> ;
         foaf:page           <http://www.uniprot.org/uniprot/P29474> .
 
 <https://identifiers.org/chebi/CHEBI:58359>
         rdf:type            wp:DataNode , wp:Metabolite ;
         rdfs:label          "Glutamine" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/ZDXPYRJPNDTMRX-VKHMYHEASA-N> ;
         dc:identifier       <https://identifiers.org/chebi/CHEBI:58359> ;
         dc:source           "ChEBI" ;
         dcterms:identifier  "CHEBI:58359" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4595_r121755> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/idd9db37c4> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id8be50834> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/idcfe426f4> ;
-        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:58359> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:58359> , <https://identifiers.org/chebi/CHEBI:18050> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/5746> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0000641> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/ZDXPYRJPNDTMRX-VKHMYHEASA-N> ;
+        wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C00064> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5961> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q181619> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/f06ad> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:58359> .
 
@@ -438,6 +513,9 @@
         dc:source           "Uniprot-TrEMBL" ;
         dcterms:identifier  "P24298" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/ideddd9ba0> , <https://identifiers.org/wikipathways/WP4595_r121755> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000167701> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/2875> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/GPT> ;
         wp:bdbUniprot       <https://identifiers.org/uniprot/P24298> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/cdcc9> ;
         foaf:page           <http://www.uniprot.org/uniprot/P24298> .
@@ -467,6 +545,9 @@
         dcterms:identifier  "CHEBI:29985" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id275adc5d> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/idab5647e6> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/idf77f0b0> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id781f4666> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id72a3ad7a> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/idfdd79351> , <https://identifiers.org/wikipathways/WP4595_r121755> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id59aeda63> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id8be50834> ;
         wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:29985> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/4573882> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID14598502> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27104095> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/f7cf8> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/d9e4b> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/e2cf6> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:29985> .
 
@@ -491,7 +572,10 @@
         dc:source           "Uniprot-TrEMBL" ;
         dcterms:identifier  "P07954" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4595_r121755> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id667763d> ;
-        wp:bdbUniprot       <https://identifiers.org/uniprot/P07954> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000091483> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/2271> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/FH> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/P07954> , <https://identifiers.org/uniprot/A0A0S2Z4C3> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/f8a7a> ;
         foaf:page           <http://www.uniprot.org/uniprot/P07954> .
 
@@ -518,7 +602,10 @@
         dc:source           "Uniprot-TrEMBL" ;
         dcterms:identifier  "P30038" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/idcefb4061> , <https://identifiers.org/wikipathways/WP4595_r121755> ;
-        wp:bdbUniprot       <https://identifiers.org/uniprot/P30038> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000159423> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/8659> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/ALDH4A1> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/A0A024RAC7> , <https://identifiers.org/uniprot/P30038> , <https://identifiers.org/uniprot/Q5TF55> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/a58a3> ;
         foaf:page           <http://www.uniprot.org/uniprot/P30038> .
 
@@ -537,7 +624,10 @@
         dc:source           "Uniprot-TrEMBL" ;
         dcterms:identifier  "P00480" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4595_r121755> ;
-        wp:bdbUniprot       <https://identifiers.org/uniprot/P00480> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000036473> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/5009> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/OTC> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/P00480> , <https://identifiers.org/uniprot/A0A2R8Y829> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/ebf10> ;
         foaf:page           <http://www.uniprot.org/uniprot/P00480> .
 
@@ -548,7 +638,10 @@
         dc:source           "Uniprot-TrEMBL" ;
         dcterms:identifier  "P05089" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id724a4c21> , <https://identifiers.org/wikipathways/WP4595_r121755> ;
-        wp:bdbUniprot       <https://identifiers.org/uniprot/P05089> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000118520> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/383> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/ARG1> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/A0A5F9ZH78> , <https://identifiers.org/uniprot/A0A5F9ZGY6> , <https://identifiers.org/uniprot/A0A5F9ZGN6> , <https://identifiers.org/uniprot/P05089> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/a0a6c> ;
         foaf:page           <http://www.uniprot.org/uniprot/P05089> .
 
@@ -593,11 +686,16 @@
 <https://identifiers.org/chebi/CHEBI:57538>
         rdf:type            wp:DataNode , wp:Metabolite ;
         rdfs:label          "OMP" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/KYOBSHFOBAOFBF-XVFCMESISA-N> ;
         dc:identifier       <https://identifiers.org/chebi/CHEBI:57538> ;
         dc:source           "ChEBI" ;
         dcterms:identifier  "CHEBI:57538" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/d7e1b> , <https://identifiers.org/wikipathways/WP4595_r121755> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/b15eb> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/c5205> ;
         wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:57538> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/26330821> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/KYOBSHFOBAOFBF-XVFCMESISA-K> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID46878393> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27124764> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/ce782> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:57538> .
 
@@ -618,11 +716,16 @@
 <https://identifiers.org/chebi/CHEBI:46911>
         rdf:type            wp:DataNode , wp:Metabolite ;
         rdfs:label          "Ornithine" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/AHLPHDHHMVZTML-BYPYZUCNSA-N> ;
         dc:identifier       <https://identifiers.org/chebi/CHEBI:46911> ;
         dc:source           "ChEBI" ;
         dcterms:identifier  "CHEBI:46911" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id9d4b9d59> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/ide04e3afd> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/idd11e7cb4> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id8c9bdf6d> , <https://identifiers.org/wikipathways/WP4595_r121755> ;
         wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:46911> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/5360242> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/AHLPHDHHMVZTML-BYPYZUCNSA-O> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID6992088> , <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID59565831> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27120725> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/d0c2b> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/cfd3f> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:46911> .
 
@@ -637,11 +740,18 @@
 <https://identifiers.org/chebi/CHEBI:16704>
         rdf:type            wp:Metabolite , wp:DataNode ;
         rdfs:label          "Uridine" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/DRTQHJPVMGBUCF-XVFCMESISA-N> ;
         dc:identifier       <https://identifiers.org/chebi/CHEBI:16704> ;
         dc:source           "ChEBI" ;
         dcterms:identifier  "CHEBI:16704" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4595_r121755> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/f5340> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/eba2d> ;
         wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:16704> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/5807> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0000296> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/DRTQHJPVMGBUCF-XVFCMESISA-N> ;
+        wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C00299> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID6029> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q422573> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/c8187> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:16704> .
 
@@ -656,22 +766,34 @@
 <https://identifiers.org/chebi/CHEBI:57865>
         rdf:type            wp:DataNode , wp:Metabolite ;
         rdfs:label          "UMP" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/DJJCXFVJDGTHFX-XVFCMESISA-N> ;
         dc:identifier       <https://identifiers.org/chebi/CHEBI:57865> ;
         dc:source           "ChEBI" ;
         dcterms:identifier  "CHEBI:57865" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4595_r121755> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/eba2d> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/c5205> ;
         wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:57865> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/1399139> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/DJJCXFVJDGTHFX-XVFCMESISA-L> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID1778309> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27125012> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/b1f04> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:57865> .
 
 <https://identifiers.org/chebi/CHEBI:58066>
         rdf:type            wp:Metabolite , wp:DataNode ;
         rdfs:label          "L-Glutamatey- semialdehyde" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/KABXUUFDPUOJMW-BYPYZUCNSA-N> ;
         dc:identifier       <https://identifiers.org/chebi/CHEBI:58066> ;
         dc:source           "ChEBI" ;
         dcterms:identifier  "CHEBI:58066" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id9d4b9d59> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id275adc5d> , <https://identifiers.org/wikipathways/WP4595_r121755> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/idd9204f9a> ;
-        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:58066> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:58066> , <https://identifiers.org/chebi/CHEBI:17232> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/167744> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0002104> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/KABXUUFDPUOJMW-BYPYZUCNSA-N> ;
+        wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C01165> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID193305> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q2823261> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/c2700> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:58066> .
 
@@ -707,22 +829,35 @@
 <https://identifiers.org/chebi/CHEBI:15361>
         rdf:type            wp:DataNode , wp:Metabolite ;
         rdfs:label          "Pyruvate" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/LCTONWCANYUPML-UHFFFAOYSA-N> ;
         dc:identifier       <https://identifiers.org/chebi/CHEBI:15361> ;
         dc:source           "ChEBI" ;
         dcterms:identifier  "CHEBI:15361" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id72a3ad7a> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id5ee98912> , <https://identifiers.org/wikipathways/WP4595_r121755> ;
         wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:15361> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/96901> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/LCTONWCANYUPML-UHFFFAOYSA-M> ;
+        wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C00022> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID107735> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27089397> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/ebf6f> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:15361> .
 
 <https://identifiers.org/chebi/CHEBI:57972>
         rdf:type            wp:DataNode , wp:Metabolite ;
         rdfs:label          "Alanine" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/QNAYBMKLOCPYGJ-REOHCLBHSA-N> ;
         dc:identifier       <https://identifiers.org/chebi/CHEBI:57972> ;
         dc:source           "ChEBI" ;
         dcterms:identifier  "CHEBI:57972" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id72a3ad7a> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/ea3f6> , <https://identifiers.org/wikipathways/WP4595_r121755> ;
-        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:57972> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:57972> , <https://identifiers.org/chebi/CHEBI:16977> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/5735> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0000161> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/QNAYBMKLOCPYGJ-REOHCLBHSA-N> ;
+        wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C00041> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5950> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q218642> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/f4abd> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:57972> .
 
@@ -760,7 +895,10 @@
         dc:source           "Uniprot-TrEMBL" ;
         dcterms:identifier  "P17174" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id4ebea5e4> , <https://identifiers.org/wikipathways/WP4595_r121755> ;
-        wp:bdbUniprot       <https://identifiers.org/uniprot/P17174> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000120053> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/2805> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/GOT1> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/A0A140VK69> , <https://identifiers.org/uniprot/P17174> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/cba75> ;
         foaf:page           <http://www.uniprot.org/uniprot/P17174> .
 
@@ -771,7 +909,10 @@
         dc:source           "Uniprot-TrEMBL" ;
         dcterms:identifier  "Q8N159" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/ide659e37e> , <https://identifiers.org/wikipathways/WP4595_r121755> ;
-        wp:bdbUniprot       <https://identifiers.org/uniprot/Q8N159> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000161653> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/162417> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/NAGS> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/K7EK11> , <https://identifiers.org/uniprot/Q8N159> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/d0c7a> ;
         foaf:page           <http://www.uniprot.org/uniprot/Q8N159> .
 
@@ -782,7 +923,10 @@
         dc:source           "Uniprot-TrEMBL" ;
         dcterms:identifier  "P32322" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id7dfb0edc> , <https://identifiers.org/wikipathways/WP4595_r121755> ;
-        wp:bdbUniprot       <https://identifiers.org/uniprot/P32322> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000183010> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/5831> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/PYCR1> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/J3QL32> , <https://identifiers.org/uniprot/J3QKT3> , <https://identifiers.org/uniprot/J3QKT4> , <https://identifiers.org/uniprot/J3QR88> , <https://identifiers.org/uniprot/E2QRB3> , <https://identifiers.org/uniprot/J3KSA9> , <https://identifiers.org/uniprot/J3KQ22> , <https://identifiers.org/uniprot/J3KTA8> , <https://identifiers.org/uniprot/J3QRZ0> , <https://identifiers.org/uniprot/A0A024R8U9> , <https://identifiers.org/uniprot/J3QL24> , <https://identifiers.org/uniprot/J3QL23> , <https://identifiers.org/uniprot/J3QLK9> , <https://identifiers.org/uniprot/P32322> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/f9472> ;
         foaf:page           <http://www.uniprot.org/uniprot/P32322> .
 
@@ -808,22 +952,32 @@
 <https://identifiers.org/chebi/CHEBI:32682>
         rdf:type            wp:Metabolite , wp:DataNode ;
         rdfs:label          "Arginine" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/ODKSFYDXXFIFQN-BYPYZUCNSA-N> ;
         dc:identifier       <https://identifiers.org/chebi/CHEBI:32682> ;
         dc:source           "ChEBI" ;
         dcterms:identifier  "CHEBI:32682" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id63a83e39> , <https://identifiers.org/wikipathways/WP4595_r121755> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/idf5d3306f> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/ide04e3afd> ;
         wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:32682> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0062762> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/ODKSFYDXXFIFQN-BYPYZUCNSA-O> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID1549073> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q28529679> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/a0b3d> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:32682> .
 
 <https://identifiers.org/chebi/CHEBI:29991>
         rdf:type            wp:Metabolite , wp:DataNode ;
         rdfs:label          "Aspartate" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/CKLJMWTZIZZHCS-REOHCLBHSA-N> ;
         dc:identifier       <https://identifiers.org/chebi/CHEBI:29991> ;
         dc:source           "ChEBI" ;
         dcterms:identifier  "CHEBI:29991" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/idab5647e6> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/b76f2> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/idc98a52b3> , <https://identifiers.org/wikipathways/WP4595_r121755> ;
         wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:29991> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/4573879> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/CKLJMWTZIZZHCS-REOHCLBHSA-M> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID15939608> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27104098> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/f50c6> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/b963d> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:29991> .
 
@@ -835,7 +989,10 @@
         dcterms:identifier  "O75746" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/da8c6> , <https://identifiers.org/wikipathways/WP4595_r121755> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/e366f> ;
         dcterms:references  <https://identifiers.org/pubmed/27132995> ;
-        wp:bdbUniprot       <https://identifiers.org/uniprot/O75746> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000115840> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/8604> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/SLC25A12> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/O75746> , <https://identifiers.org/uniprot/B4DGK6> , <https://identifiers.org/uniprot/H0YFB2> , <https://identifiers.org/uniprot/F8W9J0> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/ef76b> ;
         foaf:page           <http://www.uniprot.org/uniprot/O75746> .
 
@@ -847,6 +1004,11 @@
         dcterms:identifier  "CHEBI:17544" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4595_r121755> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id87d86812> ;
         wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:17544> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/749> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0000595> ;
+        wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C00288> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID769> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q409202> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/fd346> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:17544> .
 
@@ -864,11 +1026,18 @@
 <https://identifiers.org/chebi/CHEBI:16480>
         rdf:type            wp:Metabolite , wp:DataNode ;
         rdfs:label          "Nitric oxide" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/MWUXSHHQAYIFBG-UHFFFAOYSA-N> ;
         dc:identifier       <https://identifiers.org/chebi/CHEBI:16480> ;
         dc:source           "ChEBI" ;
         dcterms:identifier  "CHEBI:16480" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4595_r121755> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id63a83e39> ;
         wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:16480> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/127983> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0003378> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/MWUXSHHQAYIFBG-UHFFFAOYSA-N> ;
+        wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C00533> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID145068> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q207843> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/a9d9a> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:16480> .
 
@@ -882,18 +1051,27 @@
         dc:source           "Uniprot-TrEMBL" ;
         dcterms:identifier  "P07195" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4595_r121755> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id50794f48> ;
-        wp:bdbUniprot       <https://identifiers.org/uniprot/P07195> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000111716> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/3945> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/LDHB> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/A8MW50> , <https://identifiers.org/uniprot/F5H793> , <https://identifiers.org/uniprot/C9J7H8> , <https://identifiers.org/uniprot/P07195> , <https://identifiers.org/uniprot/Q5U077> , <https://identifiers.org/uniprot/A0A5F9ZHM4> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/c989b> ;
         foaf:page           <http://www.uniprot.org/uniprot/P07195> .
 
 <https://identifiers.org/chebi/CHEBI:16452>
         rdf:type            wp:DataNode , wp:Metabolite ;
         rdfs:label          "Oxalacetate" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/KHPXUQMNIQBQEV-UHFFFAOYSA-N> ;
         dc:identifier       <https://identifiers.org/chebi/CHEBI:16452> ;
         dc:source           "ChEBI" ;
         dcterms:identifier  "CHEBI:16452" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id6332b611> , <https://identifiers.org/wikipathways/WP4595_r121755> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/idc98a52b3> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/idf77f0b0> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/ida6c772f1> ;
         wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:16452> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/144251> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/KHPXUQMNIQBQEV-UHFFFAOYSA-L> ;
+        wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C00036> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID164550> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27101912> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/c6486> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/d0b71> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/d29b0> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:16452> .
 
@@ -927,11 +1105,17 @@
 <https://identifiers.org/chebi/CHEBI:16810>
         rdf:type            wp:DataNode , wp:Metabolite ;
         rdfs:label          "a-Ketoglutarate" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/KPGXRSRHYNQIFN-UHFFFAOYSA-N> ;
         dc:identifier       <https://identifiers.org/chebi/CHEBI:16810> ;
         dc:source           "ChEBI" ;
         dcterms:identifier  "CHEBI:16810" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/idf77f0b0> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/idc98a52b3> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id59aeda63> , <https://identifiers.org/wikipathways/WP4595_r121755> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/idab5647e6> ;
         wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:16810> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/144236> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/KPGXRSRHYNQIFN-UHFFFAOYSA-L> ;
+        wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C00026> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID164533> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27102088> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/befa0> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/aaacd> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:16810> .
 
@@ -965,11 +1149,16 @@
 <https://identifiers.org/chebi/CHEBI:57472>
         rdf:type            wp:DataNode , wp:Metabolite ;
         rdfs:label          "Argininosuccinate" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/KDZOASGQNOPSCU-ZBHICJROSA-N> ;
         dc:identifier       <https://identifiers.org/chebi/CHEBI:57472> ;
         dc:source           "ChEBI" ;
         dcterms:identifier  "CHEBI:57472" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/idf5d3306f> , <https://identifiers.org/wikipathways/WP4595_r121755> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id5068e> ;
         wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:57472> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/26330798> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/KDZOASGQNOPSCU-ZBHICJROSA-M> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID46878376> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27124717> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/cde55> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:57472> .
 
@@ -1006,11 +1195,18 @@
 <https://identifiers.org/chebi/CHEBI:16199>
         rdf:type            wp:Metabolite , wp:DataNode ;
         rdfs:label          "Urea" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/XSQUKJJJFZCRTK-UHFFFAOYSA-N> ;
         dc:identifier       <https://identifiers.org/chebi/CHEBI:16199> ;
         dc:source           "ChEBI" ;
         dcterms:identifier  "CHEBI:16199" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4595_r121755> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/idd2d2f536> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/ide04e3afd> ;
         wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:16199> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/1143> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0000294> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/XSQUKJJJFZCRTK-UHFFFAOYSA-N> ;
+        wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C00086> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID1176> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q48318> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/d557a> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:16199> .
 
@@ -1061,11 +1257,16 @@
 <https://identifiers.org/chebi/CHEBI:30839>
         rdf:type            wp:Metabolite , wp:DataNode ;
         rdfs:label          "Orotate" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/PXQPEWDEAKTCGB-UHFFFAOYSA-N> ;
         dc:identifier       <https://identifiers.org/chebi/CHEBI:30839> ;
         dc:source           "ChEBI" ;
         dcterms:identifier  "CHEBI:30839" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4595_r121755> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/b15eb> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id8e1fb0a2> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id5dc1d8e2> ;
         wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:30839> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/1232048> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/PXQPEWDEAKTCGB-UHFFFAOYSA-M> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID1492348> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27104157> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/a7112> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:30839> .
 
@@ -1077,6 +1278,10 @@
         dcterms:identifier  "CHEBI:16651" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id5ee98912> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/ed4b3> , <https://identifiers.org/wikipathways/WP4595_r121755> ;
         wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:16651> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/4573803> ;
+        wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C00186> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5460161> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27102013> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/ec30f> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:16651> .
 
@@ -1108,11 +1313,18 @@
 <https://identifiers.org/chebi/CHEBI:57743>
         rdf:type            wp:Metabolite , wp:DataNode ;
         rdfs:label          "Citrulline" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/RHGKLRLOHDJJDR-BYPYZUCNSA-N> ;
         dc:identifier       <https://identifiers.org/chebi/CHEBI:57743> ;
         dc:source           "ChEBI" ;
         dcterms:identifier  "CHEBI:57743" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id5068e> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id63a83e39> , <https://identifiers.org/wikipathways/WP4595_r121755> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/idca222d0a> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id8c9bdf6d> ;
-        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:57743> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:16349> , <https://identifiers.org/chebi/CHEBI:57743> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/9367> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0000904> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/RHGKLRLOHDJJDR-BYPYZUCNSA-N> ;
+        wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C00327> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID9750> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q408641> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/c8e82> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/aceea> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:57743> .
 
@@ -1123,7 +1335,10 @@
         dc:source           "Uniprot-TrEMBL" ;
         dcterms:identifier  "P31327" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id77b295b1> , <https://identifiers.org/wikipathways/WP4595_r121755> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id6f7be690> ;
-        wp:bdbUniprot       <https://identifiers.org/uniprot/P31327> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000021826> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/1373> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/CPS1> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/P31327> , <https://identifiers.org/uniprot/A0A024R454> , <https://identifiers.org/uniprot/Q5R211> , <https://identifiers.org/uniprot/A0A669KBF2> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/eb5bf> ;
         foaf:page           <http://www.uniprot.org/uniprot/P31327> .
 
@@ -1177,6 +1392,10 @@
         dcterms:identifier  "CHEBI:29806" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/idf5d3306f> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/idfc69c9f> , <https://identifiers.org/wikipathways/WP4595_r121755> ;
         wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:29806> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/4573886> ;
+        wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C00122> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5460307> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q28529698> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/e3761> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:29806> .
 
@@ -1189,11 +1408,18 @@
 <https://identifiers.org/chebi/CHEBI:25722>
         rdf:type            wp:DataNode , wp:Metabolite ;
         rdfs:label          "Orotidine" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/FKCRAVPPBFWEJD-XVFCMESISA-N> ;
         dc:identifier       <https://identifiers.org/chebi/CHEBI:25722> ;
         dc:source           "ChEBI" ;
         dcterms:identifier  "CHEBI:25722" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/d7e1b> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id6f9026bc> , <https://identifiers.org/wikipathways/WP4595_r121755> ;
         wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:25722> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/83729> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0000788> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/FKCRAVPPBFWEJD-XVFCMESISA-N> ;
+        wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C01103> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID92751> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q10859719> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/b95a6> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:25722> .
 
@@ -1228,11 +1454,16 @@
 <https://identifiers.org/chebi/CHEBI:58228>
         rdf:type            wp:Metabolite , wp:DataNode ;
         rdfs:label          "Carbamoyl-phosphate" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/FFQKYPRQEYGKAF-UHFFFAOYSA-N> ;
         dc:identifier       <https://identifiers.org/chebi/CHEBI:58228> ;
         dc:source           "ChEBI" ;
         dcterms:identifier  "CHEBI:58228" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/e679b> , <https://identifiers.org/wikipathways/WP4595_r121755> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/idc49bc7c8> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/idd4e3dad4> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id9c1c7a1> ;
         wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:58228> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/2666990> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/FFQKYPRQEYGKAF-UHFFFAOYSA-L> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID3423467> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27125628> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/df5b8> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/e032c> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:58228> .
 
@@ -1243,7 +1474,10 @@
         dc:source           "Uniprot-TrEMBL" ;
         dcterms:identifier  "P04181" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4595_r121755> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id8f5513a2> ;
-        wp:bdbUniprot       <https://identifiers.org/uniprot/P04181> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000065154> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/4942> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/OAT> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/A0A140VJQ4> , <https://identifiers.org/uniprot/P04181> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/ecbc9> ;
         foaf:page           <http://www.uniprot.org/uniprot/P04181> .
 
@@ -1298,6 +1532,11 @@
         dcterms:identifier  "CHEBI:44337" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id781f4666> , <https://identifiers.org/wikipathways/WP4595_r121755> , <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/id6f7be690> ;
         wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:44337> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/1266066> ;
+        wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0001138> ;
+        wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C00624> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID1549099> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27104528> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/eb661> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:44337> .
 
@@ -1308,6 +1547,9 @@
         dc:source           "Uniprot-TrEMBL" ;
         dcterms:identifier  "P40926" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4595_r121755/WP/Interaction/idee5841fe> , <https://identifiers.org/wikipathways/WP4595_r121755> ;
-        wp:bdbUniprot       <https://identifiers.org/uniprot/P40926> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000146701> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/4191> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/MDH2> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/U3KQ63> , <https://identifiers.org/uniprot/P40926> , <https://identifiers.org/uniprot/G3XAL0> , <https://identifiers.org/uniprot/A0A024R4K3> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r121755/DataNode/ea55a> ;
         foaf:page           <http://www.uniprot.org/uniprot/P40926> .
