@@ -20,7 +20,7 @@
         rdf:type          wp:ComplexBinding , wp:Binding , wp:Interaction ;
         dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4153_r120394> ;
         wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4153_r120394/Group/a6bc4> ;
-        wp:participants   <https://identifiers.org/uniprot/P06865> , <https://identifiers.org/ncbigene/2760> , <http://rdf.wikipathways.org/Pathway/WP4153_r120394/Complex/a6bc4> .
+        wp:participants   <https://identifiers.org/ncbigene/2760> , <https://identifiers.org/uniprot/P06865> , <http://rdf.wikipathways.org/Pathway/WP4153_r120394/Complex/a6bc4> .
 
 <https://identifiers.org/interpro/IPR004124>
         rdf:type            wp:Protein , wp:DataNode ;
@@ -164,7 +164,7 @@
         rdf:type          wp:Complex , wp:DataNode ;
         dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4153_r120394> ;
         wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4153_r120394/Group/a6bc4> ;
-        wp:participants   <https://identifiers.org/uniprot/P06865> , <https://identifiers.org/ncbigene/2760> .
+        wp:participants   <https://identifiers.org/ncbigene/2760> , <https://identifiers.org/uniprot/P06865> .
 
 <https://identifiers.org/interpro/IPR008139>
         rdf:type            wp:DataNode , wp:Protein ;
@@ -483,16 +483,11 @@
 <https://identifiers.org/wikidata/Q408584>
         rdf:type            wp:Metabolite , wp:DataNode ;
         rdfs:label          "Sulfatide" ;
-        rdfs:seeAlso        <https://identifiers.org/inchikey/QTTLKKFUOJQIRB-JOLIRYOJSA-N> ;
         dc:identifier       <https://identifiers.org/wikidata/Q408584> ;
         dc:source           "Wikidata" ;
         dcterms:identifier  "Q408584" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4153_r120394> ;
-        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:76069> ;
-        wp:bdbChemspider    <https://identifiers.org/chemspider/4573177> ;
-        wp:bdbInChIKey      <https://identifiers.org/inchikey/QTTLKKFUOJQIRB-JOLIRYOJSA-N> ;
-        wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C06125> ;
-        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5459389> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:36477> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q408584> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4153_r120394/DataNode/f9904> ;
         foaf:page           <https://scholia.toolforge.org/Q408584> .
@@ -514,10 +509,12 @@
 <https://identifiers.org/pubchem.compound/66616222>
         rdf:type            wp:Metabolite , wp:DataNode ;
         rdfs:label          "globotriaosylceramide" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/HFQKBOPMAOTAIR-TZSVBWBLSA-N> ;
         dc:identifier       <https://identifiers.org/pubchem.compound/66616222> ;
         dc:source           "PubChem-compound" ;
         dcterms:identifier  "66616222" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4153_r120394> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/HFQKBOPMAOTAIR-TZSVBWBLSA-N> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID66616222> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q45435675> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4153_r120394/DataNode/ca46d> ;
@@ -548,6 +545,7 @@
 <https://identifiers.org/wikidata/Q46298>
         rdf:type            wp:DataNode , wp:Metabolite ;
         rdfs:label          "Sphingosine" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/WWUZIQQURGPMPG-KRWOKUGFSA-N> ;
         dc:identifier       <https://identifiers.org/wikidata/Q46298> ;
         dc:source           "Wikidata" ;
         dcterms:identifier  "Q46298" ;
@@ -555,6 +553,7 @@
         wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:16393> ;
         wp:bdbChemspider    <https://identifiers.org/chemspider/4444047> ;
         wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0000252> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/WWUZIQQURGPMPG-KRWOKUGFSA-N> ;
         wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C00319> ;
         wp:bdbLipidMaps     <https://identifiers.org/lipidmaps/LMSP01010001> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5280335> ;

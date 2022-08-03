@@ -58,7 +58,7 @@
         wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000012779> ;
         wp:bdbEntrezGene    <https://identifiers.org/ncbigene/240> ;
         wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/ALOX5> ;
-        wp:bdbUniprot       <https://identifiers.org/uniprot/A0A087X109> , <https://identifiers.org/uniprot/P09917> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/P09917> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5171_r122629/DataNode/d32df> , <http://rdf.wikipathways.org/Pathway/WP5171_r122629/DataNode/bd7c1> ;
         foaf:page           <https://www.ensembl.org/id/ENSG00000012779> .
 
@@ -890,7 +890,7 @@
         wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000103222> ;
         wp:bdbEntrezGene    <https://identifiers.org/ncbigene/4363> ;
         wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/ABCC1> ;
-        wp:bdbUniprot       <https://identifiers.org/uniprot/I3L4X2> , <https://identifiers.org/uniprot/P33527> , <https://identifiers.org/uniprot/A0A0A0MS99> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/I3L4X2> , <https://identifiers.org/uniprot/P33527> , <https://identifiers.org/uniprot/A0A0A0MS99> , <https://identifiers.org/uniprot/A0A7I2V4C6> , <https://identifiers.org/uniprot/A0A7I2V2E0> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5171_r122629/DataNode/e8085> ;
         foaf:page           <https://www.ensembl.org/id/ENSG00000103222> .
 
@@ -928,7 +928,7 @@
         wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:63980> ;
         wp:bdbChemspider    <https://identifiers.org/chemspider/4943376> ;
         wp:bdbInChIKey      <https://identifiers.org/inchikey/XWRIIHRGMKHPHN-USRRKILKSA-N> ;
-        wp:bdbLipidMaps     <https://identifiers.org/lipidmaps/LMFA05000593> ;
+        wp:bdbLipidMaps     <https://identifiers.org/lipidmaps/LMFA01170145> , <https://identifiers.org/lipidmaps/LMFA05000593> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID6438938> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q27132945> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5171_r122629/DataNode/becd1> ;
@@ -999,11 +999,15 @@
 <https://identifiers.org/chebi/CHEBI:134517>
         rdf:type            wp:DataNode , wp:Metabolite ;
         rdfs:label          "20-carboxy-LTE4" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/HVLRBLGTGJGVCX-SKJZCNKWSA-N> ;
         dc:identifier       <https://identifiers.org/chebi/CHEBI:134517> ;
         dc:source           "ChEBI" ;
         dcterms:identifier  "CHEBI:134517" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5171_r122629/WP/Interaction/id86e4fb4b> , <http://rdf.wikipathways.org/Pathway/WP5171_r122629/WP/Interaction/id6023fd24> , <https://identifiers.org/wikipathways/WP5171_r122629> , <http://rdf.wikipathways.org/Pathway/WP5171_r122629/WP/Interaction/idebe501f3> ;
         wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:134517> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/HVLRBLGTGJGVCX-SKJZCNKWSA-N> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID101648047> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q106029186> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5171_r122629/DataNode/e81f4> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:134517> .
 

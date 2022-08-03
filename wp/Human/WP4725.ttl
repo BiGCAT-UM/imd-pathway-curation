@@ -26,7 +26,7 @@
         dcterms:references     <https://identifiers.org/pubmed/20923771> ;
         cito:cites             <https://identifiers.org/pubmed/12011104> , <https://identifiers.org/pubmed/20923771> ;
         wp:isAbout             <http://rdf.wikipathways.org/Pathway/WP4725_r117175> ;
-        wp:ontologyTag         <http://purl.obolibrary.org/obo/PW_0000745> , <http://purl.obolibrary.org/obo/PW_0000197> , <http://purl.obolibrary.org/obo/PW_0000162> ;
+        wp:ontologyTag         <http://purl.obolibrary.org/obo/PW_0000745> , wp:Curation:Homology_Converted , <http://purl.obolibrary.org/obo/PW_0000197> , <http://purl.obolibrary.org/obo/PW_0000162> ;
         wp:organism            <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
         wp:organismName        "Homo sapiens" ;
         wp:pathwayOntologyTag  <http://purl.obolibrary.org/obo/PW_0000162> , <http://purl.obolibrary.org/obo/PW_0000745> , <http://purl.obolibrary.org/obo/PW_0000197> ;
@@ -265,7 +265,7 @@
         dcterms:identifier  "5951" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4725_r117175/WP/Interaction/id981fc8c8> , <https://identifiers.org/wikipathways/WP4725_r117175> ;
         dcterms:references  <https://identifiers.org/pubmed/12011104> ;
-        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:33384> , <https://identifiers.org/chebi/CHEBI:17115> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:17115> ;
         wp:bdbChemspider    <https://identifiers.org/chemspider/5736> ;
         wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0000187> ;
         wp:bdbInChIKey      <https://identifiers.org/inchikey/MTCFGRXMJLQNBG-REOHCLBHSA-N> ;
@@ -315,7 +315,7 @@
         dc:source           "LIPID MAPS" ;
         dcterms:identifier  "LMSP02050000" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4725_r117175/WP/Interaction/idf29bfd2c> , <https://identifiers.org/wikipathways/WP4725_r117175> ;
-        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:16197> , <https://identifiers.org/chebi/CHEBI:57674> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:16197> ;
         wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C02960> ;
         wp:bdbLipidMaps     <https://identifiers.org/lipidmaps/LMSP02050000> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q38133997> ;
@@ -364,18 +364,18 @@
 <https://identifiers.org/chebi/CHEBI:15527>
         rdf:type            wp:Metabolite , wp:DataNode ;
         rdfs:label          "CoA(20:0)" ;
-        rdfs:seeAlso        <https://identifiers.org/inchikey/JYLSVNBJLYCSSW-IBYUJNRCSA-N> , <https://identifiers.org/inchikey/JYLSVNBJLYCSSW-OPBWFHODSA-N> ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/JYLSVNBJLYCSSW-IBYUJNRCSA-N> ;
         dc:identifier       <https://identifiers.org/chebi/CHEBI:15527> ;
         dc:source           "ChEBI" ;
         dcterms:identifier  "CHEBI:15527" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4725_r117175/WP/Interaction/cba2e> , <https://identifiers.org/wikipathways/WP4725_r117175> ;
         wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:15527> ;
-        wp:bdbChemspider    <https://identifiers.org/chemspider/2339044> , <https://identifiers.org/chemspider/17220830> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/2339044> ;
         wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0004258> ;
-        wp:bdbInChIKey      <https://identifiers.org/inchikey/JYLSVNBJLYCSSW-IBYUJNRCSA-N> , <https://identifiers.org/inchikey/JYLSVNBJLYCSSW-OPBWFHODSA-N> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/JYLSVNBJLYCSSW-IBYUJNRCSA-N> ;
         wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C02041> ;
         wp:bdbLipidMaps     <https://identifiers.org/lipidmaps/LMFA07050329> , <https://identifiers.org/lipidmaps/LMFA07050006> ;
-        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID16061151> , <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID3081439> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID3081439> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q27098079> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4725_r117175/DataNode/efdb4> , <http://rdf.wikipathways.org/Pathway/WP4725_r117175/DataNode/f0afd> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:15527> .
@@ -517,18 +517,18 @@
 <https://identifiers.org/chebi/CHEBI:15541>
         rdf:type            wp:Metabolite , wp:DataNode ;
         rdfs:label          "CoA(18:0)" ;
-        rdfs:seeAlso        <https://identifiers.org/inchikey/SIARJEKBADXQJG-KBEKLFCESA-N> , <https://identifiers.org/inchikey/SIARJEKBADXQJG-LFZQUHGESA-N> ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/SIARJEKBADXQJG-LFZQUHGESA-N> ;
         dc:identifier       <https://identifiers.org/chebi/CHEBI:15541> ;
         dc:source           "ChEBI" ;
         dcterms:identifier  "CHEBI:15541" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4725_r117175> , <http://rdf.wikipathways.org/Pathway/WP4725_r117175/WP/Interaction/efb40> ;
         wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:15541> ;
-        wp:bdbChemspider    <https://identifiers.org/chemspider/388366> , <https://identifiers.org/chemspider/84957> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/84957> ;
         wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0001114> ;
-        wp:bdbInChIKey      <https://identifiers.org/inchikey/SIARJEKBADXQJG-LFZQUHGESA-N> , <https://identifiers.org/inchikey/SIARJEKBADXQJG-KBEKLFCESA-N> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/SIARJEKBADXQJG-LFZQUHGESA-N> ;
         wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C00412> ;
         wp:bdbLipidMaps     <https://identifiers.org/lipidmaps/LMFA07050369> ;
-        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID439229> , <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID94140> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID94140> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q15427851> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4725_r117175/DataNode/b07bd> , <http://rdf.wikipathways.org/Pathway/WP4725_r117175/DataNode/fe378> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:15541> .
@@ -806,6 +806,7 @@
 <https://identifiers.org/lipidmaps/LMSP01010001>
         rdf:type            wp:DataNode , wp:Metabolite ;
         rdfs:label          "Sphingosine" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/WWUZIQQURGPMPG-KRWOKUGFSA-N> ;
         dc:identifier       <https://identifiers.org/lipidmaps/LMSP01010001> ;
         dc:source           "LIPID MAPS" ;
         dcterms:identifier  "LMSP01010001" ;
@@ -813,6 +814,7 @@
         wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:16393> ;
         wp:bdbChemspider    <https://identifiers.org/chemspider/4444047> ;
         wp:bdbHmdb          <https://identifiers.org/hmdb/HMDB0000252> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/WWUZIQQURGPMPG-KRWOKUGFSA-N> ;
         wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C00319> ;
         wp:bdbLipidMaps     <https://identifiers.org/lipidmaps/LMSP01010001> ;
         wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5280335> ;
