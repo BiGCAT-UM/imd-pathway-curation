@@ -1,7 +1,6 @@
 <img style="float: right; width: 200px" src="logo.png" />
 # Validation Reports
 
-* [reports/WP229.md](reports/WP229.md) <img alt="pathway status" src="https://img.shields.io/endpoint?url=https://bigcat-um.github.io/imd-pathway-curation/reports/WP229.json">
 * [reports/WP4153.md](reports/WP4153.md) <img alt="pathway status" src="https://img.shields.io/endpoint?url=https://bigcat-um.github.io/imd-pathway-curation/reports/WP4153.json">
 * [reports/WP4156.md](reports/WP4156.md) <img alt="pathway status" src="https://img.shields.io/endpoint?url=https://bigcat-um.github.io/imd-pathway-curation/reports/WP4156.json">
 * [reports/WP4157.md](reports/WP4157.md) <img alt="pathway status" src="https://img.shields.io/endpoint?url=https://bigcat-um.github.io/imd-pathway-curation/reports/WP4157.json">
