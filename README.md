@@ -5,6 +5,8 @@ specified in the `pathways.txt` file. Second, update the `website.txt` file
 (create if needed) to contain the link where the reports (particularly the JSON)
 files are published.
 
+Original tests are located here: https://github.com/BiGCAT-UM/WikiPathwaysCurator
+
 ## Step 1. Requirements
 
 You need the following programs and experience with a `Makefile`:
