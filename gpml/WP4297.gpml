@@ -5,7 +5,7 @@
   <Graphics BoardWidth="1303.0" BoardHeight="883.935185185185" />
   <DataNode TextLabel="Citric acid cycle" GraphId="bf22d" Type="Pathway">
     <Graphics CenterX="914.674414210128" CenterY="360.23526077097523" Width="109.85185185185219" Height="25.0" ZOrder="28672" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
-    <Xref Database="" ID="" />
+    <Xref Database="WikiPathways" ID="WP78" />
   </DataNode>
   <DataNode TextLabel="Pentose &#xA;phosphate &#xA;pathway" GraphId="d97ba" Type="Pathway">
     <Graphics CenterX="72.90740740740735" CenterY="316.57407407407425" Width="90.0" Height="57.5" ZOrder="28672" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
@@ -13,7 +13,7 @@
   </DataNode>
   <DataNode TextLabel="Branched chain acylCoAs" GraphId="a1dee" Type="Metabolite">
     <Graphics CenterX="1131.9591836734703" CenterY="636.0" Width="143.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
-    <Xref Database="" ID="" />
+    <Xref Database="ChEBI" ID="CHEBI:61912" />
   </DataNode>
   <DataNode TextLabel="DNA" GraphId="a2c2a" Type="Metabolite">
     <Graphics CenterX="72.90740740740736" CenterY="464.99999999999994" Width="59.0" Height="25.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" Color="ff0000" />
@@ -151,9 +151,10 @@
     <Graphics CenterX="72.90740740740736" CenterY="692.0" Width="80.0" Height="25.0" ZOrder="32781" FillColor="ccffff" FontSize="12" Valign="Middle" Color="ff0000" />
     <Xref Database="ChEBI" ID="CHEBI:26739" />
   </DataNode>
-  <DataNode TextLabel="plasmalogens" GraphId="f75e4" Type="Metabolite">
+  <DataNode TextLabel="plasmalogens" GraphId="f75e4" Type="Pathway">
+    <Comment>Class of phospholipids</Comment>
     <Graphics CenterX="217.8333333333333" CenterY="692.0" Width="81.0" Height="25.0" ZOrder="32782" FillColor="ccffff" FontSize="12" Valign="Middle" Color="ff0000" />
-    <Xref Database="" ID="" />
+    <Xref Database="WikiPathways" ID="WP3790" />
   </DataNode>
   <DataNode TextLabel="phospholipids" GraphId="d576a" Type="Metabolite">
     <Graphics CenterX="392.361111111111" CenterY="692.0" Width="87.0" Height="25.0" ZOrder="32783" FillColor="ccffff" FontSize="12" Valign="Middle" Color="ff0000" />
@@ -211,13 +212,6 @@
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
-  <Interaction GraphId="id458227e8">
-    <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
-      <Point X="264.75" Y="177.5" GraphRef="af69a" RelX="-0.5" RelY="1.0" />
-      <Point X="219.76851851851848" Y="200.0622440484226" GraphRef="d60df" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
   <Interaction GraphId="id45ac954">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="821.1124054513397" Y="697.2295918367349" GraphRef="f62c2" RelX="1.0" RelY="0.0" />
@@ -236,20 +230,6 @@
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="72.90740740740736" Y="704.5" GraphRef="e5a56" RelX="0.0" RelY="1.0" />
       <Point X="72.90740740740735" Y="828.935185185185" GraphRef="e37c9" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="id5cd85d3f">
-    <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
-      <Point X="765.9999999999999" Y="328.06632653061234" GraphRef="e6636" RelX="1.0" RelY="-0.5" />
-      <Point X="849.4094860166263" Y="301.95645648903553" GraphRef="ed5e8" RelX="-1.0" RelY="0.5" ArrowHead="Arrow" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="id6239970d">
-    <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
-      <Point X="415.75" Y="177.5" GraphRef="e36e8" RelX="0.5" RelY="1.0" />
-      <Point X="437.3375410647566" Y="201.31708181449972" GraphRef="c3515" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -468,6 +448,24 @@
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
+  <GraphicalLine GraphId="ac455">
+    <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
+      <Point X="765.9999999999999" Y="328.06632653061234" GraphRef="e6636" RelX="1.0" RelY="-0.5" />
+      <Point X="849.4094860166263" Y="301.95645648903553" GraphRef="ed5e8" RelX="-1.0" RelY="0.5" ArrowHead="Arrow" />
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="c1f12">
+    <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
+      <Point X="264.75" Y="177.5" GraphRef="af69a" RelX="-0.5" RelY="1.0" />
+      <Point X="219.76851851851848" Y="191.95241832050752" GraphRef="d60df" RelX="1.0" RelY="-0.5" ArrowHead="Arrow" />
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="f6040">
+    <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
+      <Point X="415.75" Y="177.5" GraphRef="e36e8" RelX="0.5" RelY="1.0" />
+      <Point X="455.0170990758065" Y="211.183949621718" GraphRef="c3515" RelX="-1.0" RelY="-0.5" ArrowHead="Arrow" />
+    </Graphics>
+  </GraphicalLine>
   <Label TextLabel="Mitochondrion" GraphId="a14af">
     <Graphics CenterX="1161.0714285714291" CenterY="359.795918367347" Width="90.0" Height="25.0" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" />
   </Label>
@@ -481,7 +479,7 @@
     <Graphics CenterX="124.82142857142827" CenterY="147.95918367346937" Width="127.90816326530603" Height="25.0" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" />
   </Label>
   <Label TextLabel="Wernicke's-like &#xA;encephalopathy&#xA;and BRBG" GraphId="c3515" Href="https:omim.org/606152">
-    <Graphics CenterX="495.70400747040986" CenterY="201.31708181449972" Width="116.73293281130657" Height="44.51042932361304" ZOrder="32784" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="513.3835654814598" CenterY="222.31155695262126" Width="116.73293281130657" Height="44.51042932361304" ZOrder="32784" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
   <Label TextLabel="Bilateral &#xA;stiatal&#xA;necrosis" GraphId="ed5e8" Href="https:omim.org/606521">
     <Graphics CenterX="897.3657393631127" CenterY="290.0041828193408" Width="95.91250669297277" Height="47.80909467877888" ZOrder="32785" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
@@ -505,11 +503,15 @@
   <Group GroupId="a434a" GraphId="ff3b4" Style="Complex" />
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thiamine metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000136</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d81">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10964259</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thiamine intestinal transport and related issues: recent aspects.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proc Soc Exp Biol Med</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rindi G</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laforenza U</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cf3">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9783642403361</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN</bp:DB>
@@ -521,18 +523,14 @@
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gibson, K. Michael</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dionisi-Vici, Carlo</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d81">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10964259</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thiamine intestinal transport and related issues: recent aspects.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proc Soc Exp Biol Med</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rindi G</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laforenza U</bp:AUTHORS>
-    </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">energy metabolic pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000033</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thiamine metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000136</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
   </Biopax>
