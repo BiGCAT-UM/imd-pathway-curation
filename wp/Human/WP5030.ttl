@@ -53,8 +53,6 @@
         dc:source           "PubMed" ;
         dcterms:identifier  "27856618" ;
         dcterms:isPartOf    <https://identifiers.org/chebi/CHEBI:46245> ;
-        wp:bdbWikidata      <http://www.wikidata.org/entity/Q37555498> ;
-        owl:sameAs          <https://doi.org/10.15252%2FEMMM.201606356> ;
         foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/27856618> .
 
 <https://identifiers.org/chebi/CHEBI:57925>
@@ -178,12 +176,9 @@
         dc:source           "Enzyme Nomenclature" ;
         dcterms:identifier  "1.8.5.4" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5030_r120416/WP/Interaction/idda4e9351> , <https://identifiers.org/wikipathways/WP5030_r120416> ;
+        wp:bdbRhea          <https://identifiers.org/rhea/30239> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5030_r120416/DataNode/cd2ed> ;
         foaf:page           <http://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=1.8.5.4> .
-
-<https://doi.org/10.15252%2FEMMM.201606356>
-        dc:source           "DOI" ;
-        dcterms:identifier  "10.15252/EMMM.201606356" .
 
 <http://rdf.wikipathways.org/Pathway/WP5030_r120416/WP/Interaction/id44ab7649>
         rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
@@ -328,6 +323,7 @@
         dc:source           "Rhea" ;
         dcterms:identifier  "24601" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5030_r120416> ;
+        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-1614544.2> ;
         wp:bdbRhea          <https://identifiers.org/rhea/24601> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/id3ce278b7> ;
         wp:participants     <https://identifiers.org/chebi/CHEBI:17359> , <https://identifiers.org/chebi/CHEBI:16189> ;

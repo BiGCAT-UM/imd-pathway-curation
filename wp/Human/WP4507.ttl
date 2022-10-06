@@ -97,10 +97,6 @@
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4507_r119314/DataNode/c3e8a> , <http://rdf.wikipathways.org/Pathway/WP4507_r119314/DataNode/c37e6> , <http://rdf.wikipathways.org/Pathway/WP4507_r119314/DataNode/f6b02> , <http://rdf.wikipathways.org/Pathway/WP4507_r119314/DataNode/cb442> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:21437> .
 
-<https://doi.org/10.1074%2FJBC.M409862200>
-        dc:source           "DOI" ;
-        dcterms:identifier  "10.1074/JBC.M409862200" .
-
 <https://identifiers.org/uniprot/P51687>
         rdf:type            wp:Protein , wp:DataNode ;
         rdfs:label          "Sulfite oxidase" ;
@@ -151,7 +147,6 @@
         wp:bdbEntrezGene    <https://identifiers.org/ncbigene/4337> ;
         wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/MOCS1> ;
         wp:bdbUniprot       <https://identifiers.org/uniprot/F8WCK1> , <https://identifiers.org/uniprot/A0A024RD17> , <https://identifiers.org/uniprot/Q9NZB8> ;
-        wp:bdbWikidata      <http://www.wikidata.org/entity/Q18029242> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4507_r119314/DataNode/d48d4> ;
         foaf:page           <https://www.ensembl.org/id/ENSG00000124615> .
 
@@ -218,6 +213,13 @@
         wp:pathwayOntologyTag  <http://purl.obolibrary.org/obo/PW_0000427> , <http://purl.obolibrary.org/obo/PW_0000428> , <http://purl.obolibrary.org/obo/PW_0001592> , <http://purl.obolibrary.org/obo/PW_0001817> , <http://purl.obolibrary.org/obo/PW_0001591> ;
         foaf:page              <http://www.wikipathways.org/instance/WP4507_r119314> .
 
+<https://identifiers.org/pubmed/15504727>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "15504727" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4507_r119314/WP/Interaction/a0518> , <http://rdf.wikipathways.org/Pathway/WP4507_r119314/WP/Interaction/b58e8> , <https://identifiers.org/chebi/CHEBI:62728> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/15504727> .
+
 <http://rdf.wikipathways.org/Pathway/WP4507_r119314/WP/Interaction/d7e2e>
         rdf:type            wp:DirectedInteraction , wp:Conversion , wp:Interaction ;
         dc:source           "Rhea" ;
@@ -228,15 +230,6 @@
         wp:participants     <https://identifiers.org/chebi/CHEBI:17712> , <https://identifiers.org/chebi/CHEBI:17775> ;
         wp:source           <https://identifiers.org/chebi/CHEBI:17712> ;
         wp:target           <https://identifiers.org/chebi/CHEBI:17775> .
-
-<https://identifiers.org/pubmed/15504727>
-        rdf:type            wp:PublicationReference ;
-        dc:source           "PubMed" ;
-        dcterms:identifier  "15504727" ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4507_r119314/WP/Interaction/a0518> , <http://rdf.wikipathways.org/Pathway/WP4507_r119314/WP/Interaction/b58e8> , <https://identifiers.org/chebi/CHEBI:62728> ;
-        wp:bdbWikidata      <http://www.wikidata.org/entity/Q34361929> ;
-        owl:sameAs          <https://doi.org/10.1074%2FJBC.M409862200> ;
-        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/15504727> .
 
 <https://identifiers.org/wikipathways/WP4507>
         pav:hasVersion  <https://identifiers.org/wikipathways/WP4507_r119314> .
