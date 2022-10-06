@@ -56,7 +56,6 @@ cd /tmp/OPSBRIDGEDB
 wget -c https://zenodo.org/record/6502115/files/Hs_Derby_Ensembl_105.bridge?download=1 -O geneproteinMappings.bridge
 wget -c https://figshare.com/ndownloader/files/36197283 -O metaboliteMappings.bridge
 wget -c https://ndownloader.figshare.com/files/26003138 -O interactionMappings.bridge
-cd `/path/to/where/sourcecode/ofthisrepo/is`
 nano config.properties
 ```
 
