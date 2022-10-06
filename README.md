@@ -47,6 +47,7 @@ For the tests in this repository to work, you require the following BridgeDb fil
 - GeneProtein mappings for humans (Homo Sapiens)
 - Metabolite mappings
 - Interaction mappings
+
 Below we provide an example to download the mappings (geneproteins version 105, metabolites 20220707, interactions 20210109), newer version might be available!
 
 ```
@@ -55,6 +56,7 @@ cd /tmp/OPSBRIDGEDB
 wget -c https://zenodo.org/record/6502115/files/Hs_Derby_Ensembl_105.bridge?download=1 -O geneproteinMappings.bridge
 wget -c https://figshare.com/ndownloader/files/36197283 -O metaboliteMappings.bridge
 wget -c https://ndownloader.figshare.com/files/26003138 -O interactionMappings.bridge
+cd `/path/to/where/sourcecode/ofthisrepo/is`
 nano config.properties
 ```
 
