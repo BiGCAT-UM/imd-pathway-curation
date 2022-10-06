@@ -43,8 +43,20 @@ To download the BridgeDb identifier mapping files, download them from
 [here](https://bridgedb.github.io/data/gene_database/)
 and save them in the `/path/to/where/the/bridge/files/are` folder, mathching what
 you entered in the `config.properties` file above with the `bridgefiles=` parameter.
-You also want to download the identifier mapping database for coronavirus
-genes and proteins.
+For the tests in this repository to work, you require the following BridgeDb files:
+- GeneProtein mappings for humans (Homo Sapiens)
+- Metabolite mappings
+- Interaction mappings
+Below we provide an example to download the mappings (geneproteins version 105, metabolites 20220707, interactions 20210109), newer version might be available!
+
+```
+mkdir /tmp/OPSBRIDGEDB
+cd /tmp/OPSBRIDGEDB
+wget -c https://zenodo.org/record/6502115/files/Hs_Derby_Ensembl_105.bridge?download=1 -O geneproteinMappings.bridge
+wget -c https://figshare.com/ndownloader/files/36197283 -O metaboliteMappings.bridge
+wget -c https://ndownloader.figshare.com/files/26003138 -O interactionMappings.bridge
+nano config.properties
+```
 
 ## Step 4: Create the RDF (Turtle)
 
