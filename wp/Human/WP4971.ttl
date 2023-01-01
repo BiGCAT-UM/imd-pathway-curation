@@ -61,7 +61,6 @@
         dcterms:identifier  "3.1.3.78" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4971_r122106> ;
         dcterms:references  <https://identifiers.org/pubmed/16365287> ;
-        wp:bdbRhea          <https://identifiers.org/rhea/25674> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4971_r122106/DataNode/ad866> , <http://rdf.wikipathways.org/Pathway/WP4971_r122106/DataNode/a39d8> ;
         foaf:page           <http://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=3.1.3.78> .
 
@@ -113,6 +112,8 @@
         dc:source           "PubMed" ;
         dcterms:identifier  "9367159" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4971_r122106/WP/Interaction/id44a279d0> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q28254402> ;
+        owl:sameAs          <https://doi.org/10.1038%2F36621> ;
         foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/9367159> .
 
 <https://identifiers.org/uniprot/Q4KWH8>
@@ -138,13 +139,12 @@
         wp:target         <https://identifiers.org/chebi/CHEBI:57880> .
 
 <https://identifiers.org/ec-code/3.1.4.11>
-        rdf:type            wp:DataNode , wp:Protein ;
+        rdf:type            wp:Protein , wp:DataNode ;
         rdfs:label          "Phospholipase C" ;
         dc:identifier       <https://identifiers.org/ec-code/3.1.4.11> ;
         dc:source           "Enzyme Nomenclature" ;
         dcterms:identifier  "3.1.4.11" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4971_r122106> ;
-        wp:bdbRhea          <https://identifiers.org/rhea/33179> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4971_r122106/DataNode/a104e> ;
         foaf:page           <http://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=3.1.4.11> .
 
@@ -194,6 +194,8 @@
         dc:source           "PubMed" ;
         dcterms:identifier  "29056325" ;
         dcterms:isPartOf    <https://identifiers.org/uniprot/P60484> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q47100426> ;
+        owl:sameAs          <https://doi.org/10.1016%2FJ.MOLCEL.2017.09.024> ;
         foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/29056325> .
 
 <https://identifiers.org/uniprot/P42338>
@@ -253,6 +255,8 @@
         dc:source           "PubMed" ;
         dcterms:identifier  "18215151" ;
         dcterms:isPartOf    <https://identifiers.org/uniprot/Q99570> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q37063618> ;
+        owl:sameAs          <https://doi.org/10.1042%2FBJ20071427> ;
         foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/18215151> .
 
 <http://rdf.wikipathways.org/Pathway/WP4971_r122106/WP/Interaction/ideba742b7>
@@ -289,6 +293,14 @@
         wp:participants   <https://identifiers.org/uniprot/Q9Y2I7> , <http://rdf.wikipathways.org/Pathway/WP4971_r122106/WP/Interaction/idfb8ce1eb> ;
         wp:source         <https://identifiers.org/uniprot/Q9Y2I7> ;
         wp:target         <http://rdf.wikipathways.org/Pathway/WP4971_r122106/WP/Interaction/idfb8ce1eb> .
+
+<http://rdf.wikipathways.org/Pathway/WP4971_r122106/WP/Interaction/idf1ccf22b>
+        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4971_r122106> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4971_r122106/Interaction/idf1ccf22b> ;
+        wp:participants   <https://identifiers.org/uniprot/Q01968> , <http://rdf.wikipathways.org/Pathway/WP4971_r122106/WP/Interaction/idfb679763> ;
+        wp:source         <https://identifiers.org/uniprot/Q01968> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP4971_r122106/WP/Interaction/idfb679763> .
 
 <https://identifiers.org/wikipathways/WP4971_r122106>
         rdf:type               skos:Collection , wp:Pathway ;
@@ -358,14 +370,6 @@
         wp:source           <https://identifiers.org/chebi/CHEBI:58456> ;
         wp:target           <https://identifiers.org/chebi/CHEBI:58178> .
 
-<http://rdf.wikipathways.org/Pathway/WP4971_r122106/WP/Interaction/idf1ccf22b>
-        rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
-        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4971_r122106> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4971_r122106/Interaction/idf1ccf22b> ;
-        wp:participants   <https://identifiers.org/uniprot/Q01968> , <http://rdf.wikipathways.org/Pathway/WP4971_r122106/WP/Interaction/idfb679763> ;
-        wp:source         <https://identifiers.org/uniprot/Q01968> ;
-        wp:target         <http://rdf.wikipathways.org/Pathway/WP4971_r122106/WP/Interaction/idfb679763> .
-
 <http://rdf.wikipathways.org/Pathway/WP4971_r122106/WP/Interaction/id47e580a6>
         rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
         dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4971_r122106> ;
@@ -373,6 +377,14 @@
         wp:participants   <https://identifiers.org/uniprot/P60484> , <http://rdf.wikipathways.org/Pathway/WP4971_r122106/WP/Interaction/idf46796ac> ;
         wp:source         <https://identifiers.org/uniprot/P60484> ;
         wp:target         <http://rdf.wikipathways.org/Pathway/WP4971_r122106/WP/Interaction/idf46796ac> .
+
+<https://doi.org/10.1073%2FPNAS.0509740102>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1073/PNAS.0509740102" .
+
+<https://doi.org/10.1042%2FBJ20071427>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1042/BJ20071427" .
 
 <https://identifiers.org/chebi/CHEBI:30616>
         rdf:type            wp:Metabolite , wp:DataNode ;
@@ -436,7 +448,6 @@
         dc:source           "Enzyme Nomenclature" ;
         dcterms:identifier  "2.7.1.137" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4971_r122106> , <http://rdf.wikipathways.org/Pathway/WP4971_r122106/Complex/d01f4> ;
-        wp:bdbRhea          <https://identifiers.org/rhea/12709> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4971_r122106/DataNode/c377a> , <http://rdf.wikipathways.org/Pathway/WP4971_r122106/DataNode/df0be> , <http://rdf.wikipathways.org/Pathway/WP4971_r122106/DataNode/b1586> , <http://rdf.wikipathways.org/Pathway/WP4971_r122106/DataNode/feee2> ;
         foaf:page           <http://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=2.7.1.137> .
 
@@ -467,6 +478,10 @@
         wp:bdbUniprot       <https://identifiers.org/uniprot/V9GYH5> , <https://identifiers.org/uniprot/M0QX77> , <https://identifiers.org/uniprot/V9GY71> , <https://identifiers.org/uniprot/P19174> , <https://identifiers.org/uniprot/V9GY63> , <https://identifiers.org/uniprot/A0A0D9SEK2> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4971_r122106/DataNode/e95dc> ;
         foaf:page           <http://www.uniprot.org/uniprot/P19174> .
+
+<https://doi.org/10.1016%2FJ.MOLCEL.2017.09.024>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/J.MOLCEL.2017.09.024" .
 
 <https://identifiers.org/uniprot/O75747>
         rdf:type            wp:DataNode , wp:Protein ;
@@ -588,7 +603,7 @@
         rdf:type          wp:Complex , wp:DataNode ;
         dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4971_r122106> ;
         wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4971_r122106/Group/d01f4> ;
-        wp:participants   <https://identifiers.org/uniprot/Q8NEB9> , <https://identifiers.org/ec-code/2.7.1.137> , <https://identifiers.org/uniprot/Q99570> .
+        wp:participants   <https://identifiers.org/uniprot/Q99570> , <https://identifiers.org/uniprot/Q8NEB9> , <https://identifiers.org/ec-code/2.7.1.137> .
 
 <https://identifiers.org/ec-code/2.7.1.149>
         rdf:type            wp:DataNode , wp:Protein ;
@@ -597,7 +612,6 @@
         dc:source           "Enzyme Nomenclature" ;
         dcterms:identifier  "2.7.1.149" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4971_r122106> ;
-        wp:bdbRhea          <https://identifiers.org/rhea/12280> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4971_r122106/DataNode/e958d> , <http://rdf.wikipathways.org/Pathway/WP4971_r122106/DataNode/bbb05> ;
         foaf:page           <http://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=2.7.1.149> .
 
@@ -1127,6 +1141,10 @@
         wp:source         <https://identifiers.org/uniprot/Q9NTJ5> ;
         wp:target         <http://rdf.wikipathways.org/Pathway/WP4971_r122106/WP/Interaction/iddfa2f862> .
 
+<https://doi.org/10.1038%2F36621>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1038/36621" .
+
 <https://identifiers.org/uniprot/P16885>
         rdf:type            wp:DataNode , wp:Protein ;
         rdfs:label          "PLCG2" ;
@@ -1145,7 +1163,7 @@
         rdf:type          wp:ComplexBinding , wp:Binding , wp:Interaction ;
         dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4971_r122106> ;
         wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4971_r122106/Group/d01f4> ;
-        wp:participants   <https://identifiers.org/uniprot/Q8NEB9> , <https://identifiers.org/ec-code/2.7.1.137> , <https://identifiers.org/uniprot/Q99570> , <http://rdf.wikipathways.org/Pathway/WP4971_r122106/Complex/d01f4> .
+        wp:participants   <https://identifiers.org/uniprot/Q99570> , <https://identifiers.org/uniprot/Q8NEB9> , <https://identifiers.org/ec-code/2.7.1.137> , <http://rdf.wikipathways.org/Pathway/WP4971_r122106/Complex/d01f4> .
 
 <https://identifiers.org/chebi/CHEBI:58456>
         rdf:type            wp:DataNode , wp:Metabolite ;
@@ -1260,6 +1278,8 @@
         dc:source           "PubMed" ;
         dcterms:identifier  "16365287" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4971_r122106/WP/Interaction/bc391> , <https://identifiers.org/ec-code/3.1.3.78> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q24299329> ;
+        owl:sameAs          <https://doi.org/10.1073%2FPNAS.0509740102> ;
         foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/16365287> .
 
 <http://rdf.wikipathways.org/Pathway/WP4971_r122106/WP/Interaction/id258f298a>
@@ -1317,13 +1337,12 @@
         foaf:page           <http://www.uniprot.org/uniprot/Q99755> .
 
 <https://identifiers.org/ec-code/2.7.1.154>
-        rdf:type            wp:DataNode , wp:Protein ;
+        rdf:type            wp:Protein , wp:DataNode ;
         rdfs:label          "PI-3 kinase II" ;
         dc:identifier       <https://identifiers.org/ec-code/2.7.1.154> ;
         dc:source           "Enzyme Nomenclature" ;
         dcterms:identifier  "2.7.1.154" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4971_r122106> ;
-        wp:bdbRhea          <https://identifiers.org/rhea/18373> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4971_r122106/DataNode/a0d34> ;
         foaf:page           <http://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=2.7.1.154> .
 

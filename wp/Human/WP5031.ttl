@@ -130,6 +130,10 @@
 <https://identifiers.org/wikipathways/WP5031>
         pav:hasVersion  <https://identifiers.org/wikipathways/WP5031_r122564> .
 
+<https://doi.org/10.1016%2F0009-8981%2896%2906396-6>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/0009-8981(96)06396-6" .
+
 <http://rdf.wikipathways.org/Pathway/WP5031_r122564/WP/Interaction/e5725>
         rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
         dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5031_r122564> ;
@@ -310,7 +314,6 @@
         dc:source           "Rhea" ;
         dcterms:identifier  "11309" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5031_r122564> ;
-        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-8876889.3> , <https://identifiers.org/reactome/R-HSA-200555.4> , <https://identifiers.org/reactome/R-HSA-75851.4> ;
         wp:bdbRhea          <https://identifiers.org/rhea/11309> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5031_r122564/Interaction/b06e1> ;
         wp:participants     <https://identifiers.org/chebi/CHEBI:57288> , <https://identifiers.org/chebi/CHEBI:57384> ;
@@ -559,6 +562,7 @@
         wp:bdbInChIKey      <https://identifiers.org/inchikey/ROHFNLRQFUQHCH-UHFFFAOYSA-N> ;
         wp:bdbKeggCompound  <https://identifiers.org/kegg.compound/C16439> ;
         wp:bdbLipidMaps     <https://identifiers.org/lipidmaps/LMFA01100048> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5255803> , <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID857> ;
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q60662890> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5031_r122564/DataNode/f15f9> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:25017> .
@@ -600,7 +604,6 @@
         dc:source           "Rhea" ;
         dcterms:identifier  "13590" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5031_r122564> ;
-        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-70773.4> ;
         wp:bdbRhea          <https://identifiers.org/rhea/13590> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5031_r122564/Interaction/ida5964008> ;
         wp:participants     <https://identifiers.org/chebi/CHEBI:57344> , <https://identifiers.org/chebi/CHEBI:57346> ;
@@ -682,6 +685,8 @@
         dc:source           "PubMed" ;
         dcterms:identifier  "8930409" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5031_r122564/WP/Interaction/d3cb8> , <http://rdf.wikipathways.org/Pathway/WP5031_r122564/WP/Interaction/da908> , <https://identifiers.org/uniprot/P43251> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q28631337> ;
+        owl:sameAs          <https://doi.org/10.1016%2F0009-8981%2896%2906396-6> ;
         foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/8930409> .
 
 <http://rdf.wikipathways.org/Pathway/WP5031_r122564/WP/Interaction/id1c329d2e>

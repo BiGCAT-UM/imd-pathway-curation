@@ -23,7 +23,6 @@
         dc:source           "Enzyme Nomenclature" ;
         dcterms:identifier  "3.1.1.81" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4157_r124222> ;
-        wp:bdbRhea          <https://identifiers.org/rhea/22576> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4157_r124222/DataNode/f4535> ;
         foaf:page           <http://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=3.1.1.81> .
 
@@ -75,8 +74,6 @@
         dc:source           "Enzyme Nomenclature" ;
         dcterms:identifier  "1.1.1.1" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4157_r124222> , <http://rdf.wikipathways.org/Pathway/WP4157_r124222/WP/Interaction/ecbbe> ;
-        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-71707.2> ;
-        wp:bdbRhea          <https://identifiers.org/rhea/10736> , <https://identifiers.org/rhea/10740> , <https://identifiers.org/rhea/10741> , <https://identifiers.org/rhea/25290> , <https://identifiers.org/rhea/25291> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4157_r124222/DataNode/d54c3> ;
         foaf:page           <http://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=1.1.1.1> .
 
@@ -112,6 +109,10 @@
         wp:participants   <https://identifiers.org/hmdb/HMDB0240745> , <https://identifiers.org/chebi/CHEBI:30031> ;
         wp:source         <https://identifiers.org/chebi/CHEBI:30031> ;
         wp:target         <https://identifiers.org/hmdb/HMDB0240745> .
+
+<https://doi.org/10.1007%2FS10545-005-0114-X>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1007/S10545-005-0114-X" .
 
 <https://identifiers.org/chebi/CHEBI:17148>
         rdf:type            wp:Metabolite , wp:DataNode ;
@@ -234,6 +235,8 @@
         dc:source           "PubMed" ;
         dcterms:identifier  "16483879" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4157_r124222/WP/Interaction/b548f> , <http://rdf.wikipathways.org/Pathway/WP4157_r124222/WP/Interaction/aae62> , <https://identifiers.org/wikipathways/WP4157_r124222> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q46948999> ;
+        owl:sameAs          <https://doi.org/10.1016%2FJ.METABOL.2005.09.009> ;
         foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/16483879> .
 
 <http://rdf.wikipathways.org/Pathway/WP4157_r124222/WP/Interaction/d7497>
@@ -304,7 +307,7 @@
         rdf:type          wp:ComplexBinding , wp:Binding , wp:Interaction ;
         dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4157_r124222> ;
         wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4157_r124222/Group/e1f2e> ;
-        wp:participants   <https://identifiers.org/uniprot/Q99259> , <https://identifiers.org/chebi/CHEBI:18405> , <http://rdf.wikipathways.org/Pathway/WP4157_r124222/Complex/e1f2e> .
+        wp:participants   <https://identifiers.org/chebi/CHEBI:18405> , <https://identifiers.org/uniprot/Q99259> , <http://rdf.wikipathways.org/Pathway/WP4157_r124222/Complex/e1f2e> .
 
 <https://identifiers.org/chebi/CHEBI:28300>
         rdf:type            wp:DataNode , wp:Metabolite ;
@@ -591,13 +594,12 @@
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:30031> .
 
 <https://identifiers.org/ec-code/3.1.8.1>
-        rdf:type            wp:DataNode , wp:Protein ;
+        rdf:type            wp:Protein , wp:DataNode ;
         rdfs:label          "Serum paraoxonase/lactonase 3 (a)" ;
         dc:identifier       <https://identifiers.org/ec-code/3.1.8.1> ;
         dc:source           "Enzyme Nomenclature" ;
         dcterms:identifier  "3.1.8.1" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4157_r124222> ;
-        wp:bdbRhea          <https://identifiers.org/rhea/18053> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4157_r124222/DataNode/dfb00> ;
         foaf:page           <http://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=3.1.8.1> .
 
@@ -607,7 +609,6 @@
         dcterms:identifier  "24735" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4157_r124222> ;
         dcterms:references  <https://identifiers.org/pubmed/16483879> , <https://identifiers.org/pubmed/16435184> ;
-        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-880033.2> ;
         wp:bdbRhea          <https://identifiers.org/rhea/24735> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4157_r124222/Interaction/aae62> , <http://rdf.wikipathways.org/Pathway/WP4157_r124222/Interaction/d896f> ;
         wp:participants     <https://identifiers.org/chebi/CHEBI:16724> , <https://identifiers.org/chebi/CHEBI:57706> , <https://identifiers.org/chebi/CHEBI:15801> ;
@@ -639,7 +640,6 @@
         dc:source           "Enzyme Nomenclature" ;
         dcterms:identifier  "1.1.1.61" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4157_r124222> ;
-        wp:bdbRhea          <https://identifiers.org/rhea/23948> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4157_r124222/DataNode/fa534> ;
         foaf:page           <http://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=1.1.1.61> .
 
@@ -704,13 +704,12 @@
         foaf:page           <http://www.uniprot.org/uniprot/Q8IWW8> .
 
 <https://identifiers.org/ec-code/3.1.1.2>
-        rdf:type            wp:DataNode , wp:Protein ;
+        rdf:type            wp:Protein , wp:DataNode ;
         rdfs:label          "Serum paraoxonase/lactonase 3 (c)" ;
         dc:identifier       <https://identifiers.org/ec-code/3.1.1.2> ;
         dc:source           "Enzyme Nomenclature" ;
         dcterms:identifier  "3.1.1.2" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4157_r124222> ;
-        wp:bdbRhea          <https://identifiers.org/rhea/17309> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4157_r124222/DataNode/e56a8> ;
         foaf:page           <http://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=3.1.1.2> .
 
@@ -759,7 +758,6 @@
         dc:source           "Enzyme Nomenclature" ;
         dcterms:identifier  "3.5.1.2" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4157_r124222> , <http://rdf.wikipathways.org/Pathway/WP4157_r124222/WP/Interaction/d95a5> ;
-        wp:bdbRhea          <https://identifiers.org/rhea/15889> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4157_r124222/DataNode/c7990> ;
         foaf:page           <http://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=3.5.1.2> .
 
@@ -825,6 +823,8 @@
         dc:source           "PubMed" ;
         dcterms:identifier  "16435184" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4157_r124222/WP/Interaction/aae62> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q24302033> ;
+        owl:sameAs          <https://doi.org/10.1007%2FS10545-005-0114-X> ;
         foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/16435184> .
 
 <http://rdf.wikipathways.org/Pathway/WP4157_r124222/WP/Interaction/b9493>
@@ -834,6 +834,10 @@
         wp:participants   <https://identifiers.org/wikipathways/WP78> , <https://identifiers.org/chebi/CHEBI:30031> ;
         wp:source         <https://identifiers.org/chebi/CHEBI:30031> ;
         wp:target         <https://identifiers.org/wikipathways/WP78> .
+
+<https://doi.org/10.1016%2FJ.METABOL.2005.09.009>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1016/J.METABOL.2005.09.009" .
 
 <https://identifiers.org/chebi/CHEBI:16810>
         rdf:type            wp:DataNode , wp:Metabolite ;
@@ -859,7 +863,6 @@
         dc:source           "Enzyme Nomenclature" ;
         dcterms:identifier  "4.1.1.15" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4157_r124222> , <http://rdf.wikipathways.org/Pathway/WP4157_r124222/WP/Interaction/c3561> ;
-        wp:bdbRhea          <https://identifiers.org/rhea/17785> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4157_r124222/DataNode/dd1e6> ;
         foaf:page           <http://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=4.1.1.15> .
 
@@ -958,7 +961,7 @@
         rdf:type          wp:Complex , wp:DataNode ;
         dcterms:isPartOf  <http://rdf.wikipathways.org/Pathway/WP4157_r124222/WP/Interaction/bb183> , <https://identifiers.org/wikipathways/WP4157_r124222> ;
         wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4157_r124222/Group/e1f2e> ;
-        wp:participants   <https://identifiers.org/uniprot/Q99259> , <https://identifiers.org/chebi/CHEBI:18405> .
+        wp:participants   <https://identifiers.org/chebi/CHEBI:18405> , <https://identifiers.org/uniprot/Q99259> .
 
 <https://identifiers.org/ec-code/1.2.1.3>
         rdf:type            wp:DataNode , wp:Protein ;
@@ -967,7 +970,6 @@
         dc:source           "Enzyme Nomenclature" ;
         dcterms:identifier  "1.2.1.3" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4157_r124222/WP/Interaction/ffc9b> , <https://identifiers.org/wikipathways/WP4157_r124222> ;
-        wp:bdbRhea          <https://identifiers.org/rhea/25294> , <https://identifiers.org/rhea/16185> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4157_r124222/DataNode/fac07> , <http://rdf.wikipathways.org/Pathway/WP4157_r124222/DataNode/c0351> ;
         foaf:page           <http://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=1.2.1.3> .
 
@@ -1041,7 +1043,6 @@
         dc:source           "Rhea" ;
         dcterms:identifier  "23353" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4157_r124222> ;
-        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-916855.3> ;
         wp:bdbRhea          <https://identifiers.org/rhea/23353> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4157_r124222/Interaction/a3d0e> ;
         wp:participants     <https://identifiers.org/chebi/CHEBI:57706> , <https://identifiers.org/chebi/CHEBI:59888> ;

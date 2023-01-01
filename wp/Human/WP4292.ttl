@@ -67,7 +67,6 @@
         dc:source           "Enzyme Nomenclature" ;
         dcterms:identifier  "1.8.3.1" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4292_r124270> , <http://rdf.wikipathways.org/Pathway/WP4292_r124270/WP/Interaction/bbc8c> ;
-        wp:bdbRhea          <https://identifiers.org/rhea/24600> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4292_r124270/DataNode/d12ea> ;
         foaf:page           <http://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=1.8.3.1> .
 
@@ -319,6 +318,7 @@
         wp:bdbEntrezGene    <https://identifiers.org/ncbigene/875> ;
         wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/CBS> ;
         wp:bdbUniprot       <https://identifiers.org/uniprot/H7C2H4> , <https://identifiers.org/uniprot/C9JMA6> , <https://identifiers.org/uniprot/P35520> , <https://identifiers.org/uniprot/H7C2W0> , <https://identifiers.org/uniprot/H7C1W6> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q14913093> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4292_r124270/DataNode/f1ba5> ;
         foaf:page           <https://www.ensembl.org/id/ENSG00000160200> .
 
@@ -393,6 +393,7 @@
         wp:bdbEntrezGene    <https://identifiers.org/ncbigene/132> ;
         wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/ADK> ;
         wp:bdbUniprot       <https://identifiers.org/uniprot/A0A5F9ZH31> , <https://identifiers.org/uniprot/A0A5F9ZH76> , <https://identifiers.org/uniprot/A0A5K1VW94> , <https://identifiers.org/uniprot/A0A5F9ZH72> , <https://identifiers.org/uniprot/A0A5K1VW54> , <https://identifiers.org/uniprot/A0A5F9ZGZ8> , <https://identifiers.org/uniprot/A0A5F9ZHJ1> , <https://identifiers.org/uniprot/A0A5F9ZH83> , <https://identifiers.org/uniprot/P55263> , <https://identifiers.org/uniprot/A0A140VJE0> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q18247429> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4292_r124270/DataNode/be549> ;
         foaf:page           <https://www.ensembl.org/id/ENSG00000156110> .
 
@@ -409,7 +410,6 @@
         dc:source           "Rhea" ;
         dcterms:identifier  "16878" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4292_r124270> ;
-        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-6814165.2> , <https://identifiers.org/reactome/R-HSA-1655443.3> , <https://identifiers.org/reactome/R-HSA-6787757.2> ;
         wp:bdbRhea          <https://identifiers.org/rhea/16878> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4292_r124270/Interaction/dfac5> ;
         wp:participants     <https://identifiers.org/chebi/CHEBI:16668> , <https://identifiers.org/chebi/CHEBI:61085> ;
@@ -612,7 +612,6 @@
         dc:source           "Rhea" ;
         dcterms:identifier  "20442" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4292_r124270> ;
-        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-1614645.3> ;
         wp:bdbRhea          <https://identifiers.org/rhea/20442> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4292_r124270/Interaction/e449d> ;
         wp:participants     <https://identifiers.org/chebi/CHEBI:15356> , <https://identifiers.org/chebi/CHEBI:61085> ;
@@ -628,13 +627,12 @@
         wp:target         <http://rdf.wikipathways.org/Pathway/WP4292_r124270/WP/Interaction/fc670> .
 
 <https://identifiers.org/ec-code/2.5.1.6>
-        rdf:type            wp:DataNode , wp:Protein ;
+        rdf:type            wp:Protein , wp:DataNode ;
         rdfs:label          "Methionine adenosyltransferase I/III" ;
         dc:identifier       <https://identifiers.org/ec-code/2.5.1.6> ;
         dc:source           "Enzyme Nomenclature" ;
         dcterms:identifier  "2.5.1.6" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4292_r124270> ;
-        wp:bdbRhea          <https://identifiers.org/rhea/21080> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4292_r124270/DataNode/d9679> ;
         foaf:page           <http://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=2.5.1.6> .
 
@@ -675,6 +673,7 @@
         wp:bdbEntrezGene    <https://identifiers.org/ncbigene/1491> ;
         wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/CTH> ;
         wp:bdbUniprot       <https://identifiers.org/uniprot/P32929> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q5201182> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4292_r124270/DataNode/ce50a> ;
         foaf:page           <https://www.ensembl.org/id/ENSG00000116761> .
 
@@ -773,7 +772,6 @@
         dc:source           "Enzyme Nomenclature" ;
         dcterms:identifier  "1.8.1.3" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4292_r124270> , <http://rdf.wikipathways.org/Pathway/WP4292_r124270/WP/Interaction/e6ac6> ;
-        wp:bdbRhea          <https://identifiers.org/rhea/17385> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4292_r124270/DataNode/f3c97> ;
         foaf:page           <http://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=1.8.1.3> .
 

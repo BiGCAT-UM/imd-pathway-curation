@@ -108,6 +108,8 @@
         dc:source           "PubMed" ;
         dcterms:identifier  "20506125" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/id42ad9495> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q37761084> ;
+        owl:sameAs          <https://doi.org/10.1002%2FPRO.405> ;
         foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/20506125> .
 
 <https://identifiers.org/chebi/CHEBI:57306>
@@ -239,6 +241,10 @@
         wp:bdbInChIKey      <https://identifiers.org/inchikey/UXXBQPAQUFNNGY-FLBNTIIFSA-N> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5169_r122351/DataNode/e44d5> ;
         foaf:page           <http://www.hmdb.ca/metabolites/HMDB0001956> .
+
+<https://doi.org/10.1002%2FPRO.405>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1002/PRO.405" .
 
 <https://identifiers.org/chebi/CHEBI:57845>
         rdf:type            wp:Metabolite , wp:DataNode ;
@@ -459,7 +465,6 @@
         dcterms:identifier  "31240" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5169_r122351> ;
         dcterms:references  <https://identifiers.org/pubmed/10692079> ;
-        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-190182.1> ;
         wp:bdbRhea          <https://identifiers.org/rhea/31240> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5169_r122351/Interaction/idf54dc08f> ;
         wp:participants     <https://identifiers.org/chebi/CHEBI:28766> , <https://identifiers.org/chebi/CHEBI:28607> ;
@@ -611,7 +616,6 @@
         dcterms:identifier  "12922" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5169_r122351> ;
         dcterms:references  <https://identifiers.org/pubmed/20506125> , <https://identifiers.org/pubmed/30594473> ;
-        wp:bdbReactome      <https://identifiers.org/reactome/R-HSA-189442.3> ;
         wp:bdbRhea          <https://identifiers.org/rhea/12922> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5169_r122351/Interaction/id42ad9495> ;
         wp:participants     <https://identifiers.org/chebi/CHEBI:15380> , <https://identifiers.org/chebi/CHEBI:17549> ;

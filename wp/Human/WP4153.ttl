@@ -30,7 +30,7 @@
         rdf:type          wp:ComplexBinding , wp:Binding , wp:Interaction ;
         dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4153_r123688> ;
         wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4153_r123688/Group/f8336> ;
-        wp:participants   <https://identifiers.org/uniprot/P06865> , <https://identifiers.org/ncbigene/2760> , <http://rdf.wikipathways.org/Pathway/WP4153_r123688/Complex/f8336> .
+        wp:participants   <https://identifiers.org/ncbigene/2760> , <https://identifiers.org/uniprot/P06865> , <http://rdf.wikipathways.org/Pathway/WP4153_r123688/Complex/f8336> .
 
 <https://identifiers.org/chebi/CHEBI:61360>
         rdf:type            wp:DataNode , wp:Metabolite ;
@@ -143,7 +143,6 @@
         dc:source           "Enzyme Nomenclature" ;
         dcterms:identifier  "3.2.1.46" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4153_r123688> ;
-        wp:bdbRhea          <https://identifiers.org/rhea/14297> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4153_r123688/DataNode/efa49> ;
         foaf:page           <http://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=3.2.1.46> .
 
@@ -231,7 +230,7 @@
         rdf:type          wp:ComplexBinding , wp:Binding , wp:Interaction ;
         dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4153_r123688> ;
         wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4153_r123688/Group/db6a9> ;
-        wp:participants   <https://identifiers.org/ncbigene/2760> , <https://identifiers.org/ensembl/ENSG00000213614> , <http://rdf.wikipathways.org/Pathway/WP4153_r123688/Complex/db6a9> .
+        wp:participants   <https://identifiers.org/ensembl/ENSG00000213614> , <https://identifiers.org/ncbigene/2760> , <http://rdf.wikipathways.org/Pathway/WP4153_r123688/Complex/db6a9> .
 
 <https://identifiers.org/chebi/CHEBI:88167>
         rdf:type            wp:DataNode , wp:Metabolite ;
@@ -397,7 +396,7 @@
         rdf:type          wp:Complex , wp:DataNode ;
         dcterms:isPartOf  <http://rdf.wikipathways.org/Pathway/WP4153_r123688/WP/Interaction/ed96a> , <https://identifiers.org/wikipathways/WP4153_r123688> ;
         wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4153_r123688/Group/f8336> ;
-        wp:participants   <https://identifiers.org/uniprot/P06865> , <https://identifiers.org/ncbigene/2760> .
+        wp:participants   <https://identifiers.org/ncbigene/2760> , <https://identifiers.org/uniprot/P06865> .
 
 <https://identifiers.org/interpro/IPR003119>
         rdf:type            wp:Protein , wp:DataNode ;
@@ -451,6 +450,7 @@
         wp:bdbEntrezGene    <https://identifiers.org/ncbigene/2720> ;
         wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/GLB1> ;
         wp:bdbUniprot       <https://identifiers.org/uniprot/C9JWX1> , <https://identifiers.org/uniprot/F8WF40> , <https://identifiers.org/uniprot/F8WEN1> , <https://identifiers.org/uniprot/P16278> , <https://identifiers.org/uniprot/C9JF15> , <https://identifiers.org/uniprot/C9J539> , <https://identifiers.org/uniprot/C9J4G9> , <https://identifiers.org/uniprot/E7EQ29> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q18026074> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4153_r123688/DataNode/f6369> , <http://rdf.wikipathways.org/Pathway/WP4153_r123688/DataNode/e88da> , <http://rdf.wikipathways.org/Pathway/WP4153_r123688/DataNode/bfae8> ;
         foaf:page           <https://www.ensembl.org/id/ENSG00000170266> .
 
@@ -511,6 +511,7 @@
         wp:bdbEntrezGene    <https://identifiers.org/ncbigene/410> ;
         wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/ARSA> ;
         wp:bdbUniprot       <https://identifiers.org/uniprot/P15289> , <https://identifiers.org/uniprot/A0A0C4DFZ2> , <https://identifiers.org/uniprot/V9GYR0> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q14905432> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4153_r123688/DataNode/d58ab> ;
         foaf:page           <https://www.ensembl.org/id/ENSG00000100299> .
 
@@ -527,6 +528,8 @@
         dc:source           "PubMed" ;
         dcterms:identifier  "8672428" ;
         dcterms:isPartOf    <https://identifiers.org/ncbigene/2760> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q28282732> ;
+        owl:sameAs          <https://doi.org/10.1021%2FBI9524575> ;
         foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/8672428> .
 
 <https://identifiers.org/chebi/CHEBI:27731>
@@ -589,6 +592,7 @@
         wp:bdbEntrezGene    <https://identifiers.org/ncbigene/3073> ;
         wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/HEXA> ;
         wp:bdbUniprot       <https://identifiers.org/uniprot/H3BS10> , <https://identifiers.org/uniprot/P06865> , <https://identifiers.org/uniprot/H3BP20> , <https://identifiers.org/uniprot/H3BRP6> , <https://identifiers.org/uniprot/H3BT62> , <https://identifiers.org/uniprot/H3BQ04> , <https://identifiers.org/uniprot/H3BVH8> , <https://identifiers.org/uniprot/H3BTD4> , <https://identifiers.org/uniprot/A0A0S2Z3W3> , <https://identifiers.org/uniprot/H3BU85> , <https://identifiers.org/uniprot/A0A087WTY2> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q18026873> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4153_r123688/DataNode/fea30> , <http://rdf.wikipathways.org/Pathway/WP4153_r123688/DataNode/a9e39> , <http://rdf.wikipathways.org/Pathway/WP4153_r123688/DataNode/c6326> ;
         foaf:page           <https://www.ensembl.org/id/ENSG00000213614> .
 
@@ -621,7 +625,6 @@
         dc:source           "Enzyme Nomenclature" ;
         dcterms:identifier  "3.5.1.23" ;
         dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4153_r123688> ;
-        wp:bdbRhea          <https://identifiers.org/rhea/20856> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4153_r123688/DataNode/efbc8> ;
         foaf:page           <http://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=3.5.1.23> .
 
@@ -729,6 +732,10 @@
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4153_r123688/DataNode/a5647> ;
         foaf:page           <http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=66616222> .
 
+<https://doi.org/10.1021%2FBI9524575>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1021/BI9524575" .
+
 <https://identifiers.org/ensembl/ENSG00000107798>
         rdf:type            wp:DataNode , wp:GeneProduct ;
         rdfs:label          "LIPA" ;
@@ -740,6 +747,7 @@
         wp:bdbEntrezGene    <https://identifiers.org/ncbigene/3988> ;
         wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/LIPA> ;
         wp:bdbUniprot       <https://identifiers.org/uniprot/A0A0A0MT32> , <https://identifiers.org/uniprot/P38571> , <https://identifiers.org/uniprot/Q5T073> , <https://identifiers.org/uniprot/Q5T770> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q18028580> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4153_r123688/DataNode/f3570> ;
         foaf:page           <https://www.ensembl.org/id/ENSG00000107798> .
 
@@ -802,7 +810,6 @@
         dc:source           "Enzyme Nomenclature" ;
         dcterms:identifier  "3.1.4.12" ;
         dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4153_r123688/WP/Interaction/ff303> , <https://identifiers.org/wikipathways/WP4153_r123688> ;
-        wp:bdbRhea          <https://identifiers.org/rhea/19253> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4153_r123688/DataNode/d736e> ;
         foaf:page           <http://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=3.1.4.12> .
 
@@ -810,7 +817,7 @@
         rdf:type          wp:Complex , wp:DataNode ;
         dcterms:isPartOf  <http://rdf.wikipathways.org/Pathway/WP4153_r123688/WP/Interaction/fd3b9> , <https://identifiers.org/wikipathways/WP4153_r123688> ;
         wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4153_r123688/Group/db6a9> ;
-        wp:participants   <https://identifiers.org/ncbigene/2760> , <https://identifiers.org/ensembl/ENSG00000213614> .
+        wp:participants   <https://identifiers.org/ensembl/ENSG00000213614> , <https://identifiers.org/ncbigene/2760> .
 
 <https://identifiers.org/wikidata/Q2756638>
         rdf:type            wp:Metabolite , wp:DataNode ;
