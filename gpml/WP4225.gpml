@@ -8,15 +8,21 @@ Metabolic markers are highlighted in dark purple. Complexes mentioned in pathway
 This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (978-3642403361)).</Comment>
   <Comment Source="WikiPathways-description">Overview of pyrimidine metabolism and related diseases</Comment>
   <BiopaxRef>e8c</BiopaxRef>
-  <Graphics BoardWidth="1661.051092431211" BoardHeight="920.6953077263762" />
+  <Graphics BoardWidth="1672.2604501254793" BoardHeight="1217.8453772582363" />
   <DataNode TextLabel="Urea cycle" GraphId="e4b00" Type="Pathway">
     <Graphics CenterX="68.8095238095238" CenterY="105.8371335504886" Width="90.0" Height="25.0" ZOrder="28672" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="14961e" />
     <Xref Database="WikiPathways" ID="WP4571" />
   </DataNode>
+  <DataNode TextLabel="AKT" GraphId="a02e7" Type="Protein">
+    <Comment>AKA beta-alanine-alpha-ketoglutarate transaminase</Comment>
+    <Graphics CenterX="772.2672064777327" CenterY="897.2672064777325" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
   <DataNode TextLabel="(S)-Beta-aminoisobutyrate" GraphId="a059c" Type="Metabolite">
-    <Comment>aka (R)-3-amino-2-methylpropanoate</Comment>
+    <Comment>aka (R)-3-amino-2-methylpropanoate; myokine, β-aminoisobutyric acid (BAIBA); D form of β-aminoisobutyric acid (D-BAIBA)</Comment>
     <Comment>Zwitterion needed for conversion to take place</Comment>
-    <Graphics CenterX="1326.2265974122715" CenterY="877.1953077263762" Width="152.86817347407077" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="660066" />
+    <BiopaxRef>cb9</BiopaxRef>
+    <Graphics CenterX="1326.2265974122713" CenterY="877.1953077263762" Width="152.86817347407077" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="660066" />
     <Xref Database="ChEBI" ID="CHEBI:57731" />
   </DataNode>
   <DataNode TextLabel="Glutamine" GraphId="a1e10" Type="Metabolite">
@@ -31,6 +37,10 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
   <DataNode TextLabel="RRM1" GraphId="a396b" Type="Protein" GroupRef="c5073">
     <Graphics CenterX="94.61015476190485" CenterY="836.7540714285709" Width="54.0" Height="27.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Uniprot-TrEMBL" ID="P23921" />
+  </DataNode>
+  <DataNode TextLabel="Transamination and&#xA;oxidative reactions" GraphId="a39cc" Type="Pathway">
+    <Graphics CenterX="1520.662732107706" CenterY="1123.6649840595114" Width="165.08501594048883" Height="33.222635494155085" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" Color="14961e" />
+    <Xref Database="WikiPathways" ID="WP4686" />
   </DataNode>
   <DataNode TextLabel="UTP" GraphId="a4a19" Type="Metabolite">
     <Comment>(4-) charge needed for conversion to take place</Comment>
@@ -49,6 +59,21 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
     <Comment>(2-) charge needed for conversion to take place</Comment>
     <Graphics CenterX="174.82639776250107" CenterY="265.75069447295107" Width="147.65279552500215" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:58228" />
+  </DataNode>
+  <DataNode TextLabel="methylmalonate semialdehyde&#xA;dehydrogenase" GraphId="aae77" Type="Protein">
+    <Graphics CenterX="737.1862348178136" CenterY="1002.8915662650605" Width="196.3001804790008" Height="31.22469635627589" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="MMSDH" GraphId="ab4e7" Type="Protein">
+    <BiopaxRef>dd8</BiopaxRef>
+    <BiopaxRef>cb9</BiopaxRef>
+    <Graphics CenterX="1252.9002320185612" CenterY="1024.3619489559164" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q02252" />
+  </DataNode>
+  <DataNode TextLabel="L-Valine" GraphId="acec1" Type="Metabolite">
+    <BiopaxRef>cb9</BiopaxRef>
+    <Graphics CenterX="1520.6627321077062" CenterY="1175.3453772582363" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57762" />
   </DataNode>
   <DataNode TextLabel="RRM2B" GraphId="ad20f" Type="Protein" GroupRef="f7cb7">
     <Graphics CenterX="191.17609404761726" CenterY="864.6112264880944" Width="54.0" Height="27.0" ZOrder="32768" FontSize="12" Valign="Middle" />
@@ -76,7 +101,12 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
     <Graphics CenterX="264.95988256161104" CenterY="294.76190538366063" Width="40.82245430809422" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Uniprot-TrEMBL" ID="P00480" />
   </DataNode>
+  <DataNode TextLabel="Acetyl-CoA" GraphId="b29bf" Type="Metabolite">
+    <Graphics CenterX="876.144578313253" CenterY="1064.0963855421685" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15351" />
+  </DataNode>
   <DataNode TextLabel="DPD" GraphId="b47f8" Type="Protein">
+    <Comment>AKA DPYD</Comment>
     <Graphics CenterX="1151.600060591326" CenterY="718.3906686266278" Width="40.51600541027938" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Uniprot-TrEMBL" ID="Q12882" />
   </DataNode>
@@ -116,10 +146,11 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
   </DataNode>
   <DataNode TextLabel="N-Carbamoyl-beta-alanine" GraphId="cacb9" Type="Metabolite">
     <Comment>aka 3-(carbamoylamino)propanoate</Comment>
-    <Graphics CenterX="875.3247149667011" CenterY="822.5831002917732" Width="147.8199862322167" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="660066" />
+    <Graphics CenterX="875.3247149667011" CenterY="822.5831002917732" Width="176.89853116145537" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="660066" />
     <Xref Database="ChEBI" ID="CHEBI:11892" />
   </DataNode>
   <DataNode TextLabel="UP" GraphId="cc7a1" Type="Protein">
+    <Comment>aka UPB1</Comment>
     <Graphics CenterX="1151.6000605913223" CenterY="840.5426927640449" Width="33.77223816355843" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Uniprot-TrEMBL" ID="Q9UBR1" />
   </DataNode>
@@ -179,6 +210,17 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
     <Graphics CenterX="749.2507096813016" CenterY="483.5545763006424" Width="49.27711966390399" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Enzyme Nomenclature" ID="4.1.1.23" />
   </DataNode>
+  <DataNode TextLabel="AGXT2" GraphId="dd54c" Type="Protein">
+    <BiopaxRef>cb9</BiopaxRef>
+    <Graphics CenterX="1252.9002320185614" CenterY="935.0348027842224" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9BYV1" />
+  </DataNode>
+  <DataNode TextLabel="malonate semialdehyde" GraphId="e05f8" Type="Metabolite">
+    <Comment>AKA Beta-ketopropionate</Comment>
+    <Comment>Annotated without knowledge of R/S configuration</Comment>
+    <Graphics CenterX="875.3247149667011" CenterY="957.9959514170049" Width="171.02351194905964" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57700" />
+  </DataNode>
   <DataNode TextLabel="TP" GraphId="e154f" Type="Protein">
     <Graphics CenterX="1151.600060591324" CenterY="660.394008809569" Width="39.83972046889062" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
     <Xref Database="Uniprot-TrEMBL" ID="P19971" />
@@ -187,6 +229,13 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
     <Comment>(2-) charge needed for conversion to take place</Comment>
     <Graphics CenterX="1079.4937806099192" CenterY="518.9164527470258" Width="90.00000000000007" Height="24.99999999999999" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:246422" />
+  </DataNode>
+  <DataNode TextLabel="D-methylmalonate&#xA;semialdehyde" GraphId="e396f" Type="Metabolite">
+    <Comment>methylmalonate semialdehyde aka 2-Methyl-3-oxopropanoic acid aka 2-methyl-3-oxopropanoate</Comment>
+    <Comment>D configuration == R-annotation in ChEBI</Comment>
+    <BiopaxRef>cb9</BiopaxRef>
+    <Graphics CenterX="1326.2265974122713" CenterY="975.7685614849183" Width="136.6473317865429" Height="34.54176334106738" ZOrder="32768" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:141212" />
   </DataNode>
   <DataNode TextLabel="DHODH" GraphId="e400c" Type="Protein">
     <Graphics CenterX="187.14310769582298" CenterY="512.1025695571414" Width="53.87728459530035" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
@@ -209,6 +258,10 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
     <Graphics CenterX="685.4337626613968" CenterY="577.71051511727" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="660066" />
     <Xref Database="ChEBI" ID="CHEBI:25722" />
   </DataNode>
+  <DataNode TextLabel="beta-alanine-pyruvate &#xA;transaminase" GraphId="e94f6" Type="Protein">
+    <Graphics CenterX="742.9352226720646" CenterY="925.6831983805663" Width="148.74493927125513" Height="31.22469635627577" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Enzyme Nomenclature" ID="2.6.1.18" />
+  </DataNode>
   <DataNode TextLabel="N-Carbamyl-beta-aminoisobutyric acid" GraphId="eb464" Type="Metabolite">
     <Comment>aka 3-(carbamoylamino)-2-methylpropanoate</Comment>
     <Comment>(1-) charge needed for conversion to take place</Comment>
@@ -222,7 +275,7 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
   </DataNode>
   <DataNode TextLabel="Beta-alanine" GraphId="f2bed" Type="Metabolite">
     <Comment>Zwitterion needed for conversion to take place</Comment>
-    <Graphics CenterX="875.3247149667011" CenterY="878.1953077263762" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="660066" />
+    <Graphics CenterX="875.3247149667011" CenterY="877.1953077263762" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="660066" />
     <Xref Database="ChEBI" ID="CHEBI:57966" />
   </DataNode>
   <DataNode TextLabel="PRPP" GraphId="f35d2" Type="Metabolite">
@@ -290,6 +343,7 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
     <Xref Database="ChEBI" ID="CHEBI:58359" />
   </DataNode>
   <DataNode TextLabel="DHP" GraphId="a9ce9" Type="Protein">
+    <Comment>AKA DPYS</Comment>
     <Graphics CenterX="1152.600060591326" CenterY="782.4448504746085" Width="40.51600541027938" Height="22.408290700110342" ZOrder="32775" FontSize="12" Valign="Middle" />
     <Xref Database="Uniprot-TrEMBL" ID="Q14117" />
   </DataNode>
@@ -368,10 +422,63 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
     <Graphics CenterX="266.6376099962969" CenterY="471.04687209524695" Width="90.0" Height="25.0" ZOrder="32882" FontSize="12" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:30864" />
   </DataNode>
+  <DataNode TextLabel="L-BAIBA" GraphId="fc504" Type="Metabolite">
+    <Comment>L form of β-aminoisobutyric acid (BAIBA)</Comment>
+    <BiopaxRef>cb9</BiopaxRef>
+    <Graphics CenterX="1520.662732107706" CenterY="877.1953077263761" Width="90.0" Height="25.0" ZOrder="32884" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:58655" />
+  </DataNode>
+  <DataNode TextLabel="L-methylmalonate&#xA;semialdehyde" GraphId="c2b1f" Type="Metabolite">
+    <Comment>methylmalonate semialdehyde aka 2-Methyl-3-oxopropanoic acid aka 2-methyl-3-oxopropanoate</Comment>
+    <Comment>L configuration == S-annotation in ChEBI</Comment>
+    <BiopaxRef>cb9</BiopaxRef>
+    <Graphics CenterX="1520.662732107706" CenterY="975.7685614849183" Width="136.6473317865429" Height="34.54176334106738" ZOrder="32885" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:62413" />
+  </DataNode>
+  <DataNode TextLabel="Propionyl-CoA" GraphId="c5559" Type="Metabolite">
+    <BiopaxRef>cb9</BiopaxRef>
+    <Graphics CenterX="1326.2265974122713" CenterY="1070.4553364269138" Width="136.6473317865429" Height="34.54176334106738" ZOrder="32886" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57392" />
+  </DataNode>
+  <DataNode TextLabel="ABAT" GraphId="cace0" Type="Protein">
+    <BiopaxRef>cb9</BiopaxRef>
+    <Graphics CenterX="1439.288477939687" CenterY="1061.0250732917307" Width="51.28489321733209" Height="25.0" ZOrder="32893" FontSize="12" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P80404" />
+  </DataNode>
+  <Interaction>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="875.3247149667011" Y="889.6953077263762" GraphRef="f2bed" RelX="0.0" RelY="1.0" />
+      <Point X="875.3247149667011" Y="945.4959514170049" GraphRef="e05f8" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Anchor Position="0.4" Shape="None" GraphId="f9840" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="817.2672064777327" Y="897.2672064777325" GraphRef="a02e7" RelX="1.0" RelY="0.0" />
+      <Point X="875.3247149667011" Y="912.0155652026277" GraphRef="f9840" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="875.3247149667011" Y="970.4959514170049" GraphRef="e05f8" RelX="0.0" RelY="1.0" />
+      <Point X="876.144578313253" Y="1051.5963855421685" GraphRef="b29bf" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Anchor Position="0.4" Shape="None" GraphId="ad287" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="835.336325057314" Y="1002.8915662650605" GraphRef="aae77" RelX="1.0" RelY="0.0" />
+      <Point X="875.6526603053219" Y="1002.9361250670703" GraphRef="ad287" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
   <Interaction GraphId="id1104ad95">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1326.2265974122713" Y="835.0831002917733" GraphRef="eb464" RelX="0.0" RelY="1.0" />
-      <Point X="1326.2265974122715" Y="864.6953077263762" GraphRef="a059c" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="1326.2265974122713" Y="864.6953077263762" GraphRef="a059c" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
       <Anchor Position="0.15464389055506567" Shape="None" GraphId="f3e8c" />
     </Graphics>
     <Xref Database="Rhea" ID="37340" />
@@ -429,6 +536,15 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
     </Graphics>
     <Xref Database="Rhea" ID="19514" />
   </Interaction>
+  <Interaction GraphId="id2a5609e4">
+    <BiopaxRef>cb9</BiopaxRef>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1326.2265974122713" Y="889.6953077263762" GraphRef="a059c" RelX="0.0" RelY="1.0" />
+      <Point X="1326.2265974122713" Y="958.4976798143846" GraphRef="e396f" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Anchor Position="0.6589815682495748" Shape="None" GraphId="ba61e" />
+    </Graphics>
+    <Xref Database="Rhea" ID="18394" />
+  </Interaction>
   <Interaction GraphId="id2be8db51">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="825.0210084033611" Y="150.4159663865547" GraphRef="e4502" RelX="0.5" RelY="-1.0" />
@@ -451,6 +567,14 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
       <Anchor Position="0.4" Shape="None" GraphId="dfc95" />
     </Graphics>
     <Xref Database="Rhea" ID="15890" />
+  </Interaction>
+  <Interaction GraphId="id30f01a97">
+    <BiopaxRef>cb9</BiopaxRef>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1520.6627321077058" Y="1107.053666312434" GraphRef="a39cc" RelX="0.0" RelY="-1.0" />
+      <Point X="1520.662732107706" Y="993.0394431554521" GraphRef="c2b1f" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id33ecbd08">
     <Graphics ZOrder="12288" LineThickness="1.0">
@@ -545,7 +669,7 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
   <Interaction GraphId="id713d4502">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1134.713941509543" Y="840.5426927640449" GraphRef="cc7a1" RelX="-1.0" RelY="0.0" />
-      <Point X="875.3247149667011" Y="841.27105719104" GraphRef="c7422" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+      <Point X="875.3247149667011" Y="841.0689170182842" GraphRef="c7422" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -556,6 +680,13 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
       <Anchor Position="0.4" Shape="None" GraphId="ade61" />
     </Graphics>
     <Xref Database="Rhea" ID="10382" />
+  </Interaction>
+  <Interaction GraphId="id783c4cb9">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1439.2884779396873" Y="1048.5250732917307" GraphRef="cace0" RelX="0.0" RelY="-1.0" />
+      <Point X="1421.1434191607473" Y="1024.2094490253191" GraphRef="bb1f5" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id7ea99148">
     <Graphics ZOrder="12288" LineThickness="1.0">
@@ -709,7 +840,7 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
   <Interaction GraphId="idbcc14ba">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="875.3247149667011" Y="835.0831002917732" GraphRef="cacb9" RelX="0.0" RelY="1.0" />
-      <Point X="875.3247149667011" Y="865.6953077263762" GraphRef="f2bed" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Point X="875.3247149667011" Y="864.6953077263762" GraphRef="f2bed" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
       <Anchor Position="0.202140172755791" Shape="None" GraphId="c7422" />
     </Graphics>
     <Xref Database="Rhea" ID="11185" />
@@ -742,6 +873,13 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
       <Point X="1326.2265974122715" Y="611.5668503064085" GraphRef="b07ad" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
     </Graphics>
     <Xref Database="Rhea" ID="19131" />
+  </Interaction>
+  <Interaction GraphId="idd8d18ea7">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1297.9002320185614" Y="935.0348027842224" GraphRef="dd54c" RelX="1.0" RelY="0.0" />
+      <Point X="1326.2265974122713" Y="935.0348027842227" GraphRef="ba61e" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="idda744d19">
     <Comment>Translocation</Comment>
@@ -939,6 +1077,68 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
+  <Interaction GraphId="f9758">
+    <BiopaxRef>cb9</BiopaxRef>
+    <Graphics ZOrder="32887" LineThickness="1.0">
+      <Point X="1326.2265974122713" Y="993.0394431554521" GraphRef="e396f" RelX="0.0" RelY="1.0" />
+      <Point X="1326.2265974122713" Y="1053.18445475638" GraphRef="c5559" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Anchor Position="0.529912423735002" Shape="None" GraphId="ddc9b" />
+    </Graphics>
+    <Xref Database="Rhea" ID="20805" />
+  </Interaction>
+  <Interaction GraphId="b4525">
+    <BiopaxRef>cb9</BiopaxRef>
+    <Graphics ZOrder="32888" LineThickness="1.0">
+      <Point X="1486.5008991610703" Y="993.0394431554521" GraphRef="c2b1f" RelX="-0.5" RelY="1.0" />
+      <Point X="1360.388430358907" Y="1053.18445475638" GraphRef="c5559" RelX="0.5" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Anchor Position="0.5182475660107128" Shape="None" GraphId="bb1f5" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="ab142">
+    <BiopaxRef>cb9</BiopaxRef>
+    <Graphics ZOrder="32889" LineThickness="1.0">
+      <Point X="1452.3390662144345" Y="984.4040023201852" GraphRef="c2b1f" RelX="-1.0" RelY="0.5" />
+      <Point X="1394.5502633055428" Y="984.4040023201852" GraphRef="e396f" RelX="1.0" RelY="0.5" ArrowHead="mim-conversion" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="cc3b5">
+    <BiopaxRef>cb9</BiopaxRef>
+    <Graphics ZOrder="32890" LineThickness="1.0">
+      <Point X="1394.5502633055428" Y="967.1331206496515" GraphRef="e396f" RelX="1.0" RelY="-0.5" />
+      <Point X="1452.3390662144345" Y="967.1331206496515" GraphRef="c2b1f" RelX="-1.0" RelY="-0.5" ArrowHead="mim-conversion" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="e0452">
+    <Graphics ZOrder="32891" LineThickness="1.0">
+      <Point X="1520.662732107706" Y="889.6953077263761" GraphRef="fc504" RelX="0.0" RelY="1.0" />
+      <Point X="1520.662732107706" Y="958.4976798143846" GraphRef="c2b1f" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="e13b8">
+    <Graphics ZOrder="32892" LineThickness="1.0">
+      <Point X="1297.9002320185612" Y="1024.3619489559164" GraphRef="ab4e7" RelX="1.0" RelY="0.0" />
+      <Point X="1326.2265974122713" Y="1024.9110320284697" GraphRef="ddc9b" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="d0b56">
+    <Graphics ZOrder="32894" LineThickness="1.0">
+      <Point X="1520.6627321077062" Y="1162.8453772582363" GraphRef="acec1" RelX="0.0" RelY="-1.0" />
+      <Point X="1520.6627321077058" Y="1140.276301806589" GraphRef="a39cc" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="fb4bf">
+    <Graphics ZOrder="32895" LineThickness="1.0">
+      <Point X="817.3076923076922" Y="925.6831983805664" GraphRef="e94f6" RelX="1.0" RelY="0.0" />
+      <Point X="875.3247149667011" Y="912.0155652026277" GraphRef="f9840" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
   <GraphicalLine GraphId="a3a23">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="875.3247149667011" Y="282.57320489917225" GraphRef="f1756" RelX="0.0" RelY="-1.0" />
@@ -948,26 +1148,26 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
   <GraphicalLine GraphId="a5912">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="1326.2265974122715" Y="718.7060478199719" GraphRef="d82b9" RelX="0.0" RelY="0.0" />
-      <Point X="1228.2416984220326" Y="742.2829293634599" GraphRef="d3cc2" RelX="1.0" RelY="-0.5" ArrowHead="Arrow" />
+      <Point X="1225.952370521778" Y="742.2829293634599" GraphRef="d3cc2" RelX="1.0" RelY="-0.5" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="b2172">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="1348.7265974122715" Y="579.5066912826555" GraphRef="c9ac3" RelX="0.0" RelY="0.0" />
-      <Point X="1401.053953605759" Y="543.107013996108" GraphRef="ddf87" RelX="-1.0" RelY="0.5" ArrowHead="Arrow" />
+      <Point X="1482.2604501254793" Y="543.107013996108" GraphRef="ddf87" RelX="-1.0" RelY="0.5" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="b2486">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="1326.2265974122715" Y="780.590717299578" GraphRef="c6d38" RelX="0.0" RelY="0.0" />
-      <Point X="1183.6619695497243" Y="804.3632407955229" GraphRef="b17ff" RelX="1.0" RelY="-0.5" ArrowHead="Arrow" />
+      <Point X="1190.952370521778" Y="804.3632407955229" GraphRef="b17ff" RelX="1.0" RelY="-0.5" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="b87ca">
     <BiopaxRef>c73</BiopaxRef>
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="875.3247149667011" Y="720.112517580872" GraphRef="e3186" RelX="0.0" RelY="0.0" />
-      <Point X="978.2416984220326" Y="742.2829293634599" GraphRef="d3cc2" RelX="-1.0" RelY="-0.5" ArrowHead="Arrow" />
+      <Point X="975.952370521778" Y="742.2829293634599" GraphRef="d3cc2" RelX="-1.0" RelY="-0.5" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="b9c22">
@@ -979,13 +1179,13 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
   <GraphicalLine GraphId="c4bbd">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="875.3247149667011" Y="780.590717299578" GraphRef="d4041" RelX="0.0" RelY="0.0" />
-      <Point X="1003.6619695497243" Y="804.3632407955229" GraphRef="b17ff" RelX="-1.0" RelY="-0.5" ArrowHead="Arrow" />
+      <Point X="1010.952370521778" Y="804.3632407955229" GraphRef="b17ff" RelX="-1.0" RelY="-0.5" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="d3bdd">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="949.5592332268374" Y="660.8654495900722" GraphRef="ac32a" RelX="0.0" RelY="0.0" />
-      <Point X="978.2416984220326" Y="683.8033326185575" GraphRef="dd2b8" RelX="-1.0" RelY="-0.5" ArrowHead="Arrow" />
+      <Point X="975.952370521778" Y="683.8033326185575" GraphRef="dd2b8" RelX="-1.0" RelY="-0.5" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="d4daa">
@@ -997,20 +1197,20 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
   <GraphicalLine GraphId="e0326">
     <BiopaxRef>ddd</BiopaxRef>
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
-      <Point X="875.3247149667011" Y="841.27105719104" GraphRef="c7422" RelX="0.0" RelY="0.0" />
-      <Point X="1003.2416984220326" Y="865.1467669619914" GraphRef="aecc1" RelX="-1.0" RelY="-0.5" ArrowHead="Arrow" />
+      <Point X="875.3247149667011" Y="841.0689170182842" GraphRef="c7422" RelX="0.0" RelY="0.0" />
+      <Point X="1000.952370521778" Y="865.1467669619914" GraphRef="aecc1" RelX="-1.0" RelY="-0.5" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="ec706">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="1326.2265974122715" Y="659.600764605925" GraphRef="c4a33" RelX="0.0" RelY="0.0" />
-      <Point X="1228.2416984220326" Y="683.8033326185575" GraphRef="dd2b8" RelX="1.0" RelY="-0.5" ArrowHead="Arrow" />
+      <Point X="1225.952370521778" Y="683.8033326185575" GraphRef="dd2b8" RelX="1.0" RelY="-0.5" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="ed522">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="1326.2265974122713" Y="839.662447257384" GraphRef="f3e8c" RelX="0.0" RelY="0.0" />
-      <Point X="1203.2416984220326" Y="865.1467669619914" GraphRef="aecc1" RelX="1.0" RelY="-0.5" ArrowHead="Arrow" />
+      <Point X="1200.952370521778" Y="865.1467669619914" GraphRef="aecc1" RelX="1.0" RelY="-0.5" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="ee2b1">
@@ -1033,14 +1233,15 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
   </GraphicalLine>
   <GraphicalLine GraphId="fdc11">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
-      <Point X="1326.2265974122713" Y="839.662447257384" GraphRef="f3e8c" RelX="0.0" RelY="0.0" />
-      <Point X="1431.051092431211" Y="853.9161649000644" GraphRef="fc419" RelX="-1.0" RelY="-0.5" ArrowHead="Arrow" />
+      <Point X="1326.2265974122713" Y="935.0348027842227" GraphRef="ba61e" RelX="0.0" RelY="0.0" />
+      <Point X="1351.1341955681746" Y="937.4906775571881" GraphRef="fc419" RelX="-1.0" RelY="0.5" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="fec48">
+    <Comment>hypothesized</Comment>
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
-      <Point X="875.3247149667011" Y="841.27105719104" GraphRef="c7422" RelX="0.0" RelY="0.0" />
-      <Point X="790.4143663591461" Y="866.5909356521094" GraphRef="ffbd4" RelX="1.0" RelY="0.5" ArrowHead="Arrow" />
+      <Point X="875.3247149667011" Y="912.0155652026277" GraphRef="f9840" RelX="0.0" RelY="0.0" />
+      <Point X="997.3278873583722" Y="924.4282850497001" GraphRef="ffbd4" RelX="-0.5" RelY="-1.0" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="ea517">
@@ -1052,7 +1253,7 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
   <GraphicalLine GraphId="f0981">
     <Graphics ZOrder="32845" LineStyle="Broken" LineThickness="1.0">
       <Point X="875.3247149667006" Y="565.5908974850647" GraphRef="c323e" RelX="0.0" RelY="0.0" />
-      <Point X="791.4198694564916" Y="761.7923957456592" GraphRef="e25d7" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Point X="774.1050420168071" Y="761.7923957456592" GraphRef="e25d7" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
     </Graphics>
   </GraphicalLine>
   <GraphicalLine GraphId="fcb3c">
@@ -1106,6 +1307,9 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
     <Comment>CAD is a complex formed by carbamoyl phosphate synthethase 2 (CPS2), aspartate carbamoyltransferase (ACT) and digydroorotase (DHO)</Comment>
     <Graphics CenterX="88.81097031765276" CenterY="647.7406716082994" Width="90.0" Height="25.0" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" />
   </Label>
+  <Label TextLabel="hypothesized" GraphId="ccf44">
+    <Graphics CenterX="942.2512234910284" CenterY="908.9722675367043" Width="90.0" Height="25.0" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" Color="404040" />
+  </Label>
   <Label TextLabel="" GraphId="d4cd5" GroupRef="b5aef">
     <Graphics CenterX="1164.0" CenterY="419.5" Width="39.0" Height="13.0" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" />
   </Label>
@@ -1126,10 +1330,11 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
     <Comment>DISEASE</Comment>
     <Graphics CenterX="818.8253012048194" CenterY="426.77543507362736" Width="90.0" Height="50.0" ZOrder="32833" FillColor="ff9933" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="Beta-alanine &#xA;Alpha-ketoglutarate &#xA;Transaminase Deficiency" GraphId="ffbd4" Href="https://omim.org/237400">
-    <Comment>aka Hyper-Beta Alaninaemia</Comment>
+  <Label TextLabel="Hyper-beta-alaninemia" GraphId="ffbd4" Href="https://omim.org/237400">
+    <Comment>aka Hyper-Beta Alaninaemia, Beta-alanine Alpha-ketoglutarate Transaminase Deficiency</Comment>
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="710.4143663591461" CenterY="854.0909356521094" Width="160.0" Height="50.0" ZOrder="32834" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <BiopaxRef>ce3</BiopaxRef>
+    <Graphics CenterX="1037.3278873583722" CenterY="936.8828172236455" Width="160.0" Height="24.909064347890762" ZOrder="32834" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
   <Label TextLabel="Mitochondrial&#xA;ribonucleotide &#xA;reductase&#xA;subunit 2&#xA;deficiency" GraphId="a04fa" Href="https://omim.org/612075" GroupRef="d9f3b">
     <Comment>aka Mitocondrial DNA Depletion Syndrome 8A and 8B</Comment>
@@ -1148,28 +1353,28 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
   <Label TextLabel="Thymidine phosphorylase deficiency" GraphId="dd2b8" Href="https://omim.org/603041">
     <Comment>aka Mitochondrial Neurogastrointestinal Encephalopathy Syndrome</Comment>
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="1103.2416984220326" CenterY="691.3033326185575" Width="250.0" Height="30.0" ZOrder="32838" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="1100.952370521778" CenterY="691.3033326185575" Width="250.0" Height="30.0" ZOrder="32838" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
   <Label TextLabel="Dihydropyrimidine dehydrogenase deficiency" GraphId="d3cc2" Href="https://omim.org/274270">
     <Comment>aka Thymine-uraciluria</Comment>
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="1103.2416984220326" CenterY="749.7829293634599" Width="250.0" Height="30.0" ZOrder="32839" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="1100.952370521778" CenterY="749.7829293634599" Width="250.0" Height="30.0" ZOrder="32839" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
   <Label TextLabel="Dihydropyrimidinase deficiency" GraphId="b17ff" Href="https://omim.org/222748">
     <Comment>aka Dihydropyrimidinuria</Comment>
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="1093.6619695497243" CenterY="811.8632407955229" Width="180.0" Height="30.0" ZOrder="32840" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="1100.952370521778" CenterY="811.8632407955229" Width="180.0" Height="30.0" ZOrder="32840" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
   <Label TextLabel="Beta-ureidopropionase deficiency" GraphId="aecc1" Href="https://omim.org/613161">
     <Comment>Dihydropyrimidinuria</Comment>
-    <Graphics CenterX="1103.2416984220326" CenterY="872.6467669619914" Width="200.0" Height="30.0" ZOrder="32841" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="1100.952370521778" CenterY="872.6467669619914" Width="200.0" Height="30.0" ZOrder="32841" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
   <Label TextLabel="Pyrimidine 5'-nucleotidase I &#xA;deficiency" GraphId="c497a" Href="https://omim.org/266120">
     <Comment>aka UMP Hydrolase Deficiency</Comment>
     <Comment>aka 41.15 (book of Blau)</Comment>
     <Comment>aka Hemolytic anemia due to uridine 5-prime monophosphate hydrolase deficiency</Comment>
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="694.1050420168071" CenterY="712.405794259467" Width="160.0" Height="30.0" ZOrder="32850" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="676.8459596475287" CenterY="712.405794259467" Width="194.51816473855686" Height="30.0" ZOrder="32850" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
   <Label TextLabel="Pyrimidine 5'-nucleotidase I &#xA;deficiency" GraphId="ddf0e" Href="https://omim.org/266120">
     <Comment>aka UMP Hydrolase Deficiency</Comment>
@@ -1178,10 +1383,11 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
     <Comment>DISEASE</Comment>
     <Graphics CenterX="866.7638076235273" CenterY="64.67768296745558" Width="194.47238475294535" Height="30.0" ZOrder="32851" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="Beta-aminoisobutyrate-pyruvate &#xA;Transaminase Deficiency" GraphId="fc419" Href="https://omim.org/210100">
-    <Comment>aka Beta-aminoisobutyric Aciduria; BAIBA</Comment>
+  <Label TextLabel="Beta-aminoisobutyric &#xA;Aciduria" GraphId="fc419" Href="https://omim.org/210100">
+    <Comment>aka Beta-aminoisobutyric Aciduria; BAIBA; Hyper-β-aminoisobutyric aciduria;Beta-aminoisobutyrate-pyruvate 
+Transaminase Deficiency</Comment>
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="1531.051092431211" CenterY="861.4161649000644" Width="200.0" Height="30.0" ZOrder="32854" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="1428.5731098081355" CenterY="929.0895715472418" Width="154.87782847992196" Height="33.60442403978527" ZOrder="32854" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
   <Label TextLabel="Dihydroorotate dehydrogenase &#xA;deficiency" GraphId="ac8f0" Href="https://omim.org/263750">
     <Comment>aka Miller Syndrome</Comment>
@@ -1196,7 +1402,7 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
   <Label TextLabel="Pyrimidine 5'-nucleotidase&#xA;superactivity" GraphId="e25d7" Href="http://www.iembase.com/disorder/156">
     <Comment>aka UMP Hydrolase Superactivity</Comment>
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="711.4198694564916" CenterY="761.7923957456592" Width="160.0" Height="30.0" ZOrder="32859" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="676.8459596475287" CenterY="761.7923957456592" Width="194.51816473855686" Height="29.99999999999993" ZOrder="32859" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
   <Label TextLabel="RR-complex&#xA;The two possible compositions" GraphId="fdf03">
     <Comment>UMPS (UMP synthase complex) is a complex consisting of orotate phosphoribosyltransferase (OPRT) and OMP decarboxylase (OMPDC)</Comment>
@@ -1205,7 +1411,7 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
   <Label TextLabel="Thymidine kinase 2 &#xA;deficiency" GraphId="ddf87" Href="https://omim.org/609560">
     <Comment>aka Mitocondrial DNA Depletion Syndrome (Myopathic Type)</Comment>
     <Comment>DISEASE</Comment>
-    <Graphics CenterX="1481.053953605759" CenterY="535.607013996108" Width="160.0" Height="30.0" ZOrder="32863" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Graphics CenterX="1562.2604501254793" CenterY="535.607013996108" Width="160.0" Height="30.0" ZOrder="32863" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
   <Label TextLabel="Disease" GraphId="d273e">
     <Graphics CenterX="1164.0" CenterY="124.0" Width="90.0" Height="25.0" ZOrder="32870" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
@@ -1240,6 +1446,9 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
   <Shape GraphId="d33c2">
     <Graphics CenterX="189.85714285714286" CenterY="352.17164179104475" Width="368.2857142857143" Height="558.3432835820895" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Rotation="0.0" />
   </Shape>
+  <Shape TextLabel="Mitochondrion" GraphId="ddfce">
+    <Graphics CenterX="1382.6681494661927" CenterY="1002.5969750889678" Width="457.43950177935835" Height="198.36476868327418" ZOrder="16384" FontSize="12" Align="Left" ShapeType="RoundedRectangle" Rotation="0.0" />
+  </Shape>
   <Shape GraphId="e0b8b">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Mitochondria" />
     <Graphics CenterX="89.27380952380952" CenterY="500.2189069720714" Width="118.59523809523807" Height="66.43781394414282" ZOrder="16384" FontSize="12" Valign="Middle" ShapeType="Mitochondria" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
@@ -1262,43 +1471,6 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
   </Group>
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pyrimidine metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000032</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pyrimidine metabolic disorder</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0050832</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ef8">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16376858</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Characterization of enzymatic properties of human ribonucleotide reductase holoenzyme reconstituted in vitro from hRRM1, hRRM2, and p53R2 subunits.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</bp:YEAR>
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16376858</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Characterization of enzymatic properties of human ribonucleotide reductase holoenzyme reconstituted in vitro from hRRM1, hRRM2, and p53R2 subunits.</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochem Biophys Res Commun.</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qiu W</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhou B</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Darwish D</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shao J</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yen Y</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inborn error purine-pyrimidine metabolism disease pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001776</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dihydropyrimidine dehydrogenase deficiency</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:14218</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
-    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e8c">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9783642403361</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN</bp:DB>
@@ -1310,36 +1482,6 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gibson, K.M.</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Donisi-Vici, C.</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000013</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c73">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15093568</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dihydropyrimidine dehydrogenase and the efficacy and toxicity of 5-fluorouracil</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eur J Cancer</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">van Kuilenburg AB</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ddd">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16541364</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical findings and a therapeutic trial in the first patient with beta-ureidopropionase deficiency</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neuropediatrics</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</bp:YEAR>
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16541364</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical findings and a therapeutic trial in the first patient with beta-ureidopropionase deficiency</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neuropediatrics</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Assmann B</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gohlich G</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baethmann M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wevers RA</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">et al.</bp:AUTHORS>
-    </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a02">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25030255</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1350,6 +1492,11 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John A. Duley</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Christodoulou</bp:AUTHORS>
     </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000013</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d60">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31744820</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
@@ -1373,6 +1520,34 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schulze A</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orotic aciduria</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0050833</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c73">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15093568</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dihydropyrimidine dehydrogenase and the efficacy and toxicity of 5-fluorouracil</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eur J Cancer</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">van Kuilenburg AB</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oroticaciduria 1 disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001605</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dihydropyrimidine dehydrogenase deficiency</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:14218</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inborn error purine-pyrimidine metabolism disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001776</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dihydropyrimidine dehydrogenase deficiency pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0002210</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
@@ -1382,15 +1557,84 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001603</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cb9">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30823446</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beta-Aminoisobutyric Acid as a Novel Regulator of Carbohydrate and Lipid Metabolism</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nutrients</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dmitrii A Tanianskii</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Natalia Jarzebska</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andreas L Birkenfeld</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John F O'Sullivan</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roman N Rodionov</bp:AUTHORS>
+    </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oroticaciduria 1 disease pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001605</bp:ID>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pyrimidine metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000032</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orotic aciduria</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0050833</bp:ID>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pyrimidine metabolic disorder</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0050832</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
     </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ddd">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16541364</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical findings and a therapeutic trial in the first patient with beta-ureidopropionase deficiency</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neuropediatrics</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</bp:YEAR>
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16541364</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical findings and a therapeutic trial in the first patient with beta-ureidopropionase deficiency</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neuropediatrics</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Assmann B</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gohlich G</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baethmann M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wevers RA</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">et al.</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ef8">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16376858</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Characterization of enzymatic properties of human ribonucleotide reductase holoenzyme reconstituted in vitro from hRRM1, hRRM2, and p53R2 subunits.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</bp:YEAR>
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16376858</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Characterization of enzymatic properties of human ribonucleotide reductase holoenzyme reconstituted in vitro from hRRM1, hRRM2, and p53R2 subunits.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochem Biophys Res Commun.</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qiu W</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhou B</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Darwish D</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shao J</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yen Y</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dd8">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10989432</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mammalian Methylmalonate-Semialdehyde Dehydrogenase</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Methods Enzymol.</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Natalia Y. Kedishvili</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gary W. Goodwin</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kirill M. Popov</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Robert A. Harris</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ce3">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7936305</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pyridoxine-responsive hyper-beta-alaninemia associated with Cohen's syndrome</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neurology</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1994</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J J Higgins</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C R Kaneski</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I Bernardini</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R O Brady</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N W Barton</bp:AUTHORS>
+    </bp:PublicationXref>
   </Biopax>
 </Pathway>
