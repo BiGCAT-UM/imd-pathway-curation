@@ -16,6 +16,10 @@
 @prefix wprdf:   <http://rdf.wikipathways.org/> .
 @prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
 
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:WP5169&oldid=122351>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/png" .
+
 <https://identifiers.org/chebi/CHEBI:89912>
         rdf:type            wp:Metabolite , wp:DataNode ;
         rdfs:label          "Heptaporphyrin" ;
@@ -471,6 +475,10 @@
         wp:source           <https://identifiers.org/chebi/CHEBI:28766> ;
         wp:target           <https://identifiers.org/chebi/CHEBI:28607> .
 
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:WP5169&oldid=122351>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/svg+xml" .
+
 <https://identifiers.org/ncbigene/7389>
         rdf:type            wp:DataNode , wp:GeneProduct ;
         rdfs:label          "UROD" ;
@@ -608,6 +616,7 @@
         wp:organism             <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
         wp:organismName         "Homo sapiens" ;
         wp:pathwayOntologyTag   <http://purl.obolibrary.org/obo/PW_0002017> , <http://purl.obolibrary.org/obo/PW_0000013> , <http://purl.obolibrary.org/obo/PW_0001589> , <http://purl.obolibrary.org/obo/PW_0000218> , <http://purl.obolibrary.org/obo/PW_0000001> , <http://purl.obolibrary.org/obo/PW_0002216> , <http://purl.obolibrary.org/obo/PW_0001980> , <http://purl.obolibrary.org/obo/PW_0001784> ;
+        foaf:img                <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:WP5169&oldid=122351> , <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:WP5169&oldid=122351> ;
         foaf:page               <http://www.wikipathways.org/instance/WP5169_r122351> .
 
 <http://rdf.wikipathways.org/Pathway/WP5169_r122351/WP/Interaction/id42ad9495>

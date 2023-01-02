@@ -369,6 +369,7 @@
         wp:organism            <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
         wp:organismName        "Homo sapiens" ;
         wp:pathwayOntologyTag  <http://purl.obolibrary.org/obo/PW_0001612> , <http://purl.obolibrary.org/obo/PW_0002105> , <http://purl.obolibrary.org/obo/PW_0001288> , <http://purl.obolibrary.org/obo/PW_0001805> , <http://purl.obolibrary.org/obo/PW_0000217> ;
+        foaf:img               <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:WP4156&oldid=123763> , <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:WP4156&oldid=123763> ;
         foaf:page              <http://www.wikipathways.org/instance/WP4156_r123763> .
 
 <http://rdf.wikipathways.org/Pathway/WP4156_r123763/WP/Interaction/idd348c017>
@@ -806,6 +807,10 @@
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q300989> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4156_r123763/DataNode/cf056> ;
         foaf:page           <https://scholia.toolforge.org/Q300989> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:WP4156&oldid=123763>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/png" .
 
 <https://identifiers.org/ec-code/1.4.3.4>
         rdf:type            wp:DataNode , wp:Protein ;
@@ -1418,6 +1423,10 @@
         wp:participants     <https://identifiers.org/chebi/CHEBI:17697> , <https://identifiers.org/chebi/CHEBI:28790> ;
         wp:source           <https://identifiers.org/chebi/CHEBI:28790> ;
         wp:target           <https://identifiers.org/chebi/CHEBI:17697> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:WP4156&oldid=123763>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/svg+xml" .
 
 <http://rdf.wikipathways.org/Pathway/WP4156_r123763/WP/Interaction/idc3ff3f1c>
         rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;

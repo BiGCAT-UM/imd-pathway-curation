@@ -86,7 +86,12 @@
         wp:organism             <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
         wp:organismName         "Homo sapiens" ;
         wp:pathwayOntologyTag   <http://purl.obolibrary.org/obo/PW_0001811> , <http://purl.obolibrary.org/obo/PW_0000397> , <http://purl.obolibrary.org/obo/PW_0001961> ;
+        foaf:img                <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:WP4271&oldid=124608> , <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:WP4271&oldid=124608> ;
         foaf:page               <http://www.wikipathways.org/instance/WP4271_r124608> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:WP4271&oldid=124608>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/svg+xml" .
 
 <https://identifiers.org/wikidata/Q252251>
         rdf:type            wp:DataNode , wp:Metabolite ;
@@ -643,6 +648,10 @@
         dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4271_r124608> ;
         wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4271_r124608/Group/d803a> ;
         wp:participants   <https://identifiers.org/uniprot/P27352> , <https://identifiers.org/wikidata/Q3329800> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:WP4271&oldid=124608>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/png" .
 
 <https://identifiers.org/chebi/CHEBI:16304>
         rdf:type            wp:Metabolite , wp:DataNode ;

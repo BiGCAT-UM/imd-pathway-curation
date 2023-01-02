@@ -250,6 +250,7 @@
         wp:organism             <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
         wp:organismName         "Homo sapiens" ;
         wp:pathwayOntologyTag   <http://purl.obolibrary.org/obo/PW_0001781> , <http://purl.obolibrary.org/obo/PW_0000440> , <http://purl.obolibrary.org/obo/PW_0001780> , <http://purl.obolibrary.org/obo/PW_0000013> , <http://purl.obolibrary.org/obo/PW_0001782> , <http://purl.obolibrary.org/obo/PW_0000083> , <http://purl.obolibrary.org/obo/PW_0001783> ;
+        foaf:img                <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:WP5166&oldid=122169> , <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:WP5166&oldid=122169> ;
         foaf:page               <http://www.wikipathways.org/instance/WP5166_r122169> .
 
 <http://rdf.wikipathways.org/Pathway/WP5166_r122169/WP/Interaction/e98a7>
@@ -486,6 +487,10 @@
 <https://doi.org/10.3389%2FFCELL.2015.00083>
         dc:source           "DOI" ;
         dcterms:identifier  "10.3389/FCELL.2015.00083" .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:WP5166&oldid=122169>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/svg+xml" .
 
 <http://rdf.wikipathways.org/Pathway/WP5166_r122169/WP/Interaction/c41d2>
         rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
@@ -802,6 +807,10 @@
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q50336044> ;
         owl:sameAs          <https://doi.org/10.1016%2F0014-5793%2896%2901114-3> ;
         foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/8915003> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:WP5166&oldid=122169>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/png" .
 
 <https://identifiers.org/uniprot/P21549>
         rdf:type            wp:DataNode , wp:Protein ;

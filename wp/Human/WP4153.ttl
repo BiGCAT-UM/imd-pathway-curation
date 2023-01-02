@@ -16,6 +16,10 @@
 @prefix wprdf:   <http://rdf.wikipathways.org/> .
 @prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
 
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:WP4153&oldid=123688>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/png" .
+
 <https://identifiers.org/interpro/IPR004124>
         rdf:type            wp:Protein , wp:DataNode ;
         rdfs:label          "sialidase" ;
@@ -423,6 +427,7 @@
         wp:organism            <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
         wp:organismName        "Homo sapiens" ;
         wp:pathwayOntologyTag  <http://purl.obolibrary.org/obo/PW_0000163> , <http://purl.obolibrary.org/obo/PW_0001062> , <http://purl.obolibrary.org/obo/PW_0000733> , <http://purl.obolibrary.org/obo/PW_0000162> , <http://purl.obolibrary.org/obo/PW_0000197> , <http://purl.obolibrary.org/obo/PW_0000735> ;
+        foaf:img               <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:WP4153&oldid=123688> , <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:WP4153&oldid=123688> ;
         foaf:page              <http://www.wikipathways.org/instance/WP4153_r123688> .
 
 <https://identifiers.org/ncbigene/10577>
@@ -717,6 +722,10 @@
         wp:bdbUniprot       <https://identifiers.org/uniprot/D6RDG0> , <https://identifiers.org/uniprot/A0A1W2PQR6> , <https://identifiers.org/uniprot/A0A1W2PPX6> , <https://identifiers.org/uniprot/A0A024RDG6> , <https://identifiers.org/uniprot/A0A1W2PS70> , <https://identifiers.org/uniprot/A0A1W2PPX5> , <https://identifiers.org/uniprot/A0A1W2PRF6> , <https://identifiers.org/uniprot/A0A1W2PQB7> , <https://identifiers.org/uniprot/A0A1W2PQL5> , <https://identifiers.org/uniprot/A0A1W2PNX7> , <https://identifiers.org/uniprot/Q14108> , <https://identifiers.org/uniprot/A0A1W2PS43> , <https://identifiers.org/uniprot/A0A1W2PSE4> , <https://identifiers.org/uniprot/A0A1W2PPU6> , <https://identifiers.org/uniprot/A0A1W2PRS1> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4153_r123688/DataNode/ab01a> ;
         foaf:page           <http://www.ncbi.nlm.nih.gov/gene/950> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:WP4153&oldid=123688>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/svg+xml" .
 
 <https://identifiers.org/pubchem.compound/66616222>
         rdf:type            wp:Metabolite , wp:DataNode ;

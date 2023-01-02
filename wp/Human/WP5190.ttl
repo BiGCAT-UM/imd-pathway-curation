@@ -39,6 +39,13 @@
         wp:source         <https://identifiers.org/chebi/CHEBI:16919> ;
         wp:target         <https://identifiers.org/chebi/CHEBI:16919> .
 
+<https://identifiers.org/pubmed/13403909>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "13403909" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5190_r122630/WP/Interaction/iddec9a9d8> , <http://rdf.wikipathways.org/Pathway/WP5190_r122630/WP/Interaction/id8abb5da7> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/13403909> .
+
 <https://identifiers.org/chebi/CHEBI:16919>
         rdf:type            wp:Metabolite , wp:DataNode ;
         rdfs:label          "Creatine" ;
@@ -56,13 +63,6 @@
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q223600> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5190_r122630/DataNode/ae41b> , <http://rdf.wikipathways.org/Pathway/WP5190_r122630/DataNode/cdb62> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:16919> .
-
-<https://identifiers.org/pubmed/13403909>
-        rdf:type            wp:PublicationReference ;
-        dc:source           "PubMed" ;
-        dcterms:identifier  "13403909" ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP5190_r122630/WP/Interaction/iddec9a9d8> , <http://rdf.wikipathways.org/Pathway/WP5190_r122630/WP/Interaction/id8abb5da7> ;
-        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/13403909> .
 
 <https://identifiers.org/chebi/CHEBI:26271>
         rdf:type            wp:Metabolite , wp:DataNode ;
@@ -162,6 +162,7 @@
         wp:organism            <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
         wp:organismName        "Homo sapiens" ;
         wp:pathwayOntologyTag  <http://purl.obolibrary.org/obo/PW_0002360> , <http://purl.obolibrary.org/obo/PW_0000013> , <http://purl.obolibrary.org/obo/PW_0001807> , <http://purl.obolibrary.org/obo/PW_0000002> , <http://purl.obolibrary.org/obo/PW_0000404> , <http://purl.obolibrary.org/obo/PW_0002215> ;
+        foaf:img               <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:WP5190&oldid=122630> , <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:WP5190&oldid=122630> ;
         foaf:page              <http://www.wikipathways.org/instance/WP5190_r122630> .
 
 <http://rdf.wikipathways.org/Pathway/WP5190_r122630/WP/Interaction/idc14f6d1c>
@@ -502,6 +503,10 @@
         wp:source         <https://identifiers.org/chebi/CHEBI:45453> ;
         wp:target         <https://identifiers.org/wikipathways/WP4595> .
 
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:WP5190&oldid=122630>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/svg+xml" .
+
 <http://rdf.wikipathways.org/Pathway/WP5190_r122630/WP/Interaction/id8abb5da7>
         rdf:type            wp:Conversion , wp:Interaction , wp:DirectedInteraction ;
         dc:source           "Rhea" ;
@@ -513,6 +518,18 @@
         wp:participants     <https://identifiers.org/chebi/CHEBI:456216> , <https://identifiers.org/chebi/CHEBI:16034> , <https://identifiers.org/chebi/CHEBI:16344> , <https://identifiers.org/chebi/CHEBI:30616> ;
         wp:source           <https://identifiers.org/chebi/CHEBI:16034> , <https://identifiers.org/chebi/CHEBI:456216> ;
         wp:target           <https://identifiers.org/chebi/CHEBI:30616> , <https://identifiers.org/chebi/CHEBI:16344> .
+
+<http://rdf.wikipathways.org/Pathway/WP5190_r122630/WP/Interaction/id93e422e6>
+        rdf:type            wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dc:source           "Rhea" ;
+        dcterms:identifier  "28237" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5190_r122630> ;
+        dcterms:references  <https://identifiers.org/pubmed/23928095> ;
+        wp:bdbRhea          <https://identifiers.org/rhea/28237> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5190_r122630/Interaction/id93e422e6> ;
+        wp:participants     <https://identifiers.org/chebi/CHEBI:15893> , <https://identifiers.org/wikidata/Q2823261> ;
+        wp:source           <https://identifiers.org/chebi/CHEBI:15893> ;
+        wp:target           <https://identifiers.org/wikidata/Q2823261> .
 
 <https://identifiers.org/hmdb/HMDB0000123>
         rdf:type            wp:Metabolite , wp:DataNode ;
@@ -531,18 +548,6 @@
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q620730> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5190_r122630/DataNode/f21fe> ;
         foaf:page           <http://www.hmdb.ca/metabolites/HMDB0000123> .
-
-<http://rdf.wikipathways.org/Pathway/WP5190_r122630/WP/Interaction/id93e422e6>
-        rdf:type            wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
-        dc:source           "Rhea" ;
-        dcterms:identifier  "28237" ;
-        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5190_r122630> ;
-        dcterms:references  <https://identifiers.org/pubmed/23928095> ;
-        wp:bdbRhea          <https://identifiers.org/rhea/28237> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5190_r122630/Interaction/id93e422e6> ;
-        wp:participants     <https://identifiers.org/chebi/CHEBI:15893> , <https://identifiers.org/wikidata/Q2823261> ;
-        wp:source           <https://identifiers.org/chebi/CHEBI:15893> ;
-        wp:target           <https://identifiers.org/wikidata/Q2823261> .
 
 <https://identifiers.org/chebi/CHEBI:15893>
         rdf:type            wp:Metabolite , wp:DataNode ;
@@ -650,6 +655,10 @@
         wp:participants   <https://identifiers.org/ensembl/ENSG00000130821> , <http://rdf.wikipathways.org/Pathway/WP5190_r122630/WP/Interaction/id1dd22822> ;
         wp:source         <https://identifiers.org/ensembl/ENSG00000130821> ;
         wp:target         <http://rdf.wikipathways.org/Pathway/WP5190_r122630/WP/Interaction/id1dd22822> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:WP5190&oldid=122630>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/png" .
 
 <https://identifiers.org/ensembl/ENSG00000130821>
         rdf:type            wp:GeneProduct , wp:DataNode ;

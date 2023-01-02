@@ -107,6 +107,10 @@
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5195_r122514/DataNode/f9ea0> ;
         foaf:page           <https://www.wikipathways.org/instance/WP5193> .
 
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:WP5195&oldid=122514>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/svg+xml" .
+
 <http://rdf.wikipathways.org/Pathway/WP5195_r122514/WP/Interaction/id8fc8f8ad_2>
         rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
         dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5195_r122514> ;
@@ -267,6 +271,10 @@
         wp:source         <https://identifiers.org/uniprot/Q01581> ;
         wp:target         <http://rdf.wikipathways.org/Pathway/WP5195_r122514/WP/Interaction/id403dc952> .
 
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:WP5195&oldid=122514>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/png" .
+
 <http://rdf.wikipathways.org/Pathway/WP5195_r122514/WP/Interaction/id403dc952>
         rdf:type            wp:Interaction , wp:DirectedInteraction , wp:Conversion ;
         dc:source           "Rhea" ;
@@ -317,6 +325,7 @@
         wp:organism            <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
         wp:organismName        "Homo sapiens" ;
         wp:pathwayOntologyTag  <http://purl.obolibrary.org/obo/PW_0000777> , <http://purl.obolibrary.org/obo/PW_0000002> , <http://purl.obolibrary.org/obo/PW_0000454> , <http://purl.obolibrary.org/obo/PW_0002549> ;
+        foaf:img               <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:WP5195&oldid=122514> , <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:WP5195&oldid=122514> ;
         foaf:page              <http://www.wikipathways.org/instance/WP5195_r122514> .
 
 <https://identifiers.org/wikipathways/WP5195>

@@ -63,6 +63,22 @@
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4236_r123795/DataNode/ce063> ;
         foaf:page           <https://scholia.toolforge.org/Q715317> .
 
+<https://identifiers.org/wikidata/Q27101949>
+        rdf:type            wp:Metabolite , wp:DataNode ;
+        rdfs:label          "3-HYDROXYPROPIONATE" ;
+        rdfs:seeAlso        <https://identifiers.org/inchikey/ALRHLSYJTWAHJZ-UHFFFAOYSA-N> ;
+        dc:identifier       <https://identifiers.org/wikidata/Q27101949> ;
+        dc:source           "Wikidata" ;
+        dcterms:identifier  "Q27101949" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4236_r123795> , <http://rdf.wikipathways.org/Pathway/WP4236_r123795/WP/Interaction/e5f4e> ;
+        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:16510> ;
+        wp:bdbChemspider    <https://identifiers.org/chemspider/4573601> ;
+        wp:bdbInChIKey      <https://identifiers.org/inchikey/ALRHLSYJTWAHJZ-UHFFFAOYSA-M> ;
+        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5459847> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27101949> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4236_r123795/DataNode/f31fd> ;
+        foaf:page           <https://scholia.toolforge.org/Q27101949> .
+
 <https://identifiers.org/chebi/CHEBI:30860>
         rdf:type            wp:Metabolite , wp:DataNode ;
         rdfs:label          "METHYLMALONIC  ACID" ;
@@ -81,22 +97,6 @@
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q239598> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4236_r123795/DataNode/d6d31> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:30860> .
-
-<https://identifiers.org/wikidata/Q27101949>
-        rdf:type            wp:Metabolite , wp:DataNode ;
-        rdfs:label          "3-HYDROXYPROPIONATE" ;
-        rdfs:seeAlso        <https://identifiers.org/inchikey/ALRHLSYJTWAHJZ-UHFFFAOYSA-N> ;
-        dc:identifier       <https://identifiers.org/wikidata/Q27101949> ;
-        dc:source           "Wikidata" ;
-        dcterms:identifier  "Q27101949" ;
-        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP4236_r123795> , <http://rdf.wikipathways.org/Pathway/WP4236_r123795/WP/Interaction/e5f4e> ;
-        wp:bdbChEBI         <https://identifiers.org/chebi/CHEBI:16510> ;
-        wp:bdbChemspider    <https://identifiers.org/chemspider/4573601> ;
-        wp:bdbInChIKey      <https://identifiers.org/inchikey/ALRHLSYJTWAHJZ-UHFFFAOYSA-M> ;
-        wp:bdbPubChem       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5459847> ;
-        wp:bdbWikidata      <http://www.wikidata.org/entity/Q27101949> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4236_r123795/DataNode/f31fd> ;
-        foaf:page           <https://scholia.toolforge.org/Q27101949> .
 
 <https://identifiers.org/ec-code/1.2.4.1>
         rdf:type            wp:DataNode , wp:Protein ;
@@ -191,6 +191,10 @@
         wp:source         <https://identifiers.org/chebi/CHEBI:15422> ;
         wp:target         <http://rdf.wikipathways.org/Pathway/WP4236_r123795/WP/Interaction/a7e6c> .
 
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:WP4236&oldid=123795>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/png" .
+
 <http://rdf.wikipathways.org/Pathway/WP4236_r123795/ComplexBinding/bafa6>
         rdf:type          wp:Interaction , wp:ComplexBinding , wp:Binding ;
         dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4236_r123795> ;
@@ -279,6 +283,7 @@
         wp:organism            <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
         wp:organismName        "Homo sapiens" ;
         wp:pathwayOntologyTag  <http://purl.obolibrary.org/obo/PW_0002098> , <http://purl.obolibrary.org/obo/PW_0000026> ;
+        foaf:img               <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:WP4236&oldid=123795> , <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:WP4236&oldid=123795> ;
         foaf:page              <http://www.wikipathways.org/instance/WP4236_r123795> .
 
 <http://rdf.wikipathways.org/Pathway/WP4236_r123795/WP/Interaction/b4c20_1>
@@ -1206,6 +1211,10 @@
         dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4236_r123795> ;
         wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP4236_r123795/Group/cab2b> ;
         wp:participants   <https://identifiers.org/uniprot/P07195> , <https://identifiers.org/uniprot/P00338> , <http://rdf.wikipathways.org/Pathway/WP4236_r123795/Complex/cab2b> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:WP4236&oldid=123795>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/svg+xml" .
 
 <http://rdf.wikipathways.org/Pathway/WP4236_r123795/WP/Interaction/fdb19_2>
         rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;

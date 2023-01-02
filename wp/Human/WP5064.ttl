@@ -206,6 +206,7 @@
         wp:organism            <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
         wp:organismName        "Homo sapiens" ;
         wp:pathwayOntologyTag  <http://purl.obolibrary.org/obo/PW_0000002> , <http://purl.obolibrary.org/obo/PW_0001304> , <http://purl.obolibrary.org/obo/PW_0001650> ;
+        foaf:img               <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:WP5064&oldid=120384> , <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:WP5064&oldid=120384> ;
         foaf:page              <http://www.wikipathways.org/instance/WP5064_r120384> .
 
 <https://identifiers.org/uniprot/Q86TX2>
@@ -284,6 +285,10 @@
         wp:participants     <https://identifiers.org/inchikey/AXBXXYALPXTOOI-UBKHJBOVSA-N> , <https://identifiers.org/inchikey/HEPNPBUPTRNGJT-ILFWFKRZSA-N> ;
         wp:source           <https://identifiers.org/inchikey/HEPNPBUPTRNGJT-ILFWFKRZSA-N> ;
         wp:target           <https://identifiers.org/inchikey/AXBXXYALPXTOOI-UBKHJBOVSA-N> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:WP5064&oldid=120384>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/png" .
 
 <https://identifiers.org/hgnc.symbol/NPC1>
         rdf:type            wp:GeneProduct , wp:DataNode ;
@@ -1319,6 +1324,10 @@
         wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/CYP7A1> ;
         wp:bdbUniprot       <https://identifiers.org/uniprot/P22680> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5064_r120384/DataNode/c8d02> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:WP5064&oldid=120384>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/svg+xml" .
 
 <https://doi.org/10.1016%2FJ.PROSTAGLANDINS.2019.106381>
         dc:source           "DOI" ;

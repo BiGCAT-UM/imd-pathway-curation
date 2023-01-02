@@ -338,6 +338,7 @@
         wp:organism            <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
         wp:organismName        "Homo sapiens" ;
         wp:pathwayOntologyTag  <http://purl.obolibrary.org/obo/PW_0000142> , <http://purl.obolibrary.org/obo/PW_0000137> ;
+        foaf:img               <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:WP5037&oldid=123599> , <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:WP5037&oldid=123599> ;
         foaf:page              <http://www.wikipathways.org/instance/WP5037_r123599> .
 
 <https://identifiers.org/uniprot/O75208>
@@ -472,6 +473,10 @@
         wp:participants   <https://identifiers.org/chebi/CHEBI:64180> , <https://identifiers.org/chebi/CHEBI:50774> ;
         wp:source         <https://identifiers.org/chebi/CHEBI:50774> ;
         wp:target         <https://identifiers.org/chebi/CHEBI:64180> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:WP5037&oldid=123599>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/svg+xml" .
 
 <https://identifiers.org/pubmed/23116402>
         rdf:type            wp:PublicationReference ;
@@ -707,6 +712,10 @@
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5037_r123599/DataNode/a01da> ;
         foaf:page           <https://www.wikipathways.org/instance/WP241> .
 
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:WP5037&oldid=123599>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/png" .
+
 <https://identifiers.org/ensembl/ENSG00000171503>
         rdf:type            wp:DataNode , wp:GeneProduct ;
         rdfs:label          "ETFDH gene" ;
@@ -814,6 +823,29 @@
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5037_r123599/DataNode/bb28f> ;
         foaf:page           <http://www.uniprot.org/uniprot/Q9Y2Z9> .
 
+<https://identifiers.org/uniprot/Q9HAB3>
+        rdf:type            wp:DataNode , wp:Protein ;
+        rdfs:label          "SLC52A2" ;
+        dc:identifier       <https://identifiers.org/uniprot/Q9HAB3> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "Q9HAB3" ;
+        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5037_r123599> , <http://rdf.wikipathways.org/Pathway/WP5037_r123599/Complex/df411> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000185803> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/79581> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/SLC52A2> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/E9PRC3> , <https://identifiers.org/uniprot/E9PIX2> , <https://identifiers.org/uniprot/A0A6Q8PGB9> , <https://identifiers.org/uniprot/A0A6Q8PHF8> , <https://identifiers.org/uniprot/A0A6Q8PG35> , <https://identifiers.org/uniprot/E9PPS0> , <https://identifiers.org/uniprot/A0A6Q8PFQ5> , <https://identifiers.org/uniprot/A0A6Q8PGE2> , <https://identifiers.org/uniprot/E9PKE4> , <https://identifiers.org/uniprot/A0A6Q8PFH5> , <https://identifiers.org/uniprot/Q9HAB3> , <https://identifiers.org/uniprot/E9PJC1> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5037_r123599/DataNode/f4ae6> ;
+        foaf:page           <http://www.uniprot.org/uniprot/Q9HAB3> .
+
+<https://identifiers.org/pubmed/18319072>
+        rdf:type            wp:PublicationReference ;
+        dc:source           "PubMed" ;
+        dcterms:identifier  "18319072" ;
+        dcterms:isPartOf    <https://identifiers.org/uniprot/Q8NI60> ;
+        wp:bdbWikidata      <http://www.wikidata.org/entity/Q24655437> ;
+        owl:sameAs          <https://doi.org/10.1016%2FJ.AJHG.2007.12.022> ;
+        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/18319072> .
+
 <https://identifiers.org/chebi/CHEBI:46245>
         rdf:type            wp:Metabolite , wp:DataNode ;
         rdfs:label          "CoQ10" ;
@@ -832,29 +864,6 @@
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q321285> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5037_r123599/DataNode/e286c> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:46245> .
-
-<https://identifiers.org/pubmed/18319072>
-        rdf:type            wp:PublicationReference ;
-        dc:source           "PubMed" ;
-        dcterms:identifier  "18319072" ;
-        dcterms:isPartOf    <https://identifiers.org/uniprot/Q8NI60> ;
-        wp:bdbWikidata      <http://www.wikidata.org/entity/Q24655437> ;
-        owl:sameAs          <https://doi.org/10.1016%2FJ.AJHG.2007.12.022> ;
-        foaf:page           <http://www.ncbi.nlm.nih.gov/pubmed/18319072> .
-
-<https://identifiers.org/uniprot/Q9HAB3>
-        rdf:type            wp:DataNode , wp:Protein ;
-        rdfs:label          "SLC52A2" ;
-        dc:identifier       <https://identifiers.org/uniprot/Q9HAB3> ;
-        dc:source           "Uniprot-TrEMBL" ;
-        dcterms:identifier  "Q9HAB3" ;
-        dcterms:isPartOf    <https://identifiers.org/wikipathways/WP5037_r123599> , <http://rdf.wikipathways.org/Pathway/WP5037_r123599/Complex/df411> ;
-        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000185803> ;
-        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/79581> ;
-        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/SLC52A2> ;
-        wp:bdbUniprot       <https://identifiers.org/uniprot/E9PRC3> , <https://identifiers.org/uniprot/E9PIX2> , <https://identifiers.org/uniprot/A0A6Q8PGB9> , <https://identifiers.org/uniprot/A0A6Q8PHF8> , <https://identifiers.org/uniprot/A0A6Q8PG35> , <https://identifiers.org/uniprot/E9PPS0> , <https://identifiers.org/uniprot/A0A6Q8PFQ5> , <https://identifiers.org/uniprot/A0A6Q8PGE2> , <https://identifiers.org/uniprot/E9PKE4> , <https://identifiers.org/uniprot/A0A6Q8PFH5> , <https://identifiers.org/uniprot/Q9HAB3> , <https://identifiers.org/uniprot/E9PJC1> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5037_r123599/DataNode/f4ae6> ;
-        foaf:page           <http://www.uniprot.org/uniprot/Q9HAB3> .
 
 <https://identifiers.org/chebi/CHEBI:60721>
         rdf:type            wp:DataNode , wp:Metabolite ;

@@ -132,10 +132,6 @@
         wp:source         <https://identifiers.org/ensembl/ENSG00000179142> ;
         wp:target         <http://rdf.wikipathways.org/Pathway/WP4523_r121849/WP/Interaction/idb880c49> .
 
-<https://doi.org/10.1073%2FPNAS.94.26.14924>
-        dc:source           "DOI" ;
-        dcterms:identifier  "10.1073/PNAS.94.26.14924" .
-
 <http://rdf.wikipathways.org/Pathway/WP4523_r121849/WP/Interaction/d8f60>
         rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
         dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4523_r121849> ;
@@ -143,6 +139,10 @@
         wp:participants   <https://identifiers.org/ec-code/1.1.1.50> , <http://rdf.wikipathways.org/Pathway/WP4523_r121849/WP/Interaction/fcb11> ;
         wp:source         <https://identifiers.org/ec-code/1.1.1.50> ;
         wp:target         <http://rdf.wikipathways.org/Pathway/WP4523_r121849/WP/Interaction/fcb11> .
+
+<https://doi.org/10.1073%2FPNAS.94.26.14924>
+        dc:source           "DOI" ;
+        dcterms:identifier  "10.1073/PNAS.94.26.14924" .
 
 <http://rdf.wikipathways.org/Pathway/WP4523_r121849/WP/Interaction/idd78e11ba>
         rdf:type            wp:Interaction , wp:DirectedInteraction , wp:Conversion ;
@@ -715,6 +715,10 @@
         wp:participants   <https://identifiers.org/pubchem.compound/5754> , <https://identifiers.org/pubchem.compound/65554> ;
         wp:source         <https://identifiers.org/pubchem.compound/65554> ;
         wp:target         <https://identifiers.org/pubchem.compound/5754> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:WP4523&oldid=121849>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/png" .
 
 <http://rdf.wikipathways.org/Pathway/WP4523_r121849/WP/Interaction/id6ff5899a>
         rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
@@ -1609,6 +1613,10 @@
         wp:source         <https://identifiers.org/ensembl/ENSG00000049239> ;
         wp:target         <http://rdf.wikipathways.org/Pathway/WP4523_r121849/WP/Interaction/id6ff5899a> .
 
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:WP4523&oldid=121849>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/svg+xml" .
+
 <https://identifiers.org/wikipathways/WP4523_r121849>
         rdf:type               wp:Pathway , skos:Collection ;
         dc:identifier          <https://identifiers.org/wikipathways/WP4523> ;
@@ -1624,6 +1632,7 @@
         wp:organism            <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
         wp:organismName        "Homo sapiens" ;
         wp:pathwayOntologyTag  <http://purl.obolibrary.org/obo/PW_0000770> , <http://purl.obolibrary.org/obo/PW_0000772> , <http://purl.obolibrary.org/obo/PW_0000013> , <http://purl.obolibrary.org/obo/PW_0001479> , <http://purl.obolibrary.org/obo/PW_0000070> , <http://purl.obolibrary.org/obo/PW_0001152> , <http://purl.obolibrary.org/obo/PW_0001478> , <http://purl.obolibrary.org/obo/PW_0002466> ;
+        foaf:img               <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:WP4523&oldid=121849> , <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:WP4523&oldid=121849> ;
         foaf:page              <http://www.wikipathways.org/instance/WP4523_r121849> .
 
 <http://rdf.wikipathways.org/Pathway/WP4523_r121849/WP/Interaction/id65d57b6c>

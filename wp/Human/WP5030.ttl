@@ -141,6 +141,10 @@
 <https://identifiers.org/wikipathways/WP5030>
         pav:hasVersion  <https://identifiers.org/wikipathways/WP5030_r120416> .
 
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:WP5030&oldid=120416>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/png" .
+
 <https://identifiers.org/chebi/CHEBI:17359>
         rdf:type            wp:DataNode , wp:Metabolite ;
         rdfs:label          "SO3 2- (sulfite)" ;
@@ -207,6 +211,7 @@
         wp:organism            <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
         wp:organismName        "Homo sapiens" ;
         wp:pathwayOntologyTag  <http://purl.obolibrary.org/obo/PW_0002206> ;
+        foaf:img               <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:WP5030&oldid=120416> , <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:WP5030&oldid=120416> ;
         foaf:page              <http://www.wikipathways.org/instance/WP5030_r120416> .
 
 <http://rdf.wikipathways.org/Pathway/WP5030_r120416/WP/Interaction/ida5e830de>
@@ -235,6 +240,14 @@
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5030_r120416/DataNode/a12b5> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:15356> .
 
+<http://rdf.wikipathways.org/Pathway/WP5030_r120416/WP/Interaction/id23c47ad5>
+        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
+        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5030_r120416> ;
+        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/id23c47ad5> ;
+        wp:participants   <https://identifiers.org/chebi/CHEBI:58905> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/WP/Interaction/id44ab7649> ;
+        wp:source         <https://identifiers.org/chebi/CHEBI:58905> ;
+        wp:target         <http://rdf.wikipathways.org/Pathway/WP5030_r120416/WP/Interaction/id44ab7649> .
+
 <https://identifiers.org/chebi/CHEBI:16094>
         rdf:type            wp:Metabolite , wp:DataNode ;
         rdfs:label          "S2O3 2- (thiosulfate)" ;
@@ -252,13 +265,9 @@
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP5030_r120416/DataNode/d405b> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:16094> .
 
-<http://rdf.wikipathways.org/Pathway/WP5030_r120416/WP/Interaction/id23c47ad5>
-        rdf:type          wp:Conversion , wp:DirectedInteraction , wp:Interaction ;
-        dcterms:isPartOf  <https://identifiers.org/wikipathways/WP5030_r120416> ;
-        wp:isAbout        <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/id23c47ad5> ;
-        wp:participants   <https://identifiers.org/chebi/CHEBI:58905> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/WP/Interaction/id44ab7649> ;
-        wp:source         <https://identifiers.org/chebi/CHEBI:58905> ;
-        wp:target         <http://rdf.wikipathways.org/Pathway/WP5030_r120416/WP/Interaction/id44ab7649> .
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:WP5030&oldid=120416>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/svg+xml" .
 
 <http://rdf.wikipathways.org/Pathway/WP5030_r120416/WP/Interaction/id2f7cc295>
         rdf:type          wp:Interaction , wp:Conversion , wp:DirectedInteraction ;

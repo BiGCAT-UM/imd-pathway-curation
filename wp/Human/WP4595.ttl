@@ -191,6 +191,10 @@
         wp:source         <https://identifiers.org/uniprot/Q9UJS0> ;
         wp:target         <http://rdf.wikipathways.org/Pathway/WP4595_r123765/WP/Interaction/b76f2> .
 
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:WP4595&oldid=123765>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/svg+xml" .
+
 <http://rdf.wikipathways.org/Pathway/WP4595_r123765/WP/Interaction/idb827cfa0>
         rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;
         dcterms:isPartOf  <https://identifiers.org/wikipathways/WP4595_r123765> ;
@@ -286,6 +290,7 @@
         wp:organism             <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
         wp:organismName         "Homo sapiens" ;
         wp:pathwayOntologyTag   <http://purl.obolibrary.org/obo/PW_0002142> , <http://purl.obolibrary.org/obo/PW_0000076> , <http://purl.obolibrary.org/obo/PW_0000013> ;
+        foaf:img                <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=svg&pwTitle=Pathway:WP4595&oldid=123765> , <https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:WP4595&oldid=123765> ;
         foaf:page               <http://www.wikipathways.org/instance/WP4595_r123765> .
 
 <https://identifiers.org/uniprot/P40925>
@@ -507,6 +512,10 @@
         wp:bdbUniprot       <https://identifiers.org/uniprot/H7C4V4> , <https://identifiers.org/uniprot/E7ESA7> , <https://identifiers.org/uniprot/P29474> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r123765/DataNode/b698d> ;
         foaf:page           <http://www.uniprot.org/uniprot/P29474> .
+
+<https://www.wikipathways.org//wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:WP4595&oldid=123765>
+        rdf:type        foaf:Image ;
+        dcterms:format  "image/png" .
 
 <https://identifiers.org/chebi/CHEBI:58359>
         rdf:type            wp:DataNode , wp:Metabolite ;
@@ -995,6 +1004,21 @@
         wp:source           <https://identifiers.org/chebi/CHEBI:32682> ;
         wp:target           <https://identifiers.org/chebi/CHEBI:16199> , <https://identifiers.org/chebi/CHEBI:46911> .
 
+<https://identifiers.org/uniprot/O75746>
+        rdf:type            wp:DataNode , wp:Protein ;
+        rdfs:label          "SLC25A12" ;
+        dc:identifier       <https://identifiers.org/uniprot/O75746> ;
+        dc:source           "Uniprot-TrEMBL" ;
+        dcterms:identifier  "O75746" ;
+        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4595_r123765/WP/Interaction/da8c6> , <http://rdf.wikipathways.org/Pathway/WP4595_r123765/WP/Interaction/e366f> , <https://identifiers.org/wikipathways/WP4595_r123765> ;
+        dcterms:references  <https://identifiers.org/pubmed/27132995> ;
+        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000115840> ;
+        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/8604> ;
+        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/SLC25A12> ;
+        wp:bdbUniprot       <https://identifiers.org/uniprot/O75746> , <https://identifiers.org/uniprot/B4DGK6> , <https://identifiers.org/uniprot/H0YFB2> , <https://identifiers.org/uniprot/F8W9J0> ;
+        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r123765/DataNode/ef76b> ;
+        foaf:page           <http://www.uniprot.org/uniprot/O75746> .
+
 <https://identifiers.org/chebi/CHEBI:29991>
         rdf:type            wp:Metabolite , wp:DataNode ;
         rdfs:label          "Aspartate" ;
@@ -1010,21 +1034,6 @@
         wp:bdbWikidata      <http://www.wikidata.org/entity/Q27104098> ;
         wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r123765/DataNode/b963d> , <http://rdf.wikipathways.org/Pathway/WP4595_r123765/DataNode/f50c6> ;
         foaf:page           <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:29991> .
-
-<https://identifiers.org/uniprot/O75746>
-        rdf:type            wp:DataNode , wp:Protein ;
-        rdfs:label          "SLC25A12" ;
-        dc:identifier       <https://identifiers.org/uniprot/O75746> ;
-        dc:source           "Uniprot-TrEMBL" ;
-        dcterms:identifier  "O75746" ;
-        dcterms:isPartOf    <http://rdf.wikipathways.org/Pathway/WP4595_r123765/WP/Interaction/da8c6> , <http://rdf.wikipathways.org/Pathway/WP4595_r123765/WP/Interaction/e366f> , <https://identifiers.org/wikipathways/WP4595_r123765> ;
-        dcterms:references  <https://identifiers.org/pubmed/27132995> ;
-        wp:bdbEnsembl       <https://identifiers.org/ensembl/ENSG00000115840> ;
-        wp:bdbEntrezGene    <https://identifiers.org/ncbigene/8604> ;
-        wp:bdbHgncSymbol    <https://identifiers.org/hgnc.symbol/SLC25A12> ;
-        wp:bdbUniprot       <https://identifiers.org/uniprot/O75746> , <https://identifiers.org/uniprot/B4DGK6> , <https://identifiers.org/uniprot/H0YFB2> , <https://identifiers.org/uniprot/F8W9J0> ;
-        wp:isAbout          <http://rdf.wikipathways.org/Pathway/WP4595_r123765/DataNode/ef76b> ;
-        foaf:page           <http://www.uniprot.org/uniprot/O75746> .
 
 <http://rdf.wikipathways.org/Pathway/WP4595_r123765/WP/Interaction/id3316efcb>
         rdf:type          wp:Catalysis , wp:DirectedInteraction , wp:Interaction ;

@@ -22,7 +22,7 @@
         gpml:color           "0" ;
         gpml:connectorType   "Elbow" ;
         gpml:graphId         "idf0403983" ;
-        gpml:hasPoint        <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/idf0403983/Point/e050aeb4a24feb91129b2694366e6aee> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/idf0403983/Point/de3aab9a74e589d7155f4d01c23cfc41> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/idf0403983/Point/88be47110e11b044fbd4eb7f1eb58f49> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/idf0403983/Point/6833ea167c272e9411685b9f1affdf78> ;
+        gpml:hasPoint        <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/idf0403983/Point/e050aeb4a24feb91129b2694366e6aee> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/idf0403983/Point/d01bb0be2529f07eee4473d05c47779> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/idf0403983/Point/9f8907a1555355b335444189567271b2> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/idf0403983/Point/6833ea167c272e9411685b9f1affdf78> ;
         gpml:lineStyle       "Solid" ;
         gpml:lineThickness   "1.0"^^xsd:double ;
         gpml:xrefDataSource  "Rhea" ;
@@ -291,6 +291,14 @@
         gpml:lineThickness  "1.0"^^xsd:double ;
         gpml:zorder         "32775"^^xsd:long .
 
+<http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/idf0403983/Point/9f8907a1555355b335444189567271b2>
+        rdf:type          gpml:Point ;
+        dcterms:isPartOf  <http://rdf.wikipathways.org/Pathway/WP5030_r120416> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/idf0403983> ;
+        gpml:relX         "0.0"^^xsd:double ;
+        gpml:relY         "0.0"^^xsd:double ;
+        gpml:x            "471.0"^^xsd:double ;
+        gpml:y            "251.5384632789748"^^xsd:double .
+
 <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/idae955707/Point/68f55b6083ca0326392b872b1405af94>
         rdf:type          gpml:Point ;
         dcterms:isPartOf  <http://rdf.wikipathways.org/Pathway/WP5030_r120416> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/idae955707> ;
@@ -357,6 +365,12 @@
         gpml:xrefId          "Q16762" ;
         gpml:zorder          "32768"^^xsd:long .
 
+<http://rdf.wikipathways.org/Pathway/WP5030_r120416/InfoBox/2cf2be4709b817e997f459ab4ddd4534>
+        rdf:type          gpml:InfoBox ;
+        dcterms:isPartOf  <http://rdf.wikipathways.org/Pathway/WP5030_r120416> ;
+        gpml:centerX      "0.0"^^xsd:double ;
+        gpml:centerY      "0.0"^^xsd:double .
+
 <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/f126b/Point/7fa56b6715d26a66efc5044d86a3d659>
         rdf:type          gpml:Point ;
         dcterms:isPartOf  <http://rdf.wikipathways.org/Pathway/WP5030_r120416> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/f126b> ;
@@ -382,7 +396,7 @@
         gpml:boardWidth        "857.0"^^xsd:double ;
         gpml:hasDataNode       <http://rdf.wikipathways.org/Pathway/WP5030_r120416/DataNode/ab8c3> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/DataNode/bfe9a> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/DataNode/ce78e> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/DataNode/d405b> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/DataNode/a0fcf> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/DataNode/f7372> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/DataNode/ef239> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/DataNode/ca6ab> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/DataNode/a2aca> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/DataNode/aa4a6> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/DataNode/a7bdc> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/DataNode/a12b5> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/DataNode/bc24b> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/DataNode/d48f0> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/DataNode/cd2ed> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/DataNode/f35aa> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/DataNode/ecc0e> ;
         gpml:hasGraphicalLine  <http://rdf.wikipathways.org/Pathway/WP5030_r120416/GraphicalLine/c6bd9> ;
-        gpml:hasInfoBox        <http://rdf.wikipathways.org/Pathway/WP5030_r120416/InfoBox/4ea9e6e726913d35e377de4200a4e2a2> ;
+        gpml:hasInfoBox        <http://rdf.wikipathways.org/Pathway/WP5030_r120416/InfoBox/2cf2be4709b817e997f459ab4ddd4534> ;
         gpml:hasInteraction    <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/id52b72f01> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/idda4e9351> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/f68e1> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/ide50d74a5> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/id46adc116> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/id23c47ad5> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/idf0403983> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/id1322ee89> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/iddbf01ee3> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/id44ab7649> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/ideef6eb5> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/id41fe9008> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/idae955707> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/id215a41e4> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/id2f7cc295> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/ida5e830de> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/id4babbd10> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/id3ce278b7> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/id24f6121d> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/f126b> ;
         gpml:hasLabel          <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Label/ff3b1> ;
         gpml:hasShape          <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Shape/d6100> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Shape/be9cc> ;
@@ -922,6 +936,14 @@
         gpml:lineThickness  "1.0"^^xsd:double ;
         gpml:zorder         "12288"^^xsd:long .
 
+<http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/idf0403983/Point/d01bb0be2529f07eee4473d05c47779>
+        rdf:type          gpml:Point ;
+        dcterms:isPartOf  <http://rdf.wikipathways.org/Pathway/WP5030_r120416> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/idf0403983> ;
+        gpml:relX         "0.0"^^xsd:double ;
+        gpml:relY         "0.0"^^xsd:double ;
+        gpml:x            "307.97753583241456"^^xsd:double ;
+        gpml:y            "255.76119402985114"^^xsd:double .
+
 <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/id1322ee89/Point/d685b0f9ca2a9b36db9e7cc55463a213>
         rdf:type          gpml:Point ;
         dcterms:isPartOf  <http://rdf.wikipathways.org/Pathway/WP5030_r120416> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/id1322ee89> ;
@@ -962,12 +984,6 @@
         gpml:relY         "-1.0"^^xsd:double ;
         gpml:x            "468.5"^^xsd:double ;
         gpml:y            "174.30612236502202"^^xsd:double .
-
-<http://rdf.wikipathways.org/Pathway/WP5030_r120416/InfoBox/4ea9e6e726913d35e377de4200a4e2a2>
-        rdf:type          gpml:InfoBox ;
-        dcterms:isPartOf  <http://rdf.wikipathways.org/Pathway/WP5030_r120416> ;
-        gpml:centerX      "0.0"^^xsd:double ;
-        gpml:centerY      "0.0"^^xsd:double .
 
 <http://rdf.wikipathways.org/Pathway/WP5030_r120416/DataNode/a0fcf>
         rdf:type             gpml:DataNode ;
@@ -1058,14 +1074,6 @@
         gpml:valign          "Top" ;
         gpml:width           "726.0"^^xsd:double ;
         gpml:zorder          "-4"^^xsd:long .
-
-<http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/idf0403983/Point/88be47110e11b044fbd4eb7f1eb58f49>
-        rdf:type          gpml:Point ;
-        dcterms:isPartOf  <http://rdf.wikipathways.org/Pathway/WP5030_r120416> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/idf0403983> ;
-        gpml:relX         "0.0"^^xsd:double ;
-        gpml:relY         "0.0"^^xsd:double ;
-        gpml:x            "471.0"^^xsd:double ;
-        gpml:y            "251.5384632789748"^^xsd:double .
 
 <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/id2f7cc295>
         rdf:type            gpml:Interaction ;
@@ -1233,14 +1241,6 @@
         gpml:xrefDataSource  "ChEBI" ;
         gpml:xrefId          "CHEBI:17359" ;
         gpml:zorder          "32768"^^xsd:long .
-
-<http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/idf0403983/Point/de3aab9a74e589d7155f4d01c23cfc41>
-        rdf:type          gpml:Point ;
-        dcterms:isPartOf  <http://rdf.wikipathways.org/Pathway/WP5030_r120416> , <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/idf0403983> ;
-        gpml:relX         "0.0"^^xsd:double ;
-        gpml:relY         "0.0"^^xsd:double ;
-        gpml:x            "307.97753583241456"^^xsd:double ;
-        gpml:y            "255.76119402985114"^^xsd:double .
 
 <http://rdf.wikipathways.org/Pathway/WP5030_r120416/Interaction/id4babbd10/Point/5679a96f2bb692a149b4fd94fb787360>
         rdf:type          gpml:Point ;
