@@ -47,7 +47,7 @@ wikipathways-rdf-gpml.zip: ${GPMLRDFS}
 sbml/%.sbml: gpml/%.gpml
 	@echo "Fetching SBML for $< ..."
 	@mkdir -p sbml
-	@curl -X POST --data-binary @$< -H "Content-Type: text/plain" https://minerva-dev.lcsb.uni.lu/minerva/api/convert/GPML:SBML > $@
+	@curl -H "Content-Type: application/octet-stream" -X POST --data-binary @$< https://minerva-service.lcsb.uni.lu/minerva/api/convert/GPML:SBML > $@
 
 sbml/%.txt: sbml/%.sbml
 	@echo "Extracting notes for $@ ..."
@@ -55,7 +55,7 @@ sbml/%.txt: sbml/%.sbml
 
 sbml/%.svg: sbml/%.sbml
 	@echo "Fetching SVG for $@ ..."
-	@curl -X POST --data-binary @$< -H "Content-Type: text/plain" https://minerva-service.lcsb.uni.lu/minerva/api/convert/image/SBML:svg > $@
+	@curl -H "Content-Type: application/octet-stream" -X POST --data-binary @$< https://minerva-service.lcsb.uni.lu/minerva/api/convert/image/SBML:svg > $@
 
 wp/Human/%.ttl: gpml/%.gpml src/java/main/org/wikipathways/curator/CreateRDF.class
 	@mkdir -p wp/Human
@@ -96,6 +96,7 @@ index.md: ${REPORTS}
 
 update: install
 	@wget -O Makefile https://raw.githubusercontent.com/wikipathways/wikipathways-curation-template/main/Makefile
+	@wget -O extractTests.groovy https://raw.githubusercontent.com/wikipathways/wikipathways-curation-template/main/extractTests.groovy
 	@wget -O src/java/main/org/wikipathways/curator/CheckRDF.java https://raw.githubusercontent.com/wikipathways/wikipathways-curation-template/main/src/java/main/org/wikipathways/curator/CheckRDF.java
 	@wget -O src/java/main/org/wikipathways/curator/CreateRDF.java https://raw.githubusercontent.com/wikipathways/wikipathways-curation-template/main/src/java/main/org/wikipathways/curator/CreateRDF.java
 	@wget -O src/java/main/org/wikipathways/curator/CreateGPMLRDF.java https://raw.githubusercontent.com/wikipathways/wikipathways-curation-template/main/src/java/main/org/wikipathways/curator/CreateGPMLRDF.java
@@ -107,4 +108,3 @@ updateTests:
 	  > tests.tmp
 	@groovy extractTests.groovy > tests.tmp2
 	@mv tests.tmp2 tests.txt
-
