@@ -55,6 +55,12 @@ HMDBSecMetabolitesTests.all
 #HMDBSecMetabolitesTests.nonExisting
 #HMDBSecMetabolitesTests.oldFormat
 #HMDBSecMetabolitesTests.outdatedIdentifiers
+IMDPathwayTests.all
+#IMDPathwayTests.allMetabolitesInteract
+#IMDPathwayTests.catalystsWithCommonDataSource
+#IMDPathwayTests.diseasesHaveIdentifiers
+#IMDPathwayTests.metabolicConversionIdentifiersCommon
+#IMDPathwayTests.metabolicConversions
 InteractionTests.all
 #InteractionTests.incorrectKEGGIdentifiers
 #InteractionTests.interactionsWithLabels
@@ -91,6 +97,7 @@ MetabolitesTests.metabolitesWithIdentifierButNoDb
 #MetabolitesTests.tooManyInChIKeys
 #OutdatedDataSourcesTests.all
 OutdatedDataSourcesTests.discontinuedUniGene
+#OutdatedDataSourcesTests.gpml2021transition
 OutdatedDataSourcesTests.noInChIDataSourceYet
 OutdatedDataSourcesTests.oldUniprotSwissProt
 #OutdatedDataSourcesTests.outdatedChemSpiderDataSource
@@ -151,5 +158,6 @@ WikidataTests.all
 #WikidataTests.noWikidataForGenes
 #WikidataTests.pubchemCIDWithoutMapping
 #WikidataTests.replaceWikipedia
+#WikidataTests.retiredIdentifiers
 #WikidataTests.wikDataTypo
 #WikidataTests.wikidataIdentifiersWrong
