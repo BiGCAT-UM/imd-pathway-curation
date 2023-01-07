@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<!-- Created by minerva version 16.2.9 on 2023-01-02 at 17:08:47 CET with JSBML version 1.6.1. -->
+<!-- Created by minerva version 16.2.9 on 2023-01-07 at 09:50:49 CET with JSBML version 1.6.1. -->
 <sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" layout:required="false" level="3" multi:required="true" render:required="false" version="2" xmlns:layout="http://www.sbml.org/sbml/level3/version1/layout/version1" xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" xmlns:render="http://www.sbml.org/sbml/level3/version1/render/version1">
   <model areaUnits="area_unit" extentUnits="mole" lengthUnits="metre" substanceUnits="mole" timeUnits="second" volumeUnits="litre">
     <notes>
@@ -38,15 +38,12 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
               <render:colorDefinition render:id="color_FFFFFFFF" render:value="#FFFFFFFF"/>
               <render:colorDefinition render:id="color_FF0000FF" render:value="#0000FFFF"/>
               <render:colorDefinition render:id="color_FF000000" render:value="#000000FF"/>
-              <render:colorDefinition render:id="color_FF14961E" render:value="#14961EFF"/>
               <render:colorDefinition render:id="color_FFFFCCCC" render:value="#FFCCCCFF"/>
+              <render:colorDefinition render:id="color_FF14961E" render:value="#14961EFF"/>
               <render:colorDefinition render:id="color_FFFF3333" render:value="#FF3333FF"/>
               <render:colorDefinition render:id="color_FF009933" render:value="#009933FF"/>
             </render:listOfColorDefinitions>
             <render:listOfLineEndings>
-              <render:lineEnding render:id="line_ending_NONE">
-                <render:g/>
-              </render:lineEnding>
               <render:lineEnding render:id="line_ending_FULL">
                 <layout:boundingBox>
                   <layout:position layout:x="-12" layout:y="-6" layout:z="0"/>
@@ -72,6 +69,9 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
                   <render:ellipse render:cx="0" render:cy="0" render:rx="4" render:ry="4"/>
                 </render:g>
               </render:lineEnding>
+              <render:lineEnding render:id="line_ending_NONE">
+                <render:g/>
+              </render:lineEnding>
               <render:lineEnding render:id="line_ending_OPEN">
                 <layout:boundingBox>
                   <layout:position layout:x="-12" layout:y="-6" layout:z="0"/>
@@ -90,12 +90,12 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
               </render:lineEnding>
             </render:listOfLineEndings>
             <render:listOfStyles>
-              <render:style render:idList="ff0d9">
+              <render:style render:idList="eec3c">
                 <render:g render:fill="color_FF808080" render:font-size="12" render:stroke="color_FF808080" render:stroke-width="0">
                   <render:rectangle render:height="100%" render:rx="0" render:ry="0" render:width="100%" render:x="0" render:y="0"/>
                 </render:g>
               </render:style>
-              <render:style render:idList="text_ff0d9">
+              <render:style render:idList="text_eec3c">
                 <render:g render:stroke="color_FFC0C0C0" render:text-anchor="start" render:vtext-anchor="top"/>
               </render:style>
               <render:style render:idList="b4f98">
@@ -106,64 +106,20 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
               <render:style render:idList="text_b4f98">
                 <render:g render:stroke="color_FFC0C0C0" render:text-anchor="start" render:vtext-anchor="top"/>
               </render:style>
-              <render:style render:idList="eec3c">
+              <render:style render:idList="ff0d9">
                 <render:g render:fill="color_FF808080" render:font-size="12" render:stroke="color_FF808080" render:stroke-width="0">
                   <render:rectangle render:height="100%" render:rx="0" render:ry="0" render:width="100%" render:x="0" render:y="0"/>
                 </render:g>
               </render:style>
-              <render:style render:idList="text_eec3c">
+              <render:style render:idList="text_ff0d9">
                 <render:g render:stroke="color_FFC0C0C0" render:text-anchor="start" render:vtext-anchor="top"/>
               </render:style>
-              <render:style render:idList="a2c2e">
+              <render:style render:idList="c8826">
                 <render:g render:fill="color_FFFFFFFF" render:font-size="12" render:stroke="color_FF0000FF" render:stroke-width="1">
                   <render:ellipse render:cx="50%" render:cy="50%" render:rx="50%" render:ry="50%"/>
                 </render:g>
               </render:style>
-              <render:style render:idList="text_a2c2e">
-                <render:g render:stroke="color_FF0000FF" render:text-anchor="middle" render:vtext-anchor="middle"/>
-              </render:style>
-              <render:style render:idList="b88ec">
-                <render:g render:fill="color_FFFFFFFF" render:font-size="12" render:stroke="color_FF0000FF" render:stroke-width="1">
-                  <render:ellipse render:cx="50%" render:cy="50%" render:rx="50%" render:ry="50%"/>
-                </render:g>
-              </render:style>
-              <render:style render:idList="text_b88ec">
-                <render:g render:stroke="color_FF0000FF" render:text-anchor="middle" render:vtext-anchor="middle"/>
-              </render:style>
-              <render:style render:idList="b891f">
-                <render:g render:fill="color_FFFFFFFF" render:font-size="12" render:stroke="color_FF0000FF" render:stroke-width="1">
-                  <render:ellipse render:cx="50%" render:cy="50%" render:rx="50%" render:ry="50%"/>
-                </render:g>
-              </render:style>
-              <render:style render:idList="text_b891f">
-                <render:g render:stroke="color_FF0000FF" render:text-anchor="middle" render:vtext-anchor="middle"/>
-              </render:style>
-              <render:style render:idList="db891">
-                <render:g render:fill="color_FFFFFFFF" render:font-size="12" render:stroke="color_FF000000" render:stroke-width="1">
-                  <render:polygon>
-                    <render:listOfElements>
-                      <render:element render:x="5" render:y="0" xsi:type="RenderPoint"/>
-                      <render:element render:x="46" render:y="0" xsi:type="RenderPoint"/>
-                      <render:element render:basePoint1_x="48" render:basePoint1_y="0" render:basePoint2_x="51" render:basePoint2_y="3" render:x="51" render:y="5" xsi:type="RenderCubicBezier"/>
-                      <render:element render:x="51" render:y="20" xsi:type="RenderPoint"/>
-                      <render:element render:basePoint1_x="51" render:basePoint1_y="22" render:basePoint2_x="48" render:basePoint2_y="25" render:x="46" render:y="25" xsi:type="RenderCubicBezier"/>
-                      <render:element render:x="5" render:y="25" xsi:type="RenderPoint"/>
-                      <render:element render:basePoint1_x="3" render:basePoint1_y="25" render:basePoint2_x="0" render:basePoint2_y="22" render:x="0" render:y="20" xsi:type="RenderCubicBezier"/>
-                      <render:element render:x="0" render:y="5" xsi:type="RenderPoint"/>
-                      <render:element render:basePoint1_x="0" render:basePoint1_y="3" render:basePoint2_x="3" render:basePoint2_y="0" render:x="5" render:y="0" xsi:type="RenderCubicBezier"/>
-                    </render:listOfElements>
-                  </render:polygon>
-                </render:g>
-              </render:style>
-              <render:style render:idList="text_db891">
-                <render:g render:stroke="color_FF000000" render:text-anchor="middle" render:vtext-anchor="middle"/>
-              </render:style>
-              <render:style render:idList="aefb7">
-                <render:g render:fill="color_FFFFFFFF" render:font-size="12" render:stroke="color_FF0000FF" render:stroke-width="1">
-                  <render:ellipse render:cx="50%" render:cy="50%" render:rx="50%" render:ry="50%"/>
-                </render:g>
-              </render:style>
-              <render:style render:idList="text_aefb7">
+              <render:style render:idList="text_c8826">
                 <render:g render:stroke="color_FF0000FF" render:text-anchor="middle" render:vtext-anchor="middle"/>
               </render:style>
               <render:style render:idList="f5ced">
@@ -186,33 +142,13 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
               <render:style render:idList="text_f5ced">
                 <render:g render:stroke="color_FF000000" render:text-anchor="middle" render:vtext-anchor="middle"/>
               </render:style>
-              <render:style render:idList="e9733">
-                <render:g render:fill="color_FFFFFFFF" render:font-size="12" render:stroke="color_FF0000FF" render:stroke-width="1">
-                  <render:ellipse render:cx="50%" render:cy="50%" render:rx="50%" render:ry="50%"/>
+              <render:style render:idList="f934a">
+                <render:g render:fill="color_FFFFCCCC" render:font-size="12" render:stroke="color_FF0000FF" render:stroke-width="1">
+                  <render:ellipse render:cx="50%" render:cy="50%" render:rx="50%" render:ry="50%" render:stroke="color_FFFFCCCC"/>
                 </render:g>
               </render:style>
-              <render:style render:idList="text_e9733">
+              <render:style render:idList="text_f934a">
                 <render:g render:stroke="color_FF0000FF" render:text-anchor="middle" render:vtext-anchor="middle"/>
-              </render:style>
-              <render:style render:idList="f012f">
-                <render:g render:fill="color_FFFFFFFF" render:font-size="12" render:stroke="color_FF000000" render:stroke-width="1">
-                  <render:polygon>
-                    <render:listOfElements>
-                      <render:element render:x="5" render:y="0" xsi:type="RenderPoint"/>
-                      <render:element render:x="85" render:y="0" xsi:type="RenderPoint"/>
-                      <render:element render:basePoint1_x="87" render:basePoint1_y="0" render:basePoint2_x="90" render:basePoint2_y="3" render:x="90" render:y="5" xsi:type="RenderCubicBezier"/>
-                      <render:element render:x="90" render:y="20" xsi:type="RenderPoint"/>
-                      <render:element render:basePoint1_x="90" render:basePoint1_y="22" render:basePoint2_x="87" render:basePoint2_y="25" render:x="85" render:y="25" xsi:type="RenderCubicBezier"/>
-                      <render:element render:x="5" render:y="25" xsi:type="RenderPoint"/>
-                      <render:element render:basePoint1_x="3" render:basePoint1_y="25" render:basePoint2_x="0" render:basePoint2_y="22" render:x="0" render:y="20" xsi:type="RenderCubicBezier"/>
-                      <render:element render:x="0" render:y="5" xsi:type="RenderPoint"/>
-                      <render:element render:basePoint1_x="0" render:basePoint1_y="3" render:basePoint2_x="3" render:basePoint2_y="0" render:x="5" render:y="0" xsi:type="RenderCubicBezier"/>
-                    </render:listOfElements>
-                  </render:polygon>
-                </render:g>
-              </render:style>
-              <render:style render:idList="text_f012f">
-                <render:g render:stroke="color_FF000000" render:text-anchor="middle" render:vtext-anchor="middle"/>
               </render:style>
               <render:style render:idList="acd61">
                 <render:g render:fill="color_FFFFFFFF" render:font-size="12" render:stroke="color_FF0000FF" render:stroke-width="1">
@@ -222,29 +158,12 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
               <render:style render:idList="text_acd61">
                 <render:g render:stroke="color_FF0000FF" render:text-anchor="middle" render:vtext-anchor="middle"/>
               </render:style>
-              <render:style render:idList="f1f9c">
-                <render:g render:fill="color_FFFFFFFF" render:font-size="12" render:stroke="color_FF14961E" render:stroke-width="1">
-                  <render:polygon>
-                    <render:listOfElements>
-                      <render:element render:x="0" render:y="13" xsi:type="RenderPoint"/>
-                      <render:element render:x="13" render:y="0" xsi:type="RenderPoint"/>
-                      <render:element render:x="183" render:y="0" xsi:type="RenderPoint"/>
-                      <render:element render:x="195" render:y="13" xsi:type="RenderPoint"/>
-                      <render:element render:x="183" render:y="25" xsi:type="RenderPoint"/>
-                      <render:element render:x="13" render:y="25" xsi:type="RenderPoint"/>
-                    </render:listOfElements>
-                  </render:polygon>
+              <render:style render:idList="a2c2e">
+                <render:g render:fill="color_FFFFFFFF" render:font-size="12" render:stroke="color_FF0000FF" render:stroke-width="1">
+                  <render:ellipse render:cx="50%" render:cy="50%" render:rx="50%" render:ry="50%"/>
                 </render:g>
               </render:style>
-              <render:style render:idList="text_f1f9c">
-                <render:g render:stroke="color_FF14961E" render:text-anchor="middle" render:vtext-anchor="middle"/>
-              </render:style>
-              <render:style render:idList="dcd7f">
-                <render:g render:fill="color_FFFFCCCC" render:font-size="12" render:stroke="color_FF0000FF" render:stroke-width="1">
-                  <render:ellipse render:cx="50%" render:cy="50%" render:rx="50%" render:ry="50%" render:stroke="color_FFFFCCCC"/>
-                </render:g>
-              </render:style>
-              <render:style render:idList="text_dcd7f">
+              <render:style render:idList="text_a2c2e">
                 <render:g render:stroke="color_FF0000FF" render:text-anchor="middle" render:vtext-anchor="middle"/>
               </render:style>
               <render:style render:idList="e4427">
@@ -267,20 +186,64 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
               <render:style render:idList="text_e4427">
                 <render:g render:stroke="color_FF000000" render:text-anchor="middle" render:vtext-anchor="middle"/>
               </render:style>
-              <render:style render:idList="cd5fa">
-                <render:g render:fill="color_FFFFCCCC" render:font-size="12" render:stroke="color_FF0000FF" render:stroke-width="1">
-                  <render:ellipse render:cx="50%" render:cy="50%" render:rx="50%" render:ry="50%" render:stroke="color_FFFFCCCC"/>
-                </render:g>
-              </render:style>
-              <render:style render:idList="text_cd5fa">
-                <render:g render:stroke="color_FF0000FF" render:text-anchor="middle" render:vtext-anchor="middle"/>
-              </render:style>
-              <render:style render:idList="e3142">
+              <render:style render:idList="aefb7">
                 <render:g render:fill="color_FFFFFFFF" render:font-size="12" render:stroke="color_FF0000FF" render:stroke-width="1">
                   <render:ellipse render:cx="50%" render:cy="50%" render:rx="50%" render:ry="50%"/>
                 </render:g>
               </render:style>
-              <render:style render:idList="text_e3142">
+              <render:style render:idList="text_aefb7">
+                <render:g render:stroke="color_FF0000FF" render:text-anchor="middle" render:vtext-anchor="middle"/>
+              </render:style>
+              <render:style render:idList="e9733">
+                <render:g render:fill="color_FFFFFFFF" render:font-size="12" render:stroke="color_FF0000FF" render:stroke-width="1">
+                  <render:ellipse render:cx="50%" render:cy="50%" render:rx="50%" render:ry="50%"/>
+                </render:g>
+              </render:style>
+              <render:style render:idList="text_e9733">
+                <render:g render:stroke="color_FF0000FF" render:text-anchor="middle" render:vtext-anchor="middle"/>
+              </render:style>
+              <render:style render:idList="db891">
+                <render:g render:fill="color_FFFFFFFF" render:font-size="12" render:stroke="color_FF000000" render:stroke-width="1">
+                  <render:polygon>
+                    <render:listOfElements>
+                      <render:element render:x="5" render:y="0" xsi:type="RenderPoint"/>
+                      <render:element render:x="46" render:y="0" xsi:type="RenderPoint"/>
+                      <render:element render:basePoint1_x="48" render:basePoint1_y="0" render:basePoint2_x="51" render:basePoint2_y="3" render:x="51" render:y="5" xsi:type="RenderCubicBezier"/>
+                      <render:element render:x="51" render:y="20" xsi:type="RenderPoint"/>
+                      <render:element render:basePoint1_x="51" render:basePoint1_y="22" render:basePoint2_x="48" render:basePoint2_y="25" render:x="46" render:y="25" xsi:type="RenderCubicBezier"/>
+                      <render:element render:x="5" render:y="25" xsi:type="RenderPoint"/>
+                      <render:element render:basePoint1_x="3" render:basePoint1_y="25" render:basePoint2_x="0" render:basePoint2_y="22" render:x="0" render:y="20" xsi:type="RenderCubicBezier"/>
+                      <render:element render:x="0" render:y="5" xsi:type="RenderPoint"/>
+                      <render:element render:basePoint1_x="0" render:basePoint1_y="3" render:basePoint2_x="3" render:basePoint2_y="0" render:x="5" render:y="0" xsi:type="RenderCubicBezier"/>
+                    </render:listOfElements>
+                  </render:polygon>
+                </render:g>
+              </render:style>
+              <render:style render:idList="text_db891">
+                <render:g render:stroke="color_FF000000" render:text-anchor="middle" render:vtext-anchor="middle"/>
+              </render:style>
+              <render:style render:idList="e3c75">
+                <render:g render:fill="color_FFFFFFFF" render:font-size="12" render:stroke="color_FF0000FF" render:stroke-width="1">
+                  <render:ellipse render:cx="50%" render:cy="50%" render:rx="50%" render:ry="50%"/>
+                </render:g>
+              </render:style>
+              <render:style render:idList="text_e3c75">
+                <render:g render:stroke="color_FF0000FF" render:text-anchor="middle" render:vtext-anchor="middle"/>
+              </render:style>
+              <render:style render:idList="b88ec">
+                <render:g render:fill="color_FFFFFFFF" render:font-size="12" render:stroke="color_FF0000FF" render:stroke-width="1">
+                  <render:ellipse render:cx="50%" render:cy="50%" render:rx="50%" render:ry="50%"/>
+                </render:g>
+              </render:style>
+              <render:style render:idList="text_b88ec">
+                <render:g render:stroke="color_FF0000FF" render:text-anchor="middle" render:vtext-anchor="middle"/>
+              </render:style>
+              <render:style render:idList="b891f">
+                <render:g render:fill="color_FFFFFFFF" render:font-size="12" render:stroke="color_FF0000FF" render:stroke-width="1">
+                  <render:ellipse render:cx="50%" render:cy="50%" render:rx="50%" render:ry="50%"/>
+                </render:g>
+              </render:style>
+              <render:style render:idList="text_b891f">
                 <render:g render:stroke="color_FF0000FF" render:text-anchor="middle" render:vtext-anchor="middle"/>
               </render:style>
               <render:style render:idList="ff925">
@@ -303,12 +266,20 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
               <render:style render:idList="text_ff925">
                 <render:g render:stroke="color_FF000000" render:text-anchor="middle" render:vtext-anchor="middle"/>
               </render:style>
-              <render:style render:idList="f934a">
+              <render:style render:idList="dcd7f">
                 <render:g render:fill="color_FFFFCCCC" render:font-size="12" render:stroke="color_FF0000FF" render:stroke-width="1">
                   <render:ellipse render:cx="50%" render:cy="50%" render:rx="50%" render:ry="50%" render:stroke="color_FFFFCCCC"/>
                 </render:g>
               </render:style>
-              <render:style render:idList="text_f934a">
+              <render:style render:idList="text_dcd7f">
+                <render:g render:stroke="color_FF0000FF" render:text-anchor="middle" render:vtext-anchor="middle"/>
+              </render:style>
+              <render:style render:idList="cd5fa">
+                <render:g render:fill="color_FFFFCCCC" render:font-size="12" render:stroke="color_FF0000FF" render:stroke-width="1">
+                  <render:ellipse render:cx="50%" render:cy="50%" render:rx="50%" render:ry="50%" render:stroke="color_FFFFCCCC"/>
+                </render:g>
+              </render:style>
+              <render:style render:idList="text_cd5fa">
                 <render:g render:stroke="color_FF0000FF" render:text-anchor="middle" render:vtext-anchor="middle"/>
               </render:style>
               <render:style render:idList="f9ea0">
@@ -328,6 +299,34 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
               <render:style render:idList="text_f9ea0">
                 <render:g render:stroke="color_FF14961E" render:text-anchor="middle" render:vtext-anchor="middle"/>
               </render:style>
+              <render:style render:idList="f012f">
+                <render:g render:fill="color_FFFFFFFF" render:font-size="12" render:stroke="color_FF000000" render:stroke-width="1">
+                  <render:polygon>
+                    <render:listOfElements>
+                      <render:element render:x="5" render:y="0" xsi:type="RenderPoint"/>
+                      <render:element render:x="85" render:y="0" xsi:type="RenderPoint"/>
+                      <render:element render:basePoint1_x="87" render:basePoint1_y="0" render:basePoint2_x="90" render:basePoint2_y="3" render:x="90" render:y="5" xsi:type="RenderCubicBezier"/>
+                      <render:element render:x="90" render:y="20" xsi:type="RenderPoint"/>
+                      <render:element render:basePoint1_x="90" render:basePoint1_y="22" render:basePoint2_x="87" render:basePoint2_y="25" render:x="85" render:y="25" xsi:type="RenderCubicBezier"/>
+                      <render:element render:x="5" render:y="25" xsi:type="RenderPoint"/>
+                      <render:element render:basePoint1_x="3" render:basePoint1_y="25" render:basePoint2_x="0" render:basePoint2_y="22" render:x="0" render:y="20" xsi:type="RenderCubicBezier"/>
+                      <render:element render:x="0" render:y="5" xsi:type="RenderPoint"/>
+                      <render:element render:basePoint1_x="0" render:basePoint1_y="3" render:basePoint2_x="3" render:basePoint2_y="0" render:x="5" render:y="0" xsi:type="RenderCubicBezier"/>
+                    </render:listOfElements>
+                  </render:polygon>
+                </render:g>
+              </render:style>
+              <render:style render:idList="text_f012f">
+                <render:g render:stroke="color_FF000000" render:text-anchor="middle" render:vtext-anchor="middle"/>
+              </render:style>
+              <render:style render:idList="e3142">
+                <render:g render:fill="color_FFFFFFFF" render:font-size="12" render:stroke="color_FF0000FF" render:stroke-width="1">
+                  <render:ellipse render:cx="50%" render:cy="50%" render:rx="50%" render:ry="50%"/>
+                </render:g>
+              </render:style>
+              <render:style render:idList="text_e3142">
+                <render:g render:stroke="color_FF0000FF" render:text-anchor="middle" render:vtext-anchor="middle"/>
+              </render:style>
               <render:style render:idList="af38b">
                 <render:g render:fill="color_FFFFFFFF" render:font-size="12" render:stroke="color_FF0000FF" render:stroke-width="1">
                   <render:ellipse render:cx="50%" render:cy="50%" render:rx="50%" render:ry="50%"/>
@@ -336,128 +335,51 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
               <render:style render:idList="text_af38b">
                 <render:g render:stroke="color_FF0000FF" render:text-anchor="middle" render:vtext-anchor="middle"/>
               </render:style>
-              <render:style render:idList="c8826">
-                <render:g render:fill="color_FFFFFFFF" render:font-size="12" render:stroke="color_FF0000FF" render:stroke-width="1">
-                  <render:ellipse render:cx="50%" render:cy="50%" render:rx="50%" render:ry="50%"/>
+              <render:style render:idList="f1f9c">
+                <render:g render:fill="color_FFFFFFFF" render:font-size="12" render:stroke="color_FF14961E" render:stroke-width="1">
+                  <render:polygon>
+                    <render:listOfElements>
+                      <render:element render:x="0" render:y="13" xsi:type="RenderPoint"/>
+                      <render:element render:x="13" render:y="0" xsi:type="RenderPoint"/>
+                      <render:element render:x="183" render:y="0" xsi:type="RenderPoint"/>
+                      <render:element render:x="195" render:y="13" xsi:type="RenderPoint"/>
+                      <render:element render:x="183" render:y="25" xsi:type="RenderPoint"/>
+                      <render:element render:x="13" render:y="25" xsi:type="RenderPoint"/>
+                    </render:listOfElements>
+                  </render:polygon>
                 </render:g>
               </render:style>
-              <render:style render:idList="text_c8826">
-                <render:g render:stroke="color_FF0000FF" render:text-anchor="middle" render:vtext-anchor="middle"/>
-              </render:style>
-              <render:style render:idList="e3c75">
-                <render:g render:fill="color_FFFFFFFF" render:font-size="12" render:stroke="color_FF0000FF" render:stroke-width="1">
-                  <render:ellipse render:cx="50%" render:cy="50%" render:rx="50%" render:ry="50%"/>
-                </render:g>
-              </render:style>
-              <render:style render:idList="text_e3c75">
-                <render:g render:stroke="color_FF0000FF" render:text-anchor="middle" render:vtext-anchor="middle"/>
+              <render:style render:idList="text_f1f9c">
+                <render:g render:stroke="color_FF14961E" render:text-anchor="middle" render:vtext-anchor="middle"/>
               </render:style>
               <render:style render:idList="node_1">
-                <render:g render:endHead="line_ending_NONE" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1"/>
+                <render:g render:endHead="line_ending_FULL" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1"/>
               </render:style>
               <render:style render:idList="node_2">
-                <render:g render:endHead="line_ending_NONE" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1"/>
+                <render:g render:endHead="line_ending_FULL" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1"/>
               </render:style>
               <render:style render:idList="node_3">
-                <render:g render:endHead="line_ending_FULL" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1"/>
+                <render:g render:endHead="line_ending_CIRCLE" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1"/>
               </render:style>
-              <render:style render:idList="node_4">
-                <render:g render:endHead="line_ending_FULL" render:fill="color_FFFF3333" render:stroke="color_FFFF3333" render:stroke-width="1"/>
+              <render:style render:idList="id33dc99f8_0">
+                <render:g render:fill="color_FFFFFFFF" render:stroke="color_FF000000" render:stroke-width="1">
+                  <render:polygon>
+                    <render:listOfElements>
+                      <render:element render:x="231" render:y="285" xsi:type="RenderPoint"/>
+                      <render:element render:x="231" render:y="295" xsi:type="RenderPoint"/>
+                      <render:element render:x="221" render:y="295" xsi:type="RenderPoint"/>
+                      <render:element render:x="221" render:y="285" xsi:type="RenderPoint"/>
+                    </render:listOfElements>
+                  </render:polygon>
+                </render:g>
               </render:style>
               <render:style render:idList="node_5">
-                <render:g render:endHead="line_ending_CIRCLE" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1"/>
-              </render:style>
-              <render:style render:idList="ide90d867b_0">
-                <render:g render:fill="color_FFFFFFFF" render:stroke="color_FF000000" render:stroke-width="1">
-                  <render:polygon>
-                    <render:listOfElements>
-                      <render:element render:x="450" render:y="466" xsi:type="RenderPoint"/>
-                      <render:element render:x="440" render:y="466" xsi:type="RenderPoint"/>
-                      <render:element render:x="440" render:y="456" xsi:type="RenderPoint"/>
-                      <render:element render:x="450" render:y="456" xsi:type="RenderPoint"/>
-                    </render:listOfElements>
-                  </render:polygon>
-                </render:g>
-              </render:style>
-              <render:style render:idList="node_7">
-                <render:g render:endHead="line_ending_FULL" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1"/>
-              </render:style>
-              <render:style render:idList="node_8">
-                <render:g render:endHead="line_ending_FULL" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1"/>
-              </render:style>
-              <render:style render:idList="node_9">
-                <render:g render:endHead="line_ending_FULL" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1"/>
-              </render:style>
-              <render:style render:idList="node_10">
-                <render:g render:endHead="line_ending_FULL" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1"/>
-              </render:style>
-              <render:style render:idList="node_11">
-                <render:g render:endHead="line_ending_FULL" render:fill="color_FFFF3333" render:stroke="color_FFFF3333" render:stroke-width="1"/>
-              </render:style>
-              <render:style render:idList="node_12">
-                <render:g render:endHead="line_ending_CIRCLE" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1"/>
-              </render:style>
-              <render:style render:idList="ida8a1bbc7_6">
-                <render:g render:fill="color_FFFFFFFF" render:stroke="color_FF000000" render:stroke-width="1">
-                  <render:polygon>
-                    <render:listOfElements>
-                      <render:element render:x="377" render:y="179" xsi:type="RenderPoint"/>
-                      <render:element render:x="387" render:y="179" xsi:type="RenderPoint"/>
-                      <render:element render:x="387" render:y="189" xsi:type="RenderPoint"/>
-                      <render:element render:x="377" render:y="189" xsi:type="RenderPoint"/>
-                    </render:listOfElements>
-                  </render:polygon>
-                </render:g>
-              </render:style>
-              <render:style render:idList="node_14">
-                <render:g render:endHead="line_ending_NONE" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1"/>
-              </render:style>
-              <render:style render:idList="node_15">
-                <render:g render:endHead="line_ending_NONE" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1"/>
-              </render:style>
-              <render:style render:idList="node_16">
-                <render:g render:endHead="line_ending_FULL" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1"/>
-              </render:style>
-              <render:style render:idList="node_17">
-                <render:g render:endHead="line_ending_CIRCLE" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1"/>
-              </render:style>
-              <render:style render:idList="id403dc952_13">
-                <render:g render:fill="color_FFFFFFFF" render:stroke="color_FF000000" render:stroke-width="1">
-                  <render:polygon>
-                    <render:listOfElements>
-                      <render:element render:x="337" render:y="492" xsi:type="RenderPoint"/>
-                      <render:element render:x="337" render:y="502" xsi:type="RenderPoint"/>
-                      <render:element render:x="327" render:y="502" xsi:type="RenderPoint"/>
-                      <render:element render:x="327" render:y="492" xsi:type="RenderPoint"/>
-                    </render:listOfElements>
-                  </render:polygon>
-                </render:g>
-              </render:style>
-              <render:style render:idList="node_19">
                 <render:g render:endHead="line_ending_NONE" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-dasharray="8, 8" render:stroke-width="1"/>
               </render:style>
-              <render:style render:idList="node_20">
+              <render:style render:idList="node_6">
                 <render:g render:endHead="line_ending_OPEN" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-dasharray="8, 8" render:stroke-width="1"/>
               </render:style>
-              <render:style render:idList="id6d0d0786_18">
-                <render:g render:fill="color_FFFFFFFF" render:stroke="color_FF000000" render:stroke-dasharray="8, 8" render:stroke-width="1">
-                  <render:polygon>
-                    <render:listOfElements>
-                      <render:element render:x="337" render:y="611" xsi:type="RenderPoint"/>
-                      <render:element render:x="337" render:y="621" xsi:type="RenderPoint"/>
-                      <render:element render:x="327" render:y="621" xsi:type="RenderPoint"/>
-                      <render:element render:x="327" render:y="611" xsi:type="RenderPoint"/>
-                    </render:listOfElements>
-                  </render:polygon>
-                </render:g>
-              </render:style>
-              <render:style render:idList="node_22">
-                <render:g render:endHead="line_ending_NONE" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-dasharray="8, 8" render:stroke-width="1"/>
-              </render:style>
-              <render:style render:idList="node_23">
-                <render:g render:endHead="line_ending_OPEN" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-dasharray="8, 8" render:stroke-width="1"/>
-              </render:style>
-              <render:style render:idList="c6959_21">
+              <render:style render:idList="c6959_4">
                 <render:g render:fill="color_FFFFFFFF" render:stroke="color_FF000000" render:stroke-dasharray="8, 8" render:stroke-width="1">
                   <render:polygon>
                     <render:listOfElements>
@@ -469,8 +391,86 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
                   </render:polygon>
                 </render:g>
               </render:style>
-              <render:style render:idList="node_25">
+              <render:style render:idList="node_8">
+                <render:g render:endHead="line_ending_NONE" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1"/>
+              </render:style>
+              <render:style render:idList="node_9">
+                <render:g render:endHead="line_ending_NONE" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1"/>
+              </render:style>
+              <render:style render:idList="node_10">
                 <render:g render:endHead="line_ending_FULL" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1"/>
+              </render:style>
+              <render:style render:idList="node_11">
+                <render:g render:endHead="line_ending_FULL" render:fill="color_FFFF3333" render:stroke="color_FFFF3333" render:stroke-width="1"/>
+              </render:style>
+              <render:style render:idList="node_12">
+                <render:g render:endHead="line_ending_CIRCLE" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1"/>
+              </render:style>
+              <render:style render:idList="ide90d867b_7">
+                <render:g render:fill="color_FFFFFFFF" render:stroke="color_FF000000" render:stroke-width="1">
+                  <render:polygon>
+                    <render:listOfElements>
+                      <render:element render:x="450" render:y="466" xsi:type="RenderPoint"/>
+                      <render:element render:x="440" render:y="466" xsi:type="RenderPoint"/>
+                      <render:element render:x="440" render:y="456" xsi:type="RenderPoint"/>
+                      <render:element render:x="450" render:y="456" xsi:type="RenderPoint"/>
+                    </render:listOfElements>
+                  </render:polygon>
+                </render:g>
+              </render:style>
+              <render:style render:idList="node_14">
+                <render:g render:endHead="line_ending_FULL" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1"/>
+              </render:style>
+              <render:style render:idList="node_15">
+                <render:g render:endHead="line_ending_FULL" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1"/>
+              </render:style>
+              <render:style render:idList="node_16">
+                <render:g render:endHead="line_ending_FULL" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1"/>
+              </render:style>
+              <render:style render:idList="node_17">
+                <render:g render:endHead="line_ending_FULL" render:fill="color_FFFF3333" render:stroke="color_FFFF3333" render:stroke-width="1"/>
+              </render:style>
+              <render:style render:idList="node_18">
+                <render:g render:endHead="line_ending_FULL" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1"/>
+              </render:style>
+              <render:style render:idList="node_19">
+                <render:g render:endHead="line_ending_CIRCLE" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1"/>
+              </render:style>
+              <render:style render:idList="ida8a1bbc7_13">
+                <render:g render:fill="color_FFFFFFFF" render:stroke="color_FF000000" render:stroke-width="1">
+                  <render:polygon>
+                    <render:listOfElements>
+                      <render:element render:x="377" render:y="179" xsi:type="RenderPoint"/>
+                      <render:element render:x="387" render:y="179" xsi:type="RenderPoint"/>
+                      <render:element render:x="387" render:y="189" xsi:type="RenderPoint"/>
+                      <render:element render:x="377" render:y="189" xsi:type="RenderPoint"/>
+                    </render:listOfElements>
+                  </render:polygon>
+                </render:g>
+              </render:style>
+              <render:style render:idList="node_21">
+                <render:g render:endHead="line_ending_NONE" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-dasharray="8, 8" render:stroke-width="1"/>
+              </render:style>
+              <render:style render:idList="node_22">
+                <render:g render:endHead="line_ending_OPEN" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-dasharray="8, 8" render:stroke-width="1"/>
+              </render:style>
+              <render:style render:idList="id6d0d0786_20">
+                <render:g render:fill="color_FFFFFFFF" render:stroke="color_FF000000" render:stroke-dasharray="8, 8" render:stroke-width="1">
+                  <render:polygon>
+                    <render:listOfElements>
+                      <render:element render:x="337" render:y="611" xsi:type="RenderPoint"/>
+                      <render:element render:x="337" render:y="621" xsi:type="RenderPoint"/>
+                      <render:element render:x="327" render:y="621" xsi:type="RenderPoint"/>
+                      <render:element render:x="327" render:y="611" xsi:type="RenderPoint"/>
+                    </render:listOfElements>
+                  </render:polygon>
+                </render:g>
+              </render:style>
+              <render:style render:idList="node_24">
+                <render:g render:endHead="line_ending_NONE" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1"/>
+              </render:style>
+              <render:style render:idList="node_25">
+                <render:g render:endHead="line_ending_NONE" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1"/>
               </render:style>
               <render:style render:idList="node_26">
                 <render:g render:endHead="line_ending_FULL" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1"/>
@@ -478,14 +478,14 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
               <render:style render:idList="node_27">
                 <render:g render:endHead="line_ending_CIRCLE" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1"/>
               </render:style>
-              <render:style render:idList="id33dc99f8_24">
+              <render:style render:idList="id403dc952_23">
                 <render:g render:fill="color_FFFFFFFF" render:stroke="color_FF000000" render:stroke-width="1">
                   <render:polygon>
                     <render:listOfElements>
-                      <render:element render:x="231" render:y="285" xsi:type="RenderPoint"/>
-                      <render:element render:x="231" render:y="295" xsi:type="RenderPoint"/>
-                      <render:element render:x="221" render:y="295" xsi:type="RenderPoint"/>
-                      <render:element render:x="221" render:y="285" xsi:type="RenderPoint"/>
+                      <render:element render:x="337" render:y="492" xsi:type="RenderPoint"/>
+                      <render:element render:x="337" render:y="502" xsi:type="RenderPoint"/>
+                      <render:element render:x="327" render:y="502" xsi:type="RenderPoint"/>
+                      <render:element render:x="327" render:y="492" xsi:type="RenderPoint"/>
                     </render:listOfElements>
                   </render:polygon>
                 </render:g>
@@ -500,10 +500,10 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
                 <render:g render:endHead="line_ending_FULL" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1"/>
               </render:style>
               <render:style render:idList="node_32">
-                <render:g render:endHead="line_ending_FULL" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1"/>
+                <render:g render:endHead="line_ending_FULL" render:fill="color_FFFF3333" render:stroke="color_FFFF3333" render:stroke-width="1"/>
               </render:style>
               <render:style render:idList="node_33">
-                <render:g render:endHead="line_ending_FULL" render:fill="color_FFFF3333" render:stroke="color_FFFF3333" render:stroke-width="1"/>
+                <render:g render:endHead="line_ending_FULL" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1"/>
               </render:style>
               <render:style render:idList="node_34">
                 <render:g render:endHead="line_ending_CIRCLE" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1"/>
@@ -555,10 +555,10 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
         </render:listOfRenderInformation>
         <layout:dimensions layout:height="789" layout:width="1175"/>
         <layout:listOfCompartmentGlyphs>
-          <layout:compartmentGlyph layout:compartment="comp_0" layout:id="ff0d9">
+          <layout:compartmentGlyph layout:compartment="comp_0" layout:id="eec3c">
             <layout:boundingBox>
-              <layout:position layout:x="663.7707454289701" layout:y="508.44960150023326" layout:z="16384"/>
-              <layout:dimensions layout:height="100" layout:width="200"/>
+              <layout:position layout:x="62.77074542897867" layout:y="68.81997187060466" layout:z="16384"/>
+              <layout:dimensions layout:height="582" layout:width="832"/>
             </layout:boundingBox>
           </layout:compartmentGlyph>
           <layout:compartmentGlyph layout:compartment="comp_1" layout:id="b4f98">
@@ -567,10 +567,10 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
               <layout:dimensions layout:height="295" layout:width="224.5"/>
             </layout:boundingBox>
           </layout:compartmentGlyph>
-          <layout:compartmentGlyph layout:compartment="comp_2" layout:id="eec3c">
+          <layout:compartmentGlyph layout:compartment="comp_2" layout:id="ff0d9">
             <layout:boundingBox>
-              <layout:position layout:x="62.77074542897867" layout:y="68.81997187060466" layout:z="16384"/>
-              <layout:dimensions layout:height="582" layout:width="832"/>
+              <layout:position layout:x="663.7707454289701" layout:y="508.44960150023326" layout:z="16384"/>
+              <layout:dimensions layout:height="100" layout:width="200"/>
             </layout:boundingBox>
           </layout:compartmentGlyph>
           <layout:compartmentGlyph layout:compartment="default" layout:id="default_compartment">
@@ -581,100 +581,94 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
           </layout:compartmentGlyph>
         </layout:listOfCompartmentGlyphs>
         <layout:listOfSpeciesGlyphs>
-          <layout:speciesGlyph layout:id="a2c2e" layout:species="species_0">
+          <layout:speciesGlyph layout:id="c8826" layout:species="species_0">
             <layout:boundingBox>
-              <layout:position layout:x="281.6364861697148" layout:y="448.31997187060466" layout:z="32770"/>
-              <layout:dimensions layout:height="25" layout:width="101"/>
-            </layout:boundingBox>
-          </layout:speciesGlyph>
-          <layout:speciesGlyph layout:id="b88ec" layout:species="species_1">
-            <layout:boundingBox>
-              <layout:position layout:x="501.7707454289689" layout:y="448.31997187060466" layout:z="32768"/>
+              <layout:position layout:x="181.27074542897395" layout:y="171.31997187060466" layout:z="32768"/>
               <layout:dimensions layout:height="25" layout:width="90"/>
             </layout:boundingBox>
           </layout:speciesGlyph>
-          <layout:speciesGlyph layout:id="b891f" layout:species="species_2">
-            <layout:boundingBox>
-              <layout:position layout:x="287.13648616971454" layout:y="524.3199718706047" layout:z="32768"/>
-              <layout:dimensions layout:height="25" layout:width="90"/>
-            </layout:boundingBox>
-          </layout:speciesGlyph>
-          <layout:speciesGlyph layout:id="db891" layout:species="species_3">
-            <layout:boundingBox>
-              <layout:position layout:x="577.7707454289697" layout:y="292.8014533520863" layout:z="32768"/>
-              <layout:dimensions layout:height="25" layout:width="50.83333333333212"/>
-            </layout:boundingBox>
-          </layout:speciesGlyph>
-          <layout:speciesGlyph layout:id="aefb7" layout:species="species_4">
-            <layout:boundingBox>
-              <layout:position layout:x="280.7707454289742" layout:y="237.31997187060466" layout:z="32768"/>
-              <layout:dimensions layout:height="25" layout:width="90"/>
-            </layout:boundingBox>
-          </layout:speciesGlyph>
-          <layout:speciesGlyph layout:id="f5ced" layout:species="species_5">
+          <layout:speciesGlyph layout:id="f5ced" layout:species="species_1">
             <layout:boundingBox>
               <layout:position layout:x="336.77074542897304" layout:y="133.31997187060466" layout:z="32768"/>
               <layout:dimensions layout:height="25" layout:width="90"/>
             </layout:boundingBox>
           </layout:speciesGlyph>
-          <layout:speciesGlyph layout:id="e9733" layout:species="species_0">
+          <layout:speciesGlyph layout:id="f934a" layout:species="species_2">
             <layout:boundingBox>
-              <layout:position layout:x="496.2707454289691" layout:y="171.31997187060466" layout:z="32768"/>
-              <layout:dimensions layout:height="25" layout:width="101"/>
+              <layout:position layout:x="466.7707454289705" layout:y="81.31997187060469" layout:z="28672"/>
+              <layout:dimensions layout:height="35.5" layout:width="180"/>
             </layout:boundingBox>
           </layout:speciesGlyph>
-          <layout:speciesGlyph layout:id="f012f" layout:species="species_6">
-            <layout:boundingBox>
-              <layout:position layout:x="115.77074542897395" layout:y="279.31997187060466" layout:z="32768"/>
-              <layout:dimensions layout:height="25" layout:width="90"/>
-            </layout:boundingBox>
-          </layout:speciesGlyph>
-          <layout:speciesGlyph layout:id="acd61" layout:species="species_7">
+          <layout:speciesGlyph layout:id="acd61" layout:species="species_3">
             <layout:boundingBox>
               <layout:position layout:x="406.21518987341517" layout:y="285.85700890764184" layout:z="32768"/>
               <layout:dimensions layout:height="25" layout:width="90"/>
             </layout:boundingBox>
           </layout:speciesGlyph>
-          <layout:speciesGlyph layout:id="f1f9c" layout:species="species_8">
+          <layout:speciesGlyph layout:id="a2c2e" layout:species="species_4">
             <layout:boundingBox>
-              <layout:position layout:x="234.5253750585983" layout:y="683.0051570557908" layout:z="28672"/>
-              <layout:dimensions layout:height="25" layout:width="195.22222222222257"/>
+              <layout:position layout:x="281.6364861697148" layout:y="448.31997187060466" layout:z="32770"/>
+              <layout:dimensions layout:height="25" layout:width="101"/>
             </layout:boundingBox>
           </layout:speciesGlyph>
-          <layout:speciesGlyph layout:id="dcd7f" layout:species="species_9">
-            <layout:boundingBox>
-              <layout:position layout:x="566.1179676511908" layout:y="249.68149320206277" layout:z="28672"/>
-              <layout:dimensions layout:height="35.5" layout:width="180.00000000000003"/>
-            </layout:boundingBox>
-          </layout:speciesGlyph>
-          <layout:speciesGlyph layout:id="e4427" layout:species="species_10">
+          <layout:speciesGlyph layout:id="e4427" layout:species="species_5">
             <layout:boundingBox>
               <layout:position layout:x="206.51148616971494" layout:y="484.4773792780121" layout:z="32768"/>
               <layout:dimensions layout:height="25" layout:width="89"/>
             </layout:boundingBox>
           </layout:speciesGlyph>
-          <layout:speciesGlyph layout:id="cd5fa" layout:species="species_11">
+          <layout:speciesGlyph layout:id="aefb7" layout:species="species_6">
             <layout:boundingBox>
-              <layout:position layout:x="398.9003750586025" layout:y="536.9171940928269" layout:z="28672"/>
-              <layout:dimensions layout:height="35.5" layout:width="180.00000000000003"/>
-            </layout:boundingBox>
-          </layout:speciesGlyph>
-          <layout:speciesGlyph layout:id="e3142" layout:species="species_1">
-            <layout:boundingBox>
-              <layout:position layout:x="501.7707454289689" layout:y="484.89404594467885" layout:z="32769"/>
+              <layout:position layout:x="280.7707454289742" layout:y="237.31997187060466" layout:z="32768"/>
               <layout:dimensions layout:height="25" layout:width="90"/>
             </layout:boundingBox>
           </layout:speciesGlyph>
-          <layout:speciesGlyph layout:id="ff925" layout:species="species_12">
+          <layout:speciesGlyph layout:id="e9733" layout:species="species_4">
+            <layout:boundingBox>
+              <layout:position layout:x="496.2707454289691" layout:y="171.31997187060466" layout:z="32768"/>
+              <layout:dimensions layout:height="25" layout:width="101"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="db891" layout:species="species_7">
+            <layout:boundingBox>
+              <layout:position layout:x="577.7707454289697" layout:y="292.8014533520863" layout:z="32768"/>
+              <layout:dimensions layout:height="25" layout:width="50.83333333333212"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="e3c75" layout:species="species_8">
+            <layout:boundingBox>
+              <layout:position layout:x="157.77074542897395" layout:y="400.31997187060466" layout:z="32768"/>
+              <layout:dimensions layout:height="25" layout:width="137"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="b88ec" layout:species="species_9">
+            <layout:boundingBox>
+              <layout:position layout:x="501.7707454289689" layout:y="448.31997187060466" layout:z="32768"/>
+              <layout:dimensions layout:height="25" layout:width="90"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="b891f" layout:species="species_10">
+            <layout:boundingBox>
+              <layout:position layout:x="287.13648616971454" layout:y="524.3199718706047" layout:z="32768"/>
+              <layout:dimensions layout:height="25" layout:width="90"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="ff925" layout:species="species_11">
             <layout:boundingBox>
               <layout:position layout:x="420.2707454289731" layout:y="407.9958977965303" layout:z="32768"/>
               <layout:dimensions layout:height="25" layout:width="44.42592592592547"/>
             </layout:boundingBox>
           </layout:speciesGlyph>
-          <layout:speciesGlyph layout:id="f934a" layout:species="species_13">
+          <layout:speciesGlyph layout:id="dcd7f" layout:species="species_12">
             <layout:boundingBox>
-              <layout:position layout:x="466.7707454289705" layout:y="81.31997187060469" layout:z="28672"/>
-              <layout:dimensions layout:height="35.5" layout:width="180"/>
+              <layout:position layout:x="566.1179676511908" layout:y="249.68149320206277" layout:z="28672"/>
+              <layout:dimensions layout:height="35.5" layout:width="180.00000000000003"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="cd5fa" layout:species="species_13">
+            <layout:boundingBox>
+              <layout:position layout:x="398.9003750586025" layout:y="536.9171940928269" layout:z="28672"/>
+              <layout:dimensions layout:height="35.5" layout:width="180.00000000000003"/>
             </layout:boundingBox>
           </layout:speciesGlyph>
           <layout:speciesGlyph layout:id="f9ea0" layout:species="species_14">
@@ -683,245 +677,75 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
               <layout:dimensions layout:height="29.675925925925643" layout:width="195.22222222222257"/>
             </layout:boundingBox>
           </layout:speciesGlyph>
-          <layout:speciesGlyph layout:id="af38b" layout:species="species_15">
+          <layout:speciesGlyph layout:id="f012f" layout:species="species_15">
+            <layout:boundingBox>
+              <layout:position layout:x="115.77074542897395" layout:y="279.31997187060466" layout:z="32768"/>
+              <layout:dimensions layout:height="25" layout:width="90"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="e3142" layout:species="species_9">
+            <layout:boundingBox>
+              <layout:position layout:x="501.7707454289689" layout:y="484.89404594467885" layout:z="32769"/>
+              <layout:dimensions layout:height="25" layout:width="90"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="af38b" layout:species="species_16">
             <layout:boundingBox>
               <layout:position layout:x="386.770745428972" layout:y="237.31997187060466" layout:z="32768"/>
               <layout:dimensions layout:height="25" layout:width="90"/>
             </layout:boundingBox>
           </layout:speciesGlyph>
-          <layout:speciesGlyph layout:id="c8826" layout:species="species_16">
+          <layout:speciesGlyph layout:id="f1f9c" layout:species="species_17">
             <layout:boundingBox>
-              <layout:position layout:x="181.27074542897395" layout:y="171.31997187060466" layout:z="32768"/>
-              <layout:dimensions layout:height="25" layout:width="90"/>
-            </layout:boundingBox>
-          </layout:speciesGlyph>
-          <layout:speciesGlyph layout:id="e3c75" layout:species="species_17">
-            <layout:boundingBox>
-              <layout:position layout:x="157.77074542897395" layout:y="400.31997187060466" layout:z="32768"/>
-              <layout:dimensions layout:height="25" layout:width="137"/>
+              <layout:position layout:x="234.5253750585983" layout:y="683.0051570557908" layout:z="28672"/>
+              <layout:dimensions layout:height="25" layout:width="195.22222222222257"/>
             </layout:boundingBox>
           </layout:speciesGlyph>
         </layout:listOfSpeciesGlyphs>
         <layout:listOfReactionGlyphs>
-          <layout:reactionGlyph layout:id="ide90d867b_0" layout:reaction="ide90d867b">
+          <layout:reactionGlyph layout:id="id33dc99f8_0" layout:reaction="id33dc99f8">
             <layout:curve>
               <layout:listOfCurveSegments>
                 <layout:curveSegment xsi:type="LineSegment">
-                  <layout:start layout:x="473.3223574073795" layout:y="460.81997187060466" layout:z="0"/>
-                  <layout:end layout:x="413.75522777775245" layout:y="460.81997187060466" layout:z="0"/>
+                  <layout:start layout:x="226.27074542897395" layout:y="284.8765914163178" layout:z="12288"/>
+                  <layout:end layout:x="226.27074542897395" layout:y="294.8765914163178" layout:z="12288"/>
                 </layout:curveSegment>
               </layout:listOfCurveSegments>
             </layout:curve>
             <layout:listOfSpeciesReferenceGlyphs>
-              <layout:speciesReferenceGlyph layout:id="node_1" layout:role="substrate" layout:speciesGlyph="b88ec">
+              <layout:speciesReferenceGlyph layout:id="node_1" layout:role="substrate" layout:speciesGlyph="c8826">
                 <layout:curve>
                   <layout:listOfCurveSegments>
                     <layout:curveSegment xsi:type="LineSegment">
-                      <layout:start layout:x="473.3223574073795" layout:y="460.81997187060466" layout:z="12288"/>
-                      <layout:end layout:x="501.7707454289689" layout:y="460.81997187060466" layout:z="12288"/>
+                      <layout:start layout:x="226.27074542897395" layout:y="284.8765914163178" layout:z="12288"/>
+                      <layout:end layout:x="226.27074542897395" layout:y="196.31997187060466" layout:z="12288"/>
                     </layout:curveSegment>
                   </layout:listOfCurveSegments>
                 </layout:curve>
               </layout:speciesReferenceGlyph>
-              <layout:speciesReferenceGlyph layout:id="node_2" layout:role="sidesubstrate" layout:speciesGlyph="e3142">
+              <layout:speciesReferenceGlyph layout:id="node_2" layout:role="product" layout:speciesGlyph="e3c75">
                 <layout:curve>
                   <layout:listOfCurveSegments>
                     <layout:curveSegment xsi:type="LineSegment">
-                      <layout:start layout:x="473.3223574073795" layout:y="460.81997187060466" layout:z="12288"/>
-                      <layout:end layout:x="501.7707454289689" layout:y="497.39404594467885" layout:z="12288"/>
+                      <layout:start layout:x="226.27074542897395" layout:y="294.8765914163178" layout:z="12288"/>
+                      <layout:end layout:x="226.27074542897395" layout:y="400.31997187060466" layout:z="12288"/>
                     </layout:curveSegment>
                   </layout:listOfCurveSegments>
                 </layout:curve>
               </layout:speciesReferenceGlyph>
-              <layout:speciesReferenceGlyph layout:id="node_3" layout:role="product" layout:speciesGlyph="a2c2e">
+              <layout:speciesReferenceGlyph layout:id="node_3" layout:role="modifier" layout:speciesGlyph="f012f">
                 <layout:curve>
                   <layout:listOfCurveSegments>
                     <layout:curveSegment xsi:type="LineSegment">
-                      <layout:start layout:x="413.75522777775245" layout:y="460.81997187060466" layout:z="12288"/>
-                      <layout:end layout:x="382.6364861697148" layout:y="460.81997187060466" layout:z="12288"/>
-                    </layout:curveSegment>
-                  </layout:listOfCurveSegments>
-                </layout:curve>
-              </layout:speciesReferenceGlyph>
-              <layout:speciesReferenceGlyph layout:id="node_4" layout:role="sideproduct" layout:speciesGlyph="cd5fa">
-                <layout:curve>
-                  <layout:listOfCurveSegments>
-                    <layout:curveSegment xsi:type="LineSegment">
-                      <layout:start layout:x="413.75522777775245" layout:y="460.81997187060466" layout:z="12288"/>
-                      <layout:end layout:x="488.90037505860255" layout:y="536.9171940928269" layout:z="12288"/>
-                    </layout:curveSegment>
-                  </layout:listOfCurveSegments>
-                </layout:curve>
-              </layout:speciesReferenceGlyph>
-              <layout:speciesReferenceGlyph layout:id="node_5" layout:role="modifier" layout:speciesGlyph="ff925">
-                <layout:curve>
-                  <layout:listOfCurveSegments>
-                    <layout:curveSegment xsi:type="LineSegment">
-                      <layout:start layout:x="442.4837083919358" layout:y="432.9958977965303" layout:z="12288"/>
-                      <layout:end layout:x="444.8739693857901" layout:y="455.81997187060466" layout:z="12288"/>
+                      <layout:start layout:x="115.77074542897395" layout:y="291.81997187060466" layout:z="12288"/>
+                      <layout:end layout:x="221.27074542897395" layout:y="289.8765914163178" layout:z="12288"/>
                     </layout:curveSegment>
                   </layout:listOfCurveSegments>
                 </layout:curve>
               </layout:speciesReferenceGlyph>
             </layout:listOfSpeciesReferenceGlyphs>
           </layout:reactionGlyph>
-          <layout:reactionGlyph layout:id="ida8a1bbc7_6" layout:reaction="ida8a1bbc7">
-            <layout:curve>
-              <layout:listOfCurveSegments>
-                <layout:curveSegment xsi:type="LineSegment">
-                  <layout:start layout:x="377.44721601720687" layout:y="183.81997187060466" layout:z="12288"/>
-                  <layout:end layout:x="439.358980723088" layout:y="183.81997187060466" layout:z="12288"/>
-                </layout:curveSegment>
-              </layout:listOfCurveSegments>
-            </layout:curve>
-            <layout:listOfSpeciesReferenceGlyphs>
-              <layout:speciesReferenceGlyph layout:id="node_7" layout:role="substrate" layout:speciesGlyph="c8826">
-                <layout:curve>
-                  <layout:listOfCurveSegments>
-                    <layout:curveSegment xsi:type="LineSegment">
-                      <layout:start layout:x="377.44721601720687" layout:y="183.81997187060466" layout:z="12288"/>
-                      <layout:end layout:x="271.27074542897395" layout:y="183.81997187060466" layout:z="12288"/>
-                    </layout:curveSegment>
-                  </layout:listOfCurveSegments>
-                </layout:curve>
-              </layout:speciesReferenceGlyph>
-              <layout:speciesReferenceGlyph layout:id="node_8" layout:role="product" layout:speciesGlyph="e9733">
-                <layout:curve>
-                  <layout:listOfCurveSegments>
-                    <layout:curveSegment xsi:type="LineSegment">
-                      <layout:start layout:x="439.358980723088" layout:y="183.81997187060466" layout:z="12288"/>
-                      <layout:end layout:x="496.2707454289691" layout:y="183.81997187060466" layout:z="12288"/>
-                    </layout:curveSegment>
-                  </layout:listOfCurveSegments>
-                </layout:curve>
-              </layout:speciesReferenceGlyph>
-              <layout:speciesReferenceGlyph layout:id="node_9" layout:role="sideproduct" layout:speciesGlyph="aefb7">
-                <layout:curve>
-                  <layout:listOfCurveSegments>
-                    <layout:curveSegment xsi:type="LineSegment">
-                      <layout:start layout:x="439.358980723088" layout:y="183.81997187060466" layout:z="12288"/>
-                      <layout:end layout:x="325.7707454289742" layout:y="237.31997187060466" layout:z="12288"/>
-                    </layout:curveSegment>
-                  </layout:listOfCurveSegments>
-                </layout:curve>
-              </layout:speciesReferenceGlyph>
-              <layout:speciesReferenceGlyph layout:id="node_10" layout:role="sideproduct" layout:speciesGlyph="af38b">
-                <layout:curve>
-                  <layout:listOfCurveSegments>
-                    <layout:curveSegment xsi:type="LineSegment">
-                      <layout:start layout:x="439.358980723088" layout:y="183.81997187060466" layout:z="12288"/>
-                      <layout:end layout:x="431.770745428972" layout:y="237.31997187060466" layout:z="12288"/>
-                    </layout:curveSegment>
-                  </layout:listOfCurveSegments>
-                </layout:curve>
-              </layout:speciesReferenceGlyph>
-              <layout:speciesReferenceGlyph layout:id="node_11" layout:role="sideproduct" layout:speciesGlyph="f934a">
-                <layout:curve>
-                  <layout:listOfCurveSegments>
-                    <layout:curveSegment xsi:type="LineSegment">
-                      <layout:start layout:x="439.358980723088" layout:y="183.81997187060466" layout:z="12288"/>
-                      <layout:end layout:x="556.7707454289705" layout:y="116.81997187060469" layout:z="12288"/>
-                    </layout:curveSegment>
-                  </layout:listOfCurveSegments>
-                </layout:curve>
-              </layout:speciesReferenceGlyph>
-              <layout:speciesReferenceGlyph layout:id="node_12" layout:role="modifier" layout:speciesGlyph="f5ced">
-                <layout:curve>
-                  <layout:listOfCurveSegments>
-                    <layout:curveSegment xsi:type="LineSegment">
-                      <layout:start layout:x="381.77074542897304" layout:y="158.31997187060466" layout:z="12288"/>
-                      <layout:end layout:x="382.44721601720687" layout:y="178.81997187060466" layout:z="12288"/>
-                    </layout:curveSegment>
-                  </layout:listOfCurveSegments>
-                </layout:curve>
-              </layout:speciesReferenceGlyph>
-            </layout:listOfSpeciesReferenceGlyphs>
-          </layout:reactionGlyph>
-          <layout:reactionGlyph layout:id="id403dc952_13" layout:reaction="id403dc952">
-            <layout:curve>
-              <layout:listOfCurveSegments>
-                <layout:curveSegment xsi:type="LineSegment">
-                  <layout:start layout:x="332.1364861697147" layout:y="485.3618173641669" layout:z="0"/>
-                  <layout:end layout:x="332.13648616971466" layout:y="502.4036628577291" layout:z="0"/>
-                </layout:curveSegment>
-              </layout:listOfCurveSegments>
-            </layout:curve>
-            <layout:listOfSpeciesReferenceGlyphs>
-              <layout:speciesReferenceGlyph layout:id="node_14" layout:role="substrate" layout:speciesGlyph="a2c2e">
-                <layout:curve>
-                  <layout:listOfCurveSegments>
-                    <layout:curveSegment xsi:type="LineSegment">
-                      <layout:start layout:x="332.1364861697147" layout:y="485.3618173641669" layout:z="12288"/>
-                      <layout:end layout:x="332.1364861697148" layout:y="473.31997187060466" layout:z="12288"/>
-                    </layout:curveSegment>
-                  </layout:listOfCurveSegments>
-                </layout:curve>
-              </layout:speciesReferenceGlyph>
-              <layout:speciesReferenceGlyph layout:id="node_15" layout:role="sidesubstrate" layout:speciesGlyph="e3142">
-                <layout:curve>
-                  <layout:listOfCurveSegments>
-                    <layout:curveSegment xsi:type="LineSegment">
-                      <layout:start layout:x="332.1364861697147" layout:y="485.3618173641669" layout:z="12288"/>
-                      <layout:end layout:x="501.7707454289689" layout:y="497.39404594467885" layout:z="12288"/>
-                    </layout:curveSegment>
-                  </layout:listOfCurveSegments>
-                </layout:curve>
-              </layout:speciesReferenceGlyph>
-              <layout:speciesReferenceGlyph layout:id="node_16" layout:role="product" layout:speciesGlyph="b891f">
-                <layout:curve>
-                  <layout:listOfCurveSegments>
-                    <layout:curveSegment xsi:type="LineSegment">
-                      <layout:start layout:x="332.13648616971466" layout:y="502.4036628577291" layout:z="12288"/>
-                      <layout:end layout:x="332.13648616971454" layout:y="524.3199718706047" layout:z="12288"/>
-                    </layout:curveSegment>
-                  </layout:listOfCurveSegments>
-                </layout:curve>
-              </layout:speciesReferenceGlyph>
-              <layout:speciesReferenceGlyph layout:id="node_17" layout:role="modifier" layout:speciesGlyph="e4427">
-                <layout:curve>
-                  <layout:listOfCurveSegments>
-                    <layout:curveSegment xsi:type="LineSegment">
-                      <layout:start layout:x="295.51148616971494" layout:y="496.9773792780121" layout:z="12288"/>
-                      <layout:end layout:x="327.13648616971466" layout:y="497.4036628577291" layout:z="12288"/>
-                    </layout:curveSegment>
-                  </layout:listOfCurveSegments>
-                </layout:curve>
-              </layout:speciesReferenceGlyph>
-            </layout:listOfSpeciesReferenceGlyphs>
-          </layout:reactionGlyph>
-          <layout:reactionGlyph layout:id="id6d0d0786_18" layout:reaction="id6d0d0786">
-            <layout:curve>
-              <layout:listOfCurveSegments>
-                <layout:curveSegment xsi:type="LineSegment">
-                  <layout:start layout:x="332.1364861697122" layout:y="611.1625644631978" layout:z="32773"/>
-                  <layout:end layout:x="332.1364861697119" layout:y="621.1625644631978" layout:z="32773"/>
-                </layout:curveSegment>
-              </layout:listOfCurveSegments>
-            </layout:curve>
-            <layout:listOfSpeciesReferenceGlyphs>
-              <layout:speciesReferenceGlyph layout:id="node_19" layout:role="substrate" layout:speciesGlyph="b891f">
-                <layout:curve>
-                  <layout:listOfCurveSegments>
-                    <layout:curveSegment xsi:type="LineSegment">
-                      <layout:start layout:x="332.1364861697122" layout:y="611.1625644631978" layout:z="32773"/>
-                      <layout:end layout:x="332.13648616971454" layout:y="549.3199718706047" layout:z="32773"/>
-                    </layout:curveSegment>
-                  </layout:listOfCurveSegments>
-                </layout:curve>
-              </layout:speciesReferenceGlyph>
-              <layout:speciesReferenceGlyph layout:id="node_20" layout:role="product" layout:speciesGlyph="f1f9c">
-                <layout:curve>
-                  <layout:listOfCurveSegments>
-                    <layout:curveSegment xsi:type="LineSegment">
-                      <layout:start layout:x="332.1364861697119" layout:y="621.1625644631978" layout:z="32773"/>
-                      <layout:end layout:x="332.1364861697096" layout:y="683.0051570557908" layout:z="32773"/>
-                    </layout:curveSegment>
-                  </layout:listOfCurveSegments>
-                </layout:curve>
-              </layout:speciesReferenceGlyph>
-            </layout:listOfSpeciesReferenceGlyphs>
-          </layout:reactionGlyph>
-          <layout:reactionGlyph layout:id="c6959_21" layout:reaction="c6959">
+          <layout:reactionGlyph layout:id="c6959_4" layout:reaction="c6959">
             <layout:curve>
               <layout:listOfCurveSegments>
                 <layout:curveSegment xsi:type="LineSegment">
@@ -931,7 +755,7 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
               </layout:listOfCurveSegments>
             </layout:curve>
             <layout:listOfSpeciesReferenceGlyphs>
-              <layout:speciesReferenceGlyph layout:id="node_22" layout:role="substrate" layout:speciesGlyph="b891f">
+              <layout:speciesReferenceGlyph layout:id="node_5" layout:role="substrate" layout:speciesGlyph="b891f">
                 <layout:curve>
                   <layout:listOfCurveSegments>
                     <layout:curveSegment xsi:type="LineSegment">
@@ -941,7 +765,7 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
                   </layout:listOfCurveSegments>
                 </layout:curve>
               </layout:speciesReferenceGlyph>
-              <layout:speciesReferenceGlyph layout:id="node_23" layout:role="product" layout:speciesGlyph="f9ea0">
+              <layout:speciesReferenceGlyph layout:id="node_6" layout:role="product" layout:speciesGlyph="f9ea0">
                 <layout:curve>
                   <layout:listOfCurveSegments>
                     <layout:curveSegment xsi:type="LineSegment">
@@ -953,42 +777,218 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
               </layout:speciesReferenceGlyph>
             </layout:listOfSpeciesReferenceGlyphs>
           </layout:reactionGlyph>
-          <layout:reactionGlyph layout:id="id33dc99f8_24" layout:reaction="id33dc99f8">
+          <layout:reactionGlyph layout:id="ide90d867b_7" layout:reaction="ide90d867b">
             <layout:curve>
               <layout:listOfCurveSegments>
                 <layout:curveSegment xsi:type="LineSegment">
-                  <layout:start layout:x="226.27074542897395" layout:y="284.8765914163178" layout:z="12288"/>
-                  <layout:end layout:x="226.27074542897395" layout:y="294.8765914163178" layout:z="12288"/>
+                  <layout:start layout:x="473.3223574073795" layout:y="460.81997187060466" layout:z="0"/>
+                  <layout:end layout:x="413.75522777775245" layout:y="460.81997187060466" layout:z="0"/>
                 </layout:curveSegment>
               </layout:listOfCurveSegments>
             </layout:curve>
             <layout:listOfSpeciesReferenceGlyphs>
-              <layout:speciesReferenceGlyph layout:id="node_25" layout:role="substrate" layout:speciesGlyph="c8826">
+              <layout:speciesReferenceGlyph layout:id="node_8" layout:role="substrate" layout:speciesGlyph="b88ec">
                 <layout:curve>
                   <layout:listOfCurveSegments>
                     <layout:curveSegment xsi:type="LineSegment">
-                      <layout:start layout:x="226.27074542897395" layout:y="284.8765914163178" layout:z="12288"/>
-                      <layout:end layout:x="226.27074542897395" layout:y="196.31997187060466" layout:z="12288"/>
+                      <layout:start layout:x="473.3223574073795" layout:y="460.81997187060466" layout:z="12288"/>
+                      <layout:end layout:x="501.7707454289689" layout:y="460.81997187060466" layout:z="12288"/>
                     </layout:curveSegment>
                   </layout:listOfCurveSegments>
                 </layout:curve>
               </layout:speciesReferenceGlyph>
-              <layout:speciesReferenceGlyph layout:id="node_26" layout:role="product" layout:speciesGlyph="e3c75">
+              <layout:speciesReferenceGlyph layout:id="node_9" layout:role="sidesubstrate" layout:speciesGlyph="e3142">
                 <layout:curve>
                   <layout:listOfCurveSegments>
                     <layout:curveSegment xsi:type="LineSegment">
-                      <layout:start layout:x="226.27074542897395" layout:y="294.8765914163178" layout:z="12288"/>
-                      <layout:end layout:x="226.27074542897395" layout:y="400.31997187060466" layout:z="12288"/>
+                      <layout:start layout:x="473.3223574073795" layout:y="460.81997187060466" layout:z="12288"/>
+                      <layout:end layout:x="501.7707454289689" layout:y="497.39404594467885" layout:z="12288"/>
                     </layout:curveSegment>
                   </layout:listOfCurveSegments>
                 </layout:curve>
               </layout:speciesReferenceGlyph>
-              <layout:speciesReferenceGlyph layout:id="node_27" layout:role="modifier" layout:speciesGlyph="f012f">
+              <layout:speciesReferenceGlyph layout:id="node_10" layout:role="product" layout:speciesGlyph="a2c2e">
                 <layout:curve>
                   <layout:listOfCurveSegments>
                     <layout:curveSegment xsi:type="LineSegment">
-                      <layout:start layout:x="115.77074542897395" layout:y="291.81997187060466" layout:z="12288"/>
-                      <layout:end layout:x="221.27074542897395" layout:y="289.8765914163178" layout:z="12288"/>
+                      <layout:start layout:x="413.75522777775245" layout:y="460.81997187060466" layout:z="12288"/>
+                      <layout:end layout:x="382.6364861697148" layout:y="460.81997187060466" layout:z="12288"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="node_11" layout:role="sideproduct" layout:speciesGlyph="cd5fa">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="413.75522777775245" layout:y="460.81997187060466" layout:z="12288"/>
+                      <layout:end layout:x="488.90037505860255" layout:y="536.9171940928269" layout:z="12288"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="node_12" layout:role="modifier" layout:speciesGlyph="ff925">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="442.4837083919358" layout:y="432.9958977965303" layout:z="12288"/>
+                      <layout:end layout:x="444.8739693857901" layout:y="455.81997187060466" layout:z="12288"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+            </layout:listOfSpeciesReferenceGlyphs>
+          </layout:reactionGlyph>
+          <layout:reactionGlyph layout:id="ida8a1bbc7_13" layout:reaction="ida8a1bbc7">
+            <layout:curve>
+              <layout:listOfCurveSegments>
+                <layout:curveSegment xsi:type="LineSegment">
+                  <layout:start layout:x="377.44721601720687" layout:y="183.81997187060466" layout:z="12288"/>
+                  <layout:end layout:x="439.358980723088" layout:y="183.81997187060466" layout:z="12288"/>
+                </layout:curveSegment>
+              </layout:listOfCurveSegments>
+            </layout:curve>
+            <layout:listOfSpeciesReferenceGlyphs>
+              <layout:speciesReferenceGlyph layout:id="node_14" layout:role="substrate" layout:speciesGlyph="c8826">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="377.44721601720687" layout:y="183.81997187060466" layout:z="12288"/>
+                      <layout:end layout:x="271.27074542897395" layout:y="183.81997187060466" layout:z="12288"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="node_15" layout:role="product" layout:speciesGlyph="e9733">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="439.358980723088" layout:y="183.81997187060466" layout:z="12288"/>
+                      <layout:end layout:x="496.2707454289691" layout:y="183.81997187060466" layout:z="12288"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="node_16" layout:role="sideproduct" layout:speciesGlyph="af38b">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="439.358980723088" layout:y="183.81997187060466" layout:z="12288"/>
+                      <layout:end layout:x="431.770745428972" layout:y="237.31997187060466" layout:z="12288"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="node_17" layout:role="sideproduct" layout:speciesGlyph="f934a">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="439.358980723088" layout:y="183.81997187060466" layout:z="12288"/>
+                      <layout:end layout:x="556.7707454289705" layout:y="116.81997187060469" layout:z="12288"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="node_18" layout:role="sideproduct" layout:speciesGlyph="aefb7">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="439.358980723088" layout:y="183.81997187060466" layout:z="12288"/>
+                      <layout:end layout:x="325.7707454289742" layout:y="237.31997187060466" layout:z="12288"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="node_19" layout:role="modifier" layout:speciesGlyph="f5ced">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="381.77074542897304" layout:y="158.31997187060466" layout:z="12288"/>
+                      <layout:end layout:x="382.44721601720687" layout:y="178.81997187060466" layout:z="12288"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+            </layout:listOfSpeciesReferenceGlyphs>
+          </layout:reactionGlyph>
+          <layout:reactionGlyph layout:id="id6d0d0786_20" layout:reaction="id6d0d0786">
+            <layout:curve>
+              <layout:listOfCurveSegments>
+                <layout:curveSegment xsi:type="LineSegment">
+                  <layout:start layout:x="332.1364861697122" layout:y="611.1625644631978" layout:z="32773"/>
+                  <layout:end layout:x="332.1364861697119" layout:y="621.1625644631978" layout:z="32773"/>
+                </layout:curveSegment>
+              </layout:listOfCurveSegments>
+            </layout:curve>
+            <layout:listOfSpeciesReferenceGlyphs>
+              <layout:speciesReferenceGlyph layout:id="node_21" layout:role="substrate" layout:speciesGlyph="b891f">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="332.1364861697122" layout:y="611.1625644631978" layout:z="32773"/>
+                      <layout:end layout:x="332.13648616971454" layout:y="549.3199718706047" layout:z="32773"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="node_22" layout:role="product" layout:speciesGlyph="f1f9c">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="332.1364861697119" layout:y="621.1625644631978" layout:z="32773"/>
+                      <layout:end layout:x="332.1364861697096" layout:y="683.0051570557908" layout:z="32773"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+            </layout:listOfSpeciesReferenceGlyphs>
+          </layout:reactionGlyph>
+          <layout:reactionGlyph layout:id="id403dc952_23" layout:reaction="id403dc952">
+            <layout:curve>
+              <layout:listOfCurveSegments>
+                <layout:curveSegment xsi:type="LineSegment">
+                  <layout:start layout:x="332.1364861697147" layout:y="485.3618173641669" layout:z="0"/>
+                  <layout:end layout:x="332.13648616971466" layout:y="502.4036628577291" layout:z="0"/>
+                </layout:curveSegment>
+              </layout:listOfCurveSegments>
+            </layout:curve>
+            <layout:listOfSpeciesReferenceGlyphs>
+              <layout:speciesReferenceGlyph layout:id="node_24" layout:role="substrate" layout:speciesGlyph="a2c2e">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="332.1364861697147" layout:y="485.3618173641669" layout:z="12288"/>
+                      <layout:end layout:x="332.1364861697148" layout:y="473.31997187060466" layout:z="12288"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="node_25" layout:role="sidesubstrate" layout:speciesGlyph="e3142">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="332.1364861697147" layout:y="485.3618173641669" layout:z="12288"/>
+                      <layout:end layout:x="501.7707454289689" layout:y="497.39404594467885" layout:z="12288"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="node_26" layout:role="product" layout:speciesGlyph="b891f">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="332.13648616971466" layout:y="502.4036628577291" layout:z="12288"/>
+                      <layout:end layout:x="332.13648616971454" layout:y="524.3199718706047" layout:z="12288"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="node_27" layout:role="modifier" layout:speciesGlyph="e4427">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="295.51148616971494" layout:y="496.9773792780121" layout:z="12288"/>
+                      <layout:end layout:x="327.13648616971466" layout:y="497.4036628577291" layout:z="12288"/>
                     </layout:curveSegment>
                   </layout:listOfCurveSegments>
                 </layout:curve>
@@ -1035,7 +1035,17 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
                   </layout:listOfCurveSegments>
                 </layout:curve>
               </layout:speciesReferenceGlyph>
-              <layout:speciesReferenceGlyph layout:id="node_32" layout:role="sideproduct" layout:speciesGlyph="e3142">
+              <layout:speciesReferenceGlyph layout:id="node_32" layout:role="sideproduct" layout:speciesGlyph="dcd7f">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="546.7707454289689" layout:y="386.44609517463584" layout:z="12288"/>
+                      <layout:end layout:x="566.1179676511908" layout:y="267.43149320206277" layout:z="12288"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="node_33" layout:role="sideproduct" layout:speciesGlyph="e3142">
                 <layout:curve>
                   <layout:listOfCurveSegments>
                     <layout:curveSegment xsi:type="LineSegment">
@@ -1049,16 +1059,6 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
                     <layout:curveSegment xsi:type="LineSegment">
                       <layout:start layout:x="627.4466713548944" layout:y="497.39404594467885" layout:z="12288"/>
                       <layout:end layout:x="591.7707454289689" layout:y="497.39404594467885" layout:z="12288"/>
-                    </layout:curveSegment>
-                  </layout:listOfCurveSegments>
-                </layout:curve>
-              </layout:speciesReferenceGlyph>
-              <layout:speciesReferenceGlyph layout:id="node_33" layout:role="sideproduct" layout:speciesGlyph="dcd7f">
-                <layout:curve>
-                  <layout:listOfCurveSegments>
-                    <layout:curveSegment xsi:type="LineSegment">
-                      <layout:start layout:x="546.7707454289689" layout:y="386.44609517463584" layout:z="12288"/>
-                      <layout:end layout:x="566.1179676511908" layout:y="267.43149320206277" layout:z="12288"/>
                     </layout:curveSegment>
                   </layout:listOfCurveSegments>
                 </layout:curve>
@@ -1077,10 +1077,10 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
           </layout:reactionGlyph>
         </layout:listOfReactionGlyphs>
         <layout:listOfTextGlyphs>
-          <layout:textGlyph layout:graphicalObject="ff0d9" layout:id="text_ff0d9" layout:text=" ">
+          <layout:textGlyph layout:graphicalObject="eec3c" layout:id="text_eec3c" layout:text="Mitochondrial matrix">
             <layout:boundingBox>
-              <layout:position layout:x="663.7707454289701" layout:y="508.44960150023326" layout:z="16385"/>
-              <layout:dimensions layout:height="100" layout:width="200"/>
+              <layout:position layout:x="62.77074542897867" layout:y="68.81997187060466" layout:z="16385"/>
+              <layout:dimensions layout:height="582" layout:width="832"/>
             </layout:boundingBox>
           </layout:textGlyph>
           <layout:textGlyph layout:graphicalObject="b4f98" layout:id="text_b4f98" layout:text="Legend">
@@ -1089,16 +1089,70 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
               <layout:dimensions layout:height="25" layout:width="90"/>
             </layout:boundingBox>
           </layout:textGlyph>
-          <layout:textGlyph layout:graphicalObject="eec3c" layout:id="text_eec3c" layout:text="Mitochondrial matrix">
+          <layout:textGlyph layout:graphicalObject="ff0d9" layout:id="text_ff0d9" layout:text=" ">
             <layout:boundingBox>
-              <layout:position layout:x="62.77074542897867" layout:y="68.81997187060466" layout:z="16385"/>
-              <layout:dimensions layout:height="582" layout:width="832"/>
+              <layout:position layout:x="663.7707454289701" layout:y="508.44960150023326" layout:z="16385"/>
+              <layout:dimensions layout:height="100" layout:width="200"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="c8826" layout:id="text_c8826" layout:text="acetoacetate">
+            <layout:boundingBox>
+              <layout:position layout:x="181.27074542897395" layout:y="171.31997187060466" layout:z="32769"/>
+              <layout:dimensions layout:height="25" layout:width="90"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="f5ced" layout:id="text_f5ced" layout:text="SCOT1">
+            <layout:boundingBox>
+              <layout:position layout:x="336.77074542897304" layout:y="133.31997187060466" layout:z="32769"/>
+              <layout:dimensions layout:height="25" layout:width="90"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="f934a" layout:id="text_f934a" layout:text="Succinyl-CoA:3-oxoacid &#xa;CoA transferase deficiency">
+            <layout:boundingBox>
+              <layout:position layout:x="466.7707454289705" layout:y="81.31997187060469" layout:z="28673"/>
+              <layout:dimensions layout:height="35.5" layout:width="180"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="acd61" layout:id="text_acd61" layout:text="HSCoA">
+            <layout:boundingBox>
+              <layout:position layout:x="406.21518987341517" layout:y="285.85700890764184" layout:z="32769"/>
+              <layout:dimensions layout:height="25" layout:width="90"/>
             </layout:boundingBox>
           </layout:textGlyph>
           <layout:textGlyph layout:graphicalObject="a2c2e" layout:id="text_a2c2e" layout:text="Acetoacetyl-CoA">
             <layout:boundingBox>
               <layout:position layout:x="281.6364861697148" layout:y="448.31997187060466" layout:z="32771"/>
               <layout:dimensions layout:height="25" layout:width="101"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="e4427" layout:id="text_e4427" layout:text="HMCS1">
+            <layout:boundingBox>
+              <layout:position layout:x="206.51148616971494" layout:y="484.4773792780121" layout:z="32769"/>
+              <layout:dimensions layout:height="25" layout:width="89"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="aefb7" layout:id="text_aefb7" layout:text="succinyl-CoA">
+            <layout:boundingBox>
+              <layout:position layout:x="280.7707454289742" layout:y="237.31997187060466" layout:z="32769"/>
+              <layout:dimensions layout:height="25" layout:width="90"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="e9733" layout:id="text_e9733" layout:text="Acetoacetyl-CoA">
+            <layout:boundingBox>
+              <layout:position layout:x="496.2707454289691" layout:y="171.31997187060466" layout:z="32769"/>
+              <layout:dimensions layout:height="25" layout:width="101"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="db891" layout:id="text_db891" layout:text="MAT">
+            <layout:boundingBox>
+              <layout:position layout:x="577.7707454289697" layout:y="292.8014533520863" layout:z="32769"/>
+              <layout:dimensions layout:height="25" layout:width="50.83333333333212"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="e3c75" layout:id="text_e3c75" layout:text="3-hydroxybutyric acid">
+            <layout:boundingBox>
+              <layout:position layout:x="157.77074542897395" layout:y="400.31997187060466" layout:z="32769"/>
+              <layout:dimensions layout:height="25" layout:width="137"/>
             </layout:boundingBox>
           </layout:textGlyph>
           <layout:textGlyph layout:graphicalObject="b88ec" layout:id="text_b88ec" layout:text="Acetyl-CoA">
@@ -1113,28 +1167,28 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
               <layout:dimensions layout:height="25" layout:width="90"/>
             </layout:boundingBox>
           </layout:textGlyph>
-          <layout:textGlyph layout:graphicalObject="db891" layout:id="text_db891" layout:text="MAT">
+          <layout:textGlyph layout:graphicalObject="ff925" layout:id="text_ff925" layout:text="CT">
             <layout:boundingBox>
-              <layout:position layout:x="577.7707454289697" layout:y="292.8014533520863" layout:z="32769"/>
-              <layout:dimensions layout:height="25" layout:width="50.83333333333212"/>
+              <layout:position layout:x="420.2707454289731" layout:y="407.9958977965303" layout:z="32769"/>
+              <layout:dimensions layout:height="25" layout:width="44.42592592592547"/>
             </layout:boundingBox>
           </layout:textGlyph>
-          <layout:textGlyph layout:graphicalObject="aefb7" layout:id="text_aefb7" layout:text="succinyl-CoA">
+          <layout:textGlyph layout:graphicalObject="dcd7f" layout:id="text_dcd7f" layout:text="Methylacetoacetyl-CoA &#xa;thiolase deficiency">
             <layout:boundingBox>
-              <layout:position layout:x="280.7707454289742" layout:y="237.31997187060466" layout:z="32769"/>
-              <layout:dimensions layout:height="25" layout:width="90"/>
+              <layout:position layout:x="566.1179676511908" layout:y="249.68149320206277" layout:z="28673"/>
+              <layout:dimensions layout:height="35.5" layout:width="180.00000000000003"/>
             </layout:boundingBox>
           </layout:textGlyph>
-          <layout:textGlyph layout:graphicalObject="f5ced" layout:id="text_f5ced" layout:text="SCOT1">
+          <layout:textGlyph layout:graphicalObject="cd5fa" layout:id="text_cd5fa" layout:text="Cytosolic acetoacetyl-CoA &#xa;thiolase deficiency">
             <layout:boundingBox>
-              <layout:position layout:x="336.77074542897304" layout:y="133.31997187060466" layout:z="32769"/>
-              <layout:dimensions layout:height="25" layout:width="90"/>
+              <layout:position layout:x="398.9003750586025" layout:y="536.9171940928269" layout:z="28673"/>
+              <layout:dimensions layout:height="35.5" layout:width="180.00000000000003"/>
             </layout:boundingBox>
           </layout:textGlyph>
-          <layout:textGlyph layout:graphicalObject="e9733" layout:id="text_e9733" layout:text="Acetoacetyl-CoA">
+          <layout:textGlyph layout:graphicalObject="f9ea0" layout:id="text_f9ea0" layout:text="Cholesterol synthesis&#xa;disorders">
             <layout:boundingBox>
-              <layout:position layout:x="496.2707454289691" layout:y="171.31997187060466" layout:z="32769"/>
-              <layout:dimensions layout:height="25" layout:width="101"/>
+              <layout:position layout:x="234.5253750585983" layout:y="728.7921940928288" layout:z="32773"/>
+              <layout:dimensions layout:height="29.675925925925643" layout:width="195.22222222222257"/>
             </layout:boundingBox>
           </layout:textGlyph>
           <layout:textGlyph layout:graphicalObject="f012f" layout:id="text_f012f" layout:text="BDH1">
@@ -1143,9 +1197,15 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
               <layout:dimensions layout:height="25" layout:width="90"/>
             </layout:boundingBox>
           </layout:textGlyph>
-          <layout:textGlyph layout:graphicalObject="acd61" layout:id="text_acd61" layout:text="HSCoA">
+          <layout:textGlyph layout:graphicalObject="e3142" layout:id="text_e3142" layout:text="Acetyl-CoA">
             <layout:boundingBox>
-              <layout:position layout:x="406.21518987341517" layout:y="285.85700890764184" layout:z="32769"/>
+              <layout:position layout:x="501.7707454289689" layout:y="484.89404594467885" layout:z="32770"/>
+              <layout:dimensions layout:height="25" layout:width="90"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="af38b" layout:id="text_af38b" layout:text="succinate">
+            <layout:boundingBox>
+              <layout:position layout:x="386.770745428972" layout:y="237.31997187060466" layout:z="32769"/>
               <layout:dimensions layout:height="25" layout:width="90"/>
             </layout:boundingBox>
           </layout:textGlyph>
@@ -1155,123 +1215,63 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
               <layout:dimensions layout:height="25" layout:width="195.22222222222257"/>
             </layout:boundingBox>
           </layout:textGlyph>
-          <layout:textGlyph layout:graphicalObject="dcd7f" layout:id="text_dcd7f" layout:text="Methylacetoacetyl-CoA &#xa;thiolase deficiency">
-            <layout:boundingBox>
-              <layout:position layout:x="566.1179676511908" layout:y="249.68149320206277" layout:z="28673"/>
-              <layout:dimensions layout:height="35.5" layout:width="180.00000000000003"/>
-            </layout:boundingBox>
-          </layout:textGlyph>
-          <layout:textGlyph layout:graphicalObject="e4427" layout:id="text_e4427" layout:text="HMCS1">
-            <layout:boundingBox>
-              <layout:position layout:x="206.51148616971494" layout:y="484.4773792780121" layout:z="32769"/>
-              <layout:dimensions layout:height="25" layout:width="89"/>
-            </layout:boundingBox>
-          </layout:textGlyph>
-          <layout:textGlyph layout:graphicalObject="cd5fa" layout:id="text_cd5fa" layout:text="Cytosolic acetoacetyl-CoA &#xa;thiolase deficiency">
-            <layout:boundingBox>
-              <layout:position layout:x="398.9003750586025" layout:y="536.9171940928269" layout:z="28673"/>
-              <layout:dimensions layout:height="35.5" layout:width="180.00000000000003"/>
-            </layout:boundingBox>
-          </layout:textGlyph>
-          <layout:textGlyph layout:graphicalObject="e3142" layout:id="text_e3142" layout:text="Acetyl-CoA">
-            <layout:boundingBox>
-              <layout:position layout:x="501.7707454289689" layout:y="484.89404594467885" layout:z="32770"/>
-              <layout:dimensions layout:height="25" layout:width="90"/>
-            </layout:boundingBox>
-          </layout:textGlyph>
-          <layout:textGlyph layout:graphicalObject="ff925" layout:id="text_ff925" layout:text="CT">
-            <layout:boundingBox>
-              <layout:position layout:x="420.2707454289731" layout:y="407.9958977965303" layout:z="32769"/>
-              <layout:dimensions layout:height="25" layout:width="44.42592592592547"/>
-            </layout:boundingBox>
-          </layout:textGlyph>
-          <layout:textGlyph layout:graphicalObject="f934a" layout:id="text_f934a" layout:text="Succinyl-CoA:3-oxoacid &#xa;CoA transferase deficiency">
-            <layout:boundingBox>
-              <layout:position layout:x="466.7707454289705" layout:y="81.31997187060469" layout:z="28673"/>
-              <layout:dimensions layout:height="35.5" layout:width="180"/>
-            </layout:boundingBox>
-          </layout:textGlyph>
-          <layout:textGlyph layout:graphicalObject="f9ea0" layout:id="text_f9ea0" layout:text="Cholesterol synthesis&#xa;disorders">
-            <layout:boundingBox>
-              <layout:position layout:x="234.5253750585983" layout:y="728.7921940928288" layout:z="32773"/>
-              <layout:dimensions layout:height="29.675925925925643" layout:width="195.22222222222257"/>
-            </layout:boundingBox>
-          </layout:textGlyph>
-          <layout:textGlyph layout:graphicalObject="af38b" layout:id="text_af38b" layout:text="succinate">
-            <layout:boundingBox>
-              <layout:position layout:x="386.770745428972" layout:y="237.31997187060466" layout:z="32769"/>
-              <layout:dimensions layout:height="25" layout:width="90"/>
-            </layout:boundingBox>
-          </layout:textGlyph>
-          <layout:textGlyph layout:graphicalObject="c8826" layout:id="text_c8826" layout:text="acetoacetate">
-            <layout:boundingBox>
-              <layout:position layout:x="181.27074542897395" layout:y="171.31997187060466" layout:z="32769"/>
-              <layout:dimensions layout:height="25" layout:width="90"/>
-            </layout:boundingBox>
-          </layout:textGlyph>
-          <layout:textGlyph layout:graphicalObject="e3c75" layout:id="text_e3c75" layout:text="3-hydroxybutyric acid">
-            <layout:boundingBox>
-              <layout:position layout:x="157.77074542897395" layout:y="400.31997187060466" layout:z="32769"/>
-              <layout:dimensions layout:height="25" layout:width="137"/>
-            </layout:boundingBox>
-          </layout:textGlyph>
           <layout:textGlyph layout:id="layer_text_0" layout:text="Multistep process">
             <layout:boundingBox>
-              <layout:position layout:x="324.3448195030476" layout:y="609.3940459446796" layout:z="32843"/>
+              <layout:position layout:x="324.3448195030476" layout:y="609.3940459446796" layout:z="32847"/>
               <layout:dimensions layout:height="25" layout:width="143.3796296296298"/>
             </layout:boundingBox>
           </layout:textGlyph>
           <layout:textGlyph layout:id="layer_text_1" layout:text="Catalysis">
             <layout:boundingBox>
-              <layout:position layout:x="1054.0470437409172" layout:y="359.13738957372937" layout:z="32844"/>
+              <layout:position layout:x="1054.0470437409172" layout:y="359.13738957372937" layout:z="32848"/>
               <layout:dimensions layout:height="25" layout:width="90"/>
             </layout:boundingBox>
           </layout:textGlyph>
           <layout:textGlyph layout:id="layer_text_2" layout:text="Disease">
             <layout:boundingBox>
-              <layout:position layout:x="932.2470559479465" layout:y="162.1373895737296" layout:z="32845"/>
+              <layout:position layout:x="932.2470559479465" layout:y="162.1373895737296" layout:z="32840"/>
               <layout:dimensions layout:height="25" layout:width="90"/>
             </layout:boundingBox>
           </layout:textGlyph>
           <layout:textGlyph layout:id="layer_text_3" layout:text="Stimulation">
             <layout:boundingBox>
-              <layout:position layout:x="1054.0470437409172" layout:y="323.1370081040028" layout:z="32846"/>
+              <layout:position layout:x="1054.0470437409172" layout:y="323.1370081040028" layout:z="32843"/>
               <layout:dimensions layout:height="25" layout:width="90"/>
             </layout:boundingBox>
           </layout:textGlyph>
           <layout:textGlyph layout:id="layer_text_4" layout:text="Metabolite">
             <layout:boundingBox>
-              <layout:position layout:x="932.2470559479465" layout:y="191.13738957372948" layout:z="32842"/>
+              <layout:position layout:x="932.2470559479465" layout:y="191.13738957372948" layout:z="32839"/>
               <layout:dimensions layout:height="25" layout:width="90"/>
             </layout:boundingBox>
           </layout:textGlyph>
           <layout:textGlyph layout:id="layer_text_5" layout:text="Conversion">
             <layout:boundingBox>
-              <layout:position layout:x="1054.0470437409172" layout:y="286.1370081040029" layout:z="32848"/>
+              <layout:position layout:x="1054.0470437409172" layout:y="286.1370081040029" layout:z="32846"/>
               <layout:dimensions layout:height="25" layout:width="90"/>
             </layout:boundingBox>
           </layout:textGlyph>
           <layout:textGlyph layout:id="layer_text_6" layout:text="Cytosol">
             <layout:boundingBox>
-              <layout:position layout:x="790.4873949579826" layout:y="37.46638655462184" layout:z="32841"/>
+              <layout:position layout:x="790.4873949579826" layout:y="37.46638655462184" layout:z="32845"/>
               <layout:dimensions layout:height="25" layout:width="90"/>
             </layout:boundingBox>
           </layout:textGlyph>
           <layout:textGlyph layout:id="layer_text_7" layout:text="Pathway">
             <layout:boundingBox>
-              <layout:position layout:x="932.2470559479465" layout:y="256.13738957372937" layout:z="32847"/>
+              <layout:position layout:x="932.2470559479465" layout:y="256.13738957372937" layout:z="32842"/>
               <layout:dimensions layout:height="25" layout:width="90"/>
             </layout:boundingBox>
           </layout:textGlyph>
           <layout:textGlyph layout:id="layer_text_8" layout:text="Connection  to disease ">
             <layout:boundingBox>
-              <layout:position layout:x="1054.0470437409172" layout:y="399.1370081040028" layout:z="32839"/>
+              <layout:position layout:x="1054.0470437409172" layout:y="399.1370081040028" layout:z="32844"/>
               <layout:dimensions layout:height="25" layout:width="90"/>
             </layout:boundingBox>
           </layout:textGlyph>
           <layout:textGlyph layout:id="layer_text_9" layout:text="Protein">
             <layout:boundingBox>
-              <layout:position layout:x="932.2470559479465" layout:y="222.13738957372948" layout:z="32840"/>
+              <layout:position layout:x="932.2470559479465" layout:y="222.13738957372948" layout:z="32841"/>
               <layout:dimensions layout:height="25" layout:width="90"/>
             </layout:boundingBox>
           </layout:textGlyph>
@@ -1283,12 +1283,12 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
         <multi:listOfSpeciesFeatureTypes>
           <multi:speciesFeatureType multi:id="minerva_position_to_compartment_SimpleMolecule" multi:name="Position to compartment" multi:occur="1">
             <multi:listOfPossibleSpeciesFeatureValues>
-              <multi:possibleSpeciesFeatureValue multi:id="minerva_position_to_compartment_SimpleMolecule_26353" multi:name="NULL"/>
+              <multi:possibleSpeciesFeatureValue multi:id="minerva_position_to_compartment_SimpleMolecule_28671" multi:name="NULL"/>
             </multi:listOfPossibleSpeciesFeatureValues>
           </multi:speciesFeatureType>
           <multi:speciesFeatureType multi:id="minerva_activity_SimpleMolecule" multi:name="Activity" multi:occur="1">
             <multi:listOfPossibleSpeciesFeatureValues>
-              <multi:possibleSpeciesFeatureValue multi:id="minerva_activity_SimpleMolecule_26354" multi:name="false"/>
+              <multi:possibleSpeciesFeatureValue multi:id="minerva_activity_SimpleMolecule_28672" multi:name="false"/>
             </multi:listOfPossibleSpeciesFeatureValues>
           </multi:speciesFeatureType>
         </multi:listOfSpeciesFeatureTypes>
@@ -1297,26 +1297,12 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
         <multi:listOfSpeciesFeatureTypes>
           <multi:speciesFeatureType multi:id="minerva_position_to_compartment_GenericProtein" multi:name="Position to compartment" multi:occur="1">
             <multi:listOfPossibleSpeciesFeatureValues>
-              <multi:possibleSpeciesFeatureValue multi:id="minerva_position_to_compartment_GenericProtein_26355" multi:name="NULL"/>
+              <multi:possibleSpeciesFeatureValue multi:id="minerva_position_to_compartment_GenericProtein_28673" multi:name="NULL"/>
             </multi:listOfPossibleSpeciesFeatureValues>
           </multi:speciesFeatureType>
           <multi:speciesFeatureType multi:id="minerva_activity_GenericProtein" multi:name="Activity" multi:occur="1">
             <multi:listOfPossibleSpeciesFeatureValues>
-              <multi:possibleSpeciesFeatureValue multi:id="minerva_activity_GenericProtein_26356" multi:name="false"/>
-            </multi:listOfPossibleSpeciesFeatureValues>
-          </multi:speciesFeatureType>
-        </multi:listOfSpeciesFeatureTypes>
-      </multi:speciesType>
-      <multi:speciesType multi:id="minerva_species_type_Phenotype" multi:name="Phenotype" sboTerm="SBO:0000358">
-        <multi:listOfSpeciesFeatureTypes>
-          <multi:speciesFeatureType multi:id="minerva_position_to_compartment_Phenotype" multi:name="Position to compartment" multi:occur="1">
-            <multi:listOfPossibleSpeciesFeatureValues>
-              <multi:possibleSpeciesFeatureValue multi:id="minerva_position_to_compartment_Phenotype_26357" multi:name="NULL"/>
-            </multi:listOfPossibleSpeciesFeatureValues>
-          </multi:speciesFeatureType>
-          <multi:speciesFeatureType multi:id="minerva_activity_Phenotype" multi:name="Activity" multi:occur="1">
-            <multi:listOfPossibleSpeciesFeatureValues>
-              <multi:possibleSpeciesFeatureValue multi:id="minerva_activity_Phenotype_26358" multi:name="false"/>
+              <multi:possibleSpeciesFeatureValue multi:id="minerva_activity_GenericProtein_28674" multi:name="false"/>
             </multi:listOfPossibleSpeciesFeatureValues>
           </multi:speciesFeatureType>
         </multi:listOfSpeciesFeatureTypes>
@@ -1325,12 +1311,26 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
         <multi:listOfSpeciesFeatureTypes>
           <multi:speciesFeatureType multi:id="minerva_position_to_compartment_Unknown" multi:name="Position to compartment" multi:occur="1">
             <multi:listOfPossibleSpeciesFeatureValues>
-              <multi:possibleSpeciesFeatureValue multi:id="minerva_position_to_compartment_Unknown_26359" multi:name="NULL"/>
+              <multi:possibleSpeciesFeatureValue multi:id="minerva_position_to_compartment_Unknown_28675" multi:name="NULL"/>
             </multi:listOfPossibleSpeciesFeatureValues>
           </multi:speciesFeatureType>
           <multi:speciesFeatureType multi:id="minerva_activity_Unknown" multi:name="Activity" multi:occur="1">
             <multi:listOfPossibleSpeciesFeatureValues>
-              <multi:possibleSpeciesFeatureValue multi:id="minerva_activity_Unknown_26360" multi:name="false"/>
+              <multi:possibleSpeciesFeatureValue multi:id="minerva_activity_Unknown_28676" multi:name="false"/>
+            </multi:listOfPossibleSpeciesFeatureValues>
+          </multi:speciesFeatureType>
+        </multi:listOfSpeciesFeatureTypes>
+      </multi:speciesType>
+      <multi:speciesType multi:id="minerva_species_type_Phenotype" multi:name="Phenotype" sboTerm="SBO:0000358">
+        <multi:listOfSpeciesFeatureTypes>
+          <multi:speciesFeatureType multi:id="minerva_position_to_compartment_Phenotype" multi:name="Position to compartment" multi:occur="1">
+            <multi:listOfPossibleSpeciesFeatureValues>
+              <multi:possibleSpeciesFeatureValue multi:id="minerva_position_to_compartment_Phenotype_28677" multi:name="NULL"/>
+            </multi:listOfPossibleSpeciesFeatureValues>
+          </multi:speciesFeatureType>
+          <multi:speciesFeatureType multi:id="minerva_activity_Phenotype" multi:name="Activity" multi:occur="1">
+            <multi:listOfPossibleSpeciesFeatureValues>
+              <multi:possibleSpeciesFeatureValue multi:id="minerva_activity_Phenotype_28678" multi:name="false"/>
             </multi:listOfPossibleSpeciesFeatureValues>
           </multi:speciesFeatureType>
         </multi:listOfSpeciesFeatureTypes>
@@ -1344,7 +1344,7 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
       </unitDefinition>
     </listOfUnitDefinitions>
     <listOfCompartments>
-      <compartment constant="false" id="comp_0" multi:isType="false" size="1" spatialDimensions="3">
+      <compartment constant="false" id="comp_0" multi:isType="false" name="Mitochondrial matrix" size="1" spatialDimensions="3">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
 <p/>
@@ -1372,7 +1372,7 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
 </rdf:RDF>
         </annotation>
             </compartment>
-      <compartment constant="false" id="comp_2" multi:isType="false" name="Mitochondrial matrix" size="1" spatialDimensions="3">
+      <compartment constant="false" id="comp_2" multi:isType="false" size="1" spatialDimensions="3">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
 <p/>
@@ -1402,7 +1402,7 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
             </compartment>
     </listOfCompartments>
     <listOfSpecies>
-      <species boundaryCondition="false" compartment="comp_2" constant="false" hasOnlySubstanceUnits="false" id="species_0" initialConcentration="0" multi:speciesType="minerva_species_type_SimpleMolecule" name="Acetoacetyl-CoA" sboTerm="SBO:0000247">
+      <species boundaryCondition="false" compartment="comp_0" constant="false" hasOnlySubstanceUnits="false" id="species_0" initialConcentration="0" multi:speciesType="minerva_species_type_SimpleMolecule" name="acetoacetate" sboTerm="SBO:0000247">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
 <p/>
@@ -1413,7 +1413,7 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
 <rdf:Description rdf:about="#species_0">
 <bqbiol:isDescribedBy>
 <rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:hmdb:HMDB0001484"/>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A13705"/>
 </rdf:Bag>
 </bqbiol:isDescribedBy>
 <dcterms:modified rdf:parseType="Resource"/>
@@ -1423,145 +1423,17 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
               <multi:listOfSpeciesFeatures xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1">
           <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_SimpleMolecule">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_SimpleMolecule_26353"/>
+              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_SimpleMolecule_28671"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
           <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_activity_SimpleMolecule">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_activity_SimpleMolecule_26354"/>
+              <multi:speciesFeatureValue multi:value="minerva_activity_SimpleMolecule_28672"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
         </multi:listOfSpeciesFeatures>
       </species>
-      <species boundaryCondition="false" compartment="comp_2" constant="false" hasOnlySubstanceUnits="false" id="species_1" initialConcentration="0" multi:speciesType="minerva_species_type_SimpleMolecule" name="Acetyl-CoA" sboTerm="SBO:0000247">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-<p/>
-</body>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#species_1">
-<bqbiol:isDescribedBy>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:hmdb:HMDB0001206"/>
-</rdf:Bag>
-</bqbiol:isDescribedBy>
-<dcterms:modified rdf:parseType="Resource"/>
-</rdf:Description>
-</rdf:RDF>
-        </annotation>
-              <multi:listOfSpeciesFeatures xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1">
-          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_SimpleMolecule">
-            <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_SimpleMolecule_26353"/>
-            </multi:listOfSpeciesFeatureValues>
-          </multi:speciesFeature>
-          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_activity_SimpleMolecule">
-            <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_activity_SimpleMolecule_26354"/>
-            </multi:listOfSpeciesFeatureValues>
-          </multi:speciesFeature>
-        </multi:listOfSpeciesFeatures>
-      </species>
-      <species boundaryCondition="false" compartment="comp_2" constant="false" hasOnlySubstanceUnits="false" id="species_2" initialConcentration="0" multi:speciesType="minerva_species_type_SimpleMolecule" name="HMG-CoA" sboTerm="SBO:0000247">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-<p>referred to as β-Hydroxy-β-methylglutaryl-CoA in the book by Blau et al. 
-
-</p>
-</body>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#species_2">
-<bqbiol:isDescribedBy>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15467"/>
-</rdf:Bag>
-</bqbiol:isDescribedBy>
-<dcterms:modified rdf:parseType="Resource"/>
-</rdf:Description>
-</rdf:RDF>
-        </annotation>
-              <multi:listOfSpeciesFeatures xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1">
-          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_SimpleMolecule">
-            <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_SimpleMolecule_26353"/>
-            </multi:listOfSpeciesFeatureValues>
-          </multi:speciesFeature>
-          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_activity_SimpleMolecule">
-            <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_activity_SimpleMolecule_26354"/>
-            </multi:listOfSpeciesFeatureValues>
-          </multi:speciesFeature>
-        </multi:listOfSpeciesFeatures>
-      </species>
-      <species boundaryCondition="false" compartment="comp_2" constant="false" hasOnlySubstanceUnits="false" id="species_3" initialConcentration="0" multi:speciesType="minerva_species_type_GenericProtein" name="MAT" sboTerm="SBO:0000252">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-<p>AKA Acetyl-CoA acetyltransferase
-
-</p>
-</body>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#species_3">
-<bqbiol:isDescribedBy>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:uniprot:P24752"/>
-</rdf:Bag>
-</bqbiol:isDescribedBy>
-<dcterms:modified rdf:parseType="Resource"/>
-</rdf:Description>
-</rdf:RDF>
-        </annotation>
-              <multi:listOfSpeciesFeatures xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1">
-          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_GenericProtein">
-            <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_GenericProtein_26355"/>
-            </multi:listOfSpeciesFeatureValues>
-          </multi:speciesFeature>
-          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_activity_GenericProtein">
-            <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_activity_GenericProtein_26356"/>
-            </multi:listOfSpeciesFeatureValues>
-          </multi:speciesFeature>
-        </multi:listOfSpeciesFeatures>
-      </species>
-      <species boundaryCondition="false" compartment="comp_2" constant="false" hasOnlySubstanceUnits="false" id="species_4" initialConcentration="0" multi:speciesType="minerva_species_type_SimpleMolecule" name="succinyl-CoA" sboTerm="SBO:0000247">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-<p/>
-</body>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#species_4">
-<bqbiol:isDescribedBy>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15380"/>
-</rdf:Bag>
-</bqbiol:isDescribedBy>
-<dcterms:modified rdf:parseType="Resource"/>
-</rdf:Description>
-</rdf:RDF>
-        </annotation>
-              <multi:listOfSpeciesFeatures xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1">
-          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_SimpleMolecule">
-            <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_SimpleMolecule_26353"/>
-            </multi:listOfSpeciesFeatureValues>
-          </multi:speciesFeature>
-          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_activity_SimpleMolecule">
-            <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_activity_SimpleMolecule_26354"/>
-            </multi:listOfSpeciesFeatureValues>
-          </multi:speciesFeature>
-        </multi:listOfSpeciesFeatures>
-      </species>
-      <species boundaryCondition="false" compartment="comp_2" constant="false" hasOnlySubstanceUnits="false" id="species_5" initialConcentration="0" multi:speciesType="minerva_species_type_GenericProtein" name="SCOT1" sboTerm="SBO:0000252">
+      <species boundaryCondition="false" compartment="comp_0" constant="false" hasOnlySubstanceUnits="false" id="species_1" initialConcentration="0" multi:speciesType="minerva_species_type_GenericProtein" name="SCOT1" sboTerm="SBO:0000252">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
 <p>aka OXCT1
@@ -1571,7 +1443,7 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#species_5">
+<rdf:Description rdf:about="#species_1">
 <bqbiol:isDescribedBy>
 <rdf:Bag>
 <rdf:li rdf:resource="urn:miriam:uniprot:P55809"/>
@@ -1584,17 +1456,17 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
               <multi:listOfSpeciesFeatures xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1">
           <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_GenericProtein">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_GenericProtein_26355"/>
+              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_GenericProtein_28673"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
           <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_activity_GenericProtein">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_activity_GenericProtein_26356"/>
+              <multi:speciesFeatureValue multi:value="minerva_activity_GenericProtein_28674"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
         </multi:listOfSpeciesFeatures>
       </species>
-      <species boundaryCondition="false" compartment="comp_2" constant="false" hasOnlySubstanceUnits="false" id="species_6" initialConcentration="0" multi:speciesType="minerva_species_type_GenericProtein" name="BDH1" sboTerm="SBO:0000252">
+      <species boundaryCondition="false" compartment="comp_0" constant="false" hasOnlySubstanceUnits="false" id="species_2" initialConcentration="0" multi:speciesType="minerva_species_type_Unknown" name="Succinyl-CoA:3-oxoacid &#xa;CoA transferase deficiency" sboTerm="SBO:0000285">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
 <p/>
@@ -1602,226 +1474,7 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#species_6">
-<bqbiol:isDescribedBy>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:uniprot:Q02338"/>
-</rdf:Bag>
-</bqbiol:isDescribedBy>
-<dcterms:modified rdf:parseType="Resource"/>
-</rdf:Description>
-</rdf:RDF>
-        </annotation>
-              <multi:listOfSpeciesFeatures xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1">
-          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_GenericProtein">
-            <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_GenericProtein_26355"/>
-            </multi:listOfSpeciesFeatureValues>
-          </multi:speciesFeature>
-          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_activity_GenericProtein">
-            <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_activity_GenericProtein_26356"/>
-            </multi:listOfSpeciesFeatureValues>
-          </multi:speciesFeature>
-        </multi:listOfSpeciesFeatures>
-      </species>
-      <species boundaryCondition="false" compartment="comp_2" constant="false" hasOnlySubstanceUnits="false" id="species_7" initialConcentration="0" multi:speciesType="minerva_species_type_SimpleMolecule" name="HSCoA" sboTerm="SBO:0000247">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-<p/>
-</body>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#species_7">
-<bqbiol:isDescribedBy>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15346"/>
-</rdf:Bag>
-</bqbiol:isDescribedBy>
-<dcterms:modified rdf:parseType="Resource"/>
-</rdf:Description>
-</rdf:RDF>
-        </annotation>
-              <multi:listOfSpeciesFeatures xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1">
-          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_SimpleMolecule">
-            <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_SimpleMolecule_26353"/>
-            </multi:listOfSpeciesFeatureValues>
-          </multi:speciesFeature>
-          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_activity_SimpleMolecule">
-            <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_activity_SimpleMolecule_26354"/>
-            </multi:listOfSpeciesFeatureValues>
-          </multi:speciesFeature>
-        </multi:listOfSpeciesFeatures>
-      </species>
-      <species boundaryCondition="false" compartment="default" constant="false" hasOnlySubstanceUnits="false" id="species_8" initialConcentration="0" multi:speciesType="minerva_species_type_Phenotype" name="Cholesterol synthesis" sboTerm="SBO:0000358">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-<p/>
-</body>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#species_8">
-<bqbiol:isDescribedBy>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:wikipathways:WP197"/>
-</rdf:Bag>
-</bqbiol:isDescribedBy>
-<dcterms:modified rdf:parseType="Resource"/>
-</rdf:Description>
-</rdf:RDF>
-        </annotation>
-              <multi:listOfSpeciesFeatures xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1">
-          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_Phenotype">
-            <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_Phenotype_26357"/>
-            </multi:listOfSpeciesFeatureValues>
-          </multi:speciesFeature>
-          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_activity_Phenotype">
-            <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_activity_Phenotype_26358"/>
-            </multi:listOfSpeciesFeatureValues>
-          </multi:speciesFeature>
-        </multi:listOfSpeciesFeatures>
-      </species>
-      <species boundaryCondition="false" compartment="comp_2" constant="false" hasOnlySubstanceUnits="false" id="species_9" initialConcentration="0" multi:speciesType="minerva_species_type_Unknown" name="Methylacetoacetyl-CoA &#xa;thiolase deficiency" sboTerm="SBO:0000285">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-<p/>
-</body>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#species_9">
-<bqbiol:isDescribedBy>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:omim:203750"/>
-</rdf:Bag>
-</bqbiol:isDescribedBy>
-<dcterms:modified rdf:parseType="Resource"/>
-</rdf:Description>
-</rdf:RDF>
-        </annotation>
-              <multi:listOfSpeciesFeatures xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1">
-          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_Unknown">
-            <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_Unknown_26359"/>
-            </multi:listOfSpeciesFeatureValues>
-          </multi:speciesFeature>
-          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_activity_Unknown">
-            <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_activity_Unknown_26360"/>
-            </multi:listOfSpeciesFeatureValues>
-          </multi:speciesFeature>
-        </multi:listOfSpeciesFeatures>
-      </species>
-      <species boundaryCondition="false" compartment="comp_2" constant="false" hasOnlySubstanceUnits="false" id="species_10" initialConcentration="0" multi:speciesType="minerva_species_type_GenericProtein" name="HMCS1" sboTerm="SBO:0000252">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-<p/>
-</body>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#species_10">
-<bqbiol:isDescribedBy>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:uniprot:Q01581"/>
-</rdf:Bag>
-</bqbiol:isDescribedBy>
-<dcterms:modified rdf:parseType="Resource"/>
-</rdf:Description>
-</rdf:RDF>
-        </annotation>
-              <multi:listOfSpeciesFeatures xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1">
-          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_GenericProtein">
-            <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_GenericProtein_26355"/>
-            </multi:listOfSpeciesFeatureValues>
-          </multi:speciesFeature>
-          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_activity_GenericProtein">
-            <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_activity_GenericProtein_26356"/>
-            </multi:listOfSpeciesFeatureValues>
-          </multi:speciesFeature>
-        </multi:listOfSpeciesFeatures>
-      </species>
-      <species boundaryCondition="false" compartment="comp_2" constant="false" hasOnlySubstanceUnits="false" id="species_11" initialConcentration="0" multi:speciesType="minerva_species_type_Unknown" name="Cytosolic acetoacetyl-CoA &#xa;thiolase deficiency" sboTerm="SBO:0000285">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-<p/>
-</body>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#species_11">
-<bqbiol:isDescribedBy>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:omim:614055"/>
-</rdf:Bag>
-</bqbiol:isDescribedBy>
-<dcterms:modified rdf:parseType="Resource"/>
-</rdf:Description>
-</rdf:RDF>
-        </annotation>
-              <multi:listOfSpeciesFeatures xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1">
-          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_Unknown">
-            <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_Unknown_26359"/>
-            </multi:listOfSpeciesFeatureValues>
-          </multi:speciesFeature>
-          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_activity_Unknown">
-            <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_activity_Unknown_26360"/>
-            </multi:listOfSpeciesFeatureValues>
-          </multi:speciesFeature>
-        </multi:listOfSpeciesFeatures>
-      </species>
-      <species boundaryCondition="false" compartment="comp_2" constant="false" hasOnlySubstanceUnits="false" id="species_12" initialConcentration="0" multi:speciesType="minerva_species_type_GenericProtein" name="CT" sboTerm="SBO:0000252">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-<p>AKA Acetyl-CoA acetyltransferase
-
-</p>
-</body>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#species_12">
-<bqbiol:isDescribedBy>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:uniprot:Q9BWD1"/>
-</rdf:Bag>
-</bqbiol:isDescribedBy>
-<dcterms:modified rdf:parseType="Resource"/>
-</rdf:Description>
-</rdf:RDF>
-        </annotation>
-              <multi:listOfSpeciesFeatures xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1">
-          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_GenericProtein">
-            <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_GenericProtein_26355"/>
-            </multi:listOfSpeciesFeatureValues>
-          </multi:speciesFeature>
-          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_activity_GenericProtein">
-            <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_activity_GenericProtein_26356"/>
-            </multi:listOfSpeciesFeatureValues>
-          </multi:speciesFeature>
-        </multi:listOfSpeciesFeatures>
-      </species>
-      <species boundaryCondition="false" compartment="comp_2" constant="false" hasOnlySubstanceUnits="false" id="species_13" initialConcentration="0" multi:speciesType="minerva_species_type_Unknown" name="Succinyl-CoA:3-oxoacid &#xa;CoA transferase deficiency" sboTerm="SBO:0000285">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-<p/>
-</body>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#species_13">
+<rdf:Description rdf:about="#species_2">
 <bqbiol:isDescribedBy>
 <rdf:Bag>
 <rdf:li rdf:resource="urn:miriam:omim:245050 "/>
@@ -1834,12 +1487,359 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
               <multi:listOfSpeciesFeatures xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1">
           <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_Unknown">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_Unknown_26359"/>
+              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_Unknown_28675"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
           <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_activity_Unknown">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_activity_Unknown_26360"/>
+              <multi:speciesFeatureValue multi:value="minerva_activity_Unknown_28676"/>
+            </multi:listOfSpeciesFeatureValues>
+          </multi:speciesFeature>
+        </multi:listOfSpeciesFeatures>
+      </species>
+      <species boundaryCondition="false" compartment="comp_0" constant="false" hasOnlySubstanceUnits="false" id="species_3" initialConcentration="0" multi:speciesType="minerva_species_type_SimpleMolecule" name="HSCoA" sboTerm="SBO:0000247">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+<p/>
+</body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#species_3">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15346"/>
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<dcterms:modified rdf:parseType="Resource"/>
+</rdf:Description>
+</rdf:RDF>
+        </annotation>
+              <multi:listOfSpeciesFeatures xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1">
+          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_SimpleMolecule">
+            <multi:listOfSpeciesFeatureValues>
+              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_SimpleMolecule_28671"/>
+            </multi:listOfSpeciesFeatureValues>
+          </multi:speciesFeature>
+          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_activity_SimpleMolecule">
+            <multi:listOfSpeciesFeatureValues>
+              <multi:speciesFeatureValue multi:value="minerva_activity_SimpleMolecule_28672"/>
+            </multi:listOfSpeciesFeatureValues>
+          </multi:speciesFeature>
+        </multi:listOfSpeciesFeatures>
+      </species>
+      <species boundaryCondition="false" compartment="comp_0" constant="false" hasOnlySubstanceUnits="false" id="species_4" initialConcentration="0" multi:speciesType="minerva_species_type_SimpleMolecule" name="Acetoacetyl-CoA" sboTerm="SBO:0000247">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+<p/>
+</body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#species_4">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:hmdb:HMDB0001484"/>
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<dcterms:modified rdf:parseType="Resource"/>
+</rdf:Description>
+</rdf:RDF>
+        </annotation>
+              <multi:listOfSpeciesFeatures xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1">
+          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_SimpleMolecule">
+            <multi:listOfSpeciesFeatureValues>
+              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_SimpleMolecule_28671"/>
+            </multi:listOfSpeciesFeatureValues>
+          </multi:speciesFeature>
+          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_activity_SimpleMolecule">
+            <multi:listOfSpeciesFeatureValues>
+              <multi:speciesFeatureValue multi:value="minerva_activity_SimpleMolecule_28672"/>
+            </multi:listOfSpeciesFeatureValues>
+          </multi:speciesFeature>
+        </multi:listOfSpeciesFeatures>
+      </species>
+      <species boundaryCondition="false" compartment="comp_0" constant="false" hasOnlySubstanceUnits="false" id="species_5" initialConcentration="0" multi:speciesType="minerva_species_type_GenericProtein" name="HMCS1" sboTerm="SBO:0000252">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+<p/>
+</body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#species_5">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q01581"/>
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<dcterms:modified rdf:parseType="Resource"/>
+</rdf:Description>
+</rdf:RDF>
+        </annotation>
+              <multi:listOfSpeciesFeatures xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1">
+          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_GenericProtein">
+            <multi:listOfSpeciesFeatureValues>
+              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_GenericProtein_28673"/>
+            </multi:listOfSpeciesFeatureValues>
+          </multi:speciesFeature>
+          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_activity_GenericProtein">
+            <multi:listOfSpeciesFeatureValues>
+              <multi:speciesFeatureValue multi:value="minerva_activity_GenericProtein_28674"/>
+            </multi:listOfSpeciesFeatureValues>
+          </multi:speciesFeature>
+        </multi:listOfSpeciesFeatures>
+      </species>
+      <species boundaryCondition="false" compartment="comp_0" constant="false" hasOnlySubstanceUnits="false" id="species_6" initialConcentration="0" multi:speciesType="minerva_species_type_SimpleMolecule" name="succinyl-CoA" sboTerm="SBO:0000247">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+<p/>
+</body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#species_6">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15380"/>
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<dcterms:modified rdf:parseType="Resource"/>
+</rdf:Description>
+</rdf:RDF>
+        </annotation>
+              <multi:listOfSpeciesFeatures xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1">
+          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_SimpleMolecule">
+            <multi:listOfSpeciesFeatureValues>
+              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_SimpleMolecule_28671"/>
+            </multi:listOfSpeciesFeatureValues>
+          </multi:speciesFeature>
+          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_activity_SimpleMolecule">
+            <multi:listOfSpeciesFeatureValues>
+              <multi:speciesFeatureValue multi:value="minerva_activity_SimpleMolecule_28672"/>
+            </multi:listOfSpeciesFeatureValues>
+          </multi:speciesFeature>
+        </multi:listOfSpeciesFeatures>
+      </species>
+      <species boundaryCondition="false" compartment="comp_0" constant="false" hasOnlySubstanceUnits="false" id="species_7" initialConcentration="0" multi:speciesType="minerva_species_type_GenericProtein" name="MAT" sboTerm="SBO:0000252">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+<p>AKA Acetyl-CoA acetyltransferase
+
+</p>
+</body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#species_7">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P24752"/>
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<dcterms:modified rdf:parseType="Resource"/>
+</rdf:Description>
+</rdf:RDF>
+        </annotation>
+              <multi:listOfSpeciesFeatures xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1">
+          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_GenericProtein">
+            <multi:listOfSpeciesFeatureValues>
+              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_GenericProtein_28673"/>
+            </multi:listOfSpeciesFeatureValues>
+          </multi:speciesFeature>
+          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_activity_GenericProtein">
+            <multi:listOfSpeciesFeatureValues>
+              <multi:speciesFeatureValue multi:value="minerva_activity_GenericProtein_28674"/>
+            </multi:listOfSpeciesFeatureValues>
+          </multi:speciesFeature>
+        </multi:listOfSpeciesFeatures>
+      </species>
+      <species boundaryCondition="false" compartment="comp_0" constant="false" hasOnlySubstanceUnits="false" id="species_8" initialConcentration="0" multi:speciesType="minerva_species_type_SimpleMolecule" name="3-hydroxybutyric acid" sboTerm="SBO:0000247">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+<p/>
+</body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#species_8">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:20067"/>
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<dcterms:modified rdf:parseType="Resource"/>
+</rdf:Description>
+</rdf:RDF>
+        </annotation>
+              <multi:listOfSpeciesFeatures xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1">
+          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_SimpleMolecule">
+            <multi:listOfSpeciesFeatureValues>
+              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_SimpleMolecule_28671"/>
+            </multi:listOfSpeciesFeatureValues>
+          </multi:speciesFeature>
+          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_activity_SimpleMolecule">
+            <multi:listOfSpeciesFeatureValues>
+              <multi:speciesFeatureValue multi:value="minerva_activity_SimpleMolecule_28672"/>
+            </multi:listOfSpeciesFeatureValues>
+          </multi:speciesFeature>
+        </multi:listOfSpeciesFeatures>
+      </species>
+      <species boundaryCondition="false" compartment="comp_0" constant="false" hasOnlySubstanceUnits="false" id="species_9" initialConcentration="0" multi:speciesType="minerva_species_type_SimpleMolecule" name="Acetyl-CoA" sboTerm="SBO:0000247">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+<p/>
+</body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#species_9">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:hmdb:HMDB0001206"/>
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<dcterms:modified rdf:parseType="Resource"/>
+</rdf:Description>
+</rdf:RDF>
+        </annotation>
+              <multi:listOfSpeciesFeatures xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1">
+          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_SimpleMolecule">
+            <multi:listOfSpeciesFeatureValues>
+              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_SimpleMolecule_28671"/>
+            </multi:listOfSpeciesFeatureValues>
+          </multi:speciesFeature>
+          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_activity_SimpleMolecule">
+            <multi:listOfSpeciesFeatureValues>
+              <multi:speciesFeatureValue multi:value="minerva_activity_SimpleMolecule_28672"/>
+            </multi:listOfSpeciesFeatureValues>
+          </multi:speciesFeature>
+        </multi:listOfSpeciesFeatures>
+      </species>
+      <species boundaryCondition="false" compartment="comp_0" constant="false" hasOnlySubstanceUnits="false" id="species_10" initialConcentration="0" multi:speciesType="minerva_species_type_SimpleMolecule" name="HMG-CoA" sboTerm="SBO:0000247">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+<p>referred to as β-Hydroxy-β-methylglutaryl-CoA in the book by Blau et al. 
+
+</p>
+</body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#species_10">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15467"/>
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<dcterms:modified rdf:parseType="Resource"/>
+</rdf:Description>
+</rdf:RDF>
+        </annotation>
+              <multi:listOfSpeciesFeatures xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1">
+          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_SimpleMolecule">
+            <multi:listOfSpeciesFeatureValues>
+              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_SimpleMolecule_28671"/>
+            </multi:listOfSpeciesFeatureValues>
+          </multi:speciesFeature>
+          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_activity_SimpleMolecule">
+            <multi:listOfSpeciesFeatureValues>
+              <multi:speciesFeatureValue multi:value="minerva_activity_SimpleMolecule_28672"/>
+            </multi:listOfSpeciesFeatureValues>
+          </multi:speciesFeature>
+        </multi:listOfSpeciesFeatures>
+      </species>
+      <species boundaryCondition="false" compartment="comp_0" constant="false" hasOnlySubstanceUnits="false" id="species_11" initialConcentration="0" multi:speciesType="minerva_species_type_GenericProtein" name="CT" sboTerm="SBO:0000252">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+<p>AKA Acetyl-CoA acetyltransferase
+
+</p>
+</body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#species_11">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q9BWD1"/>
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<dcterms:modified rdf:parseType="Resource"/>
+</rdf:Description>
+</rdf:RDF>
+        </annotation>
+              <multi:listOfSpeciesFeatures xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1">
+          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_GenericProtein">
+            <multi:listOfSpeciesFeatureValues>
+              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_GenericProtein_28673"/>
+            </multi:listOfSpeciesFeatureValues>
+          </multi:speciesFeature>
+          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_activity_GenericProtein">
+            <multi:listOfSpeciesFeatureValues>
+              <multi:speciesFeatureValue multi:value="minerva_activity_GenericProtein_28674"/>
+            </multi:listOfSpeciesFeatureValues>
+          </multi:speciesFeature>
+        </multi:listOfSpeciesFeatures>
+      </species>
+      <species boundaryCondition="false" compartment="comp_0" constant="false" hasOnlySubstanceUnits="false" id="species_12" initialConcentration="0" multi:speciesType="minerva_species_type_Unknown" name="Methylacetoacetyl-CoA &#xa;thiolase deficiency" sboTerm="SBO:0000285">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+<p/>
+</body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#species_12">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:omim:203750"/>
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<dcterms:modified rdf:parseType="Resource"/>
+</rdf:Description>
+</rdf:RDF>
+        </annotation>
+              <multi:listOfSpeciesFeatures xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1">
+          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_Unknown">
+            <multi:listOfSpeciesFeatureValues>
+              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_Unknown_28675"/>
+            </multi:listOfSpeciesFeatureValues>
+          </multi:speciesFeature>
+          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_activity_Unknown">
+            <multi:listOfSpeciesFeatureValues>
+              <multi:speciesFeatureValue multi:value="minerva_activity_Unknown_28676"/>
+            </multi:listOfSpeciesFeatureValues>
+          </multi:speciesFeature>
+        </multi:listOfSpeciesFeatures>
+      </species>
+      <species boundaryCondition="false" compartment="comp_0" constant="false" hasOnlySubstanceUnits="false" id="species_13" initialConcentration="0" multi:speciesType="minerva_species_type_Unknown" name="Cytosolic acetoacetyl-CoA &#xa;thiolase deficiency" sboTerm="SBO:0000285">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+<p/>
+</body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#species_13">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:omim:614055"/>
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<dcterms:modified rdf:parseType="Resource"/>
+</rdf:Description>
+</rdf:RDF>
+        </annotation>
+              <multi:listOfSpeciesFeatures xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1">
+          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_Unknown">
+            <multi:listOfSpeciesFeatureValues>
+              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_Unknown_28675"/>
+            </multi:listOfSpeciesFeatureValues>
+          </multi:speciesFeature>
+          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_activity_Unknown">
+            <multi:listOfSpeciesFeatureValues>
+              <multi:speciesFeatureValue multi:value="minerva_activity_Unknown_28676"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
         </multi:listOfSpeciesFeatures>
@@ -1865,17 +1865,17 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
               <multi:listOfSpeciesFeatures xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1">
           <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_Phenotype">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_Phenotype_26357"/>
+              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_Phenotype_28677"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
           <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_activity_Phenotype">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_activity_Phenotype_26358"/>
+              <multi:speciesFeatureValue multi:value="minerva_activity_Phenotype_28678"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
         </multi:listOfSpeciesFeatures>
       </species>
-      <species boundaryCondition="false" compartment="comp_2" constant="false" hasOnlySubstanceUnits="false" id="species_15" initialConcentration="0" multi:speciesType="minerva_species_type_SimpleMolecule" name="succinate" sboTerm="SBO:0000247">
+      <species boundaryCondition="false" compartment="comp_0" constant="false" hasOnlySubstanceUnits="false" id="species_15" initialConcentration="0" multi:speciesType="minerva_species_type_GenericProtein" name="BDH1" sboTerm="SBO:0000252">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
 <p/>
@@ -1884,6 +1884,37 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
 <rdf:Description rdf:about="#species_15">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q02338"/>
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<dcterms:modified rdf:parseType="Resource"/>
+</rdf:Description>
+</rdf:RDF>
+        </annotation>
+              <multi:listOfSpeciesFeatures xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1">
+          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_GenericProtein">
+            <multi:listOfSpeciesFeatureValues>
+              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_GenericProtein_28673"/>
+            </multi:listOfSpeciesFeatureValues>
+          </multi:speciesFeature>
+          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_activity_GenericProtein">
+            <multi:listOfSpeciesFeatureValues>
+              <multi:speciesFeatureValue multi:value="minerva_activity_GenericProtein_28674"/>
+            </multi:listOfSpeciesFeatureValues>
+          </multi:speciesFeature>
+        </multi:listOfSpeciesFeatures>
+      </species>
+      <species boundaryCondition="false" compartment="comp_0" constant="false" hasOnlySubstanceUnits="false" id="species_16" initialConcentration="0" multi:speciesType="minerva_species_type_SimpleMolecule" name="succinate" sboTerm="SBO:0000247">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+<p/>
+</body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#species_16">
 <bqbiol:isDescribedBy>
 <rdf:Bag>
 <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A30031"/>
@@ -1896,48 +1927,17 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
               <multi:listOfSpeciesFeatures xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1">
           <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_SimpleMolecule">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_SimpleMolecule_26353"/>
+              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_SimpleMolecule_28671"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
           <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_activity_SimpleMolecule">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_activity_SimpleMolecule_26354"/>
+              <multi:speciesFeatureValue multi:value="minerva_activity_SimpleMolecule_28672"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
         </multi:listOfSpeciesFeatures>
       </species>
-      <species boundaryCondition="false" compartment="comp_2" constant="false" hasOnlySubstanceUnits="false" id="species_16" initialConcentration="0" multi:speciesType="minerva_species_type_SimpleMolecule" name="acetoacetate" sboTerm="SBO:0000247">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-<p/>
-</body>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#species_16">
-<bqbiol:isDescribedBy>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A13705"/>
-</rdf:Bag>
-</bqbiol:isDescribedBy>
-<dcterms:modified rdf:parseType="Resource"/>
-</rdf:Description>
-</rdf:RDF>
-        </annotation>
-              <multi:listOfSpeciesFeatures xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1">
-          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_SimpleMolecule">
-            <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_SimpleMolecule_26353"/>
-            </multi:listOfSpeciesFeatureValues>
-          </multi:speciesFeature>
-          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_activity_SimpleMolecule">
-            <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_activity_SimpleMolecule_26354"/>
-            </multi:listOfSpeciesFeatureValues>
-          </multi:speciesFeature>
-        </multi:listOfSpeciesFeatures>
-      </species>
-      <species boundaryCondition="false" compartment="comp_2" constant="false" hasOnlySubstanceUnits="false" id="species_17" initialConcentration="0" multi:speciesType="minerva_species_type_SimpleMolecule" name="3-hydroxybutyric acid" sboTerm="SBO:0000247">
+      <species boundaryCondition="false" compartment="default" constant="false" hasOnlySubstanceUnits="false" id="species_17" initialConcentration="0" multi:speciesType="minerva_species_type_Phenotype" name="Cholesterol synthesis" sboTerm="SBO:0000358">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
 <p/>
@@ -1948,7 +1948,7 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
 <rdf:Description rdf:about="#species_17">
 <bqbiol:isDescribedBy>
 <rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:obo.chebi:20067"/>
+<rdf:li rdf:resource="urn:miriam:wikipathways:WP197"/>
 </rdf:Bag>
 </bqbiol:isDescribedBy>
 <dcterms:modified rdf:parseType="Resource"/>
@@ -1956,20 +1956,68 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
 </rdf:RDF>
         </annotation>
               <multi:listOfSpeciesFeatures xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1">
-          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_SimpleMolecule">
+          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_Phenotype">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_SimpleMolecule_26353"/>
+              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_Phenotype_28677"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
-          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_activity_SimpleMolecule">
+          <multi:speciesFeature multi:occur="1" multi:speciesFeatureType="minerva_activity_Phenotype">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_activity_SimpleMolecule_26354"/>
+              <multi:speciesFeatureValue multi:value="minerva_activity_Phenotype_28678"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
         </multi:listOfSpeciesFeatures>
       </species>
     </listOfSpecies>
     <listOfReactions>
+      <reaction id="id33dc99f8" reversible="true" sboTerm="SBO:0000176">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+<p/>
+</body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#id33dc99f8">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:rhea:20524"/>
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<dcterms:modified rdf:parseType="Resource"/>
+</rdf:Description>
+</rdf:RDF>
+        </annotation>
+              <listOfReactants>
+          <speciesReference constant="false" species="species_0"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="false" species="species_8"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference sboTerm="SBO:0000013" species="species_15"/>
+        </listOfModifiers>
+      </reaction>
+      <reaction id="c6959" reversible="false" sboTerm="SBO:0000172">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+<p/>
+</body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#c6959">
+<dcterms:modified rdf:parseType="Resource"/>
+</rdf:Description>
+</rdf:RDF>
+        </annotation>
+              <listOfReactants>
+          <speciesReference constant="false" species="species_10"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="false" species="species_14"/>
+        </listOfProducts>
+      </reaction>
       <reaction id="ide90d867b" reversible="false" sboTerm="SBO:0000176">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
@@ -1989,15 +2037,15 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
 </rdf:RDF>
         </annotation>
               <listOfReactants>
-          <speciesReference constant="false" species="species_1"/>
-          <speciesReference constant="false" species="species_1"/>
+          <speciesReference constant="false" species="species_9"/>
+          <speciesReference constant="false" species="species_9"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference constant="false" species="species_0"/>
-          <speciesReference constant="false" species="species_11"/>
+          <speciesReference constant="false" species="species_4"/>
+          <speciesReference constant="false" species="species_13"/>
         </listOfProducts>
         <listOfModifiers>
-          <modifierSpeciesReference sboTerm="SBO:0000013" species="species_12"/>
+          <modifierSpeciesReference sboTerm="SBO:0000013" species="species_11"/>
         </listOfModifiers>
       </reaction>
       <reaction id="ida8a1bbc7" reversible="true" sboTerm="SBO:0000176">
@@ -2024,17 +2072,37 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
 </rdf:RDF>
         </annotation>
               <listOfReactants>
-          <speciesReference constant="false" species="species_16"/>
+          <speciesReference constant="false" species="species_0"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference constant="false" species="species_0"/>
           <speciesReference constant="false" species="species_4"/>
-          <speciesReference constant="false" species="species_15"/>
-          <speciesReference constant="false" species="species_13"/>
+          <speciesReference constant="false" species="species_16"/>
+          <speciesReference constant="false" species="species_2"/>
+          <speciesReference constant="false" species="species_6"/>
         </listOfProducts>
         <listOfModifiers>
-          <modifierSpeciesReference sboTerm="SBO:0000013" species="species_5"/>
+          <modifierSpeciesReference sboTerm="SBO:0000013" species="species_1"/>
         </listOfModifiers>
+      </reaction>
+      <reaction id="id6d0d0786" reversible="false" sboTerm="SBO:0000172">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+<p/>
+</body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#id6d0d0786">
+<dcterms:modified rdf:parseType="Resource"/>
+</rdf:Description>
+</rdf:RDF>
+        </annotation>
+              <listOfReactants>
+          <speciesReference constant="false" species="species_10"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="false" species="species_17"/>
+        </listOfProducts>
       </reaction>
       <reaction id="id403dc952" reversible="false" sboTerm="SBO:0000176">
         <notes>
@@ -2055,82 +2123,14 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
 </rdf:RDF>
         </annotation>
               <listOfReactants>
-          <speciesReference constant="false" species="species_0"/>
-          <speciesReference constant="false" species="species_1"/>
+          <speciesReference constant="false" species="species_4"/>
+          <speciesReference constant="false" species="species_9"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference constant="false" species="species_2"/>
+          <speciesReference constant="false" species="species_10"/>
         </listOfProducts>
         <listOfModifiers>
-          <modifierSpeciesReference sboTerm="SBO:0000013" species="species_10"/>
-        </listOfModifiers>
-      </reaction>
-      <reaction id="id6d0d0786" reversible="false" sboTerm="SBO:0000172">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-<p/>
-</body>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#id6d0d0786">
-<dcterms:modified rdf:parseType="Resource"/>
-</rdf:Description>
-</rdf:RDF>
-        </annotation>
-              <listOfReactants>
-          <speciesReference constant="false" species="species_2"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="false" species="species_8"/>
-        </listOfProducts>
-      </reaction>
-      <reaction id="c6959" reversible="false" sboTerm="SBO:0000172">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-<p/>
-</body>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#c6959">
-<dcterms:modified rdf:parseType="Resource"/>
-</rdf:Description>
-</rdf:RDF>
-        </annotation>
-              <listOfReactants>
-          <speciesReference constant="false" species="species_2"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="false" species="species_14"/>
-        </listOfProducts>
-      </reaction>
-      <reaction id="id33dc99f8" reversible="true" sboTerm="SBO:0000176">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-<p/>
-</body>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#id33dc99f8">
-<bqbiol:isDescribedBy>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:rhea:20524"/>
-</rdf:Bag>
-</bqbiol:isDescribedBy>
-<dcterms:modified rdf:parseType="Resource"/>
-</rdf:Description>
-</rdf:RDF>
-        </annotation>
-              <listOfReactants>
-          <speciesReference constant="false" species="species_16"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="false" species="species_17"/>
-        </listOfProducts>
-        <listOfModifiers>
-          <modifierSpeciesReference sboTerm="SBO:0000013" species="species_6"/>
+          <modifierSpeciesReference sboTerm="SBO:0000013" species="species_5"/>
         </listOfModifiers>
       </reaction>
       <reaction id="id8e4952e8" reversible="true" sboTerm="SBO:0000176">
@@ -2152,16 +2152,16 @@ For the ketone body pathway see: [https://www.wikipathways.org/index.php/Pathway
 </rdf:RDF>
         </annotation>
               <listOfReactants>
-          <speciesReference constant="false" species="species_0"/>
-          <speciesReference constant="false" species="species_7"/>
+          <speciesReference constant="false" species="species_4"/>
+          <speciesReference constant="false" species="species_3"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference constant="false" species="species_1"/>
-          <speciesReference constant="false" species="species_1"/>
+          <speciesReference constant="false" species="species_9"/>
+          <speciesReference constant="false" species="species_12"/>
           <speciesReference constant="false" species="species_9"/>
         </listOfProducts>
         <listOfModifiers>
-          <modifierSpeciesReference sboTerm="SBO:0000013" species="species_3"/>
+          <modifierSpeciesReference sboTerm="SBO:0000013" species="species_7"/>
         </listOfModifiers>
       </reaction>
     </listOfReactions>
