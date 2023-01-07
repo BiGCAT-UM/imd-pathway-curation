@@ -445,36 +445,6 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
     <Graphics CenterX="1439.288477939687" CenterY="1061.0250732917307" Width="51.28489321733209" Height="25.0" ZOrder="32893" FontSize="12" Valign="Middle" />
     <Xref Database="Uniprot-TrEMBL" ID="P80404" />
   </DataNode>
-  <Interaction>
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="875.3247149667011" Y="889.6953077263762" GraphRef="f2bed" RelX="0.0" RelY="1.0" />
-      <Point X="875.3247149667011" Y="945.4959514170049" GraphRef="e05f8" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
-      <Anchor Position="0.4" Shape="None" GraphId="f9840" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction>
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="817.2672064777327" Y="897.2672064777325" GraphRef="a02e7" RelX="1.0" RelY="0.0" />
-      <Point X="875.3247149667011" Y="912.0155652026277" GraphRef="f9840" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction>
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="875.3247149667011" Y="970.4959514170049" GraphRef="e05f8" RelX="0.0" RelY="1.0" />
-      <Point X="876.144578313253" Y="1051.5963855421685" GraphRef="b29bf" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
-      <Anchor Position="0.4" Shape="None" GraphId="ad287" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction>
-    <Graphics ZOrder="12288" LineThickness="1.0">
-      <Point X="835.336325057314" Y="1002.8915662650605" GraphRef="aae77" RelX="1.0" RelY="0.0" />
-      <Point X="875.6526603053219" Y="1002.9361250670703" GraphRef="ad287" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
   <Interaction GraphId="id1104ad95">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1326.2265974122713" Y="835.0831002917733" GraphRef="eb464" RelX="0.0" RelY="1.0" />
@@ -498,6 +468,14 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
       <Anchor Position="0.4707401793418786" Shape="None" GraphId="e3186" />
     </Graphics>
     <Xref Database="Rhea" ID="20191" />
+  </Interaction>
+  <Interaction GraphId="id1ec7327c">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="875.3247149667011" Y="970.4959514170049" GraphRef="e05f8" RelX="0.0" RelY="1.0" />
+      <Point X="876.144578313253" Y="1051.5963855421685" GraphRef="b29bf" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Anchor Position="0.4" Shape="None" GraphId="ad287" />
+    </Graphics>
+    <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="id1f228024">
     <Graphics ZOrder="12288" LineThickness="1.0">
@@ -633,7 +611,15 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
   <Interaction GraphId="id54491615">
     <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="248.65279552500215" Y="265.75069447295107" GraphRef="aabd1" RelX="1.0" RelY="0.0" />
-      <Point X="444.9015009339877" Y="266.75069447295107" GraphRef="e433d" RelX="-1.0" RelY="0.0" ArrowHead="mim-translocation" />
+      <Point X="444.9015009339877" Y="266.75069447295107" GraphRef="e433d" RelX="-1.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id55ce9672">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="875.3247149667011" Y="889.6953077263762" GraphRef="f2bed" RelX="0.0" RelY="1.0" />
+      <Point X="875.3247149667011" Y="945.4959514170049" GraphRef="e05f8" RelX="0.0" RelY="-1.0" ArrowHead="mim-conversion" />
+      <Anchor Position="0.4" Shape="None" GraphId="f9840" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -874,6 +860,13 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
     </Graphics>
     <Xref Database="Rhea" ID="19131" />
   </Interaction>
+  <Interaction GraphId="idd8150f29">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="835.336325057314" Y="1002.8915662650605" GraphRef="aae77" RelX="1.0" RelY="0.0" />
+      <Point X="875.6526603053219" Y="1002.9361250670703" GraphRef="ad287" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
   <Interaction GraphId="idd8d18ea7">
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1297.9002320185614" Y="935.0348027842224" GraphRef="dd54c" RelX="1.0" RelY="0.0" />
@@ -885,7 +878,7 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
     <Comment>Translocation</Comment>
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="471.7336010709504" Y="471.04687209524695" GraphRef="d1973" RelX="-1.0" RelY="0.0" />
-      <Point X="311.6376099962969" Y="471.04687209524695" GraphRef="a38e6" RelX="1.0" RelY="0.0" ArrowHead="mim-translocation" />
+      <Point X="311.6376099962969" Y="471.04687209524695" GraphRef="a38e6" RelX="1.0" RelY="0.0" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -975,7 +968,7 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
     <Comment>Translocation</Comment>
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="351.0585269745818" Y="520.1919629511078" GraphRef="db7a5" RelX="1.0" RelY="0.0" />
-      <Point X="471.7336010709504" Y="520.1919629511078" GraphRef="a376f" RelX="-1.0" RelY="0.0" ArrowHead="mim-translocation" />
+      <Point X="471.7336010709504" Y="520.1919629511078" GraphRef="a376f" RelX="-1.0" RelY="0.0" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -990,6 +983,13 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
     <Graphics ZOrder="12288" LineThickness="1.0">
       <Point X="1131.6802003568787" Y="660.394008809569" GraphRef="e154f" RelX="-1.0" RelY="0.0" />
       <Point X="949.5592332268374" Y="660.8654495900722" GraphRef="ac32a" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="idf714e20a">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="817.2672064777327" Y="897.2672064777325" GraphRef="a02e7" RelX="1.0" RelY="0.0" />
+      <Point X="875.3247149667011" Y="912.0155652026277" GraphRef="f9840" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
     </Graphics>
     <Xref Database="" ID="" />
   </Interaction>
@@ -1295,7 +1295,7 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
   <Label TextLabel="Hyperammonaemia" GraphId="aee01">
     <Graphics CenterX="316.0" CenterY="254.0" Width="122.0" Height="25.0" ZOrder="28672" FillColor="ffffff" FontSize="12" Valign="Middle" />
   </Label>
-  <Label TextLabel="Ortic&#xA;aciduria&#xA;type I" GraphId="b552e" Href="https://omim.org/258900">
+  <Label TextLabel="Ortic&#xA;aciduria&#xA;type I" GraphId="b552e" Href="https://omim.org/entry/258900">
     <Comment>aka Uridine Monophosphate Synthase Deficiency</Comment>
     <Comment>DISEASE</Comment>
     <Graphics CenterX="738.3470151619326" CenterY="374.8725309906667" Width="90.0" Height="50.0" ZOrder="28672" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
@@ -1323,60 +1323,60 @@ This pathway was inspired by Chapter 41 of the book of Blau (ISBN 3642403360 (97
     <Comment>UMPS (UMP synthase complex) is a complex consisting of orotate phosphoribosyltransferase (OPRT) and OMP decarboxylase (OMPDC)</Comment>
     <Graphics CenterX="215.79318489022882" CenterY="661.6304040439962" Width="90.0" Height="25.0" ZOrder="32823" FillColor="ffffff" FontSize="12" Valign="Middle" />
   </Label>
-  <Label TextLabel="Orotic&#xA;aciduria&#xA;type II" GraphId="bae57" Href="https://omim.org/258900">
+  <Label TextLabel="Orotic&#xA;aciduria&#xA;type II" GraphId="bae57" Href="https://omim.org/entry/258900">
     <Comment>Orotidine-5-monophosphate Decarboxylase Deficiency</Comment>
     <Comment>This disease has been merged with the type 1 deficiency, accoriding to OMIM (the text below is rephrased from there).
 "Even though Fox et al. (1969) identified an apparent new case of orotic aciduria (which was classified as type II orotic aciduria (Fox et al., 1973)).  Given that measured enzyme ratios did not remain consistent, and that this apparent type II case was 'clinically indistinguishable' from a type I case diagnosed by the same team, that no confirmatory report had been found in the forty years since the initial report, and that the urinary OA/OR values did not indicate a selective defect in ODC, Bailey (2009) concluded that evidence for a separate category for this case was insecure."</Comment>
     <Comment>DISEASE</Comment>
     <Graphics CenterX="818.8253012048194" CenterY="426.77543507362736" Width="90.0" Height="50.0" ZOrder="32833" FillColor="ff9933" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="Hyper-beta-alaninemia" GraphId="ffbd4" Href="https://omim.org/237400">
+  <Label TextLabel="Hyper-beta-alaninemia" GraphId="ffbd4" Href="https://omim.org/entry/237400">
     <Comment>aka Hyper-Beta Alaninaemia, Beta-alanine Alpha-ketoglutarate Transaminase Deficiency</Comment>
     <Comment>DISEASE</Comment>
     <BiopaxRef>ce3</BiopaxRef>
     <Graphics CenterX="1037.3278873583722" CenterY="936.8828172236455" Width="160.0" Height="24.909064347890762" ZOrder="32834" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="Mitochondrial&#xA;ribonucleotide &#xA;reductase&#xA;subunit 2&#xA;deficiency" GraphId="a04fa" Href="https://omim.org/612075" GroupRef="d9f3b">
+  <Label TextLabel="Mitochondrial&#xA;ribonucleotide &#xA;reductase&#xA;subunit 2&#xA;deficiency" GraphId="a04fa" Href="https://omim.org/entry/612075" GroupRef="d9f3b">
     <Comment>aka Mitocondrial DNA Depletion Syndrome 8A and 8B</Comment>
     <Comment>From book of Blau: depletion syndrome type 8A and 8B are mentioned.</Comment>
     <Comment>DISEASE</Comment>
     <Graphics CenterX="960.8368181459361" CenterY="521.3988327649529" Width="90.0" Height="77.0" ZOrder="32835" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="Type 8A" GraphId="e3483" Href="https://omim.org/612075" GroupRef="d9f3b">
+  <Label TextLabel="Type 8A" GraphId="e3483" Href="https://omim.org/entry/612075" GroupRef="d9f3b">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="960.8368181459379" CenterY="573.2589927937421" Width="70.0" Height="25.0" ZOrder="32836" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="Type 8B" GraphId="e98f9" Href="https://omim.org/612075" GroupRef="d9f3b">
+  <Label TextLabel="Type 8B" GraphId="e98f9" Href="https://omim.org/entry/612075" GroupRef="d9f3b">
     <Comment>DISEASE</Comment>
     <Graphics CenterX="960.8368181459379" CenterY="597.7946052255763" Width="70.0" Height="25.0" ZOrder="32837" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="Thymidine phosphorylase deficiency" GraphId="dd2b8" Href="https://omim.org/603041">
+  <Label TextLabel="Thymidine phosphorylase deficiency" GraphId="dd2b8" Href="https://omim.org/entry/603041">
     <Comment>aka Mitochondrial Neurogastrointestinal Encephalopathy Syndrome</Comment>
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1100.952370521778" CenterY="691.3033326185575" Width="250.0" Height="30.0" ZOrder="32838" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="Dihydropyrimidine dehydrogenase deficiency" GraphId="d3cc2" Href="https://omim.org/274270">
+  <Label TextLabel="Dihydropyrimidine dehydrogenase deficiency" GraphId="d3cc2" Href="https://omim.org/entry/274270">
     <Comment>aka Thymine-uraciluria</Comment>
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1100.952370521778" CenterY="749.7829293634599" Width="250.0" Height="30.0" ZOrder="32839" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="Dihydropyrimidinase deficiency" GraphId="b17ff" Href="https://omim.org/222748">
+  <Label TextLabel="Dihydropyrimidinase deficiency" GraphId="b17ff" Href="https://omim.org/entry/222748">
     <Comment>aka Dihydropyrimidinuria</Comment>
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1100.952370521778" CenterY="811.8632407955229" Width="180.0" Height="30.0" ZOrder="32840" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="Beta-ureidopropionase deficiency" GraphId="aecc1" Href="https://omim.org/613161">
+  <Label TextLabel="Beta-ureidopropionase deficiency" GraphId="aecc1" Href="https://omim.org/entry/613161">
     <Comment>Dihydropyrimidinuria</Comment>
     <Graphics CenterX="1100.952370521778" CenterY="872.6467669619914" Width="200.0" Height="30.0" ZOrder="32841" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="Pyrimidine 5'-nucleotidase I &#xA;deficiency" GraphId="c497a" Href="https://omim.org/266120">
+  <Label TextLabel="Pyrimidine 5'-nucleotidase I &#xA;deficiency" GraphId="c497a" Href="https://omim.org/entry/266120">
     <Comment>aka UMP Hydrolase Deficiency</Comment>
     <Comment>aka 41.15 (book of Blau)</Comment>
     <Comment>aka Hemolytic anemia due to uridine 5-prime monophosphate hydrolase deficiency</Comment>
     <Comment>DISEASE</Comment>
     <Graphics CenterX="676.8459596475287" CenterY="712.405794259467" Width="194.51816473855686" Height="30.0" ZOrder="32850" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="Pyrimidine 5'-nucleotidase I &#xA;deficiency" GraphId="ddf0e" Href="https://omim.org/266120">
+  <Label TextLabel="Pyrimidine 5'-nucleotidase I &#xA;deficiency" GraphId="ddf0e" Href="https://omim.org/entry/266120">
     <Comment>aka UMP Hydrolase Deficiency</Comment>
     <Comment>aka 41.15 (book of Blau)</Comment>
     <Comment>aka Hemolytic Anemia due to Uridine 5-prime Monophosphate Hydrolase Deficiency</Comment>
@@ -1389,7 +1389,7 @@ Transaminase Deficiency</Comment>
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1428.5731098081355" CenterY="929.0895715472418" Width="154.87782847992196" Height="33.60442403978527" ZOrder="32854" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
   </Label>
-  <Label TextLabel="Dihydroorotate dehydrogenase &#xA;deficiency" GraphId="ac8f0" Href="https://omim.org/263750">
+  <Label TextLabel="Dihydroorotate dehydrogenase &#xA;deficiency" GraphId="ac8f0" Href="https://omim.org/entry/263750">
     <Comment>aka Miller Syndrome</Comment>
     <Comment>DISEASE</Comment>
     <Graphics CenterX="255.7239301514376" CenterY="601.3065189957342" Width="211.43470283108172" Height="30.0" ZOrder="32856" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
@@ -1408,7 +1408,7 @@ Transaminase Deficiency</Comment>
     <Comment>UMPS (UMP synthase complex) is a complex consisting of orotate phosphoribosyltransferase (OPRT) and OMP decarboxylase (OMPDC)</Comment>
     <Graphics CenterX="141.4472478022574" CenterY="791.0146719011401" Width="174.13585439548498" Height="25.0" ZOrder="32862" FillColor="ffffff" FontSize="12" Valign="Middle" />
   </Label>
-  <Label TextLabel="Thymidine kinase 2 &#xA;deficiency" GraphId="ddf87" Href="https://omim.org/609560">
+  <Label TextLabel="Thymidine kinase 2 &#xA;deficiency" GraphId="ddf87" Href="https://omim.org/entry/609560">
     <Comment>aka Mitocondrial DNA Depletion Syndrome (Myopathic Type)</Comment>
     <Comment>DISEASE</Comment>
     <Graphics CenterX="1562.2604501254793" CenterY="535.607013996108" Width="160.0" Height="30.0" ZOrder="32863" FillColor="ffcccc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
@@ -1471,30 +1471,64 @@ Transaminase Deficiency</Comment>
   </Group>
   <InfoBox CenterX="0.0" CenterY="0.0" />
   <Biopax>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e8c">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9783642403361</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physician's Guide to the Diagnosis, Treatment, and Follow-Up of Inherited Metabolic Diseases, Chapter 41</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> ISBN 978-3-642-40337-8</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blau, N.</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duran, M.</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gibson, K.M.</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Donisi-Vici, C.</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a02">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25030255</bp:ID>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ce3">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7936305</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inborn errors of pyrimidine metabolism: clinical update and therapy</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Journal of Inherited Metabolic Disease</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shanti Balasubramaniam</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John A. Duley</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Christodoulou</bp:AUTHORS>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pyridoxine-responsive hyper-beta-alaninemia associated with Cohen's syndrome</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neurology</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1994</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J J Higgins</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C R Kaneski</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I Bernardini</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R O Brady</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N W Barton</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta-ureidopropionase deficiency pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001603</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pyrimidine metabolic pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000032</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dihydropyrimidine dehydrogenase deficiency pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0002210</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dd8">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10989432</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mammalian Methylmalonate-Semialdehyde Dehydrogenase</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Methods Enzymol.</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Natalia Y. Kedishvili</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gary W. Goodwin</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kirill M. Popov</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Robert A. Harris</bp:AUTHORS>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cb9">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30823446</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beta-Aminoisobutyric Acid as a Novel Regulator of Carbohydrate and Lipid Metabolism</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nutrients</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dmitrii A Tanianskii</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Natalia Jarzebska</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andreas L Birkenfeld</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John F O'Sullivan</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roman N Rodionov</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
       <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease pathway</bp:TERM>
       <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000013</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inborn error purine-pyrimidine metabolism disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001776</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d60">
@@ -1520,8 +1554,8 @@ Transaminase Deficiency</Comment>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schulze A</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orotic aciduria</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0050833</bp:ID>
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dihydropyrimidine dehydrogenase deficiency</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:14218</bp:ID>
       <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
     </bp:openControlledVocabulary>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c73">
@@ -1532,69 +1566,16 @@ Transaminase Deficiency</Comment>
       <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004</bp:YEAR>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">van Kuilenburg AB</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oroticaciduria 1 disease pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001605</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dihydropyrimidine dehydrogenase deficiency</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:14218</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inborn error purine-pyrimidine metabolism disease pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001776</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dihydropyrimidine dehydrogenase deficiency pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0002210</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta-ureidopropionase deficiency pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001603</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cb9">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30823446</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beta-Aminoisobutyric Acid as a Novel Regulator of Carbohydrate and Lipid Metabolism</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nutrients</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dmitrii A Tanianskii</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Natalia Jarzebska</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andreas L Birkenfeld</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John F O'Sullivan</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roman N Rodionov</bp:AUTHORS>
-    </bp:PublicationXref>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pyrimidine metabolic pathway</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000032</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
-      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pyrimidine metabolic disorder</bp:TERM>
-      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0050832</bp:ID>
-      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
-    </bp:openControlledVocabulary>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ddd">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16541364</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical findings and a therapeutic trial in the first patient with beta-ureidopropionase deficiency</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neuropediatrics</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</bp:YEAR>
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16541364</bp:ID>
-      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical findings and a therapeutic trial in the first patient with beta-ureidopropionase deficiency</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neuropediatrics</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Assmann B</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gohlich G</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baethmann M</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wevers RA</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">et al.</bp:AUTHORS>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e8c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9783642403361</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physician's Guide to the Diagnosis, Treatment, and Follow-Up of Inherited Metabolic Diseases, Chapter 41</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> ISBN 978-3-642-40337-8</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blau, N.</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duran, M.</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gibson, K.M.</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Donisi-Vici, C.</bp:AUTHORS>
     </bp:PublicationXref>
     <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ef8">
       <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16376858</bp:ID>
@@ -1613,28 +1594,47 @@ Transaminase Deficiency</Comment>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shao J</bp:AUTHORS>
       <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yen Y</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dd8">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10989432</bp:ID>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pyrimidine metabolic disorder</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0050832</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orotic aciduria</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0050833</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a02">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25030255</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mammalian Methylmalonate-Semialdehyde Dehydrogenase</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Methods Enzymol.</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Natalia Y. Kedishvili</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gary W. Goodwin</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kirill M. Popov</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Robert A. Harris</bp:AUTHORS>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inborn errors of pyrimidine metabolism: clinical update and therapy</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Journal of Inherited Metabolic Disease</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shanti Balasubramaniam</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John A. Duley</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Christodoulou</bp:AUTHORS>
     </bp:PublicationXref>
-    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ce3">
-      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7936305</bp:ID>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oroticaciduria 1 disease pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0001605</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ddd">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16541364</bp:ID>
       <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pyridoxine-responsive hyper-beta-alaninemia associated with Cohen's syndrome</bp:TITLE>
-      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neurology</bp:SOURCE>
-      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1994</bp:YEAR>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J J Higgins</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C R Kaneski</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I Bernardini</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R O Brady</bp:AUTHORS>
-      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N W Barton</bp:AUTHORS>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical findings and a therapeutic trial in the first patient with beta-ureidopropionase deficiency</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neuropediatrics</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</bp:YEAR>
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16541364</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical findings and a therapeutic trial in the first patient with beta-ureidopropionase deficiency</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neuropediatrics</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Assmann B</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gohlich G</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baethmann M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wevers RA</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">et al.</bp:AUTHORS>
     </bp:PublicationXref>
   </Biopax>
 </Pathway>
